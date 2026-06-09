@@ -1,0 +1,2 @@
+-- Seed data is currently handled in schema migrations so the local database
+-- can be reset without requiring separate import artifacts.

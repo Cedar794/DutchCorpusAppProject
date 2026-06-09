@@ -1,0 +1,17 @@
+[Unit]
+Description=Dutch Lexicon Search Engine
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/srv/dutch-corpus
+EnvironmentFile=/srv/dutch-corpus/deploy/search-engine.env
+ExecStart=/srv/dutch-corpus/.venv/bin/python scripts/run_search_service.py
+Restart=always
+RestartSec=5
+User=search
+Group=search
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target

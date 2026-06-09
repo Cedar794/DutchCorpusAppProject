@@ -1,0 +1,40 @@
+# macOS / editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Secrets and local runtime configuration
+.env
+.env.*
+!.env.example
+deploy/search-engine.env
+
+# Large local corpora, source workbooks, and generated reports
+nl.txt.xz
+*.xlsx
+*.xls
+*.docx
+*.zip
+
+# Generated / downloaded project artifacts
+outputs/
+local/
+deps/
+tmp/
+
+# Supabase local runtime state
+supabase/.temp/
+.branches/
+
+# Node dependencies if Supabase CLI is ever installed as a dev dependency
+node_modules/
