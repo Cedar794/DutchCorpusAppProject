@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import time
+import logging
 from typing import Any
 
 from lexicon_search.dictionary import DictionaryIndex
@@ -26,6 +27,15 @@ class SearchService:
         self.log_queries = log_queries
         self.embedding_model = embedding_model
         self.index_version = index_version
+
+    async def ready(self):
+        await self.repository.ping()
+
+    async def entry(self, lemma_id: int, **pagination) -> dict | None:
+        return await self.repository.load_entry(lemma_id, **pagination)
+
+    async def sense_examples(self, sense_id: int, **pagination) -> dict | None:
+        return await self.repository.load_sense_examples(sense_id, **pagination)
 
     async def lookup(self, query: str, limit: int = 5) -> dict[str, Any]:
         start = time.perf_counter()
@@ -91,6 +101,7 @@ class SearchService:
                 {
                     "lemma_id": item.lemma_id,
                     "lemma": item.lemma,
+                    "entry_url": f"/entries/{item.lemma_id}",
                     "relation_type": item.relation_type,
                     "source_result_lemma_id": item.source_result_lemma_id,
                     "source_result_sense_id": item.source_result_sense_id,
@@ -105,6 +116,8 @@ class SearchService:
             "results": results,
             "related_results": related_results,
         }
+        if 'query_rewrite' in semantic_result:
+            result['query_rewrite'] = semantic_result['query_rewrite']
         await self._log(
             query=query,
             mode="semantic",
@@ -143,4 +156,8 @@ class SearchService:
             embedding_model=self.embedding_model if mode == "semantic" else None,
             index_version=self.index_version,
         )
-        await self.repository.write_query_log(record, request_metadata={})
+        try:
+            await self.repository.write_query_log(record, request_metadata={})
+        except Exception:
+            # Telemetry must not turn a successful lookup into an outage.
+            logging.getLogger(__name__).warning('Could not write search query log')

@@ -1,0 +1,224 @@
+{
+  "query": "我想找一个名词，意思是人们吃的食物。",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 211,
+      "entry_url": "/entries/211",
+      "lemma": "eten",
+      "level": 1,
+      "score": 0.636868,
+      "matched_sense": {
+        "sense_id": 27338,
+        "definition_nl": "dat wat iemand tot zich neemt om diens metabolisme in werking te houden",
+        "translation_zh": "食物",
+        "translation_en": "food",
+        "semantic_score": 0.526868
+      },
+      "matched_reason": {
+        "semantic_score": 0.526868,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1251,
+      "entry_url": "/entries/1251",
+      "lemma": "restaurant",
+      "level": 1,
+      "score": 0.634156,
+      "matched_sense": {
+        "sense_id": 29800,
+        "definition_nl": "(voeding) versterkende voeding of ander middel",
+        "translation_zh": "滋补食品；强身剂",
+        "translation_en": "restorative food; tonic",
+        "semantic_score": 0.524156
+      },
+      "matched_reason": {
+        "semantic_score": 0.524156,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1721,
+      "entry_url": "/entries/1721",
+      "lemma": "voedsel",
+      "level": 1,
+      "score": 0.633851,
+      "matched_sense": {
+        "sense_id": 7385,
+        "definition_nl": "stof die kan worden gegeten of tot eten kan worden bereid",
+        "translation_zh": "食物",
+        "translation_en": "food; foodstuff",
+        "semantic_score": 0.53283
+      },
+      "matched_reason": {
+        "semantic_score": 0.53283,
+        "frequency_boost": 0.071021,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 3583,
+      "entry_url": "/entries/3583",
+      "lemma": "hap",
+      "level": 1,
+      "score": 0.618617,
+      "matched_sense": {
+        "sense_id": 31087,
+        "definition_nl": "(voeding), (pejoratief) minderwaardige maaltijd",
+        "translation_zh": "（食物）",
+        "translation_en": "(food)",
+        "semantic_score": 0.517509
+      },
+      "matched_reason": {
+        "semantic_score": 0.517509,
+        "frequency_boost": 0.071108,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 625,
+      "entry_url": "/entries/625",
+      "lemma": "men",
+      "level": 1,
+      "score": 0.610249,
+      "matched_sense": {
+        "sense_id": 7165,
+        "definition_nl": "onbepaald persoonlijk voornaamwoord voor mensen in het algemeen of een niet genoemde handelende persoon",
+        "translation_zh": "人们；某人（泛指代词）",
+        "translation_en": "one; people in general",
+        "semantic_score": 0.500249
+      },
+      "matched_reason": {
+        "semantic_score": 0.500249,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 3512,
+      "entry_url": "/entries/3512",
+      "lemma": "groente",
+      "level": 1,
+      "score": 0.609011,
+      "matched_sense": {
+        "sense_id": 24109,
+        "definition_nl": "(plantkunde) (voeding) eetbare planten of delen daarvan, echter let op!",
+        "translation_zh": "（植物学）（食品）可食用植物或其部分，但要小心！",
+        "translation_en": "(botany) (food) edible plants or parts thereof",
+        "semantic_score": 0.505563
+      },
+      "matched_reason": {
+        "semantic_score": 0.505563,
+        "frequency_boost": 0.073448,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 10785,
+      "entry_url": "/entries/10785",
+      "lemma": "voeding",
+      "level": 4,
+      "score": 0.604891,
+      "matched_sense": {
+        "sense_id": 22066,
+        "definition_nl": "eetbare en drinkbare waren",
+        "translation_zh": "饮食",
+        "translation_en": "food and drink",
+        "semantic_score": 0.530745
+      },
+      "matched_reason": {
+        "semantic_score": 0.530745,
+        "frequency_boost": 0.074146,
+        "level_boost": 0.0
+      }
+    },
+    {
+      "lemma_id": 2310,
+      "entry_url": "/entries/2310",
+      "lemma": "maal",
+      "level": 1,
+      "score": 0.597671,
+      "matched_sense": {
+        "sense_id": 14959,
+        "definition_nl": "het eten",
+        "translation_zh": "食物",
+        "translation_en": "the food",
+        "semantic_score": 0.494456
+      },
+      "matched_reason": {
+        "semantic_score": 0.494456,
+        "frequency_boost": 0.073216,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 3454,
+      "entry_url": "/entries/3454",
+      "lemma": "fruit",
+      "level": 1,
+      "score": 0.595466,
+      "matched_sense": {
+        "sense_id": 31659,
+        "definition_nl": "(voeding) voedsel dat bestaat uit eetbare vruchten echter let op!",
+        "translation_zh": "水果",
+        "translation_en": "fruit",
+        "semantic_score": 0.492389
+      },
+      "matched_reason": {
+        "semantic_score": 0.492389,
+        "frequency_boost": 0.073077,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 6576,
+      "entry_url": "/entries/6576",
+      "lemma": "graan",
+      "level": 2,
+      "score": 0.59472,
+      "matched_sense": {
+        "sense_id": 7372,
+        "definition_nl": "eetbare korrels of producten van graangewassen",
+        "translation_zh": "谷物，粮食",
+        "translation_en": "grain; cereal food",
+        "semantic_score": 0.510226
+      },
+      "matched_reason": {
+        "semantic_score": 0.510226,
+        "frequency_boost": 0.063493,
+        "level_boost": 0.021
+      }
+    }
+  ],
+  "related_results": [
+    {
+      "lemma_id": 722,
+      "lemma": "ene",
+      "entry_url": "/entries/722",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 625,
+      "source_result_sense_id": 7165,
+      "source": "sense_relations",
+      "score": 0.9
+    },
+    {
+      "lemma_id": 2527,
+      "lemma": "maaltijd",
+      "entry_url": "/entries/2527",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 2310,
+      "source_result_sense_id": 14959,
+      "source": "sense_relations",
+      "score": 0.9
+    }
+  ],
+  "query_rewrite": {
+    "query": "名词，意思是人们吃的食物",
+    "status": "rewritten",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

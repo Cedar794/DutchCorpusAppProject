@@ -1,0 +1,214 @@
+{
+  "query": "可以通过网址访问的一组网页",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 937,
+      "entry_url": "/entries/937",
+      "lemma": "bezoek",
+      "level": 1,
+      "score": 0.580907,
+      "matched_sense": {
+        "sense_id": 9559,
+        "definition_nl": "Het bekijken van een website of internetbron",
+        "translation_zh": "网站访问",
+        "translation_en": "website visit",
+        "semantic_score": 0.471426
+      },
+      "matched_reason": {
+        "semantic_score": 0.471426,
+        "frequency_boost": 0.079481,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 7500,
+      "entry_url": "/entries/7500",
+      "lemma": "hit",
+      "level": 3,
+      "score": 0.556143,
+      "matched_sense": {
+        "sense_id": 12799,
+        "definition_nl": "bezoek door een websurfer aan een site",
+        "translation_zh": "网站访问",
+        "translation_en": "site visit",
+        "semantic_score": 0.476804
+      },
+      "matched_reason": {
+        "semantic_score": 0.476804,
+        "frequency_boost": 0.068839,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 7872,
+      "entry_url": "/entries/7872",
+      "lemma": "navigatie",
+      "level": 3,
+      "score": 0.55238,
+      "matched_sense": {
+        "sense_id": 15722,
+        "definition_nl": "wijze waarop bezoekers door de beschikbare webpagina's kunnen surfen",
+        "translation_zh": "网页导航",
+        "translation_en": "web navigation",
+        "semantic_score": 0.479054
+      },
+      "matched_reason": {
+        "semantic_score": 0.479054,
+        "frequency_boost": 0.062826,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 7427,
+      "entry_url": "/entries/7427",
+      "lemma": "website",
+      "level": 3,
+      "score": 0.549799,
+      "matched_sense": {
+        "sense_id": 1991,
+        "definition_nl": "verzameling webpagina’s op het internet onder een adres",
+        "translation_zh": "网站",
+        "translation_en": "website",
+        "semantic_score": 0.459299
+      },
+      "matched_reason": {
+        "semantic_score": 0.459299,
+        "frequency_boost": 0.08,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 7602,
+      "entry_url": "/entries/7602",
+      "lemma": "site",
+      "level": 3,
+      "score": 0.531771,
+      "matched_sense": {
+        "sense_id": 18963,
+        "definition_nl": "een online file waar je naar kunt surfen",
+        "translation_zh": "网站",
+        "translation_en": "website",
+        "semantic_score": 0.441271
+      },
+      "matched_reason": {
+        "semantic_score": 0.441271,
+        "frequency_boost": 0.08,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 7556,
+      "entry_url": "/entries/7556",
+      "lemma": "web",
+      "level": 3,
+      "score": 0.526152,
+      "matched_sense": {
+        "sense_id": 33097,
+        "definition_nl": "(informatica) (verkorting van) world wide web, de HTML-pagina's die met hyperlinks gekoppeld zijn en bereikbaar zijn over het internet",
+        "translation_zh": "万维网",
+        "translation_en": "World Wide Web",
+        "semantic_score": 0.446331
+      },
+      "matched_reason": {
+        "semantic_score": 0.446331,
+        "frequency_boost": 0.069321,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 11969,
+      "entry_url": "/entries/11969",
+      "lemma": "home",
+      "level": 4,
+      "score": 0.524824,
+      "matched_sense": {
+        "sense_id": 35641,
+        "definition_nl": "(informatica) pagina op een website met algemene informatie over en links naar de verdere inhoud van de site, bestemd voor de bezoekers die niet direct naar een specifieke pagina op de site gaan",
+        "translation_zh": "主页",
+        "translation_en": "homepage",
+        "semantic_score": 0.446653
+      },
+      "matched_reason": {
+        "semantic_score": 0.446653,
+        "frequency_boost": 0.078172,
+        "level_boost": 0.0
+      }
+    },
+    {
+      "lemma_id": 3157,
+      "entry_url": "/entries/3157",
+      "lemma": "bezoeker",
+      "level": 1,
+      "score": 0.524807,
+      "matched_sense": {
+        "sense_id": 9563,
+        "definition_nl": "iemand die een persoon, plaats of website bezoekt",
+        "translation_zh": "访客；参观者",
+        "translation_en": "visitor",
+        "semantic_score": 0.416737
+      },
+      "matched_reason": {
+        "semantic_score": 0.416737,
+        "frequency_boost": 0.07807,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 3148,
+      "entry_url": "/entries/3148",
+      "lemma": "link",
+      "level": 1,
+      "score": 0.501524,
+      "matched_sense": {
+        "sense_id": 5577,
+        "definition_nl": "aanklikbare verwijzing naar een webpagina of bestand",
+        "translation_zh": "超链接",
+        "translation_en": "hyperlink",
+        "semantic_score": 0.393976
+      },
+      "matched_reason": {
+        "semantic_score": 0.393976,
+        "frequency_boost": 0.077549,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 2421,
+      "entry_url": "/entries/2421",
+      "lemma": "organisatie",
+      "level": 1,
+      "score": 0.481911,
+      "matched_sense": {
+        "sense_id": 28551,
+        "definition_nl": "een groep, instantie e.d. die een bepaald doel of een bepaalde (vaak economische) rol in de maatschappij heeft (zoals een bedrijf e.d.)",
+        "translation_zh": "一个 群体, instantie e.d. die 一个 bepaald doel 或 一个 bepaalde rol 在 maatschappij heeft",
+        "translation_en": "a group, instantie e.d. die a bepaald doel or a bepaalde rol in the maatschappij heeft",
+        "semantic_score": 0.371911
+      },
+      "matched_reason": {
+        "semantic_score": 0.371911,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    }
+  ],
+  "related_results": [
+    {
+      "lemma_id": 1395,
+      "lemma": "bezoeken",
+      "entry_url": "/entries/1395",
+      "relation_type": "family_head",
+      "source_result_lemma_id": 3157,
+      "source_result_sense_id": null,
+      "source": "lemma_relations",
+      "score": 0.95
+    }
+  ],
+  "query_rewrite": {
+    "query": "可以通过网址访问的一组网页",
+    "status": "disabled",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

@@ -1,0 +1,2122 @@
+{
+  "lemma_id": 34,
+  "lemma": "komen",
+  "display_lemma": "komen",
+  "level": 1,
+  "cefr_level": null,
+  "is_academic": false,
+  "word_family": "komen",
+  "family_head_lemma_id": 34,
+  "needs_review": false,
+  "source_id": 1,
+  "frequency": 12760611,
+  "entry_url": "/entries/34",
+  "parts_of_speech": [
+    {
+      "lemma_pos_entry_id": 12082,
+      "pos": "WW",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "Werkwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 50542,
+      "pos": "N",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "Zelfstandig naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 12080,
+      "pos": "PROPN",
+      "app_pos": "proper_noun",
+      "label_zh": "专有名词",
+      "label_en": "proper noun",
+      "label_nl": "PROPN",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 12081,
+      "pos": "VERB",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "VERB",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 50540,
+      "pos": "ADJ",
+      "app_pos": "adjective",
+      "label_zh": "形容词",
+      "label_en": "adjective",
+      "label_nl": "Bijvoeglijk naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 50541,
+      "pos": "BW",
+      "app_pos": "adverb",
+      "label_zh": "副词",
+      "label_en": "adverb",
+      "label_nl": "Bijwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 50543,
+      "pos": "SPEC",
+      "app_pos": "special",
+      "label_zh": "特殊词类",
+      "label_en": "special",
+      "label_nl": "Speciaal",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    }
+  ],
+  "senses": {
+    "items": [
+      {
+        "sense_id": 14137,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "punt bereiken",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12570,
+            "sense_id": 14137,
+            "lang": "en",
+            "gloss": "reach point",
+            "explanation": "Reach point.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12569,
+            "sense_id": 14137,
+            "lang": "zh",
+            "gloss": "到达点",
+            "explanation": "指到达点。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "到达点",
+        "translation_en": "reach point",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23961,
+              "sense_id": 14137,
+              "ex_nl": "Na twee uur wandelen komen we bij de vuurtoren aan",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23985,
+                  "example_id": 23961,
+                  "lang": "zh",
+                  "translation": "走了两个小时后，我们到达灯塔",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14137/examples"
+      },
+      {
+        "sense_id": 44965,
+        "lemma_pos_entry_id": 12080,
+        "pos": "PROPN",
+        "sense_no": "1",
+        "definition_nl": "(toponiem) deelgemeente en stadje aan de Leie van Komen-Waasten, een faciliteitengemeente in de provincie Henegouwen in België",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 12566,
+            "sense_id": 44965,
+            "lang": "en",
+            "gloss": "sub-municipality and town on the Leie van Komen-Waasten",
+            "explanation": "(toponym) sub-municipality and town on the Leie van Komen-Waasten, a municipality with facilities in the province of Hainaut in Belgium.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12565,
+            "sense_id": 44965,
+            "lang": "zh",
+            "gloss": "科曼-瓦斯顿的城区",
+            "explanation": "指比利时埃诺省科曼-瓦斯顿市位于莱河边的一个城区和小城。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "科曼-瓦斯顿的城区",
+        "translation_en": "sub-municipality and town on the Leie van Komen-Waasten",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23975,
+              "sense_id": 44965,
+              "ex_nl": "Veel bezoekers komen via Waasten in Komen aan",
+              "cefr_level": null,
+              "quality_score": 0.78,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23999,
+                  "example_id": 23975,
+                  "lang": "zh",
+                  "translation": "许多游客经由瓦斯顿来到科芒",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/44965/examples"
+      },
+      {
+        "sense_id": 23643,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "ergatief bewegen van verder weg naar dichterbij",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 12572,
+            "sense_id": 23643,
+            "lang": "en",
+            "gloss": "moving ergatively from further away to closer",
+            "explanation": "Moving ergatively from further away to closer.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12571,
+            "sense_id": 23643,
+            "lang": "zh",
+            "gloss": "作格地从较远的地方移动到较近的地方",
+            "explanation": "指作格地从较远的地方移动到较近的地方。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "作格地从较远的地方移动到较近的地方",
+        "translation_en": "moving ergatively from further away to closer",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23972,
+              "sense_id": 23643,
+              "ex_nl": "De kinderen komen na school meteen naar huis",
+              "cefr_level": null,
+              "quality_score": 0.88,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23996,
+                  "example_id": 23972,
+                  "lang": "zh",
+                  "translation": "孩子们放学后马上回家来",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23643/examples"
+      },
+      {
+        "sense_id": 44966,
+        "lemma_pos_entry_id": 12080,
+        "pos": "PROPN",
+        "sense_no": "2",
+        "definition_nl": "(toponiem) Franse gemeente aan de andere oever van de Leie van bovenstaande Komen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 12568,
+            "sense_id": 44966,
+            "lang": "en",
+            "gloss": "French municipality on the other bank of the",
+            "explanation": "(toponym) French municipality on the other bank of the Leie from the Komen above.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12567,
+            "sense_id": 44966,
+            "lang": "zh",
+            "gloss": "位于莱耶河对岸的法国自治市",
+            "explanation": "指（地名）位于莱耶河对岸的法国自治市，与上面的科曼河相望。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "位于莱耶河对岸的法国自治市",
+        "translation_en": "French municipality on the other bank of the",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23976,
+              "sense_id": 44966,
+              "ex_nl": "Toeristen komen over de brug van Belgisch Komen naar het Franse Komen",
+              "cefr_level": null,
+              "quality_score": 0.58,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24000,
+                  "example_id": 23976,
+                  "lang": "zh",
+                  "translation": "游客从比利时科芒过桥来到法国科芒",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/44966/examples"
+      },
+      {
+        "sense_id": 14141,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "aanbreken",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 3,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12574,
+            "sense_id": 14141,
+            "lang": "en",
+            "gloss": "dawn",
+            "explanation": "Dawn.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12573,
+            "sense_id": 14141,
+            "lang": "zh",
+            "gloss": "黎明",
+            "explanation": "指黎明。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "黎明",
+        "translation_en": "dawn",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23965,
+              "sense_id": 14141,
+              "ex_nl": "Na een lange winter zal eindelijk de lente komen",
+              "cefr_level": null,
+              "quality_score": 0.85,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23989,
+                  "example_id": 23965,
+                  "lang": "zh",
+                  "translation": "漫长的冬天之后，春天终于会来临",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14141/examples"
+      },
+      {
+        "sense_id": 14142,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "resulteren",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 4,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12576,
+            "sense_id": 14142,
+            "lang": "en",
+            "gloss": "result",
+            "explanation": "Result.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12575,
+            "sense_id": 14142,
+            "lang": "zh",
+            "gloss": "结果",
+            "explanation": "指结果。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "结果",
+        "translation_en": "result",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23966,
+              "sense_id": 14142,
+              "ex_nl": "Uit het overleg kan een nieuw voorstel voor de planning komen",
+              "cefr_level": null,
+              "quality_score": 0.52,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23990,
+                  "example_id": 23966,
+                  "lang": "zh",
+                  "translation": "协商之后可能产生一项新的日程提案",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14142/examples"
+      },
+      {
+        "sense_id": 14143,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "4",
+        "definition_nl": "in een toestand geraken",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 5,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12578,
+            "sense_id": 14143,
+            "lang": "en",
+            "gloss": "get into a state",
+            "explanation": "Get into a state.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12577,
+            "sense_id": 14143,
+            "lang": "zh",
+            "gloss": "进入某种状态",
+            "explanation": "指进入某种状态。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "进入某种状态",
+        "translation_en": "get into a state",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23967,
+              "sense_id": 14143,
+              "ex_nl": "Door de vertraging komen we in de problemen met de planning",
+              "cefr_level": null,
+              "quality_score": 0.86,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23991,
+                  "example_id": 23967,
+                  "lang": "zh",
+                  "translation": "由于延误，我们的计划会陷入麻烦",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14143/examples"
+      },
+      {
+        "sense_id": 14144,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "5",
+        "definition_nl": "klaarkomen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 6,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12580,
+            "sense_id": 14144,
+            "lang": "en",
+            "gloss": "cum",
+            "explanation": "Cum.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12579,
+            "sense_id": 14144,
+            "lang": "zh",
+            "gloss": "暨",
+            "explanation": "指暨。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "暨",
+        "translation_en": "cum",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23968,
+              "sense_id": 14144,
+              "ex_nl": "In de voorlichting leren jongeren dat niet iedereen even makkelijk kan komen",
+              "cefr_level": null,
+              "quality_score": 0.84,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23992,
+                  "example_id": 23968,
+                  "lang": "zh",
+                  "translation": "在性教育中，年轻人了解到并非每个人都容易达到高潮",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14144/examples"
+      },
+      {
+        "sense_id": 14145,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "6",
+        "definition_nl": "verschijnen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 7,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12582,
+            "sense_id": 14145,
+            "lang": "en",
+            "gloss": "appear",
+            "explanation": "Appear.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12581,
+            "sense_id": 14145,
+            "lang": "zh",
+            "gloss": "出现",
+            "explanation": "指出现。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "出现",
+        "translation_en": "appear",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23969,
+              "sense_id": 14145,
+              "ex_nl": "Achter de wolken kan de maan langzaam tevoorschijn komen",
+              "cefr_level": null,
+              "quality_score": 0.86,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23993,
+                  "example_id": 23969,
+                  "lang": "zh",
+                  "translation": "月亮可能会从云后慢慢显现出来",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14145/examples"
+      },
+      {
+        "sense_id": 14146,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "8",
+        "definition_nl": "voortspruiten",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 8,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12584,
+            "sense_id": 14146,
+            "lang": "en",
+            "gloss": "to sprout",
+            "explanation": "To sprout.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12583,
+            "sense_id": 14146,
+            "lang": "zh",
+            "gloss": "发芽",
+            "explanation": "指发芽。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "发芽",
+        "translation_en": "to sprout",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23970,
+              "sense_id": 14146,
+              "ex_nl": "Veel van haar ideeën komen voort uit gesprekken met bewoners",
+              "cefr_level": null,
+              "quality_score": 0.86,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23994,
+                  "example_id": 23970,
+                  "lang": "zh",
+                  "translation": "她的许多想法源自与居民的交谈",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14146/examples"
+      },
+      {
+        "sense_id": 14147,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "9",
+        "definition_nl": "door moeite, arbeid verkrijgen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 9,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12586,
+            "sense_id": 14147,
+            "lang": "en",
+            "gloss": "to obtain by effort, labor",
+            "explanation": "To obtain by effort, labor.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12585,
+            "sense_id": 14147,
+            "lang": "zh",
+            "gloss": "通过努力、劳动获得",
+            "explanation": "指通过努力、劳动获得。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "通过努力、劳动获得",
+        "translation_en": "to obtain by effort, labor",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23971,
+              "sense_id": 14147,
+              "ex_nl": "Na lang zoeken komen ze aan genoeg materiaal voor het onderzoek",
+              "cefr_level": null,
+              "quality_score": 0.84,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23995,
+                  "example_id": 23971,
+                  "lang": "zh",
+                  "translation": "经过长时间寻找，他们弄到了足够的研究材料",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14147/examples"
+      },
+      {
+        "sense_id": 14138,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "10",
+        "definition_nl": "beroeren",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 10,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12588,
+            "sense_id": 14138,
+            "lang": "en",
+            "gloss": "stir",
+            "explanation": "Stir.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12587,
+            "sense_id": 14138,
+            "lang": "zh",
+            "gloss": "搅拌",
+            "explanation": "指搅拌。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "搅拌",
+        "translation_en": "stir",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23962,
+              "sense_id": 14138,
+              "ex_nl": "De bal kan hard tegen de paal komen en terug het veld in rollen",
+              "cefr_level": null,
+              "quality_score": 0.76,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23986,
+                  "example_id": 23962,
+                  "lang": "zh",
+                  "translation": "球可能重重碰到门柱，然后滚回场内",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14138/examples"
+      },
+      {
+        "sense_id": 14139,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "11",
+        "definition_nl": "een hoeveelheid of som uitmaken",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 11,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12590,
+            "sense_id": 14139,
+            "lang": "en",
+            "gloss": "constitute a quantity or sum",
+            "explanation": "Constitute a quantity or sum.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12589,
+            "sense_id": 14139,
+            "lang": "zh",
+            "gloss": "构成数量或总和",
+            "explanation": "指构成数量或总和。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "构成数量或总和",
+        "translation_en": "constitute a quantity or sum",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23963,
+              "sense_id": 14139,
+              "ex_nl": "Met de extra onderdelen kan de reparatie op tweehonderd euro komen",
+              "cefr_level": null,
+              "quality_score": 0.84,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23987,
+                  "example_id": 23963,
+                  "lang": "zh",
+                  "translation": "加上额外零件，维修费可能合计为二百欧元",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14139/examples"
+      },
+      {
+        "sense_id": 14140,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "12",
+        "definition_nl": "tot een bevredigend einde brengen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 12,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12592,
+            "sense_id": 14140,
+            "lang": "en",
+            "gloss": "to a satisfying conclusion",
+            "explanation": "To a satisfying conclusion.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12591,
+            "sense_id": 14140,
+            "lang": "zh",
+            "gloss": "得出满意的结论",
+            "explanation": "指得出满意的结论。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "得出满意的结论",
+        "translation_en": "to a satisfying conclusion",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23964,
+              "sense_id": 14140,
+              "ex_nl": "Ze denkt met het verslag nog voor de vergadering klaar te komen",
+              "cefr_level": null,
+              "quality_score": 0.62,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23988,
+                  "example_id": 23964,
+                  "lang": "zh",
+                  "translation": "她认为自己会在会议前把报告完成",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14140/examples"
+      },
+      {
+        "sense_id": 6947,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "13",
+        "definition_nl": "Zich naar iemand of iets toe bewegen",
+        "usage_note": "Gebruikt voor beweging in de richting van een plaats of persoon",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 13,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 84557,
+            "sense_id": 6947,
+            "lang": "en",
+            "gloss": "come",
+            "explanation": "Someone or something moves towards a person or place.",
+            "review_status": "needs_review",
+            "confidence": 0.87,
+            "source_id": 251
+          },
+          {
+            "translation_id": 71788,
+            "sense_id": 6947,
+            "lang": "zh",
+            "gloss": "来到",
+            "explanation": "表示向某人或某地移动、接近",
+            "review_status": "unreviewed",
+            "confidence": 0.69,
+            "source_id": 13
+          }
+        ],
+        "translation_zh": "来到",
+        "translation_en": "come",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14873,
+              "sense_id": 6947,
+              "ex_nl": "Kom morgen naar mijn kantoor",
+              "cefr_level": null,
+              "quality_score": 0.69,
+              "source_id": 14,
+              "translations": [
+                {
+                  "translation_id": 7,
+                  "example_id": 14873,
+                  "lang": "zh",
+                  "translation": "明天来我的办公室",
+                  "source_id": 15
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/6947/examples"
+      },
+      {
+        "sense_id": 23644,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "ergatief, (seksualiteit) een orgasme hebben, klaarkomen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 14,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 12594,
+            "sense_id": 23644,
+            "lang": "en",
+            "gloss": "ergative, (sexuality) to have an orgasm, to ejaculate",
+            "explanation": "Ergative, (sexuality) to have an orgasm, to ejaculate.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12593,
+            "sense_id": 23644,
+            "lang": "zh",
+            "gloss": "作格",
+            "explanation": "指作格，（性）达到性高潮，射精。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "作格",
+        "translation_en": "ergative, (sexuality) to have an orgasm, to ejaculate",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23973,
+              "sense_id": 23644,
+              "ex_nl": "Sommige volwassenen komen alleen wanneer ze zich ontspannen voelen",
+              "cefr_level": null,
+              "quality_score": 0.8,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23997,
+                  "example_id": 23973,
+                  "lang": "zh",
+                  "translation": "有些成年人只有在感到放松时才会达到高潮",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23644/examples"
+      },
+      {
+        "sense_id": 23645,
+        "lemma_pos_entry_id": 12081,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "koppelwerkwoord worden, bedijgen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 15,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 12596,
+            "sense_id": 23645,
+            "lang": "en",
+            "gloss": "linking verb become, become",
+            "explanation": "Linking verb become, become.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12595,
+            "sense_id": 23645,
+            "lang": "zh",
+            "gloss": "连接动词成为",
+            "explanation": "指连接动词成为，成为。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "连接动词成为",
+        "translation_en": "linking verb become, become",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23974,
+              "sense_id": 23645,
+              "ex_nl": "Met wat geduld zal alles weer goed komen",
+              "cefr_level": null,
+              "quality_score": 0.7,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23998,
+                  "example_id": 23974,
+                  "lang": "zh",
+                  "translation": "只要有点耐心，一切都会重新好起来",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23645/examples"
+      }
+    ],
+    "total": 17,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "forms": {
+    "items": [
+      {
+        "form_id": 27007,
+        "lemma_pos_entry_id": 12080,
+        "form": "Komen",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "Komen__name__1",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.85,
+        "source_id": 5
+      },
+      {
+        "form_id": 27009,
+        "lemma_pos_entry_id": 12081,
+        "form": "komen",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "komen-v-13",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 27008,
+        "lemma_pos_entry_id": 12081,
+        "form": "gekomen",
+        "form_type": "odwn_tense=pastParticiple",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "komen-v-1",
+          "source_form_type": "odwn_tense=pastParticiple",
+          "source_attributes": {
+            "tense": "pastParticiple"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 27010,
+        "lemma_pos_entry_id": 12081,
+        "form": "kwam",
+        "form_type": "odwn_tense=pastTense",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "komen-v-1",
+          "source_form_type": "odwn_tense=pastTense",
+          "source_attributes": {
+            "tense": "pastTense"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 27011,
+        "lemma_pos_entry_id": 12082,
+        "form": "gekomen",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 112485,
+        "lemma_pos_entry_id": 12082,
+        "form": "gekomen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112486,
+        "lemma_pos_entry_id": 12082,
+        "form": "gekomenen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27012,
+        "lemma_pos_entry_id": 12082,
+        "form": "kom",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 112487,
+        "lemma_pos_entry_id": 12082,
+        "form": "kom",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112488,
+        "lemma_pos_entry_id": 12082,
+        "form": "komd",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112489,
+        "lemma_pos_entry_id": 12082,
+        "form": "komde",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112490,
+        "lemma_pos_entry_id": 12082,
+        "form": "komden",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27013,
+        "lemma_pos_entry_id": 12082,
+        "form": "kome",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 112491,
+        "lemma_pos_entry_id": 12082,
+        "form": "kome",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27014,
+        "lemma_pos_entry_id": 12082,
+        "form": "komen",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 112492,
+        "lemma_pos_entry_id": 12082,
+        "form": "komen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27015,
+        "lemma_pos_entry_id": 12082,
+        "form": "komend",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 112493,
+        "lemma_pos_entry_id": 12082,
+        "form": "komend",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27016,
+        "lemma_pos_entry_id": 12082,
+        "form": "komende",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 112494,
+        "lemma_pos_entry_id": 12082,
+        "form": "komende",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27017,
+        "lemma_pos_entry_id": 12082,
+        "form": "komt",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 112495,
+        "lemma_pos_entry_id": 12082,
+        "form": "komt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112496,
+        "lemma_pos_entry_id": 12082,
+        "form": "koomt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112497,
+        "lemma_pos_entry_id": 12082,
+        "form": "kwaamt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27018,
+        "lemma_pos_entry_id": 12082,
+        "form": "kwam",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 112498,
+        "lemma_pos_entry_id": 12082,
+        "form": "kwam",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27019,
+        "lemma_pos_entry_id": 12082,
+        "form": "kwamen",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 112499,
+        "lemma_pos_entry_id": 12082,
+        "form": "kwamen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112500,
+        "lemma_pos_entry_id": 12082,
+        "form": "kwamme",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27020,
+        "lemma_pos_entry_id": 12082,
+        "form": "kwamt",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 112501,
+        "lemma_pos_entry_id": 12082,
+        "form": "kwamt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112479,
+        "lemma_pos_entry_id": 50540,
+        "form": "komener",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112480,
+        "lemma_pos_entry_id": 50541,
+        "form": "komen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112481,
+        "lemma_pos_entry_id": 50542,
+        "form": "komen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112482,
+        "lemma_pos_entry_id": 50542,
+        "form": "komens",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112483,
+        "lemma_pos_entry_id": 50543,
+        "form": "komen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 112484,
+        "lemma_pos_entry_id": 50543,
+        "form": "komen’s",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      }
+    ],
+    "total": 37,
+    "offset": 0,
+    "limit": 50,
+    "has_more": false,
+    "next_offset": null
+  },
+  "corpus_examples": {
+    "items": [
+      {
+        "lemma_example_id": 647,
+        "lemma_pos_entry_id": 12082,
+        "form_id": 112495,
+        "ex_nl": "Nu komt haar boek 'Ik wil niet meer onzichtbaar zijn' ook in het Nederlands uit.",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 1376,
+        "lemma_pos_entry_id": 50541,
+        "form_id": 112480,
+        "ex_nl": "Ten minste als ze goed opgevoed zijn, .......uit een goed nest komen, begrijpt U wel.",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 1232,
+        "lemma_pos_entry_id": 50541,
+        "form_id": 112480,
+        "ex_nl": "Heel gewoon moet er herkenning en erkenning komen van dit feit als intrinsieke wet, zodat de ziel opnieuw zijn oprechtheid naar voren kan brengen.",
+        "quality_score": 0.85,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 961,
+        "lemma_pos_entry_id": 12082,
+        "form_id": 112495,
+        "ex_nl": "Hoe lager je komt in de klantpiramide, hoe groter de kans is dat een klant meerdere leveranciers (jouw concurrenten dus) heeft voor producten of diensten die jouw organisatie ook verkoopt.",
+        "quality_score": 0.77,
+        "source_id": 9
+      }
+    ],
+    "total": 4,
+    "offset": 0,
+    "limit": 5,
+    "has_more": false,
+    "next_offset": null,
+    "sense_disambiguated": false
+  },
+  "expressions": {
+    "items": [
+      {
+        "expression_id": 3,
+        "lemma_pos_entry_id": 12081,
+        "sense_id": 6947,
+        "entry_kind": "usage_construction",
+        "expression_type": "directional_construction",
+        "expression_nl": "naar iemand of iets toe komen",
+        "definition_nl": "zich bewegen in de richting van een genoemde persoon of plaats",
+        "usage_note": "Naar ... toe vormt een richtingsbepaling; iemand is een invulplaats en komen blijft een afzonderlijk werkwoord.",
+        "gloss_en": "come towards someone or something",
+        "explanation_en": "Move closer to the person or place named in the directional phrase.",
+        "gloss_zh": "朝某人或某处走来",
+        "explanation_zh": "向所指的人或地点靠近，naar ... toe表示方向。",
+        "example_nl": "Kom na de les even naar mij toe.",
+        "example_zh": "下课后到我这里来一下。",
+        "review_status": "needs_review",
+        "confidence": 0.88,
+        "source_id": 4196
+      }
+    ],
+    "total": 1,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "sources": [
+    {
+      "source_id": 1,
+      "source_key": "manual_vocab_levels_v1",
+      "name": "Manual vocabulary levels v1",
+      "source_type": "manual",
+      "url": null,
+      "license": "internal",
+      "license_url": null,
+      "attribution": "Curated 1-4 vocabulary level files provided in the project workspace.",
+      "version": "2026-05-28"
+    },
+    {
+      "source_id": 2,
+      "source_key": "subtlex_nl",
+      "name": "SUBTLEX-NL with POS and Zipf",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Original SUBTLEX-NL workbook used for frequency and form grouping.",
+      "version": null
+    },
+    {
+      "source_id": 3,
+      "source_key": "cc100_nl_local_20260525",
+      "name": "CC100 Dutch local analysis",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Local CC100 Dutch Frog annotation and frequency analysis in /Users/cedar/Desktop/dutch-corpus.",
+      "version": "annotated_full_live_w8_b4000"
+    },
+    {
+      "source_id": 4,
+      "source_key": "odwn_1_3",
+      "name": "Open Dutch WordNet 1.3",
+      "source_type": "lexical_semantic",
+      "url": "https://github.com/cltl/OpenDutchWordnet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Open Dutch WordNet, derived from Cornetto and Open Multilingual Wordnet resources.",
+      "version": "1.3"
+    },
+    {
+      "source_id": 5,
+      "source_key": "dbnary_nld_2026_05",
+      "name": "DBnary Dutch OntoLex",
+      "source_type": "wiktionary_extract",
+      "url": "https://kaiko.getalp.org/about-dbnary/",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "DBnary extraction from Dutch Wiktionary.",
+      "version": "2026-05"
+    },
+    {
+      "source_id": 8,
+      "source_key": "llm_sense_translation_v1",
+      "name": "LLM sense translation v1",
+      "source_type": "llm_derived",
+      "url": null,
+      "license": "derived; source licenses inherited per source sense",
+      "license_url": null,
+      "attribution": "Generated from source Dutch definitions with LLM translation. Preserve source attribution for original definitions.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 9,
+      "source_key": "cc100_lemma_examples_v1",
+      "name": "CC100 lemma example extraction v1",
+      "source_type": "corpus_derived",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Examples extracted from the local CC100 Dutch corpus analysis input.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 13,
+      "source_key": "aigc_sense_translation_v2",
+      "name": "AIGC sense translation v2",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 14,
+      "source_key": "aigc_examples_v1",
+      "name": "AIGC Dutch examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 15,
+      "source_key": "aigc_example_translation_v1",
+      "name": "AIGC example translation v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 34,
+      "source_key": "aigc_subagent_examples_v1",
+      "name": "AIGC subagent replacement examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 35,
+      "source_key": "aigc_subagent_example_translation_v1",
+      "name": "AIGC subagent replacement example translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 251,
+      "source_key": "aigc_subagent_english_v1",
+      "name": "Subagent-authored English sense translations",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-22"
+    },
+    {
+      "source_id": 4196,
+      "source_key": "aigc_verified_source_research_v1",
+      "name": "Cross-reviewed source research for residual lexical gaps",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-23"
+    }
+  ]
+}

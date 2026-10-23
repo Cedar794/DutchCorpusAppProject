@@ -1,0 +1,1160 @@
+{
+  "lemma_id": 662,
+  "lemma": "ontdekken",
+  "display_lemma": "ontdekken",
+  "level": 1,
+  "cefr_level": null,
+  "is_academic": false,
+  "word_family": "ontdekken",
+  "family_head_lemma_id": 662,
+  "needs_review": false,
+  "source_id": 1,
+  "frequency": 970254,
+  "entry_url": "/entries/662",
+  "parts_of_speech": [
+    {
+      "lemma_pos_entry_id": 16081,
+      "pos": "WW",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "Werkwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 58310,
+      "pos": "N",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "Zelfstandig naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 16080,
+      "pos": "VERB",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "VERB",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 58308,
+      "pos": "ADJ",
+      "app_pos": "adjective",
+      "label_zh": "形容词",
+      "label_en": "adjective",
+      "label_nl": "Bijvoeglijk naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 58309,
+      "pos": "BW",
+      "app_pos": "adverb",
+      "label_zh": "副词",
+      "label_en": "adverb",
+      "label_nl": "Bijwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 58312,
+      "pos": "TW",
+      "app_pos": "numeral",
+      "label_zh": "数词",
+      "label_en": "numeral",
+      "label_nl": "Telwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 58311,
+      "pos": "SPEC",
+      "app_pos": "special",
+      "label_zh": "特殊词类",
+      "label_en": "special",
+      "label_nl": "Speciaal",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    }
+  ],
+  "senses": {
+    "items": [
+      {
+        "sense_id": 16159,
+        "lemma_pos_entry_id": 16080,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "vinden wat verborgen is",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 16864,
+            "sense_id": 16159,
+            "lang": "en",
+            "gloss": "find wat verborgen is",
+            "explanation": "It means find wat verborgen is.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 16863,
+            "sense_id": 16159,
+            "lang": "zh",
+            "gloss": "找到 wat verborgen is",
+            "explanation": "指找到 wat verborgen is。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "找到 wat verborgen is",
+        "translation_en": "find wat verborgen is",
+        "examples": {
+          "items": [
+            {
+              "example_id": 25844,
+              "sense_id": 16159,
+              "ex_nl": "Na lang zoeken ontdekken we de fout in de berekening",
+              "cefr_level": null,
+              "quality_score": 0.84,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 25863,
+                  "example_id": 25844,
+                  "lang": "zh",
+                  "translation": "经过长时间查找，我们发现了计算中的错误",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/16159/examples"
+      },
+      {
+        "sense_id": 28831,
+        "lemma_pos_entry_id": 16080,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "overgankelijk iets vinden of leren waarvan het bestaan voorheen niet bekend was bij de ontdekker",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 16866,
+            "sense_id": 28831,
+            "lang": "en",
+            "gloss": "something find or leren waarvan the bestaan voorheen not bekend was bij the ontdekker",
+            "explanation": "It means something find or leren waarvan the bestaan voorheen not bekend was bij the ontdekker.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 16865,
+            "sense_id": 28831,
+            "lang": "zh",
+            "gloss": "某事 找到 或 leren waarvan bestaan voorheen 不 bekend was bij ontdekker",
+            "explanation": "指某事 找到 或 leren waarvan bestaan voorheen 不 bekend was bij ontdekker。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "某事 找到 或 leren waarvan bestaan voorheen 不 bekend was bij ontdekker",
+        "translation_en": "something find or leren waarvan the bestaan voorheen not bekend was bij the ontdekker",
+        "examples": {
+          "items": [
+            {
+              "example_id": 5475,
+              "sense_id": 28831,
+              "ex_nl": "De astronomen hebben een nieuwe planeet ontdekt.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 1963,
+                  "example_id": 5475,
+                  "lang": "zh",
+                  "translation": "天文学家发现了一颗新行星。",
+                  "source_id": 35
+                }
+              ]
+            },
+            {
+              "example_id": 5476,
+              "sense_id": 28831,
+              "ex_nl": "De zanger is ondekt bij een talentenjacht.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 1964,
+                  "example_id": 5476,
+                  "lang": "zh",
+                  "translation": "那位歌手是在一次才艺选拔中被发现的。",
+                  "source_id": 35
+                }
+              ]
+            },
+            {
+              "example_id": 5477,
+              "sense_id": 28831,
+              "ex_nl": "`Het klinkt je misschien een beetje vreemd in de oren,' zei hij, 'maar dat laatste kan ik je niet vertellen. Dat is iets wat je helemaal alleen moet gaan ontdekken. Daarom moet je mij verlaten en op reis gaan. Weg uit Betonstad. Je mag niets anders meenemen dan wat ik je nu zal geven.'",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 1965,
+                  "example_id": 5477,
+                  "lang": "zh",
+                  "translation": "“这听起来也许有点奇怪，”他说，“但最后那件事我不能告诉你。那是你必须完全独自去发现的东西。因此你必须离开我，踏上旅程。离开混凝土城。除了我现在要给你的东西，你什么都不能带。”",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 6,
+          "offset": 0,
+          "limit": 3,
+          "has_more": true,
+          "next_offset": 3
+        },
+        "examples_url": "/senses/28831/examples"
+      },
+      {
+        "sense_id": 28832,
+        "lemma_pos_entry_id": 16080,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "overgankelijk (aardrijkskunde) een onbekend gebied verkennen en meer ervan leren",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 3,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 16868,
+            "sense_id": 28832,
+            "lang": "en",
+            "gloss": "a onbekend gebied verkennen and meer ervan leren",
+            "explanation": "It means a onbekend gebied verkennen and meer ervan leren.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 16867,
+            "sense_id": 28832,
+            "lang": "zh",
+            "gloss": "一个 onbekend gebied verkennen 和 meer ervan leren",
+            "explanation": "指一个 onbekend gebied verkennen 和 meer ervan leren。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "一个 onbekend gebied verkennen 和 meer ervan leren",
+        "translation_en": "a onbekend gebied verkennen and meer ervan leren",
+        "examples": {
+          "items": [
+            {
+              "example_id": 25845,
+              "sense_id": 28832,
+              "ex_nl": "De expeditie wil een onbekend eiland ontdekken",
+              "cefr_level": null,
+              "quality_score": 0.76,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 25864,
+                  "example_id": 25845,
+                  "lang": "zh",
+                  "translation": "探险队想发现一座未知岛屿",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/28832/examples"
+      },
+      {
+        "sense_id": 28833,
+        "lemma_pos_entry_id": 16080,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "(verouderd) weghalen van een bedekking",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 4,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 16870,
+            "sense_id": 28833,
+            "lang": "en",
+            "gloss": "weghalen or a bedekking",
+            "explanation": "It means weghalen or a bedekking.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 16869,
+            "sense_id": 28833,
+            "lang": "zh",
+            "gloss": "weghalen 的 一个 bedekking",
+            "explanation": "指weghalen 的 一个 bedekking。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "weghalen 的 一个 bedekking",
+        "translation_en": "weghalen or a bedekking",
+        "examples": {
+          "items": [
+            {
+              "example_id": 25846,
+              "sense_id": 28833,
+              "ex_nl": "De bediende moest de schaal pas aan tafel ontdekken",
+              "cefr_level": null,
+              "quality_score": 0.58,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 25865,
+                  "example_id": 25846,
+                  "lang": "zh",
+                  "translation": "侍者必须到餐桌旁才揭开盘盖",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/28833/examples"
+      },
+      {
+        "sense_id": 16160,
+        "lemma_pos_entry_id": 16080,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "iets onbekends leren kennen of aan het licht brengen",
+        "usage_note": "De specifieke synsetinformatie ontbreekt; daarom is de definitie algemeen gehouden",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 5,
+        "review_status": "needs_review",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 85010,
+            "sense_id": 16160,
+            "lang": "en",
+            "gloss": "discover; uncover",
+            "explanation": "To learn about something unknown or bring it to light.",
+            "review_status": "needs_review",
+            "confidence": 0.64,
+            "source_id": 251
+          },
+          {
+            "translation_id": 73522,
+            "sense_id": 16160,
+            "lang": "zh",
+            "gloss": "发现；弄清",
+            "explanation": "表示认识到此前不知道的事实或把隐藏的情况揭示出来",
+            "review_status": "needs_review",
+            "confidence": 0.64,
+            "source_id": 33
+          }
+        ],
+        "translation_zh": "发现；弄清",
+        "translation_en": "discover; uncover",
+        "examples": {
+          "items": [
+            {
+              "example_id": 16336,
+              "sense_id": 16160,
+              "ex_nl": "Kinderen ontdekken spelenderwijs hoe magneten werken",
+              "cefr_level": null,
+              "quality_score": 0.64,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 16338,
+                  "example_id": 16336,
+                  "lang": "zh",
+                  "translation": "孩子们在游戏中发现磁铁如何起作用",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/16160/examples"
+      },
+      {
+        "sense_id": 6488,
+        "lemma_pos_entry_id": 16080,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "iets voor het eerst vinden of bekendmaken",
+        "usage_note": "Nadruk op de eerste ontdekking van een plaats, feit of verschijnsel",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 6,
+        "review_status": "needs_review",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 85009,
+            "sense_id": 6488,
+            "lang": "en",
+            "gloss": "discover",
+            "explanation": "To find something or make it known for the first time.",
+            "review_status": "needs_review",
+            "confidence": 0.87,
+            "source_id": 251
+          },
+          {
+            "translation_id": 79575,
+            "sense_id": 6488,
+            "lang": "zh",
+            "gloss": "发现；找出",
+            "explanation": "表示首次看到、找到或认识到某物，常带有“新发现”含义",
+            "review_status": "needs_review",
+            "confidence": 0.86,
+            "source_id": 33
+          }
+        ],
+        "translation_zh": "发现；找出",
+        "translation_en": "discover",
+        "examples": {
+          "items": [
+            {
+              "example_id": 16335,
+              "sense_id": 6488,
+              "ex_nl": "De reizigers ontdekken een oude route door het dal",
+              "cefr_level": null,
+              "quality_score": 0.86,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 16337,
+                  "example_id": 16335,
+                  "lang": "zh",
+                  "translation": "旅行者发现了一条穿过山谷的古道",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/6488/examples"
+      },
+      {
+        "sense_id": 2180,
+        "lemma_pos_entry_id": 16080,
+        "pos": "VERB",
+        "sense_no": "4",
+        "definition_nl": "het bestaan of de aanwezigheid van iets vaststellen",
+        "usage_note": "Gebruikt wanneer men iets vindt of opmerkt dat eerder onbekend of onzichtbaar was",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 7,
+        "review_status": "needs_review",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 85008,
+            "sense_id": 2180,
+            "lang": "en",
+            "gloss": "discover; detect",
+            "explanation": "To establish that something exists or is present.",
+            "review_status": "needs_review",
+            "confidence": 0.85,
+            "source_id": 251
+          },
+          {
+            "translation_id": 74660,
+            "sense_id": 2180,
+            "lang": "zh",
+            "gloss": "发现；察觉",
+            "explanation": "表示确认某物存在、出现或真实情况，常用于调查或观察",
+            "review_status": "needs_review",
+            "confidence": 0.87,
+            "source_id": 33
+          }
+        ],
+        "translation_zh": "发现；察觉",
+        "translation_en": "discover; detect",
+        "examples": {
+          "items": [
+            {
+              "example_id": 16334,
+              "sense_id": 2180,
+              "ex_nl": "Onderzoekers ontdekken sporen van water in de bodem",
+              "cefr_level": null,
+              "quality_score": 0.87,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 16336,
+                  "example_id": 16334,
+                  "lang": "zh",
+                  "translation": "研究人员在土壤中发现水的痕迹",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/2180/examples"
+      }
+    ],
+    "total": 7,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "forms": {
+    "items": [
+      {
+        "form_id": 35963,
+        "lemma_pos_entry_id": 16080,
+        "form": "ontdekken",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "ontdekken-v-4",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 35964,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdek",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 129208,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdek",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 35965,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdekken",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 129209,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdekken",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 35966,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdekkend",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 129210,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdekkend",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 129211,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdekkende",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 129212,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdekkt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 35967,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdekt",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 129213,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdekt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 35968,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdekte",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 129214,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdekte",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 35969,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdekten",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 129215,
+        "lemma_pos_entry_id": 16081,
+        "form": "ontdekten",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 129202,
+        "lemma_pos_entry_id": 58308,
+        "form": "ontdekken",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 129203,
+        "lemma_pos_entry_id": 58309,
+        "form": "ontdekken",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 129204,
+        "lemma_pos_entry_id": 58310,
+        "form": "ontdekken",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 129205,
+        "lemma_pos_entry_id": 58310,
+        "form": "ontdekkens",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 129206,
+        "lemma_pos_entry_id": 58311,
+        "form": "ontdekken",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 129207,
+        "lemma_pos_entry_id": 58312,
+        "form": "ontdekken",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      }
+    ],
+    "total": 21,
+    "offset": 0,
+    "limit": 50,
+    "has_more": false,
+    "next_offset": null
+  },
+  "corpus_examples": {
+    "items": [
+      {
+        "lemma_example_id": 2663,
+        "lemma_pos_entry_id": 58310,
+        "form_id": 129204,
+        "ex_nl": "Wanneer gaat de wetenschap zijn eigen ziekte Nu eens onderzoeken en ontdekken?",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 2664,
+        "lemma_pos_entry_id": 16081,
+        "form_id": 129209,
+        "ex_nl": "Wanneer gaat de wetenschap zijn eigen ziekte Nu eens onderzoeken en ontdekken?",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 2665,
+        "lemma_pos_entry_id": 58308,
+        "form_id": 129202,
+        "ex_nl": "Wanneer gaat de wetenschap zijn eigen ziekte Nu eens onderzoeken en ontdekken?",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 5776,
+        "lemma_pos_entry_id": 16081,
+        "form_id": 129208,
+        "ex_nl": "Ontdek de mogelijkheden van MySQL",
+        "quality_score": 0.85,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 10406,
+        "lemma_pos_entry_id": 58310,
+        "form_id": 129204,
+        "ex_nl": "Ontdekken dat er niets veranderd is",
+        "quality_score": 0.85,
+        "source_id": 9
+      }
+    ],
+    "total": 6,
+    "offset": 0,
+    "limit": 5,
+    "has_more": true,
+    "next_offset": 5,
+    "sense_disambiguated": false
+  },
+  "expressions": {
+    "items": [],
+    "total": 0,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "sources": [
+    {
+      "source_id": 1,
+      "source_key": "manual_vocab_levels_v1",
+      "name": "Manual vocabulary levels v1",
+      "source_type": "manual",
+      "url": null,
+      "license": "internal",
+      "license_url": null,
+      "attribution": "Curated 1-4 vocabulary level files provided in the project workspace.",
+      "version": "2026-05-28"
+    },
+    {
+      "source_id": 2,
+      "source_key": "subtlex_nl",
+      "name": "SUBTLEX-NL with POS and Zipf",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Original SUBTLEX-NL workbook used for frequency and form grouping.",
+      "version": null
+    },
+    {
+      "source_id": 3,
+      "source_key": "cc100_nl_local_20260525",
+      "name": "CC100 Dutch local analysis",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Local CC100 Dutch Frog annotation and frequency analysis in /Users/cedar/Desktop/dutch-corpus.",
+      "version": "annotated_full_live_w8_b4000"
+    },
+    {
+      "source_id": 4,
+      "source_key": "odwn_1_3",
+      "name": "Open Dutch WordNet 1.3",
+      "source_type": "lexical_semantic",
+      "url": "https://github.com/cltl/OpenDutchWordnet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Open Dutch WordNet, derived from Cornetto and Open Multilingual Wordnet resources.",
+      "version": "1.3"
+    },
+    {
+      "source_id": 5,
+      "source_key": "dbnary_nld_2026_05",
+      "name": "DBnary Dutch OntoLex",
+      "source_type": "wiktionary_extract",
+      "url": "https://kaiko.getalp.org/about-dbnary/",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "DBnary extraction from Dutch Wiktionary.",
+      "version": "2026-05"
+    },
+    {
+      "source_id": 8,
+      "source_key": "llm_sense_translation_v1",
+      "name": "LLM sense translation v1",
+      "source_type": "llm_derived",
+      "url": null,
+      "license": "derived; source licenses inherited per source sense",
+      "license_url": null,
+      "attribution": "Generated from source Dutch definitions with LLM translation. Preserve source attribution for original definitions.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 9,
+      "source_key": "cc100_lemma_examples_v1",
+      "name": "CC100 lemma example extraction v1",
+      "source_type": "corpus_derived",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Examples extracted from the local CC100 Dutch corpus analysis input.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 33,
+      "source_key": "aigc_subagent_sense_translation_v1",
+      "name": "AIGC subagent replacement sense translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 34,
+      "source_key": "aigc_subagent_examples_v1",
+      "name": "AIGC subagent replacement examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 35,
+      "source_key": "aigc_subagent_example_translation_v1",
+      "name": "AIGC subagent replacement example translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 251,
+      "source_key": "aigc_subagent_english_v1",
+      "name": "Subagent-authored English sense translations",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-22"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "query": "I am trying to remember a noun for a collection of pages accessible through one web address. Please keep that meaning.",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 7427,
+      "entry_url": "/entries/7427",
+      "lemma": "website",
+      "level": 3,
+      "score": 0.619248,
+      "matched_sense": {
+        "sense_id": 1991,
+        "definition_nl": "verzameling webpagina’s op het internet onder een adres",
+        "translation_zh": "网站",
+        "translation_en": "website",
+        "semantic_score": 0.528748
+      },
+      "matched_reason": {
+        "semantic_score": 0.528748,
+        "frequency_boost": 0.08,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 11969,
+      "entry_url": "/entries/11969",
+      "lemma": "home",
+      "level": 4,
+      "score": 0.616947,
+      "matched_sense": {
+        "sense_id": 35641,
+        "definition_nl": "(informatica) pagina op een website met algemene informatie over en links naar de verdere inhoud van de site, bestemd voor de bezoekers die niet direct naar een specifieke pagina op de site gaan",
+        "translation_zh": "主页",
+        "translation_en": "homepage",
+        "semantic_score": 0.538775
+      },
+      "matched_reason": {
+        "semantic_score": 0.538775,
+        "frequency_boost": 0.078172,
+        "level_boost": 0.0
+      }
+    },
+    {
+      "lemma_id": 7872,
+      "entry_url": "/entries/7872",
+      "lemma": "navigatie",
+      "level": 3,
+      "score": 0.596117,
+      "matched_sense": {
+        "sense_id": 15722,
+        "definition_nl": "wijze waarop bezoekers door de beschikbare webpagina's kunnen surfen",
+        "translation_zh": "网页导航",
+        "translation_en": "web navigation",
+        "semantic_score": 0.522791
+      },
+      "matched_reason": {
+        "semantic_score": 0.522791,
+        "frequency_boost": 0.062826,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 7556,
+      "entry_url": "/entries/7556",
+      "lemma": "web",
+      "level": 3,
+      "score": 0.594359,
+      "matched_sense": {
+        "sense_id": 33097,
+        "definition_nl": "(informatica) (verkorting van) world wide web, de HTML-pagina's die met hyperlinks gekoppeld zijn en bereikbaar zijn over het internet",
+        "translation_zh": "万维网",
+        "translation_en": "World Wide Web",
+        "semantic_score": 0.514538
+      },
+      "matched_reason": {
+        "semantic_score": 0.514538,
+        "frequency_boost": 0.069321,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 3148,
+      "entry_url": "/entries/3148",
+      "lemma": "link",
+      "level": 1,
+      "score": 0.585368,
+      "matched_sense": {
+        "sense_id": 5577,
+        "definition_nl": "aanklikbare verwijzing naar een webpagina of bestand",
+        "translation_zh": "超链接",
+        "translation_en": "hyperlink",
+        "semantic_score": 0.47782
+      },
+      "matched_reason": {
+        "semantic_score": 0.47782,
+        "frequency_boost": 0.077549,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 2538,
+      "entry_url": "/entries/2538",
+      "lemma": "pagina",
+      "level": 1,
+      "score": 0.560519,
+      "matched_sense": {
+        "sense_id": 16929,
+        "definition_nl": "bladzijde",
+        "translation_zh": "页面",
+        "translation_en": "page",
+        "semantic_score": 0.450519
+      },
+      "matched_reason": {
+        "semantic_score": 0.450519,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 7500,
+      "entry_url": "/entries/7500",
+      "lemma": "hit",
+      "level": 3,
+      "score": 0.556023,
+      "matched_sense": {
+        "sense_id": 12799,
+        "definition_nl": "bezoek door een websurfer aan een site",
+        "translation_zh": "网站访问",
+        "translation_en": "site visit",
+        "semantic_score": 0.476684
+      },
+      "matched_reason": {
+        "semantic_score": 0.476684,
+        "frequency_boost": 0.068839,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 7602,
+      "entry_url": "/entries/7602",
+      "lemma": "site",
+      "level": 3,
+      "score": 0.551452,
+      "matched_sense": {
+        "sense_id": 18963,
+        "definition_nl": "een online file waar je naar kunt surfen",
+        "translation_zh": "网站",
+        "translation_en": "website",
+        "semantic_score": 0.460952
+      },
+      "matched_reason": {
+        "semantic_score": 0.460952,
+        "frequency_boost": 0.08,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 8695,
+      "entry_url": "/entries/8695",
+      "lemma": "categorie",
+      "level": 4,
+      "score": 0.547014,
+      "matched_sense": {
+        "sense_id": 24144,
+        "definition_nl": "(wikitaal) een pagina met een overzicht van artikelen en/of andere pagina's, waarbij de pagina automatisch door het systeem samengesteld wordt.",
+        "translation_zh": "分类页",
+        "translation_en": "category page",
+        "semantic_score": 0.469595
+      },
+      "matched_reason": {
+        "semantic_score": 0.469595,
+        "frequency_boost": 0.077419,
+        "level_boost": 0.0
+      }
+    },
+    {
+      "lemma_id": 937,
+      "entry_url": "/entries/937",
+      "lemma": "bezoek",
+      "level": 1,
+      "score": 0.54544,
+      "matched_sense": {
+        "sense_id": 9559,
+        "definition_nl": "Het bekijken van een website of internetbron",
+        "translation_zh": "网站访问",
+        "translation_en": "website visit",
+        "semantic_score": 0.43596
+      },
+      "matched_reason": {
+        "semantic_score": 0.43596,
+        "frequency_boost": 0.079481,
+        "level_boost": 0.03
+      }
+    }
+  ],
+  "related_results": [
+    {
+      "lemma_id": 2233,
+      "lemma": "blad",
+      "entry_url": "/entries/2233",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 2538,
+      "source_result_sense_id": 16929,
+      "source": "sense_relations",
+      "score": 0.9
+    },
+    {
+      "lemma_id": 5014,
+      "lemma": "bladzijde",
+      "entry_url": "/entries/5014",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 2538,
+      "source_result_sense_id": 16929,
+      "source": "sense_relations",
+      "score": 0.9
+    },
+    {
+      "lemma_id": 2611,
+      "lemma": "zijde",
+      "entry_url": "/entries/2611",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 2538,
+      "source_result_sense_id": 16929,
+      "source": "sense_relations",
+      "score": 0.9
+    }
+  ],
+  "query_rewrite": {
+    "query": "a noun for a collection of pages accessible through one web address",
+    "status": "rewritten",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

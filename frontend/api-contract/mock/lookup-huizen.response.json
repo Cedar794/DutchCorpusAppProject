@@ -1,0 +1,16 @@
+{
+  "query": "huizen",
+  "mode": "lookup",
+  "best_match": {
+    "lemma_id": 138,
+    "entry_url": "/entries/138",
+    "lemma": "huis",
+    "level": 1,
+    "form_id": 22136,
+    "form": "huizen",
+    "match_type": "form_exact",
+    "score": 1.65,
+    "confidence": 1.0
+  },
+  "did_you_mean": []
+}

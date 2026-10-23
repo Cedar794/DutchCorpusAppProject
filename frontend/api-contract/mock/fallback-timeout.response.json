@@ -1,0 +1,234 @@
+{
+  "query": "请找一个不容易损坏、能够使用很长时间的形容词。",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 3051,
+      "entry_url": "/entries/3051",
+      "lemma": "bestand",
+      "level": 1,
+      "score": 0.59378,
+      "matched_sense": {
+        "sense_id": 27070,
+        "definition_nl": "met de eigenschap intact te blijven ondanks …, met het vermogen geen schade te krijgen door …",
+        "translation_zh": "耐受的",
+        "translation_en": "resistant",
+        "semantic_score": 0.488912
+      },
+      "matched_reason": {
+        "semantic_score": 0.488912,
+        "frequency_boost": 0.074868,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 8124,
+      "entry_url": "/entries/8124",
+      "lemma": "duurzaam",
+      "level": 3,
+      "score": 0.575805,
+      "matched_sense": {
+        "sense_id": 38627,
+        "definition_nl": "lang meegaand, met een uitwerking die ook op de lange termijn aanhoudt",
+        "translation_zh": "持久的",
+        "translation_en": "durable",
+        "semantic_score": 0.486764
+      },
+      "matched_reason": {
+        "semantic_score": 0.486764,
+        "frequency_boost": 0.078541,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 1025,
+      "entry_url": "/entries/1025",
+      "lemma": "eeuwig",
+      "level": 1,
+      "score": 0.554071,
+      "matched_sense": {
+        "sense_id": 26358,
+        "definition_nl": "(figuurlijk) voor een zeer lange tijd",
+        "translation_zh": "长久的",
+        "translation_en": "everlasting",
+        "semantic_score": 0.456844
+      },
+      "matched_reason": {
+        "semantic_score": 0.456844,
+        "frequency_boost": 0.067227,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 2543,
+      "entry_url": "/entries/2543",
+      "lemma": "beschadigen",
+      "level": 1,
+      "score": 0.553867,
+      "matched_sense": {
+        "sense_id": 199,
+        "definition_nl": "het uiterlijk van iets aantasten of ontsieren",
+        "translation_zh": "损坏；污损",
+        "translation_en": "mar; disfigure",
+        "semantic_score": 0.454355
+      },
+      "matched_reason": {
+        "semantic_score": 0.454355,
+        "frequency_boost": 0.069511,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 4899,
+      "entry_url": "/entries/4899",
+      "lemma": "permanent",
+      "level": 2,
+      "score": 0.547406,
+      "matched_sense": {
+        "sense_id": 31803,
+        "definition_nl": "(medisch) één of meer jaren durend, voor langere tijd voortduren, voor altijd",
+        "translation_zh": "永久的",
+        "translation_en": "permanent",
+        "semantic_score": 0.457212
+      },
+      "matched_reason": {
+        "semantic_score": 0.457212,
+        "frequency_boost": 0.069194,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 3392,
+      "entry_url": "/entries/3392",
+      "lemma": "kwetsbaar",
+      "level": 1,
+      "score": 0.542565,
+      "matched_sense": {
+        "sense_id": 36732,
+        "definition_nl": "weinig beschermd tegen beschadiging",
+        "translation_zh": "几乎没有防止损坏的保护措施",
+        "translation_en": "little protection against damage",
+        "semantic_score": 0.444432
+      },
+      "matched_reason": {
+        "semantic_score": 0.444432,
+        "frequency_boost": 0.068133,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 147,
+      "entry_url": "/entries/147",
+      "lemma": "lang",
+      "level": 1,
+      "score": 0.542503,
+      "matched_sense": {
+        "sense_id": 25074,
+        "definition_nl": "van grote duur, langdurig",
+        "translation_zh": "持续时间长的, 持久的",
+        "translation_en": "of great duration, long lasting",
+        "semantic_score": 0.432503
+      },
+      "matched_reason": {
+        "semantic_score": 0.432503,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 6489,
+      "entry_url": "/entries/6489",
+      "lemma": "bruikbaar",
+      "level": 2,
+      "score": 0.540731,
+      "matched_sense": {
+        "sense_id": 33455,
+        "definition_nl": "nuttig, eenvoudig in het gebruik",
+        "translation_zh": "有用的",
+        "translation_en": "useful",
+        "semantic_score": 0.453829
+      },
+      "matched_reason": {
+        "semantic_score": 0.453829,
+        "frequency_boost": 0.065902,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 373,
+      "entry_url": "/entries/373",
+      "lemma": "hard",
+      "level": 1,
+      "score": 0.538161,
+      "matched_sense": {
+        "sense_id": 33619,
+        "definition_nl": "psychologisch tegen veel bestand, voor niets terugdeinzend",
+        "translation_zh": "心理承受能力强",
+        "translation_en": "Psychologically able to withstand much",
+        "semantic_score": 0.428161
+      },
+      "matched_reason": {
+        "semantic_score": 0.428161,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 4011,
+      "entry_url": "/entries/4011",
+      "lemma": "eeuwigheid",
+      "level": 2,
+      "score": 0.53699,
+      "matched_sense": {
+        "sense_id": 11278,
+        "definition_nl": "zeer lange tijd",
+        "translation_zh": "很长一段时间",
+        "translation_en": "very long time",
+        "semantic_score": 0.458162
+      },
+      "matched_reason": {
+        "semantic_score": 0.458162,
+        "frequency_boost": 0.057829,
+        "level_boost": 0.021
+      }
+    }
+  ],
+  "related_results": [
+    {
+      "lemma_id": 483,
+      "lemma": "bestaan",
+      "entry_url": "/entries/483",
+      "relation_type": "family_head",
+      "source_result_lemma_id": 3051,
+      "source_result_sense_id": null,
+      "source": "lemma_relations",
+      "score": 0.95
+    },
+    {
+      "lemma_id": 1415,
+      "lemma": "eeuw",
+      "entry_url": "/entries/1415",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 4011,
+      "source_result_sense_id": 11278,
+      "source": "sense_relations",
+      "score": 0.9
+    },
+    {
+      "lemma_id": 4458,
+      "lemma": "schenden",
+      "entry_url": "/entries/4458",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 2543,
+      "source_result_sense_id": 199,
+      "source": "sense_relations",
+      "score": 0.9
+    }
+  ],
+  "query_rewrite": {
+    "query": "请找一个不容易损坏、能够使用很长时间的形容词。",
+    "status": "timeout",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

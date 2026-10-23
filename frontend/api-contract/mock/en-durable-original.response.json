@@ -1,0 +1,214 @@
+{
+  "query": "Please find an adjective for something that can be used for a long time without wearing out quickly.",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 8124,
+      "entry_url": "/entries/8124",
+      "lemma": "duurzaam",
+      "level": 3,
+      "score": 0.666538,
+      "matched_sense": {
+        "sense_id": 38627,
+        "definition_nl": "lang meegaand, met een uitwerking die ook op de lange termijn aanhoudt",
+        "translation_zh": "持久的",
+        "translation_en": "durable",
+        "semantic_score": 0.577497
+      },
+      "matched_reason": {
+        "semantic_score": 0.577497,
+        "frequency_boost": 0.078541,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 3051,
+      "entry_url": "/entries/3051",
+      "lemma": "bestand",
+      "level": 1,
+      "score": 0.622779,
+      "matched_sense": {
+        "sense_id": 27070,
+        "definition_nl": "met de eigenschap intact te blijven ondanks …, met het vermogen geen schade te krijgen door …",
+        "translation_zh": "耐受的",
+        "translation_en": "resistant",
+        "semantic_score": 0.517911
+      },
+      "matched_reason": {
+        "semantic_score": 0.517911,
+        "frequency_boost": 0.074868,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1025,
+      "entry_url": "/entries/1025",
+      "lemma": "eeuwig",
+      "level": 1,
+      "score": 0.617219,
+      "matched_sense": {
+        "sense_id": 26358,
+        "definition_nl": "(figuurlijk) voor een zeer lange tijd",
+        "translation_zh": "长久的",
+        "translation_en": "everlasting",
+        "semantic_score": 0.519991
+      },
+      "matched_reason": {
+        "semantic_score": 0.519991,
+        "frequency_boost": 0.067227,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 4899,
+      "entry_url": "/entries/4899",
+      "lemma": "permanent",
+      "level": 2,
+      "score": 0.609212,
+      "matched_sense": {
+        "sense_id": 31803,
+        "definition_nl": "(medisch) één of meer jaren durend, voor langere tijd voortduren, voor altijd",
+        "translation_zh": "永久的",
+        "translation_en": "permanent",
+        "semantic_score": 0.519018
+      },
+      "matched_reason": {
+        "semantic_score": 0.519018,
+        "frequency_boost": 0.069194,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 147,
+      "entry_url": "/entries/147",
+      "lemma": "lang",
+      "level": 1,
+      "score": 0.60826,
+      "matched_sense": {
+        "sense_id": 25074,
+        "definition_nl": "van grote duur, langdurig",
+        "translation_zh": "持续时间长的, 持久的",
+        "translation_en": "of great duration, long lasting",
+        "semantic_score": 0.49826
+      },
+      "matched_reason": {
+        "semantic_score": 0.49826,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 181,
+      "entry_url": "/entries/181",
+      "lemma": "oud",
+      "level": 1,
+      "score": 0.595978,
+      "matched_sense": {
+        "sense_id": 27534,
+        "definition_nl": "(van voorwerpen) al lange tijd bestaand, uit een vroeger tijd afkomstig, versleten",
+        "translation_zh": "al 长的 时间 bestaand, uit 一个 vroeger 时间 afkomstig, versleten",
+        "translation_en": "al long time bestaand, uit a vroeger time afkomstig, versleten",
+        "semantic_score": 0.485978
+      },
+      "matched_reason": {
+        "semantic_score": 0.485978,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 4185,
+      "entry_url": "/entries/4185",
+      "lemma": "jarenlang",
+      "level": 2,
+      "score": 0.582197,
+      "matched_sense": {
+        "sense_id": 39110,
+        "definition_nl": "jaren durend",
+        "translation_zh": "多年的",
+        "translation_en": "lasting years",
+        "semantic_score": 0.487819
+      },
+      "matched_reason": {
+        "semantic_score": 0.487819,
+        "frequency_boost": 0.073379,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 3236,
+      "entry_url": "/entries/3236",
+      "lemma": "voortdurend",
+      "level": 1,
+      "score": 0.578903,
+      "matched_sense": {
+        "sense_id": 28921,
+        "definition_nl": "langdurig en ononderbroken",
+        "translation_zh": "持续的",
+        "translation_en": "continuous",
+        "semantic_score": 0.478574
+      },
+      "matched_reason": {
+        "semantic_score": 0.478574,
+        "frequency_boost": 0.070329,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 11432,
+      "entry_url": "/entries/11432",
+      "lemma": "langdurig",
+      "level": 4,
+      "score": 0.57604,
+      "matched_sense": {
+        "sense_id": 40657,
+        "definition_nl": "een lange tijd durend.",
+        "translation_zh": "长期的",
+        "translation_en": "long-lasting",
+        "semantic_score": 0.505938
+      },
+      "matched_reason": {
+        "semantic_score": 0.505938,
+        "frequency_boost": 0.070102,
+        "level_boost": 0.0
+      }
+    },
+    {
+      "lemma_id": 4034,
+      "entry_url": "/entries/4034",
+      "lemma": "luxe",
+      "level": 2,
+      "score": 0.567283,
+      "matched_sense": {
+        "sense_id": 39033,
+        "definition_nl": "duur, exclusief",
+        "translation_zh": "时长 exclusief",
+        "translation_en": "duration exclusief",
+        "semantic_score": 0.470206
+      },
+      "matched_reason": {
+        "semantic_score": 0.470206,
+        "frequency_boost": 0.076077,
+        "level_boost": 0.021
+      }
+    }
+  ],
+  "related_results": [
+    {
+      "lemma_id": 483,
+      "lemma": "bestaan",
+      "entry_url": "/entries/483",
+      "relation_type": "family_head",
+      "source_result_lemma_id": 3051,
+      "source_result_sense_id": null,
+      "source": "lemma_relations",
+      "score": 0.95
+    }
+  ],
+  "query_rewrite": {
+    "query": "Please find an adjective for something that can be used for a long time without wearing out quickly.",
+    "status": "disabled",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

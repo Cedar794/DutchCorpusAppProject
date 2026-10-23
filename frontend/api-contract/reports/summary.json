@@ -1,0 +1,115 @@
+{
+  "completed_at": "2026-10-23T06:56:10.668350+00:00",
+  "model": "qwen3.7-flash",
+  "prompt_version": "rewrite-v2",
+  "paired_queries": 14,
+  "paired_requests": 28,
+  "labelled_queries": 13,
+  "real_semantic_requests_total": 37,
+  "metrics": {
+    "original": {
+      "latency_cases": 14,
+      "labelled_cases": 13,
+      "top1_hits": 11,
+      "top10_hits": 13,
+      "mrr": 0.903846,
+      "p50_ms": 692.87,
+      "p95_ms": 912.51
+    },
+    "rewrite": {
+      "latency_cases": 14,
+      "labelled_cases": 13,
+      "top1_hits": 10,
+      "top10_hits": 13,
+      "mrr": 0.865385,
+      "p50_ms": 1440.2,
+      "p95_ms": 1851.22
+    },
+    "median_paired_extra_ms": 678.55,
+    "rewrite_statuses": {
+      "rewritten": 5,
+      "timeout": 1,
+      "unchanged": 8
+    },
+    "rank_improved": 0,
+    "rank_worsened": 1,
+    "rank_unchanged": 12
+  },
+  "budget": {
+    "cap_cny": 1,
+    "daily_cap_cny": 1,
+    "real_provider_attempts": 55,
+    "usage_confirmed_attempts": 54,
+    "unknown_attempts_reserved": 1,
+    "confirmed_usage_list_price_cny": 0.0014623,
+    "upper_exposure_cny": 0.0033055,
+    "invoice_debit_verified": false,
+    "by_model": {
+      "qwen3.7-flash": {
+        "attempts": 18,
+        "confirmed_prompt_tokens": 4737,
+        "confirmed_completion_tokens": 283,
+        "unknown_attempts": 1
+      },
+      "text-embedding-v4": {
+        "attempts": 37,
+        "confirmed_prompt_tokens": 577,
+        "confirmed_completion_tokens": 0,
+        "unknown_attempts": 0
+      }
+    }
+  },
+  "fallbacks": [
+    {
+      "fault": "timeout",
+      "status": "timeout",
+      "http_status": 200,
+      "original_query_preserved": true,
+      "flash_fault_injected": true,
+      "embedding_real": true
+    },
+    {
+      "fault": "permission",
+      "status": "provider_error",
+      "http_status": 200,
+      "original_query_preserved": true,
+      "flash_fault_injected": true,
+      "embedding_real": true
+    },
+    {
+      "fault": "quota",
+      "status": "provider_error",
+      "http_status": 200,
+      "original_query_preserved": true,
+      "flash_fault_injected": true,
+      "embedding_real": true
+    },
+    {
+      "fault": "invalid_json",
+      "status": "invalid_or_unavailable",
+      "http_status": 200,
+      "original_query_preserved": true,
+      "flash_fault_injected": true,
+      "embedding_real": true
+    },
+    {
+      "fault": "constraint",
+      "status": "constraint_fallback",
+      "http_status": 200,
+      "original_query_preserved": true,
+      "flash_fault_injected": true,
+      "embedding_real": true
+    }
+  ],
+  "captured_scenarios": 69,
+  "default_ip_limits": {
+    "total_per_minute": 60,
+    "semantic_per_minute": 10,
+    "burst_per_10s": 10
+  },
+  "observed_paid_semantic_requests_in_any_60s": 10,
+  "real_flash_access_verified": true,
+  "publicly_deployed": false,
+  "labels": "Assistant-authored acceptable lemma sets; not independently human reviewed.",
+  "note": "Fault injection cases are actual API responses with injected Flash failures and real v4 calls. Model quality metrics use the 14 final paired queries only."
+}

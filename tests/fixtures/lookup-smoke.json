@@ -1,0 +1,37 @@
+[
+  {
+    "query": "huis",
+    "mode": "lookup",
+    "expected_lemma_ids": [
+      138
+    ]
+  },
+  {
+    "query": "gelopen",
+    "mode": "lookup",
+    "expected_lemma_ids": [
+      188
+    ]
+  },
+  {
+    "query": "lezen",
+    "mode": "lookup",
+    "expected_lemma_ids": [
+      318
+    ]
+  },
+  {
+    "query": "fiets",
+    "mode": "lookup",
+    "expected_lemma_ids": [
+      2341
+    ]
+  },
+  {
+    "query": "wandele",
+    "mode": "suggest",
+    "expected_lemma_ids": [
+      1444
+    ]
+  }
+]

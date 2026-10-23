@@ -1,0 +1,1701 @@
+openapi: 3.1.0
+info:
+  title: Dutch Lexicon Search Service
+  version: 0.1.0
+  description: 荷兰语词典后端接口。公网部署尚未完成；Key仅在后端保存。
+  x-contract-revision: '2026-10-23'
+paths:
+  /health:
+    get:
+      summary: 内部健康检查
+      operationId: health
+      responses:
+        '200':
+          description: 成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+        '503':
+          description: 功能未开启、供应商/数据库不可用或预算不允许
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      description: Nginx公网模板屏蔽此路径，前端无需轮询。
+      tags:
+      - 内部
+  /lookup:
+    get:
+      summary: 普通查词
+      operationId: lookup
+      parameters:
+      - name: q
+        in: query
+        required: true
+        schema:
+          type: string
+          minLength: 1
+          maxLength: 128
+          pattern: \S
+          title: Q
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 5
+          minimum: 1
+          default: 5
+          title: Limit
+      responses:
+        '200':
+          description: 成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LookupResponse'
+              examples:
+                lookup-huizen:
+                  summary: 词形还原
+                  externalValue: mock/lookup-huizen.response.json
+                lookup-typo:
+                  summary: 拼写纠错
+                  externalValue: mock/lookup-typo.response.json
+                lookup-empty:
+                  summary: 没有候选
+                  externalValue: mock/lookup-empty.response.json
+                lookup-huis:
+                  summary: 标准词头
+                  externalValue: mock/lookup-huis.response.json
+        '422':
+          description: 参数校验失败，或配置结果数上限校验失败
+          content:
+            application/json:
+              schema:
+                oneOf:
+                - $ref: '#/components/schemas/HTTPValidationError'
+                - $ref: '#/components/schemas/ErrorResponse'
+        '413':
+          description: 请求体超过8 KiB
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '429':
+          description: 单IP限流；代理层可能返回非JSON
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+          headers:
+            Retry-After:
+              description: 应用层返回的等待秒数；代理层可能不含此头
+              schema:
+                type: integer
+                minimum: 1
+        '503':
+          description: 功能未开启、供应商/数据库不可用或预算不允许
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      description: 精确词头/词形优先，未命中时纠错；不调用云模型。
+      tags:
+      - 查词
+      x-rate-limit:
+        shared_requests_per_minute: 60
+        shared_burst_per_10s: 10
+        semantic_requests_per_minute: null
+  /suggest:
+    get:
+      summary: 输入联想
+      operationId: suggest
+      parameters:
+      - name: q
+        in: query
+        required: true
+        schema:
+          type: string
+          minLength: 1
+          maxLength: 128
+          pattern: \S
+          title: Q
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 20
+          minimum: 1
+          default: 10
+          title: Limit
+      responses:
+        '200':
+          description: 成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SuggestResponse'
+              examples:
+                suggest-hui:
+                  summary: 输入联想
+                  externalValue: mock/suggest-hui.response.json
+                suggest-empty:
+                  summary: 空联想
+                  externalValue: mock/suggest-empty.response.json
+        '422':
+          description: 参数校验失败，或配置结果数上限校验失败
+          content:
+            application/json:
+              schema:
+                oneOf:
+                - $ref: '#/components/schemas/HTTPValidationError'
+                - $ref: '#/components/schemas/ErrorResponse'
+        '413':
+          description: 请求体超过8 KiB
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '429':
+          description: 单IP限流；代理层可能返回非JSON
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+          headers:
+            Retry-After:
+              description: 应用层返回的等待秒数；代理层可能不含此头
+              schema:
+                type: integer
+                minimum: 1
+        '503':
+          description: 功能未开启、供应商/数据库不可用或预算不允许
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      description: 前缀匹配，不足时模糊补足；不调用云模型。
+      tags:
+      - 查词
+      x-rate-limit:
+        shared_requests_per_minute: 60
+        shared_burst_per_10s: 10
+        semantic_requests_per_minute: null
+  /entries/{lemma_id}:
+    get:
+      summary: 词条详情
+      operationId: getEntry
+      parameters:
+      - name: lemma_id
+        in: path
+        required: true
+        schema:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 1
+          title: Lemma Id
+      - name: sense_offset
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 10000
+          minimum: 0
+          default: 0
+          title: Sense Offset
+      - name: sense_limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 50
+          minimum: 1
+          default: 20
+          title: Sense Limit
+      - name: form_offset
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 100000
+          minimum: 0
+          default: 0
+          title: Form Offset
+      - name: form_limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 100
+          minimum: 1
+          default: 50
+          title: Form Limit
+      - name: example_offset
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 10000
+          minimum: 0
+          default: 0
+          title: Example Offset
+      - name: example_limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 20
+          minimum: 1
+          default: 5
+          title: Example Limit
+      - name: expression_offset
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 10000
+          minimum: 0
+          default: 0
+          title: Expression Offset
+      - name: expression_limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 50
+          minimum: 1
+          default: 20
+          title: Expression Limit
+      responses:
+        '200':
+          description: 成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EntryResponse'
+              examples:
+                entry-138:
+                  summary: 真实词条详情 138
+                  externalValue: mock/entry-138.response.json
+                entry-1:
+                  summary: 真实词条详情 1
+                  externalValue: mock/entry-1.response.json
+                entry-8:
+                  summary: 真实词条详情 8
+                  externalValue: mock/entry-8.response.json
+                entry-afzetten-page-7:
+                  summary: 多义项分页 offset=7
+                  externalValue: mock/entry-afzetten-page-7.response.json
+        '422':
+          description: 参数校验失败，或配置结果数上限校验失败
+          content:
+            application/json:
+              schema:
+                oneOf:
+                - $ref: '#/components/schemas/HTTPValidationError'
+                - $ref: '#/components/schemas/ErrorResponse'
+        '413':
+          description: 请求体超过8 KiB
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '429':
+          description: 单IP限流；代理层可能返回非JSON
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+          headers:
+            Retry-After:
+              description: 应用层返回的等待秒数；代理层可能不含此头
+              schema:
+                type: integer
+                minimum: 1
+        '503':
+          description: 功能未开启、供应商/数据库不可用或预算不允许
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: 不存在或不对外显示
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      description: 四组独立分页；语料例句未经义项消歧；保留来源与审核状态。
+      tags:
+      - 详情
+      x-rate-limit:
+        shared_requests_per_minute: 60
+        shared_burst_per_10s: 10
+        semantic_requests_per_minute: null
+  /senses/{sense_id}/examples:
+    get:
+      summary: 义项例句
+      operationId: getSenseExamples
+      parameters:
+      - name: sense_id
+        in: path
+        required: true
+        schema:
+          type: integer
+          maximum: 9223372036854775807
+          minimum: 1
+          title: Sense Id
+      - name: offset
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 10000
+          minimum: 0
+          default: 0
+          title: Offset
+      - name: limit
+        in: query
+        required: false
+        schema:
+          type: integer
+          maximum: 20
+          minimum: 1
+          default: 10
+          title: Limit
+      responses:
+        '200':
+          description: 成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SenseExamplesResponse'
+              examples:
+                sense-examples:
+                  summary: 义项例句及译文
+                  externalValue: mock/sense-examples.response.json
+                sense-examples-page-0:
+                  summary: 义项例句分页offset=0
+                  externalValue: mock/sense-examples-page-0.response.json
+                sense-examples-page-4:
+                  summary: 义项例句分页offset=4
+                  externalValue: mock/sense-examples-page-4.response.json
+                sense-examples-empty-page:
+                  summary: 例句末尾空页
+                  externalValue: mock/sense-examples-empty-page.response.json
+        '422':
+          description: 参数校验失败，或配置结果数上限校验失败
+          content:
+            application/json:
+              schema:
+                oneOf:
+                - $ref: '#/components/schemas/HTTPValidationError'
+                - $ref: '#/components/schemas/ErrorResponse'
+        '413':
+          description: 请求体超过8 KiB
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '429':
+          description: 单IP限流；代理层可能返回非JSON
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+          headers:
+            Retry-After:
+              description: 应用层返回的等待秒数；代理层可能不含此头
+              schema:
+                type: integer
+                minimum: 1
+        '503':
+          description: 功能未开启、供应商/数据库不可用或预算不允许
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: 不存在或不对外显示
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      description: 有效例句和已有译文的分页读取。
+      tags:
+      - 详情
+      x-rate-limit:
+        shared_requests_per_minute: 60
+        shared_burst_per_10s: 10
+        semantic_requests_per_minute: null
+  /semantic-search:
+    post:
+      summary: 按含义找词
+      operationId: semanticSearch
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SemanticSearchRequest'
+        required: true
+      responses:
+        '200':
+          description: 成功
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SemanticResponse'
+              examples:
+                zh-website-rewrite:
+                  summary: 简短描述 · zh · rewrite
+                  externalValue: mock/zh-website-rewrite.response.json
+                en-website-rewrite:
+                  summary: 冗长描述与词性 · en · rewrite
+                  externalValue: mock/en-website-rewrite.response.json
+                nl-website-rewrite:
+                  summary: 荷兰语描述与词性 · nl · rewrite
+                  externalValue: mock/nl-website-rewrite.response.json
+                nl-wheelchair-rewrite:
+                  summary: 主体是人 · nl · rewrite
+                  externalValue: mock/nl-wheelchair-rewrite.response.json
+        '422':
+          description: 参数校验失败，或配置结果数上限校验失败
+          content:
+            application/json:
+              schema:
+                oneOf:
+                - $ref: '#/components/schemas/HTTPValidationError'
+                - $ref: '#/components/schemas/ErrorResponse'
+        '413':
+          description: 请求体超过8 KiB
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '429':
+          description: 单IP限流；代理层可能返回非JSON
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+          headers:
+            Retry-After:
+              description: 应用层返回的等待秒数；代理层可能不含此头
+              schema:
+                type: integer
+                minimum: 1
+        '503':
+          description: 功能未开启、供应商/数据库不可用或预算不允许
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      description: 直接Flash改写后进行v4检索；失败时原文回退，预算不足503；每次可能产生费用。
+      tags:
+      - 查词
+      x-rate-limit:
+        shared_requests_per_minute: 60
+        shared_burst_per_10s: 10
+        semantic_requests_per_minute: 10
+components:
+  schemas:
+    HTTPValidationError:
+      properties:
+        detail:
+          items:
+            $ref: '#/components/schemas/ValidationError'
+          type: array
+          title: Detail
+      type: object
+      title: HTTPValidationError
+    SemanticSearchRequest:
+      properties:
+        query:
+          type: string
+          maxLength: 512
+          minLength: 1
+          pattern: \S
+          title: Query
+        limit:
+          type: integer
+          maximum: 50.0
+          minimum: 1.0
+          title: Limit
+          default: 10
+        include_related:
+          type: boolean
+          title: Include Related
+          default: true
+      type: object
+      required:
+      - query
+      title: SemanticSearchRequest
+    ValidationError:
+      properties:
+        loc:
+          items:
+            anyOf:
+            - type: string
+            - type: integer
+          type: array
+          title: Location
+        msg:
+          type: string
+          title: Message
+        type:
+          type: string
+          title: Error Type
+        input:
+          title: Input
+        ctx:
+          type: object
+          title: Context
+      type: object
+      required:
+      - loc
+      - msg
+      - type
+      title: ValidationError
+    LookupCandidate:
+      additionalProperties: false
+      properties:
+        lemma_id:
+          title: Lemma Id
+          type: integer
+        entry_url:
+          title: Entry Url
+          type: string
+        lemma:
+          title: Lemma
+          type: string
+        level:
+          anyOf:
+          - enum:
+            - 1
+            - 2
+            - 3
+            - 4
+            type: integer
+          - type: 'null'
+          title: Level
+        form_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Form Id
+        form:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Form
+        match_type:
+          title: Match Type
+          type: string
+        score:
+          title: Score
+          type: number
+        confidence:
+          maximum: 1
+          minimum: 0
+          title: Confidence
+          type: number
+      required:
+      - lemma_id
+      - entry_url
+      - lemma
+      - level
+      - form_id
+      - form
+      - match_type
+      - score
+      - confidence
+      title: LookupCandidate
+      type: object
+    LookupResponse:
+      additionalProperties: false
+      properties:
+        query:
+          title: Query
+          type: string
+        mode:
+          const: lookup
+          title: Mode
+          type: string
+        best_match:
+          anyOf:
+          - $ref: '#/components/schemas/LookupCandidate'
+          - type: 'null'
+        did_you_mean:
+          items:
+            $ref: '#/components/schemas/LookupCandidate'
+          title: Did You Mean
+          type: array
+      required:
+      - query
+      - mode
+      - best_match
+      - did_you_mean
+      title: LookupResponse
+      type: object
+    SuggestResponse:
+      additionalProperties: false
+      properties:
+        query:
+          title: Query
+          type: string
+        mode:
+          const: suggest
+          title: Mode
+          type: string
+        suggestions:
+          items:
+            $ref: '#/components/schemas/LookupCandidate'
+          title: Suggestions
+          type: array
+      required:
+      - query
+      - mode
+      - suggestions
+      title: SuggestResponse
+      type: object
+    CorpusExample:
+      additionalProperties: false
+      properties:
+        lemma_example_id:
+          title: Lemma Example Id
+          type: integer
+        lemma_pos_entry_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Lemma Pos Entry Id
+        form_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Form Id
+        ex_nl:
+          title: Ex Nl
+          type: string
+        quality_score:
+          anyOf:
+          - type: number
+          - type: 'null'
+          title: Quality Score
+        source_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Source Id
+      required:
+      - lemma_example_id
+      - lemma_pos_entry_id
+      - form_id
+      - ex_nl
+      - quality_score
+      - source_id
+      title: CorpusExample
+      type: object
+    CorpusExamplesPage:
+      additionalProperties: false
+      properties:
+        items:
+          items:
+            $ref: '#/components/schemas/CorpusExample'
+          title: Items
+          type: array
+        total:
+          minimum: 0
+          title: Total
+          type: integer
+        offset:
+          minimum: 0
+          title: Offset
+          type: integer
+        limit:
+          minimum: 1
+          title: Limit
+          type: integer
+        has_more:
+          title: Has More
+          type: boolean
+        next_offset:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Next Offset
+        sense_disambiguated:
+          const: false
+          title: Sense Disambiguated
+          type: boolean
+      required:
+      - items
+      - total
+      - offset
+      - limit
+      - has_more
+      - next_offset
+      - sense_disambiguated
+      title: CorpusExamplesPage
+      type: object
+    Example:
+      additionalProperties: false
+      properties:
+        example_id:
+          title: Example Id
+          type: integer
+        sense_id:
+          title: Sense Id
+          type: integer
+        ex_nl:
+          title: Ex Nl
+          type: string
+        cefr_level:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Cefr Level
+        quality_score:
+          anyOf:
+          - type: number
+          - type: 'null'
+          title: Quality Score
+        source_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Source Id
+        translations:
+          items:
+            $ref: '#/components/schemas/ExampleTranslation'
+          title: Translations
+          type: array
+      required:
+      - example_id
+      - sense_id
+      - ex_nl
+      - cefr_level
+      - quality_score
+      - source_id
+      - translations
+      title: Example
+      type: object
+    ExampleTranslation:
+      additionalProperties: false
+      properties:
+        translation_id:
+          title: Translation Id
+          type: integer
+        example_id:
+          title: Example Id
+          type: integer
+        lang:
+          title: Lang
+          type: string
+        translation:
+          title: Translation
+          type: string
+        source_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Source Id
+      required:
+      - translation_id
+      - example_id
+      - lang
+      - translation
+      - source_id
+      title: ExampleTranslation
+      type: object
+    Expression:
+      additionalProperties: false
+      properties:
+        expression_id:
+          title: Expression Id
+          type: integer
+        lemma_pos_entry_id:
+          title: Lemma Pos Entry Id
+          type: integer
+        sense_id:
+          title: Sense Id
+          type: integer
+        entry_kind:
+          enum:
+          - lexical_expression
+          - usage_construction
+          - definition_note
+          - usage_example
+          title: Entry Kind
+          type: string
+        expression_type:
+          title: Expression Type
+          type: string
+        expression_nl:
+          title: Expression Nl
+          type: string
+        definition_nl:
+          title: Definition Nl
+          type: string
+        usage_note:
+          title: Usage Note
+          type: string
+        gloss_en:
+          title: Gloss En
+          type: string
+        explanation_en:
+          title: Explanation En
+          type: string
+        gloss_zh:
+          title: Gloss Zh
+          type: string
+        explanation_zh:
+          title: Explanation Zh
+          type: string
+        example_nl:
+          title: Example Nl
+          type: string
+        example_zh:
+          title: Example Zh
+          type: string
+        review_status:
+          enum:
+          - accepted
+          - needs_review
+          title: Review Status
+          type: string
+        confidence:
+          maximum: 0.9
+          minimum: 0
+          title: Confidence
+          type: number
+        source_id:
+          title: Source Id
+          type: integer
+      required:
+      - expression_id
+      - lemma_pos_entry_id
+      - sense_id
+      - entry_kind
+      - expression_type
+      - expression_nl
+      - definition_nl
+      - usage_note
+      - gloss_en
+      - explanation_en
+      - gloss_zh
+      - explanation_zh
+      - example_nl
+      - example_zh
+      - review_status
+      - confidence
+      - source_id
+      title: Expression
+      type: object
+    Form:
+      additionalProperties: false
+      properties:
+        form_id:
+          title: Form Id
+          type: integer
+        lemma_pos_entry_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Lemma Pos Entry Id
+        form:
+          title: Form
+          type: string
+        form_type:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Form Type
+        app_form_role:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: App Form Role
+        display_label_zh:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Display Label Zh
+        display_label_en:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Display Label En
+        morph_features:
+          additionalProperties: true
+          title: Morph Features
+          type: object
+        is_canonical:
+          title: Is Canonical
+          type: boolean
+        is_observed:
+          title: Is Observed
+          type: boolean
+        needs_review:
+          title: Needs Review
+          type: boolean
+        confidence:
+          maximum: 1
+          minimum: 0
+          title: Confidence
+          type: number
+        source_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Source Id
+      required:
+      - form_id
+      - lemma_pos_entry_id
+      - form
+      - form_type
+      - app_form_role
+      - display_label_zh
+      - display_label_en
+      - morph_features
+      - is_canonical
+      - is_observed
+      - needs_review
+      - confidence
+      - source_id
+      title: Form
+      type: object
+    Page_Example_:
+      additionalProperties: false
+      properties:
+        items:
+          items:
+            $ref: '#/components/schemas/Example'
+          title: Items
+          type: array
+        total:
+          minimum: 0
+          title: Total
+          type: integer
+        offset:
+          minimum: 0
+          title: Offset
+          type: integer
+        limit:
+          minimum: 1
+          title: Limit
+          type: integer
+        has_more:
+          title: Has More
+          type: boolean
+        next_offset:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Next Offset
+      required:
+      - items
+      - total
+      - offset
+      - limit
+      - has_more
+      - next_offset
+      title: Page[Example]
+      type: object
+    Page_Expression_:
+      additionalProperties: false
+      properties:
+        items:
+          items:
+            $ref: '#/components/schemas/Expression'
+          title: Items
+          type: array
+        total:
+          minimum: 0
+          title: Total
+          type: integer
+        offset:
+          minimum: 0
+          title: Offset
+          type: integer
+        limit:
+          minimum: 1
+          title: Limit
+          type: integer
+        has_more:
+          title: Has More
+          type: boolean
+        next_offset:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Next Offset
+      required:
+      - items
+      - total
+      - offset
+      - limit
+      - has_more
+      - next_offset
+      title: Page[Expression]
+      type: object
+    Page_Form_:
+      additionalProperties: false
+      properties:
+        items:
+          items:
+            $ref: '#/components/schemas/Form'
+          title: Items
+          type: array
+        total:
+          minimum: 0
+          title: Total
+          type: integer
+        offset:
+          minimum: 0
+          title: Offset
+          type: integer
+        limit:
+          minimum: 1
+          title: Limit
+          type: integer
+        has_more:
+          title: Has More
+          type: boolean
+        next_offset:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Next Offset
+      required:
+      - items
+      - total
+      - offset
+      - limit
+      - has_more
+      - next_offset
+      title: Page[Form]
+      type: object
+    Page_Sense_:
+      additionalProperties: false
+      properties:
+        items:
+          items:
+            $ref: '#/components/schemas/Sense'
+          title: Items
+          type: array
+        total:
+          minimum: 0
+          title: Total
+          type: integer
+        offset:
+          minimum: 0
+          title: Offset
+          type: integer
+        limit:
+          minimum: 1
+          title: Limit
+          type: integer
+        has_more:
+          title: Has More
+          type: boolean
+        next_offset:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Next Offset
+      required:
+      - items
+      - total
+      - offset
+      - limit
+      - has_more
+      - next_offset
+      title: Page[Sense]
+      type: object
+    PartOfSpeech:
+      additionalProperties: false
+      properties:
+        lemma_pos_entry_id:
+          title: Lemma Pos Entry Id
+          type: integer
+        pos:
+          title: Pos
+          type: string
+        app_pos:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: App Pos
+        label_zh:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Label Zh
+        label_en:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Label En
+        label_nl:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Label Nl
+        gender:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Gender
+        article:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Article
+        is_primary:
+          title: Is Primary
+          type: boolean
+        needs_review:
+          title: Needs Review
+          type: boolean
+      required:
+      - lemma_pos_entry_id
+      - pos
+      - app_pos
+      - label_zh
+      - label_en
+      - label_nl
+      - gender
+      - article
+      - is_primary
+      - needs_review
+      title: PartOfSpeech
+      type: object
+    Sense:
+      additionalProperties: false
+      properties:
+        sense_id:
+          title: Sense Id
+          type: integer
+        lemma_pos_entry_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Lemma Pos Entry Id
+        pos:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Pos
+        sense_no:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Sense No
+        definition_nl:
+          title: Definition Nl
+          type: string
+        usage_note:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Usage Note
+        domain:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Domain
+        register:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Register
+        is_primary:
+          title: Is Primary
+          type: boolean
+        is_core:
+          title: Is Core
+          type: boolean
+        app_sense_order:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: App Sense Order
+        review_status:
+          enum:
+          - accepted
+          - needs_review
+          - unreviewed
+          title: Review Status
+          type: string
+        confidence:
+          maximum: 1
+          minimum: 0
+          title: Confidence
+          type: number
+        source_id:
+          title: Source Id
+          type: integer
+        translations:
+          items:
+            $ref: '#/components/schemas/SenseTranslation'
+          title: Translations
+          type: array
+        translation_zh:
+          title: Translation Zh
+          type: string
+        translation_en:
+          title: Translation En
+          type: string
+        examples:
+          $ref: '#/components/schemas/Page_Example_'
+        examples_url:
+          title: Examples Url
+          type: string
+      required:
+      - sense_id
+      - lemma_pos_entry_id
+      - pos
+      - sense_no
+      - definition_nl
+      - usage_note
+      - domain
+      - register
+      - is_primary
+      - is_core
+      - app_sense_order
+      - review_status
+      - confidence
+      - source_id
+      - translations
+      - translation_zh
+      - translation_en
+      - examples
+      - examples_url
+      title: Sense
+      type: object
+    SenseTranslation:
+      additionalProperties: false
+      properties:
+        translation_id:
+          title: Translation Id
+          type: integer
+        sense_id:
+          title: Sense Id
+          type: integer
+        lang:
+          title: Lang
+          type: string
+        gloss:
+          title: Gloss
+          type: string
+        explanation:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Explanation
+        review_status:
+          enum:
+          - accepted
+          - needs_review
+          - unreviewed
+          title: Review Status
+          type: string
+        confidence:
+          maximum: 1
+          minimum: 0
+          title: Confidence
+          type: number
+        source_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Source Id
+      required:
+      - translation_id
+      - sense_id
+      - lang
+      - gloss
+      - explanation
+      - review_status
+      - confidence
+      - source_id
+      title: SenseTranslation
+      type: object
+    Source:
+      additionalProperties: false
+      properties:
+        source_id:
+          title: Source Id
+          type: integer
+        source_key:
+          title: Source Key
+          type: string
+        name:
+          title: Name
+          type: string
+        source_type:
+          title: Source Type
+          type: string
+        url:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Url
+        license:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: License
+        license_url:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: License Url
+        attribution:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Attribution
+        version:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Version
+      required:
+      - source_id
+      - source_key
+      - name
+      - source_type
+      - url
+      - license
+      - license_url
+      - attribution
+      - version
+      title: Source
+      type: object
+    EntryResponse:
+      additionalProperties: false
+      properties:
+        lemma_id:
+          title: Lemma Id
+          type: integer
+        lemma:
+          title: Lemma
+          type: string
+        display_lemma:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Display Lemma
+        level:
+          enum:
+          - 1
+          - 2
+          - 3
+          - 4
+          title: Level
+          type: integer
+        cefr_level:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Cefr Level
+        is_academic:
+          title: Is Academic
+          type: boolean
+        word_family:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Word Family
+        family_head_lemma_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Family Head Lemma Id
+        needs_review:
+          title: Needs Review
+          type: boolean
+        source_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Source Id
+        frequency:
+          title: Frequency
+          type: integer
+        entry_url:
+          title: Entry Url
+          type: string
+        parts_of_speech:
+          items:
+            $ref: '#/components/schemas/PartOfSpeech'
+          title: Parts Of Speech
+          type: array
+        senses:
+          $ref: '#/components/schemas/Page_Sense_'
+        forms:
+          $ref: '#/components/schemas/Page_Form_'
+        corpus_examples:
+          $ref: '#/components/schemas/CorpusExamplesPage'
+        expressions:
+          $ref: '#/components/schemas/Page_Expression_'
+        sources:
+          items:
+            $ref: '#/components/schemas/Source'
+          title: Sources
+          type: array
+      required:
+      - lemma_id
+      - lemma
+      - display_lemma
+      - level
+      - cefr_level
+      - is_academic
+      - word_family
+      - family_head_lemma_id
+      - needs_review
+      - source_id
+      - frequency
+      - entry_url
+      - parts_of_speech
+      - senses
+      - forms
+      - corpus_examples
+      - expressions
+      - sources
+      title: EntryResponse
+      type: object
+    SenseExamplesResponse:
+      additionalProperties: false
+      properties:
+        sense_id:
+          title: Sense Id
+          type: integer
+        lemma_id:
+          title: Lemma Id
+          type: integer
+        entry_url:
+          title: Entry Url
+          type: string
+        examples:
+          $ref: '#/components/schemas/Page_Example_'
+        sources:
+          items:
+            $ref: '#/components/schemas/Source'
+          title: Sources
+          type: array
+      required:
+      - sense_id
+      - lemma_id
+      - entry_url
+      - examples
+      - sources
+      title: SenseExamplesResponse
+      type: object
+    MatchedSense:
+      additionalProperties: false
+      properties:
+        sense_id:
+          title: Sense Id
+          type: integer
+        definition_nl:
+          title: Definition Nl
+          type: string
+        translation_zh:
+          title: Translation Zh
+          type: string
+        translation_en:
+          title: Translation En
+          type: string
+        semantic_score:
+          title: Semantic Score
+          type: number
+      required:
+      - sense_id
+      - definition_nl
+      - translation_zh
+      - translation_en
+      - semantic_score
+      title: MatchedSense
+      type: object
+    QueryRewrite:
+      additionalProperties: false
+      properties:
+        query:
+          title: Query
+          type: string
+        status:
+          enum:
+          - rewritten
+          - unchanged
+          - disabled
+          - unconfigured
+          - timeout
+          - provider_error
+          - circuit_open
+          - busy
+          - budget_unavailable
+          - invalid_or_unavailable
+          - constraint_fallback
+          title: Status
+          type: string
+        model:
+          anyOf:
+          - const: qwen3.7-flash
+            type: string
+          - type: 'null'
+          title: Model
+        prompt_version:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Prompt Version
+      required:
+      - query
+      - status
+      - model
+      - prompt_version
+      title: QueryRewrite
+      type: object
+    RelatedResult:
+      additionalProperties: false
+      properties:
+        lemma_id:
+          title: Lemma Id
+          type: integer
+        lemma:
+          title: Lemma
+          type: string
+        entry_url:
+          title: Entry Url
+          type: string
+        relation_type:
+          title: Relation Type
+          type: string
+        source_result_lemma_id:
+          title: Source Result Lemma Id
+          type: integer
+        source_result_sense_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Source Result Sense Id
+        source:
+          title: Source
+          type: string
+        score:
+          title: Score
+          type: number
+      required:
+      - lemma_id
+      - lemma
+      - entry_url
+      - relation_type
+      - source_result_lemma_id
+      - source_result_sense_id
+      - source
+      - score
+      title: RelatedResult
+      type: object
+    SemanticResult:
+      additionalProperties: false
+      properties:
+        lemma_id:
+          title: Lemma Id
+          type: integer
+        entry_url:
+          title: Entry Url
+          type: string
+        lemma:
+          title: Lemma
+          type: string
+        level:
+          anyOf:
+          - enum:
+            - 1
+            - 2
+            - 3
+            - 4
+            type: integer
+          - type: 'null'
+          title: Level
+        score:
+          title: Score
+          type: number
+        matched_sense:
+          $ref: '#/components/schemas/MatchedSense'
+        matched_reason:
+          additionalProperties:
+            type: number
+          title: Matched Reason
+          type: object
+      required:
+      - lemma_id
+      - entry_url
+      - lemma
+      - level
+      - score
+      - matched_sense
+      - matched_reason
+      title: SemanticResult
+      type: object
+    SemanticResponse:
+      additionalProperties: false
+      properties:
+        query:
+          title: Query
+          type: string
+        language:
+          const: unknown
+          title: Language
+          type: string
+        results:
+          items:
+            $ref: '#/components/schemas/SemanticResult'
+          title: Results
+          type: array
+        related_results:
+          items:
+            $ref: '#/components/schemas/RelatedResult'
+          title: Related Results
+          type: array
+        query_rewrite:
+          $ref: '#/components/schemas/QueryRewrite'
+      required:
+      - query
+      - language
+      - results
+      - related_results
+      - query_rewrite
+      title: SemanticResponse
+      type: object
+    HealthResponse:
+      additionalProperties: false
+      properties:
+        status:
+          const: ok
+          title: Status
+          type: string
+      required:
+      - status
+      title: HealthResponse
+      type: object
+    ErrorResponse:
+      additionalProperties: false
+      properties:
+        detail:
+          title: Detail
+          type: string
+      required:
+      - detail
+      title: ErrorResponse
+      type: object
+servers:
+- url: http://127.0.0.1:8799
+  description: 离线响应回放服务，仅支持已录制场景
+- url: http://127.0.0.1:8080
+  description: 本地真实后端示例地址，需自行启动
+security: []

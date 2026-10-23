@@ -1,0 +1,354 @@
+{
+  "status": "passed",
+  "replayed_scenarios": 69,
+  "all_bodies_match_actual_recordings": true,
+  "openapi_schema_references_resolved": 59,
+  "yaml_json_equivalent": true,
+  "checks": [
+    {
+      "id": "calibration-1200-en-website",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "calibration-1200-zh-website",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "calibration-rewrite-v2-1200-en-website",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "calibration-rewrite-v2-1200-zh-website",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "en-bicycle-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "en-bicycle-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "en-durable-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "en-durable-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "en-invisible-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "en-invisible-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "en-quoted-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "en-quoted-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "en-website-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "en-website-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-1",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-138",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-21",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-34",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-36",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-44",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-51",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-8",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-8881",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-afzetten-page-0",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-afzetten-page-28",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-afzetten-page-7",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-forms-next",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "entry-many-examples",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "error-body-413",
+      "http_status": 413,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "error-entry-404",
+      "http_status": 404,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "error-entry-422",
+      "http_status": 422,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "error-ip-429",
+      "http_status": 429,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "error-query-422",
+      "http_status": 422,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "error-semantic-disabled-503",
+      "http_status": 503,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "error-sense-404",
+      "http_status": 404,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "fallback-constraint",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "fallback-invalid_json",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "fallback-permission",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "fallback-quota",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "fallback-timeout",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "lookup-empty",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "lookup-huis",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "lookup-huizen",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "lookup-typo",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "nl-invisible-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "nl-invisible-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "nl-website-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "nl-website-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "nl-wheelchair-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "nl-wheelchair-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "sense-examples-empty-page",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "sense-examples-page-0",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "sense-examples-page-2",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "sense-examples-page-4",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "sense-examples",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "suggest-empty",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "suggest-hui",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "zh-food-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "zh-food-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "zh-helpful-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "zh-helpful-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "zh-injection-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "zh-injection-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "zh-invisible-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "zh-invisible-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "zh-library-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "zh-library-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "zh-website-original",
+      "http_status": 200,
+      "exact_json_replayed": true
+    },
+    {
+      "id": "zh-website-rewrite",
+      "http_status": 200,
+      "exact_json_replayed": true
+    }
+  ]
+}

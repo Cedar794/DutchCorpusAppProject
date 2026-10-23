@@ -1,0 +1,62 @@
+{
+  "query": "huiss",
+  "mode": "lookup",
+  "best_match": null,
+  "did_you_mean": [
+    {
+      "lemma_id": 138,
+      "entry_url": "/entries/138",
+      "lemma": "huis",
+      "level": 1,
+      "form_id": 22133,
+      "form": "huis",
+      "match_type": "form_fuzzy",
+      "score": 0.578571,
+      "confidence": 0.578571
+    },
+    {
+      "lemma_id": 3628,
+      "entry_url": "/entries/3628",
+      "lemma": "huisje",
+      "level": 2,
+      "form_id": 103753,
+      "form": "huisje",
+      "match_type": "form_fuzzy",
+      "score": 0.326738,
+      "confidence": 0.326738
+    },
+    {
+      "lemma_id": 6556,
+      "entry_url": "/entries/6556",
+      "lemma": "huishouden",
+      "level": 2,
+      "form_id": 103741,
+      "form": "huishou",
+      "match_type": "form_fuzzy",
+      "score": 0.205034,
+      "confidence": 0.205034
+    },
+    {
+      "lemma_id": 1440,
+      "entry_url": "/entries/1440",
+      "lemma": "huid",
+      "level": 1,
+      "form_id": null,
+      "form": null,
+      "match_type": "lemma_fuzzy",
+      "score": 0.493044,
+      "confidence": 0.493044
+    },
+    {
+      "lemma_id": 675,
+      "entry_url": "/entries/675",
+      "lemma": "huilen",
+      "level": 1,
+      "form_id": 103664,
+      "form": "huil",
+      "match_type": "form_fuzzy",
+      "score": 0.32398,
+      "confidence": 0.32398
+    }
+  ]
+}

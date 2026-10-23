@@ -1,0 +1,27 @@
+name: dutch-search
+services:
+  db:
+    image: pgvector/pgvector:0.8.2-pg17-bookworm
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: dutch_lexicon
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set a strong POSTGRES_PASSWORD in deploy/.env}
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - search_db:/var/lib/postgresql/data
+      - ./postgres-init.sql:/docker-entrypoint-initdb.d/10-init.sql:ro
+    shm_size: 256mb
+    command: ["postgres", "-c", "shared_buffers=1GB", "-c", "effective_cache_size=4GB", "-c", "maintenance_work_mem=256MB", "-c", "max_connections=50"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d dutch_lexicon"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+volumes:
+  search_db:

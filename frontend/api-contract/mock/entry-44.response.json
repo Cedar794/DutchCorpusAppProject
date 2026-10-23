@@ -1,0 +1,1704 @@
+{
+  "lemma_id": 44,
+  "lemma": "zeggen",
+  "display_lemma": "zeggen",
+  "level": 1,
+  "cefr_level": null,
+  "is_academic": false,
+  "word_family": "zeggen",
+  "family_head_lemma_id": 44,
+  "needs_review": false,
+  "source_id": 1,
+  "frequency": 4451271,
+  "entry_url": "/entries/44",
+  "parts_of_speech": [
+    {
+      "lemma_pos_entry_id": 26533,
+      "pos": "N",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "Zelfstandig naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 26536,
+      "pos": "WW",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "Werkwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 26534,
+      "pos": "NOUN",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "NOUN",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 26535,
+      "pos": "VERB",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "VERB",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 77765,
+      "pos": "ADJ",
+      "app_pos": "adjective",
+      "label_zh": "形容词",
+      "label_en": "adjective",
+      "label_nl": "Bijvoeglijk naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 77766,
+      "pos": "BW",
+      "app_pos": "adverb",
+      "label_zh": "副词",
+      "label_en": "adverb",
+      "label_nl": "Bijwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 77769,
+      "pos": "TW",
+      "app_pos": "numeral",
+      "label_zh": "数词",
+      "label_en": "numeral",
+      "label_nl": "Telwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 77768,
+      "pos": "SPEC",
+      "app_pos": "special",
+      "label_zh": "特殊词类",
+      "label_en": "special",
+      "label_nl": "Speciaal",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    }
+  ],
+  "senses": {
+    "items": [
+      {
+        "sense_id": 22952,
+        "lemma_pos_entry_id": 26535,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "in gesproken woorden uiten",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 29400,
+            "sense_id": 22952,
+            "lang": "en",
+            "gloss": "word",
+            "explanation": "It means word.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29399,
+            "sense_id": 22952,
+            "lang": "zh",
+            "gloss": "词",
+            "explanation": "表示词。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "词",
+        "translation_en": "word",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23995,
+              "sense_id": 22952,
+              "ex_nl": "Je mag eerlijk zeggen wat je vindt",
+              "cefr_level": null,
+              "quality_score": 0.84,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24019,
+                  "example_id": 23995,
+                  "lang": "zh",
+                  "translation": "你可以诚实地说出你的想法",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/22952/examples"
+      },
+      {
+        "sense_id": 27353,
+        "lemma_pos_entry_id": 26535,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "overgankelijk, (communicatie) (meestal mondeling) mededelen, zich met gesproken taal uiten",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29402,
+            "sense_id": 27353,
+            "lang": "en",
+            "gloss": "say",
+            "explanation": "It means say.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29401,
+            "sense_id": 27353,
+            "lang": "zh",
+            "gloss": "说",
+            "explanation": "表示说。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "说",
+        "translation_en": "say",
+        "examples": {
+          "items": [
+            {
+              "example_id": 9023,
+              "sense_id": 27353,
+              "ex_nl": "Hij zegt dat hij gewoon aanwezig was.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 67,
+                  "example_id": 9023,
+                  "lang": "zh",
+                  "translation": "他说他只是到场了。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/27353/examples"
+      },
+      {
+        "sense_id": 22953,
+        "lemma_pos_entry_id": 26535,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "betekenen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 3,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 29404,
+            "sense_id": 22953,
+            "lang": "en",
+            "gloss": "mean",
+            "explanation": "It means mean.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29403,
+            "sense_id": 22953,
+            "lang": "zh",
+            "gloss": "表示",
+            "explanation": "表示表示。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "表示",
+        "translation_en": "mean",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23996,
+              "sense_id": 22953,
+              "ex_nl": "Een rood bord wil zeggen dat je hier niet mag parkeren",
+              "cefr_level": null,
+              "quality_score": 0.84,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24020,
+                  "example_id": 23996,
+                  "lang": "zh",
+                  "translation": "红色标志表示你不能在这里停车",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/22953/examples"
+      },
+      {
+        "sense_id": 2442,
+        "lemma_pos_entry_id": 26535,
+        "pos": "VERB",
+        "sense_no": "4",
+        "definition_nl": "Een bepaalde tekst of formulering bevatten",
+        "usage_note": "Gebruikt over wat er in een tekst, wet of bord staat",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 4,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 84610,
+            "sense_id": 2442,
+            "lang": "en",
+            "gloss": "say; state",
+            "explanation": "A text, law, or sign contains a particular message or wording.",
+            "review_status": "needs_review",
+            "confidence": 0.83,
+            "source_id": 251
+          },
+          {
+            "translation_id": 71786,
+            "sense_id": 2442,
+            "lang": "zh",
+            "gloss": "写着",
+            "explanation": "表示文本、法律或标牌中含有某种说法",
+            "review_status": "unreviewed",
+            "confidence": 0.63,
+            "source_id": 13
+          }
+        ],
+        "translation_zh": "写着",
+        "translation_en": "say; state",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14875,
+              "sense_id": 2442,
+              "ex_nl": "In het contract zegt artikel vijf iets anders",
+              "cefr_level": null,
+              "quality_score": 0.63,
+              "source_id": 14,
+              "translations": [
+                {
+                  "translation_id": 9,
+                  "example_id": 14875,
+                  "lang": "zh",
+                  "translation": "合同第五条写的是另一种说法",
+                  "source_id": 15
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/2442/examples"
+      },
+      {
+        "sense_id": 27354,
+        "lemma_pos_entry_id": 26535,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "overgankelijk, (pregnant) betuigen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 5,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29406,
+            "sense_id": 27354,
+            "lang": "en",
+            "gloss": "say",
+            "explanation": "It means say.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29405,
+            "sense_id": 27354,
+            "lang": "zh",
+            "gloss": "说",
+            "explanation": "表示说。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "说",
+        "translation_en": "say",
+        "examples": {
+          "items": [
+            {
+              "example_id": 12435,
+              "sense_id": 27354,
+              "ex_nl": "Ik zeg maar zo...",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 66,
+                  "example_id": 12435,
+                  "lang": "zh",
+                  "translation": "我就这么说吧……",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/27354/examples"
+      },
+      {
+        "sense_id": 27355,
+        "lemma_pos_entry_id": 26535,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "overgankelijk, (pregnant) bevelen, gebieden, sommeren, verordonneren",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 6,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29408,
+            "sense_id": 27355,
+            "lang": "en",
+            "gloss": "order",
+            "explanation": "It means order.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29407,
+            "sense_id": 27355,
+            "lang": "zh",
+            "gloss": "命令",
+            "explanation": "表示命令。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "命令",
+        "translation_en": "order",
+        "examples": {
+          "items": [
+            {
+              "example_id": 13785,
+              "sense_id": 27355,
+              "ex_nl": "Ga daarheen, zeg ik je!",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 65,
+                  "example_id": 13785,
+                  "lang": "zh",
+                  "translation": "到那边去，我命令你！",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/27355/examples"
+      },
+      {
+        "sense_id": 27356,
+        "lemma_pos_entry_id": 26535,
+        "pos": "VERB",
+        "sense_no": "4",
+        "definition_nl": "overgankelijk van oordeel of mening zijn",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 7,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29410,
+            "sense_id": 27356,
+            "lang": "en",
+            "gloss": "opinion",
+            "explanation": "It means opinion.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29409,
+            "sense_id": 27356,
+            "lang": "zh",
+            "gloss": "意见",
+            "explanation": "表示意见。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "意见",
+        "translation_en": "opinion",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14347,
+              "sense_id": 27356,
+              "ex_nl": "En, wat zeg je dáárvan?",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 64,
+                  "example_id": 14347,
+                  "lang": "zh",
+                  "translation": "那么，你对此怎么看？",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/27356/examples"
+      },
+      {
+        "sense_id": 27357,
+        "lemma_pos_entry_id": 26535,
+        "pos": "VERB",
+        "sense_no": "5",
+        "definition_nl": "overgankelijk, (pregnant) iets in de vorm van kritiek, een berisping e.d. geven",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 8,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29412,
+            "sense_id": 27357,
+            "lang": "en",
+            "gloss": "reproach",
+            "explanation": "It means reproach.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29411,
+            "sense_id": 27357,
+            "lang": "zh",
+            "gloss": "批评",
+            "explanation": "表示批评。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "批评",
+        "translation_en": "reproach",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14608,
+              "sense_id": 27357,
+              "ex_nl": "Dat laat ik mij niet zeggen!",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 63,
+                  "example_id": 14608,
+                  "lang": "zh",
+                  "translation": "我可不让别人这样训我！",
+                  "source_id": 24
+                }
+              ]
+            },
+            {
+              "example_id": 14609,
+              "sense_id": 27357,
+              "ex_nl": "Jij hebt ook altijd wat te zeggen.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 62,
+                  "example_id": 14609,
+                  "lang": "zh",
+                  "translation": "你也总是有话要说。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 2,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/27357/examples"
+      },
+      {
+        "sense_id": 27358,
+        "lemma_pos_entry_id": 26535,
+        "pos": "VERB",
+        "sense_no": "6",
+        "definition_nl": "overgankelijk betekenen, duiden op",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 9,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29414,
+            "sense_id": 27358,
+            "lang": "en",
+            "gloss": "mean",
+            "explanation": "It means mean.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29413,
+            "sense_id": 27358,
+            "lang": "zh",
+            "gloss": "表示",
+            "explanation": "表示表示。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "表示",
+        "translation_en": "mean",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14730,
+              "sense_id": 27358,
+              "ex_nl": "Wat wil dat zeggen?",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 61,
+                  "example_id": 14730,
+                  "lang": "zh",
+                  "translation": "那是什么意思？",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/27358/examples"
+      },
+      {
+        "sense_id": 4046,
+        "lemma_pos_entry_id": 26535,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "een gebeurtenis of verhaal mondeling navertellen of uiteenzetten",
+        "usage_note": "Deze betekenis ligt dicht bij vertellen en vraagt meestal meer inhoud dan enkel uitspreken",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 10,
+        "review_status": "needs_review",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 84611,
+            "sense_id": 4046,
+            "lang": "en",
+            "gloss": "tell; recount",
+            "explanation": "Someone orally retells or explains an event or story.",
+            "review_status": "needs_review",
+            "confidence": 0.79,
+            "source_id": 251
+          },
+          {
+            "translation_id": 72073,
+            "sense_id": 4046,
+            "lang": "zh",
+            "gloss": "叙述；讲述",
+            "explanation": "表示把经过、故事或细节讲出来，不只是说一个词",
+            "review_status": "needs_review",
+            "confidence": 0.78,
+            "source_id": 33
+          }
+        ],
+        "translation_zh": "叙述；讲述",
+        "translation_en": "tell; recount",
+        "examples": {
+          "items": [
+            {
+              "example_id": 15817,
+              "sense_id": 4046,
+              "ex_nl": "De getuige mocht uitvoerig zeggen wat hij had gezien",
+              "cefr_level": null,
+              "quality_score": 0.78,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 15819,
+                  "example_id": 15817,
+                  "lang": "zh",
+                  "translation": "证人可以详细讲述自己看到的情况",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/4046/examples"
+      }
+    ],
+    "total": 10,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "forms": {
+    "items": [
+      {
+        "form_id": 61420,
+        "lemma_pos_entry_id": 26534,
+        "form": "zeggen",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "zeggen__noun__1",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.85,
+        "source_id": 5
+      },
+      {
+        "form_id": 61422,
+        "lemma_pos_entry_id": 26535,
+        "form": "zeggen",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "zeggen-v-4",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 61419,
+        "lemma_pos_entry_id": 26533,
+        "form": "zegd",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 172681,
+        "lemma_pos_entry_id": 26533,
+        "form": "zeggen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61421,
+        "lemma_pos_entry_id": 26535,
+        "form": "gezegd",
+        "form_type": "odwn_tense=pastParticiple",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "zeggen-v-1",
+          "source_form_type": "odwn_tense=pastParticiple",
+          "source_attributes": {
+            "tense": "pastParticiple"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 61423,
+        "lemma_pos_entry_id": 26535,
+        "form": "zei",
+        "form_type": "odwn_tense=pastTense",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "zeggen-v-1",
+          "source_form_type": "odwn_tense=pastTense",
+          "source_attributes": {
+            "tense": "pastTense"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 172684,
+        "lemma_pos_entry_id": 26536,
+        "form": "gezegd",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 172685,
+        "lemma_pos_entry_id": 26536,
+        "form": "gezegde",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 172686,
+        "lemma_pos_entry_id": 26536,
+        "form": "gezeid",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61424,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeg",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 172687,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeg",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61425,
+        "lemma_pos_entry_id": 26536,
+        "form": "zegde",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 172688,
+        "lemma_pos_entry_id": 26536,
+        "form": "zegde",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61426,
+        "lemma_pos_entry_id": 26536,
+        "form": "zegden",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 172689,
+        "lemma_pos_entry_id": 26536,
+        "form": "zegden",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61427,
+        "lemma_pos_entry_id": 26536,
+        "form": "zegge",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 172690,
+        "lemma_pos_entry_id": 26536,
+        "form": "zegge",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61428,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeggen",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 172691,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeggen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61429,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeggend",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 172692,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeggend",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61430,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeggende",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 172693,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeggende",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 172694,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeggt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61431,
+        "lemma_pos_entry_id": 26536,
+        "form": "zegt",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 172695,
+        "lemma_pos_entry_id": 26536,
+        "form": "zegt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61432,
+        "lemma_pos_entry_id": 26536,
+        "form": "zei",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 172696,
+        "lemma_pos_entry_id": 26536,
+        "form": "zei",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61433,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeide",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 172697,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeide",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61434,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeiden",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 172698,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeiden",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 172699,
+        "lemma_pos_entry_id": 26536,
+        "form": "zeidt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 172679,
+        "lemma_pos_entry_id": 77765,
+        "form": "zeggen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 172680,
+        "lemma_pos_entry_id": 77766,
+        "form": "zeggen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 172682,
+        "lemma_pos_entry_id": 77768,
+        "form": "zeggen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 172683,
+        "lemma_pos_entry_id": 77769,
+        "form": "zeggen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      }
+    ],
+    "total": 37,
+    "offset": 0,
+    "limit": 50,
+    "has_more": false,
+    "next_offset": null
+  },
+  "corpus_examples": {
+    "items": [
+      {
+        "lemma_example_id": 2156,
+        "lemma_pos_entry_id": 26533,
+        "form_id": 172681,
+        "ex_nl": "De op Aarde levende wezens zeggen dat God is in den Hoge,",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 2157,
+        "lemma_pos_entry_id": 77765,
+        "form_id": 172679,
+        "ex_nl": "De op Aarde levende wezens zeggen dat God is in den Hoge,",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 1822,
+        "lemma_pos_entry_id": 26533,
+        "form_id": 172681,
+        "ex_nl": "Op basis van het verleden kunnen we zeggen dat de ene waarschijnlijker is dan de ander, maar de keuze is aan jou.",
+        "quality_score": 0.85,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 1823,
+        "lemma_pos_entry_id": 77765,
+        "form_id": 172679,
+        "ex_nl": "Op basis van het verleden kunnen we zeggen dat de ene waarschijnlijker is dan de ander, maar de keuze is aan jou.",
+        "quality_score": 0.85,
+        "source_id": 9
+      }
+    ],
+    "total": 4,
+    "offset": 0,
+    "limit": 5,
+    "has_more": false,
+    "next_offset": null,
+    "sense_disambiguated": false
+  },
+  "expressions": {
+    "items": [
+      {
+        "expression_id": 5,
+        "lemma_pos_entry_id": 26535,
+        "sense_id": 2442,
+        "entry_kind": "usage_example",
+        "expression_type": "text_subject_usage",
+        "expression_nl": "de tekst zegt dat ...",
+        "definition_nl": "van een tekst: iets onder woorden brengen of meedelen",
+        "usage_note": "De tekst kan als onderwerp van zeggen optreden. In de tekst is slechts een plaatsbepaling en wordt niet als afzonderlijke vaste verbinding opgenomen.",
+        "gloss_en": "say; state, of a text",
+        "explanation_en": "A text expresses or states something.",
+        "gloss_zh": "文中表述；文本说明",
+        "explanation_zh": "以文本为主语，表示文本传达某种内容。",
+        "example_nl": "De tekst zegt dat de winkel op maandag gesloten is.",
+        "example_zh": "文中说明这家商店星期一不营业。",
+        "review_status": "needs_review",
+        "confidence": 0.88,
+        "source_id": 4196
+      }
+    ],
+    "total": 1,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "sources": [
+    {
+      "source_id": 1,
+      "source_key": "manual_vocab_levels_v1",
+      "name": "Manual vocabulary levels v1",
+      "source_type": "manual",
+      "url": null,
+      "license": "internal",
+      "license_url": null,
+      "attribution": "Curated 1-4 vocabulary level files provided in the project workspace.",
+      "version": "2026-05-28"
+    },
+    {
+      "source_id": 2,
+      "source_key": "subtlex_nl",
+      "name": "SUBTLEX-NL with POS and Zipf",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Original SUBTLEX-NL workbook used for frequency and form grouping.",
+      "version": null
+    },
+    {
+      "source_id": 3,
+      "source_key": "cc100_nl_local_20260525",
+      "name": "CC100 Dutch local analysis",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Local CC100 Dutch Frog annotation and frequency analysis in /Users/cedar/Desktop/dutch-corpus.",
+      "version": "annotated_full_live_w8_b4000"
+    },
+    {
+      "source_id": 4,
+      "source_key": "odwn_1_3",
+      "name": "Open Dutch WordNet 1.3",
+      "source_type": "lexical_semantic",
+      "url": "https://github.com/cltl/OpenDutchWordnet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Open Dutch WordNet, derived from Cornetto and Open Multilingual Wordnet resources.",
+      "version": "1.3"
+    },
+    {
+      "source_id": 5,
+      "source_key": "dbnary_nld_2026_05",
+      "name": "DBnary Dutch OntoLex",
+      "source_type": "wiktionary_extract",
+      "url": "https://kaiko.getalp.org/about-dbnary/",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "DBnary extraction from Dutch Wiktionary.",
+      "version": "2026-05"
+    },
+    {
+      "source_id": 8,
+      "source_key": "llm_sense_translation_v1",
+      "name": "LLM sense translation v1",
+      "source_type": "llm_derived",
+      "url": null,
+      "license": "derived; source licenses inherited per source sense",
+      "license_url": null,
+      "attribution": "Generated from source Dutch definitions with LLM translation. Preserve source attribution for original definitions.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 9,
+      "source_key": "cc100_lemma_examples_v1",
+      "name": "CC100 lemma example extraction v1",
+      "source_type": "corpus_derived",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Examples extracted from the local CC100 Dutch corpus analysis input.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 13,
+      "source_key": "aigc_sense_translation_v2",
+      "name": "AIGC sense translation v2",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 14,
+      "source_key": "aigc_examples_v1",
+      "name": "AIGC Dutch examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 15,
+      "source_key": "aigc_example_translation_v1",
+      "name": "AIGC example translation v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 24,
+      "source_key": "aigc_example_translation_v2",
+      "name": "AIGC full backlog example translation v2",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 33,
+      "source_key": "aigc_subagent_sense_translation_v1",
+      "name": "AIGC subagent replacement sense translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 34,
+      "source_key": "aigc_subagent_examples_v1",
+      "name": "AIGC subagent replacement examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 35,
+      "source_key": "aigc_subagent_example_translation_v1",
+      "name": "AIGC subagent replacement example translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 251,
+      "source_key": "aigc_subagent_english_v1",
+      "name": "Subagent-authored English sense translations",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-22"
+    },
+    {
+      "source_id": 4196,
+      "source_key": "aigc_verified_source_research_v1",
+      "name": "Cross-reviewed source research for residual lexical gaps",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-23"
+    }
+  ]
+}

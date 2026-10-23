@@ -1,0 +1,2056 @@
+{
+  "lemma_id": 21,
+  "lemma": "kunnen",
+  "display_lemma": "kunnen",
+  "level": 1,
+  "cefr_level": null,
+  "is_academic": false,
+  "word_family": "kunnen",
+  "family_head_lemma_id": 21,
+  "needs_review": false,
+  "source_id": 1,
+  "frequency": 36235608,
+  "entry_url": "/entries/21",
+  "parts_of_speech": [
+    {
+      "lemma_pos_entry_id": 12390,
+      "pos": "WW",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "Werkwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 51063,
+      "pos": "N",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "Zelfstandig naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 12388,
+      "pos": "NOUN",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "NOUN",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 12389,
+      "pos": "VERB",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "VERB",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 51061,
+      "pos": "ADJ",
+      "app_pos": "adjective",
+      "label_zh": "形容词",
+      "label_en": "adjective",
+      "label_nl": "Bijvoeglijk naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 51062,
+      "pos": "BW",
+      "app_pos": "adverb",
+      "label_zh": "副词",
+      "label_en": "adverb",
+      "label_nl": "Bijwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 51066,
+      "pos": "VZ",
+      "app_pos": "adposition",
+      "label_zh": "介词/后置词",
+      "label_en": "adposition",
+      "label_nl": "Voorzetsel",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 51065,
+      "pos": "TW",
+      "app_pos": "numeral",
+      "label_zh": "数词",
+      "label_en": "numeral",
+      "label_nl": "Telwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 51064,
+      "pos": "SPEC",
+      "app_pos": "special",
+      "label_zh": "特殊词类",
+      "label_en": "special",
+      "label_nl": "Speciaal",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    }
+  ],
+  "senses": {
+    "items": [
+      {
+        "sense_id": 14381,
+        "lemma_pos_entry_id": 12388,
+        "pos": "NOUN",
+        "sense_no": "1",
+        "definition_nl": "Het vermogen om iets te doen of tot stand te brengen",
+        "usage_note": "Gebruikt voor bekwaamheid of capaciteit",
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 84530,
+            "sense_id": 14381,
+            "lang": "en",
+            "gloss": "ability",
+            "explanation": "This is the capacity to do or achieve something.",
+            "review_status": "needs_review",
+            "confidence": 0.86,
+            "source_id": 251
+          },
+          {
+            "translation_id": 71792,
+            "sense_id": 14381,
+            "lang": "zh",
+            "gloss": "能力",
+            "explanation": "表示完成某事所需要的能力或本领",
+            "review_status": "unreviewed",
+            "confidence": 0.64,
+            "source_id": 13
+          }
+        ],
+        "translation_zh": "能力",
+        "translation_en": "ability",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14869,
+              "sense_id": 14381,
+              "ex_nl": "Zijn kunnen bleek vooral onder druk",
+              "cefr_level": null,
+              "quality_score": 0.64,
+              "source_id": 14,
+              "translations": [
+                {
+                  "translation_id": 3,
+                  "example_id": 14869,
+                  "lang": "zh",
+                  "translation": "他的能力尤其在压力下显现出来",
+                  "source_id": 15
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14381/examples"
+      },
+      {
+        "sense_id": 14383,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "bij machte zijn",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12986,
+            "sense_id": 14383,
+            "lang": "en",
+            "gloss": "be able",
+            "explanation": "Be able.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12985,
+            "sense_id": 14383,
+            "lang": "zh",
+            "gloss": "能够",
+            "explanation": "指能够。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "能够",
+        "translation_en": "be able",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23908,
+              "sense_id": 14383,
+              "ex_nl": "Zij kan het probleem zonder hulp oplossen.",
+              "cefr_level": null,
+              "quality_score": 0.6,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23932,
+                  "example_id": 23908,
+                  "lang": "zh",
+                  "translation": "她能不靠帮助解决这个问题。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14383/examples"
+      },
+      {
+        "sense_id": 29469,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "modaal werkwoord, overgankelijk, inergatief in staat zijn, het vermogen hebben tot iets",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 12988,
+            "sense_id": 29469,
+            "lang": "en",
+            "gloss": "modal verb, transitive, inergative to be able, to",
+            "explanation": "Modal verb, transitive, inergative to be able, to have the capacity for something.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12987,
+            "sense_id": 29469,
+            "lang": "zh",
+            "gloss": "情态动词",
+            "explanation": "指情态动词，及物动词，非作格，能够，有能力做某事。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "情态动词",
+        "translation_en": "modal verb, transitive, inergative to be able, to",
+        "examples": {
+          "items": [
+            {
+              "example_id": 4353,
+              "sense_id": 29469,
+              "ex_nl": "Kun je niet slapen?",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 197,
+                  "example_id": 4353,
+                  "lang": "zh",
+                  "translation": "你睡不着吗？",
+                  "source_id": 24
+                }
+              ]
+            },
+            {
+              "example_id": 4354,
+              "sense_id": 29469,
+              "ex_nl": "Dat kan hij best.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 196,
+                  "example_id": 4354,
+                  "lang": "zh",
+                  "translation": "这件事他完全能做到。",
+                  "source_id": 24
+                }
+              ]
+            },
+            {
+              "example_id": 4355,
+              "sense_id": 29469,
+              "ex_nl": "De motor kan vaak meer dan dat je denkt.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 195,
+                  "example_id": 4355,
+                  "lang": "zh",
+                  "translation": "发动机的能力往往比你想象的更强。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 3,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/29469/examples"
+      },
+      {
+        "sense_id": 14382,
+        "lemma_pos_entry_id": 12388,
+        "pos": "NOUN",
+        "sense_no": "2",
+        "definition_nl": "vermogen of bekwaamheid om iets te doen",
+        "usage_note": "Zelfstandig naamwoord: het kunnen van iemand of een groep",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "needs_review",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 84531,
+            "sense_id": 14382,
+            "lang": "en",
+            "gloss": "ability; skill",
+            "explanation": "This refers to the ability or competence to do something.",
+            "review_status": "needs_review",
+            "confidence": 0.86,
+            "source_id": 251
+          },
+          {
+            "translation_id": 72190,
+            "sense_id": 14382,
+            "lang": "zh",
+            "gloss": "能力；本领",
+            "explanation": "指完成某事的能力、技术或才干，不是情态动词“能够”",
+            "review_status": "needs_review",
+            "confidence": 0.87,
+            "source_id": 33
+          }
+        ],
+        "translation_zh": "能力；本领",
+        "translation_en": "ability; skill",
+        "examples": {
+          "items": [
+            {
+              "example_id": 15800,
+              "sense_id": 14382,
+              "ex_nl": "Haar technisch kunnen maakte indruk op het hele team.",
+              "cefr_level": null,
+              "quality_score": 0.87,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 15802,
+                  "example_id": 15800,
+                  "lang": "zh",
+                  "translation": "她的技术能力给整个团队留下了深刻印象。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14382/examples"
+      },
+      {
+        "sense_id": 14384,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "moreel en ethisch toegestaan of op grond van autoriteit",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 3,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12990,
+            "sense_id": 14384,
+            "lang": "en",
+            "gloss": "morally and ethically permitted or on the basis",
+            "explanation": "Morally and ethically permitted or on the basis of authority.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12989,
+            "sense_id": 14384,
+            "lang": "zh",
+            "gloss": "道德和伦理允许或基于权威",
+            "explanation": "指道德和伦理允许或基于权威。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "道德和伦理允许或基于权威",
+        "translation_en": "morally and ethically permitted or on the basis",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23909,
+              "sense_id": 14384,
+              "ex_nl": "Van de docent kunnen de studenten vandaag eerder weg.",
+              "cefr_level": null,
+              "quality_score": 0.8,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23933,
+                  "example_id": 23909,
+                  "lang": "zh",
+                  "translation": "经老师允许，学生们今天可以早点离开。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14384/examples"
+      },
+      {
+        "sense_id": 14385,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "mogelijk zijn",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 4,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12992,
+            "sense_id": 14385,
+            "lang": "en",
+            "gloss": "are possible",
+            "explanation": "Are possible.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12991,
+            "sense_id": 14385,
+            "lang": "zh",
+            "gloss": "是可能的",
+            "explanation": "指是可能的。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "是可能的",
+        "translation_en": "are possible",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23910,
+              "sense_id": 14385,
+              "ex_nl": "Het kan morgen opnieuw gaan regenen.",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23934,
+                  "example_id": 23910,
+                  "lang": "zh",
+                  "translation": "明天可能又会下雨。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14385/examples"
+      },
+      {
+        "sense_id": 14386,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "4",
+        "definition_nl": "abstract hulpwerkwoord van modaliteit, niet onmogelijk zijn, niet door omstandigheden uitgesloten",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 5,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 12994,
+            "sense_id": 14386,
+            "lang": "en",
+            "gloss": "abstract auxiliary verb of modality, not to be",
+            "explanation": "Abstract auxiliary verb of modality, not to be impossible, not excluded by circumstances.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12993,
+            "sense_id": 14386,
+            "lang": "zh",
+            "gloss": "抽象情态助动词",
+            "explanation": "指抽象情态助动词，不是不可能的，不是被情况排除的。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "抽象情态助动词",
+        "translation_en": "abstract auxiliary verb of modality, not to be",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23911,
+              "sense_id": 14386,
+              "ex_nl": "Door de nieuwe regeling kunnen meer mensen hulp krijgen.",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23935,
+                  "example_id": 23911,
+                  "lang": "zh",
+                  "translation": "通过新规定，更多人可能获得帮助。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/14386/examples"
+      },
+      {
+        "sense_id": 29470,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "modaal werkwoord het intrinsieke vermogen, de eigenschap, aanleg, neiging, geschiktheid e.d. voor iets bezitten",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 6,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 12996,
+            "sense_id": 29470,
+            "lang": "en",
+            "gloss": "modal verb to possess the intrinsic ability, quality",
+            "explanation": "Modal verb to possess the intrinsic ability, quality, predisposition, inclination, suitability, etc. for something.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12995,
+            "sense_id": 29470,
+            "lang": "zh",
+            "gloss": "情态动词",
+            "explanation": "指情态动词，表示拥有某事物的内在能力、品质、倾向、倾向、适合性等。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "情态动词",
+        "translation_en": "modal verb to possess the intrinsic ability, quality",
+        "examples": {
+          "items": [
+            {
+              "example_id": 10829,
+              "sense_id": 29470,
+              "ex_nl": "Pas op, dat kan breken.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 194,
+                  "example_id": 10829,
+                  "lang": "zh",
+                  "translation": "小心，那东西可能会碎。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/29470/examples"
+      },
+      {
+        "sense_id": 29471,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "modaal werkwoord mogelijkerwijs in een bepaalde veronderstelde toestand verkeren",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 7,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 12998,
+            "sense_id": 29471,
+            "lang": "en",
+            "gloss": "modal verb possibly be in a certain assumed",
+            "explanation": "Modal verb possibly be in a certain assumed state.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12997,
+            "sense_id": 29471,
+            "lang": "zh",
+            "gloss": "情态动词可能处于某种假定状态",
+            "explanation": "指情态动词可能处于某种假定状态。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "情态动词可能处于某种假定状态",
+        "translation_en": "modal verb possibly be in a certain assumed",
+        "examples": {
+          "items": [
+            {
+              "example_id": 13163,
+              "sense_id": 29471,
+              "ex_nl": "Ik kan het natuurlijk mis hebben.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 193,
+                  "example_id": 13163,
+                  "lang": "zh",
+                  "translation": "我当然可能弄错了。",
+                  "source_id": 24
+                }
+              ]
+            },
+            {
+              "example_id": 13164,
+              "sense_id": 29471,
+              "ex_nl": "Hij kan zijn verdwaald.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 192,
+                  "example_id": 13164,
+                  "lang": "zh",
+                  "translation": "他可能迷路了。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 2,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/29471/examples"
+      },
+      {
+        "sense_id": 29472,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "4",
+        "definition_nl": "modaal werkwoord in de gelegenheid zijn",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 8,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 13000,
+            "sense_id": 29472,
+            "lang": "en",
+            "gloss": "modal verb to have the opportunity",
+            "explanation": "Modal verb to have the opportunity.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 12999,
+            "sense_id": 29472,
+            "lang": "zh",
+            "gloss": "情态动词有机会",
+            "explanation": "指情态动词有机会。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "情态动词有机会",
+        "translation_en": "modal verb to have the opportunity",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14082,
+              "sense_id": 29472,
+              "ex_nl": "Ik kan vandaag niet komen.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 191,
+                  "example_id": 14082,
+                  "lang": "zh",
+                  "translation": "我今天不能来。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/29472/examples"
+      },
+      {
+        "sense_id": 29473,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "5",
+        "definition_nl": "onpersoonlijk mogelijk zijn",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 9,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 13002,
+            "sense_id": 29473,
+            "lang": "en",
+            "gloss": "impersonally possible",
+            "explanation": "Impersonally possible.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 13001,
+            "sense_id": 29473,
+            "lang": "zh",
+            "gloss": "客观上可能",
+            "explanation": "指客观上可能。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "客观上可能",
+        "translation_en": "impersonally possible",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14478,
+              "sense_id": 29473,
+              "ex_nl": "Dat kan niet.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 190,
+                  "example_id": 14478,
+                  "lang": "zh",
+                  "translation": "那不可能。",
+                  "source_id": 24
+                }
+              ]
+            },
+            {
+              "example_id": 14479,
+              "sense_id": 29473,
+              "ex_nl": "Dat kan misschien een andere keer [gebeuren].",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 189,
+                  "example_id": 14479,
+                  "lang": "zh",
+                  "translation": "那也许可以改天再说。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 2,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/29473/examples"
+      },
+      {
+        "sense_id": 29474,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "6",
+        "definition_nl": "modaal werkwoord, (pregnant) zichzelf tot verbazing van de spreker ergens toe weten te zetten",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 10,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 13004,
+            "sense_id": 29474,
+            "lang": "en",
+            "gloss": "modal verb, (special use) to manage to do something",
+            "explanation": "Modal verb, (special use) to manage to do something to the surprise of the speaker.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 13003,
+            "sense_id": 29474,
+            "lang": "zh",
+            "gloss": "情态动词",
+            "explanation": "指情态动词，（特殊用法）设法做一些令说话者惊讶的事情。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "情态动词",
+        "translation_en": "modal verb, (special use) to manage to do something",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14668,
+              "sense_id": 29474,
+              "ex_nl": "Hoe kon je!",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 188,
+                  "example_id": 14668,
+                  "lang": "zh",
+                  "translation": "你怎么能这样！",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/29474/examples"
+      },
+      {
+        "sense_id": 29475,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "7",
+        "definition_nl": "modaal werkwoord, (pregnant) drukt het geoorloofd, betamelijk, gepast e.d. van iets zijn uit",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 11,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 13006,
+            "sense_id": 29475,
+            "lang": "en",
+            "gloss": "modal verb, (special use) expresses the permissibility, propriety, appropriateness",
+            "explanation": "Modal verb, (special use) expresses the permissibility, propriety, appropriateness, etc. of something.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 13005,
+            "sense_id": 29475,
+            "lang": "zh",
+            "gloss": "情态动词",
+            "explanation": "指情态动词，（特殊用法）表示某事的允许性、适当性、适当性等。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "情态动词",
+        "translation_en": "modal verb, (special use) expresses the permissibility, propriety, appropriateness",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14765,
+              "sense_id": 29475,
+              "ex_nl": "Dat kun je toch niet doen!",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 187,
+                  "example_id": 14765,
+                  "lang": "zh",
+                  "translation": "你可不能这么做！",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/29475/examples"
+      },
+      {
+        "sense_id": 29476,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "8",
+        "definition_nl": "modaal werkwoord ± mogen [1]/moeten",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 12,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 13008,
+            "sense_id": 29476,
+            "lang": "en",
+            "gloss": "modal verb ± may / must",
+            "explanation": "Modal verb ± may / must.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 13007,
+            "sense_id": 29476,
+            "lang": "zh",
+            "gloss": "情态动词 ± 可以/必须",
+            "explanation": "指情态动词 ± 可以/必须。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "情态动词 ± 可以/必须",
+        "translation_en": "modal verb ± may / must",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14819,
+              "sense_id": 29476,
+              "ex_nl": "Je kunt nu gaan.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 186,
+                  "example_id": 14819,
+                  "lang": "zh",
+                  "translation": "你现在可以走了。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/29476/examples"
+      },
+      {
+        "sense_id": 29477,
+        "lemma_pos_entry_id": 12389,
+        "pos": "VERB",
+        "sense_no": "9",
+        "definition_nl": "overgankelijk, (informeel) kennen (deze oorspronkelijke betekenis werd in het Noord-Nederlands al vanaf de 17e eeuw door \"kennen\" verdrongen)",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 13,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 13010,
+            "sense_id": 29477,
+            "lang": "en",
+            "gloss": "transitive, (informal) to know (this original meaning was",
+            "explanation": "Transitive, (informal) to know (this original meaning was replaced by \"kennen\" in Northern Dutch from the 17th century onwards).",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 13009,
+            "sense_id": 29477,
+            "lang": "zh",
+            "gloss": "及物",
+            "explanation": "指及物，（非正式）知道（这个原义从 17 世纪开始在北荷兰语中被“kennen”取代）。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "及物",
+        "translation_en": "transitive, (informal) to know (this original meaning was",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23912,
+              "sense_id": 29477,
+              "ex_nl": "In sommige dialecten hoor je: Ik kan die man al jaren.",
+              "cefr_level": null,
+              "quality_score": 0.72,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23936,
+                  "example_id": 23912,
+                  "lang": "zh",
+                  "translation": "在一些方言中会听到：“我认识那个人很多年了。”",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/29477/examples"
+      }
+    ],
+    "total": 15,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "forms": {
+    "items": [
+      {
+        "form_id": 27833,
+        "lemma_pos_entry_id": 12388,
+        "form": "kunnen",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "kunnen-n-1",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 27837,
+        "lemma_pos_entry_id": 12389,
+        "form": "kunnen",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "kunnen-v-1",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 27834,
+        "lemma_pos_entry_id": 12388,
+        "form": "kunnen",
+        "form_type": "odwn_article=_grammaticalNumber=singular",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "kunnen-n-1",
+          "source_form_type": "odwn_article=_grammaticalNumber=singular",
+          "source_attributes": {
+            "article": "",
+            "grammaticalNumber": "singular"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 27835,
+        "lemma_pos_entry_id": 12389,
+        "form": "gekund",
+        "form_type": "odwn_tense=pastParticiple",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "kunnen-v-1",
+          "source_form_type": "odwn_tense=pastParticiple",
+          "source_attributes": {
+            "tense": "pastParticiple"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 27836,
+        "lemma_pos_entry_id": 12389,
+        "form": "kon",
+        "form_type": "odwn_tense=pastTense",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "kunnen-v-1",
+          "source_form_type": "odwn_tense=pastTense",
+          "source_attributes": {
+            "tense": "pastTense"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 27838,
+        "lemma_pos_entry_id": 12390,
+        "form": "gekund",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 113730,
+        "lemma_pos_entry_id": 12390,
+        "form": "gekund",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113731,
+        "lemma_pos_entry_id": 12390,
+        "form": "gekunnen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27839,
+        "lemma_pos_entry_id": 12390,
+        "form": "kan",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 113732,
+        "lemma_pos_entry_id": 12390,
+        "form": "kan",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113733,
+        "lemma_pos_entry_id": 12390,
+        "form": "kant",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27840,
+        "lemma_pos_entry_id": 12390,
+        "form": "ken",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 27841,
+        "lemma_pos_entry_id": 12390,
+        "form": "kon",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 113734,
+        "lemma_pos_entry_id": 12390,
+        "form": "kon",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113735,
+        "lemma_pos_entry_id": 12390,
+        "form": "konden",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113736,
+        "lemma_pos_entry_id": 12390,
+        "form": "kondt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113737,
+        "lemma_pos_entry_id": 12390,
+        "form": "konnen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113738,
+        "lemma_pos_entry_id": 12390,
+        "form": "kont",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113739,
+        "lemma_pos_entry_id": 12390,
+        "form": "koste",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27842,
+        "lemma_pos_entry_id": 12390,
+        "form": "kun",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 113740,
+        "lemma_pos_entry_id": 12390,
+        "form": "kun",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27843,
+        "lemma_pos_entry_id": 12390,
+        "form": "kunnen",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 113741,
+        "lemma_pos_entry_id": 12390,
+        "form": "kunnen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113742,
+        "lemma_pos_entry_id": 12390,
+        "form": "kunnend",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113743,
+        "lemma_pos_entry_id": 12390,
+        "form": "kunnende",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 27844,
+        "lemma_pos_entry_id": 12390,
+        "form": "kunt",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 113744,
+        "lemma_pos_entry_id": 12390,
+        "form": "kunt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113723,
+        "lemma_pos_entry_id": 51061,
+        "form": "kunnen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113724,
+        "lemma_pos_entry_id": 51061,
+        "form": "kunnener",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113725,
+        "lemma_pos_entry_id": 51062,
+        "form": "kunnen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113726,
+        "lemma_pos_entry_id": 51063,
+        "form": "kunnen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113727,
+        "lemma_pos_entry_id": 51064,
+        "form": "kunnen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113728,
+        "lemma_pos_entry_id": 51065,
+        "form": "kunnen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 113729,
+        "lemma_pos_entry_id": 51066,
+        "form": "kunnen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      }
+    ],
+    "total": 34,
+    "offset": 0,
+    "limit": 50,
+    "has_more": false,
+    "next_offset": null
+  },
+  "corpus_examples": {
+    "items": [
+      {
+        "lemma_example_id": 186,
+        "lemma_pos_entry_id": 51062,
+        "form_id": 113725,
+        "ex_nl": "Om u direct een passende offerte te kunnen doen, heeft onze gevelspecialist een zo goed mogelijk beeld nodig van de situatie.",
+        "quality_score": 0.85,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 187,
+        "lemma_pos_entry_id": 51063,
+        "form_id": 113726,
+        "ex_nl": "Om u direct een passende offerte te kunnen doen, heeft onze gevelspecialist een zo goed mogelijk beeld nodig van de situatie.",
+        "quality_score": 0.85,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 101,
+        "lemma_pos_entry_id": 51062,
+        "form_id": 113725,
+        "ex_nl": "Door hieronder zo volledig mogelijk te zijn in het invullen van uw offerte aanvraag kunnen onze gevelspecialisten een gedegen en volledige offerte aan u aanbieden voor gevelreiniging en gevelrenovatie.",
+        "quality_score": 0.77,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 102,
+        "lemma_pos_entry_id": 51063,
+        "form_id": 113726,
+        "ex_nl": "Door hieronder zo volledig mogelijk te zijn in het invullen van uw offerte aanvraag kunnen onze gevelspecialisten een gedegen en volledige offerte aan u aanbieden voor gevelreiniging en gevelrenovatie.",
+        "quality_score": 0.77,
+        "source_id": 9
+      }
+    ],
+    "total": 4,
+    "offset": 0,
+    "limit": 5,
+    "has_more": false,
+    "next_offset": null,
+    "sense_disambiguated": false
+  },
+  "expressions": {
+    "items": [
+      {
+        "expression_id": 2,
+        "lemma_pos_entry_id": 12388,
+        "sense_id": 14381,
+        "entry_kind": "definition_note",
+        "expression_type": "definition_paraphrase",
+        "expression_nl": "vermogen of bekwaamheid om iets te doen",
+        "definition_nl": "het vermogen of de bekwaamheid om iets te doen",
+        "usage_note": "Het kunnen is een onzijdig zelfstandig naamwoord. De omschrijving het vermogen hebben hoort bij de werkwoordelijke kunnen-betekenis en wordt hier niet als vaste verbinding ingevoerd.",
+        "gloss_en": "ability; capability",
+        "explanation_en": "The ability or skill needed to do something.",
+        "gloss_zh": "能力；本领",
+        "explanation_zh": "完成某事所需的能力或熟练本领。",
+        "example_nl": "Deze opdracht gaat mijn kunnen te boven.",
+        "example_zh": "这项任务超出了我的能力。",
+        "review_status": "needs_review",
+        "confidence": 0.89,
+        "source_id": 4196
+      }
+    ],
+    "total": 1,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "sources": [
+    {
+      "source_id": 1,
+      "source_key": "manual_vocab_levels_v1",
+      "name": "Manual vocabulary levels v1",
+      "source_type": "manual",
+      "url": null,
+      "license": "internal",
+      "license_url": null,
+      "attribution": "Curated 1-4 vocabulary level files provided in the project workspace.",
+      "version": "2026-05-28"
+    },
+    {
+      "source_id": 2,
+      "source_key": "subtlex_nl",
+      "name": "SUBTLEX-NL with POS and Zipf",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Original SUBTLEX-NL workbook used for frequency and form grouping.",
+      "version": null
+    },
+    {
+      "source_id": 3,
+      "source_key": "cc100_nl_local_20260525",
+      "name": "CC100 Dutch local analysis",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Local CC100 Dutch Frog annotation and frequency analysis in /Users/cedar/Desktop/dutch-corpus.",
+      "version": "annotated_full_live_w8_b4000"
+    },
+    {
+      "source_id": 4,
+      "source_key": "odwn_1_3",
+      "name": "Open Dutch WordNet 1.3",
+      "source_type": "lexical_semantic",
+      "url": "https://github.com/cltl/OpenDutchWordnet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Open Dutch WordNet, derived from Cornetto and Open Multilingual Wordnet resources.",
+      "version": "1.3"
+    },
+    {
+      "source_id": 5,
+      "source_key": "dbnary_nld_2026_05",
+      "name": "DBnary Dutch OntoLex",
+      "source_type": "wiktionary_extract",
+      "url": "https://kaiko.getalp.org/about-dbnary/",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "DBnary extraction from Dutch Wiktionary.",
+      "version": "2026-05"
+    },
+    {
+      "source_id": 8,
+      "source_key": "llm_sense_translation_v1",
+      "name": "LLM sense translation v1",
+      "source_type": "llm_derived",
+      "url": null,
+      "license": "derived; source licenses inherited per source sense",
+      "license_url": null,
+      "attribution": "Generated from source Dutch definitions with LLM translation. Preserve source attribution for original definitions.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 9,
+      "source_key": "cc100_lemma_examples_v1",
+      "name": "CC100 lemma example extraction v1",
+      "source_type": "corpus_derived",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Examples extracted from the local CC100 Dutch corpus analysis input.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 13,
+      "source_key": "aigc_sense_translation_v2",
+      "name": "AIGC sense translation v2",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 14,
+      "source_key": "aigc_examples_v1",
+      "name": "AIGC Dutch examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 15,
+      "source_key": "aigc_example_translation_v1",
+      "name": "AIGC example translation v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 24,
+      "source_key": "aigc_example_translation_v2",
+      "name": "AIGC full backlog example translation v2",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 33,
+      "source_key": "aigc_subagent_sense_translation_v1",
+      "name": "AIGC subagent replacement sense translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 34,
+      "source_key": "aigc_subagent_examples_v1",
+      "name": "AIGC subagent replacement examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 35,
+      "source_key": "aigc_subagent_example_translation_v1",
+      "name": "AIGC subagent replacement example translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 251,
+      "source_key": "aigc_subagent_english_v1",
+      "name": "Subagent-authored English sense translations",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-22"
+    },
+    {
+      "source_id": 4196,
+      "source_key": "aigc_verified_source_research_v1",
+      "name": "Cross-reviewed source research for residual lexical gaps",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-23"
+    }
+  ]
+}

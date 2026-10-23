@@ -19,6 +19,7 @@ class SearchModelTests(unittest.TestCase):
             candidate.to_public_dict(),
             {
                 "lemma_id": 1,
+                "entry_url": "/entries/1",
                 "lemma": "lopen",
                 "level": 1,
                 "form_id": 5,

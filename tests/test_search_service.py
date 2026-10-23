@@ -101,6 +101,16 @@ class SearchServiceTests(unittest.TestCase):
 
         asyncio.run(run_test())
 
+class LoggingFailureTests(unittest.IsolatedAsyncioTestCase):
+    async def test_logging_outage_does_not_fail_lookup(self):
+        class BrokenLogging(FakeRepository):
+            async def write_query_log(self, *args, **kwargs): raise RuntimeError('db unavailable')
+        lemma = LemmaSummary(1, 'huis', 'huis', 1, 100)
+        service = SearchService(DictionaryIndex.from_rows([lemma], []), None, BrokenLogging(),
+            log_queries=True, embedding_model='test', index_version='test')
+        result = await service.lookup('huis')
+        self.assertEqual(result['best_match']['lemma'], 'huis')
+
 
 if __name__ == "__main__":
     unittest.main()

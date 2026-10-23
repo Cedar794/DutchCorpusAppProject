@@ -4,6 +4,8 @@ from typing import Protocol
 
 from lexicon_search.models import SemanticCandidate
 from lexicon_search.scoring import semantic_score
+from lexicon_search.query_rewrite import PROMPT_VERSION, RewriteResult
+from lexicon_search.entry_details import public_text
 
 
 class QueryEmbedder(Protocol):
@@ -26,13 +28,15 @@ def candidate_count_for_limit(limit: int) -> int:
 
 
 class SemanticSearchEngine:
-    def __init__(self, embedder: QueryEmbedder, repository: SemanticRepository, index_version: str) -> None:
+    def __init__(self, embedder: QueryEmbedder, repository: SemanticRepository, index_version: str, *, rewriter=None) -> None:
         self.embedder = embedder
         self.repository = repository
         self.index_version = index_version
+        self.rewriter = rewriter
 
     async def search(self, query: str, limit: int) -> dict:
-        embedding = await self.embedder.embed_text(query)
+        rewrite = await self.rewriter.rewrite(query) if self.rewriter else RewriteResult(query,'disabled')
+        embedding = await self.embedder.embed_text(rewrite.query)
         candidates = await self.repository.match_senses(
             embedding=embedding,
             candidate_count=candidate_count_for_limit(limit),
@@ -54,14 +58,15 @@ class SemanticSearchEngine:
             "results": [
                 {
                     "lemma_id": candidate.lemma_id,
+                    "entry_url": f"/entries/{candidate.lemma_id}",
                     "lemma": candidate.lemma,
                     "level": candidate.level,
                     "score": round(score, 6),
                     "matched_sense": {
                         "sense_id": candidate.sense_id,
-                        "definition_nl": candidate.definition_nl,
-                        "translation_zh": candidate.translation_zh,
-                        "translation_en": candidate.translation_en,
+                        "definition_nl": public_text(candidate.definition_nl),
+                        "translation_zh": public_text(candidate.translation_zh),
+                        "translation_en": public_text(candidate.translation_en),
                         "semantic_score": round(candidate.vector_similarity, 6),
                     },
                     "matched_reason": {key: round(value, 6) for key, value in reasons.items()},
@@ -69,4 +74,7 @@ class SemanticSearchEngine:
                 for candidate, score, reasons in ordered
             ],
             "candidate_count": candidate_count_for_limit(limit),
+            "query_rewrite": {"query":rewrite.query, "status":rewrite.status,
+                              "model":self.rewriter.model if self.rewriter else None,
+                              "prompt_version":PROMPT_VERSION if self.rewriter else None},
         }

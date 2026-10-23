@@ -1,0 +1,116 @@
+{
+  "query": "hui",
+  "mode": "suggest",
+  "suggestions": [
+    {
+      "lemma_id": 138,
+      "entry_url": "/entries/138",
+      "lemma": "huis",
+      "level": 1,
+      "form_id": 22133,
+      "form": "huis",
+      "match_type": "form_exact",
+      "score": 1.75,
+      "confidence": 1.0
+    },
+    {
+      "lemma_id": 3139,
+      "entry_url": "/entries/3139",
+      "lemma": "huidig",
+      "level": 1,
+      "form_id": 22108,
+      "form": "huidig",
+      "match_type": "form_exact",
+      "score": 1.745426,
+      "confidence": 1.0
+    },
+    {
+      "lemma_id": 1440,
+      "entry_url": "/entries/1440",
+      "lemma": "huid",
+      "level": 1,
+      "form_id": 22105,
+      "form": "huid",
+      "match_type": "form_exact",
+      "score": 1.743044,
+      "confidence": 1.0
+    },
+    {
+      "lemma_id": 675,
+      "entry_url": "/entries/675",
+      "lemma": "huilen",
+      "level": 1,
+      "form_id": 22118,
+      "form": "huilen",
+      "match_type": "form_exact",
+      "score": 1.715545,
+      "confidence": 1.0
+    },
+    {
+      "lemma_id": 4019,
+      "entry_url": "/entries/4019",
+      "lemma": "huisdier",
+      "level": 2,
+      "form_id": 22149,
+      "form": "huisdier",
+      "match_type": "form_exact",
+      "score": 1.70921,
+      "confidence": 1.0
+    },
+    {
+      "lemma_id": 6556,
+      "entry_url": "/entries/6556",
+      "lemma": "huishouden",
+      "level": 2,
+      "form_id": 22175,
+      "form": "huishouden",
+      "match_type": "form_exact",
+      "score": 1.706457,
+      "confidence": 1.0
+    },
+    {
+      "lemma_id": 2484,
+      "entry_url": "/entries/2484",
+      "lemma": "huiswerk",
+      "level": 1,
+      "form_id": 22199,
+      "form": "huiswerk",
+      "match_type": "form_exact",
+      "score": 1.70451,
+      "confidence": 1.0
+    },
+    {
+      "lemma_id": 6376,
+      "entry_url": "/entries/6376",
+      "lemma": "huisvrouw",
+      "level": 2,
+      "form_id": 22195,
+      "form": "huisvrouw",
+      "match_type": "form_exact",
+      "score": 1.68194,
+      "confidence": 1.0
+    },
+    {
+      "lemma_id": 10046,
+      "entry_url": "/entries/10046",
+      "lemma": "huiselijk",
+      "level": 4,
+      "form_id": 22152,
+      "form": "huiselijk",
+      "match_type": "form_exact",
+      "score": 1.658712,
+      "confidence": 1.0
+    },
+    {
+      "lemma_id": 10238,
+      "entry_url": "/entries/10238",
+      "lemma": "huiskamer",
+      "level": 4,
+      "form_id": 22188,
+      "form": "huiskamer",
+      "match_type": "form_exact",
+      "score": 1.656933,
+      "confidence": 1.0
+    }
+  ]
+}

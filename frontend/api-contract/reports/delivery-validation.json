@@ -1,0 +1,22 @@
+{
+  "completed_at": "2026-10-23T07:01:08.453568+00:00",
+  "api_contract_revision": "2026-10-23",
+  "backend_tests_passed": 135,
+  "captured_and_contract_validated_scenarios": 69,
+  "all_69_responses_replayed_exactly": true,
+  "typescript_strict_compile": "5.9.3 passed",
+  "javascript_client_runtime_test": "passed",
+  "openapi_json_yaml_equivalent": true,
+  "openapi_references_resolve": true,
+  "real_flash_access_verified": true,
+  "test_budget_cny": 1,
+  "confirmed_usage_list_price_cny": 0.0014623,
+  "maximum_reserved_exposure_cny": 0.0033055,
+  "invoice_debit_verified": false,
+  "single_ip_limits_preserved": true,
+  "publicly_deployed": false,
+  "existing_lemmas": 12188,
+  "existing_vectors": 46073,
+  "credential_values_excluded": true,
+  "private_ledgers_and_database_backups_excluded": true
+}

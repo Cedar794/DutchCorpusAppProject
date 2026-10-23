@@ -1,0 +1,2398 @@
+{
+  "lemma_id": 36,
+  "lemma": "goed",
+  "display_lemma": "goed",
+  "level": 1,
+  "cefr_level": null,
+  "is_academic": false,
+  "word_family": "goed",
+  "family_head_lemma_id": 36,
+  "needs_review": false,
+  "source_id": 1,
+  "frequency": 17360403,
+  "entry_url": "/entries/36",
+  "parts_of_speech": [
+    {
+      "lemma_pos_entry_id": 8480,
+      "pos": "WW",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "Werkwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 8477,
+      "pos": "ADJ",
+      "app_pos": "adjective",
+      "label_zh": "形容词",
+      "label_en": "adjective",
+      "label_nl": "Bijvoeglijk naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 43725,
+      "pos": "N",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "Zelfstandig naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 8479,
+      "pos": "NOUN",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "NOUN",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 8478,
+      "pos": "ADV",
+      "app_pos": "adverb",
+      "label_zh": "副词",
+      "label_en": "adverb",
+      "label_nl": "ADV",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 43724,
+      "pos": "BW",
+      "app_pos": "adverb",
+      "label_zh": "副词",
+      "label_en": "adverb",
+      "label_nl": "Bijwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 43726,
+      "pos": "SPEC",
+      "app_pos": "special",
+      "label_zh": "特殊词类",
+      "label_en": "special",
+      "label_nl": "Speciaal",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    }
+  ],
+  "senses": {
+    "items": [
+      {
+        "sense_id": 12265,
+        "lemma_pos_entry_id": 8479,
+        "pos": "NOUN",
+        "sense_no": "1",
+        "definition_nl": "dat wat goed is",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 8968,
+            "sense_id": 12265,
+            "lang": "en",
+            "gloss": "that which is good",
+            "explanation": "It means that which is good.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8967,
+            "sense_id": 12265,
+            "lang": "zh",
+            "gloss": "那是好的",
+            "explanation": "指那是好的。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "那是好的",
+        "translation_en": "that which is good",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23983,
+              "sense_id": 12265,
+              "ex_nl": "De strenge regel was uiteindelijk voor ieders goed",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24007,
+                  "example_id": 23983,
+                  "lang": "zh",
+                  "translation": "那条严格规定最终是为了大家的利益",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12265/examples"
+      },
+      {
+        "sense_id": 23286,
+        "lemma_pos_entry_id": 8477,
+        "pos": "ADJ",
+        "sense_no": "1",
+        "definition_nl": "kwaliteit bezittend, aan verwachtingen voldoend",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 8984,
+            "sense_id": 23286,
+            "lang": "en",
+            "gloss": "possessing quality",
+            "explanation": "It means possessing quality, meeting expectations.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8983,
+            "sense_id": 23286,
+            "lang": "zh",
+            "gloss": "拥有品质",
+            "explanation": "指拥有品质，满足期望。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "拥有品质",
+        "translation_en": "possessing quality",
+        "examples": {
+          "items": [
+            {
+              "example_id": 3207,
+              "sense_id": 23286,
+              "ex_nl": "Wat een goed stuk om te lezen!",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 102,
+                  "example_id": 3207,
+                  "lang": "zh",
+                  "translation": "多么值得一读的好文章！",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23286/examples"
+      },
+      {
+        "sense_id": 23289,
+        "lemma_pos_entry_id": 8478,
+        "pos": "ADV",
+        "sense_no": "1",
+        "definition_nl": "op goede wijze",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 8990,
+            "sense_id": 23289,
+            "lang": "en",
+            "gloss": "in a good way",
+            "explanation": "It means in a good way.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8989,
+            "sense_id": 23289,
+            "lang": "zh",
+            "gloss": "以一种好的方式",
+            "explanation": "指以一种好的方式。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "以一种好的方式",
+        "translation_en": "in a good way",
+        "examples": {
+          "items": [
+            {
+              "example_id": 3208,
+              "sense_id": 23289,
+              "ex_nl": "Goed gedaan!",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 101,
+                  "example_id": 3208,
+                  "lang": "zh",
+                  "translation": "做得好！",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23289/examples"
+      },
+      {
+        "sense_id": 23293,
+        "lemma_pos_entry_id": 8479,
+        "pos": "NOUN",
+        "sense_no": "1",
+        "definition_nl": "iets concreets of abstracts dat men in bezit kan hebben",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 8970,
+            "sense_id": 23293,
+            "lang": "en",
+            "gloss": "something concrete or abstract",
+            "explanation": "It means something concrete or abstract that one can possess.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8969,
+            "sense_id": 23293,
+            "lang": "zh",
+            "gloss": "人可以拥有的具体或抽象的东西",
+            "explanation": "指一个人可以拥有的具体或抽象的东西。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "人可以拥有的具体或抽象的东西",
+        "translation_en": "something concrete or abstract",
+        "examples": {
+          "items": [
+            {
+              "example_id": 3209,
+              "sense_id": 23293,
+              "ex_nl": "Gezondheid is een groot goed.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 100,
+                  "example_id": 3209,
+                  "lang": "zh",
+                  "translation": "健康是一项重要财富。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23293/examples"
+      },
+      {
+        "sense_id": 23287,
+        "lemma_pos_entry_id": 8477,
+        "pos": "ADJ",
+        "sense_no": "2",
+        "definition_nl": "eerlijk en vriendelijk",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 8986,
+            "sense_id": 23287,
+            "lang": "en",
+            "gloss": "honest and friendly",
+            "explanation": "It means honest and friendly.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8985,
+            "sense_id": 23287,
+            "lang": "zh",
+            "gloss": "诚实友善",
+            "explanation": "指诚实友善。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "诚实友善",
+        "translation_en": "honest and friendly",
+        "examples": {
+          "items": [
+            {
+              "example_id": 10469,
+              "sense_id": 23287,
+              "ex_nl": "Hij was altijd goed voor ons.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 99,
+                  "example_id": 10469,
+                  "lang": "zh",
+                  "translation": "他一直对我们很好。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23287/examples"
+      },
+      {
+        "sense_id": 23290,
+        "lemma_pos_entry_id": 8478,
+        "pos": "ADV",
+        "sense_no": "2",
+        "definition_nl": "bijwoordelijk deel van een scheidbaar werkwoord",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 8992,
+            "sense_id": 23290,
+            "lang": "en",
+            "gloss": "adverbial part of a separable verb",
+            "explanation": "It means adverbial part of a separable verb.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8991,
+            "sense_id": 23290,
+            "lang": "zh",
+            "gloss": "可分离动词的状语部分",
+            "explanation": "指可分离动词的状语部分。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "可分离动词的状语部分",
+        "translation_en": "adverbial part of a separable verb",
+        "examples": {
+          "items": [
+            {
+              "example_id": 10470,
+              "sense_id": 23290,
+              "ex_nl": "goedvinden: hij vond het goed.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 98,
+                  "example_id": 10470,
+                  "lang": "zh",
+                  "translation": "同意：他觉得可以。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23290/examples"
+      },
+      {
+        "sense_id": 12268,
+        "lemma_pos_entry_id": 8479,
+        "pos": "NOUN",
+        "sense_no": "2",
+        "definition_nl": "iemands bezit",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 3,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 8972,
+            "sense_id": 12268,
+            "lang": "en",
+            "gloss": "someone's property",
+            "explanation": "It means someone's property.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8971,
+            "sense_id": 12268,
+            "lang": "zh",
+            "gloss": "某人的财产",
+            "explanation": "指某人的财产。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "某人的财产",
+        "translation_en": "someone's property",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23986,
+              "sense_id": 12268,
+              "ex_nl": "Zijn hele goed paste na de verhuizing in twee koffers",
+              "cefr_level": null,
+              "quality_score": 0.8,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24010,
+                  "example_id": 23986,
+                  "lang": "zh",
+                  "translation": "搬家后，他的全部家当装进了两个箱子",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12268/examples"
+      },
+      {
+        "sense_id": 23288,
+        "lemma_pos_entry_id": 8477,
+        "pos": "ADJ",
+        "sense_no": "3",
+        "definition_nl": "gezond, lekker",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 3,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 8988,
+            "sense_id": 23288,
+            "lang": "en",
+            "gloss": "healthy",
+            "explanation": "It means healthy, tasty.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8987,
+            "sense_id": 23288,
+            "lang": "zh",
+            "gloss": "健康",
+            "explanation": "指健康、美味。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "健康",
+        "translation_en": "healthy",
+        "examples": {
+          "items": [
+            {
+              "example_id": 13011,
+              "sense_id": 23288,
+              "ex_nl": "Ik voel me niet zo goed sinds ik dat rauwe vlees heb gegeten.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 97,
+                  "example_id": 13011,
+                  "lang": "zh",
+                  "translation": "自从吃了那块生肉后，我感觉不太舒服。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23288/examples"
+      },
+      {
+        "sense_id": 23291,
+        "lemma_pos_entry_id": 8478,
+        "pos": "ADV",
+        "sense_no": "3",
+        "definition_nl": "in hoge mate (vaak pejoratief)",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 3,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 8994,
+            "sense_id": 23291,
+            "lang": "en",
+            "gloss": "to a great extent (often pejorative)",
+            "explanation": "It means to a great extent (often pejorative).",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8993,
+            "sense_id": 23291,
+            "lang": "zh",
+            "gloss": "在很大程度上",
+            "explanation": "指在很大程度上（通常是贬义的）。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "在很大程度上",
+        "translation_en": "to a great extent (often pejorative)",
+        "examples": {
+          "items": [
+            {
+              "example_id": 13012,
+              "sense_id": 23291,
+              "ex_nl": "Mijn dag is goed verpest.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 96,
+                  "example_id": 13012,
+                  "lang": "zh",
+                  "translation": "我这一天彻底被毁了。",
+                  "source_id": 24
+                }
+              ]
+            },
+            {
+              "example_id": 13013,
+              "sense_id": 23291,
+              "ex_nl": "Het is goed mis in Nederland.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 95,
+                  "example_id": 13013,
+                  "lang": "zh",
+                  "translation": "荷兰的情况非常糟糕。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 2,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23291/examples"
+      },
+      {
+        "sense_id": 12269,
+        "lemma_pos_entry_id": 8479,
+        "pos": "NOUN",
+        "sense_no": "3",
+        "definition_nl": "textielstoffen en -voorwerpen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 4,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 8974,
+            "sense_id": 12269,
+            "lang": "en",
+            "gloss": "textile materials and objects",
+            "explanation": "It means textile materials and objects.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8973,
+            "sense_id": 12269,
+            "lang": "zh",
+            "gloss": "纺织材料和物品",
+            "explanation": "指纺织材料和物品。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "纺织材料和物品",
+        "translation_en": "textile materials and objects",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23987,
+              "sense_id": 12269,
+              "ex_nl": "De kleermaker koos stevig goed voor de voering",
+              "cefr_level": null,
+              "quality_score": 0.78,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24011,
+                  "example_id": 23987,
+                  "lang": "zh",
+                  "translation": "裁缝选了结实的布料做衬里",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12269/examples"
+      },
+      {
+        "sense_id": 23292,
+        "lemma_pos_entry_id": 8478,
+        "pos": "ADV",
+        "sense_no": "4",
+        "definition_nl": "makkelijk, duidelijk",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 4,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 8996,
+            "sense_id": 23292,
+            "lang": "en",
+            "gloss": "easy",
+            "explanation": "It means easy, clear.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8995,
+            "sense_id": 23292,
+            "lang": "zh",
+            "gloss": "简单",
+            "explanation": "指简单、清晰。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "简单",
+        "translation_en": "easy",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23988,
+              "sense_id": 23292,
+              "ex_nl": "De instructies zijn goed te volgen",
+              "cefr_level": null,
+              "quality_score": 0.76,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24012,
+                  "example_id": 23988,
+                  "lang": "zh",
+                  "translation": "这些说明很容易理解",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23292/examples"
+      },
+      {
+        "sense_id": 12266,
+        "lemma_pos_entry_id": 8479,
+        "pos": "NOUN",
+        "sense_no": "4",
+        "definition_nl": "kleren",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 5,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 8976,
+            "sense_id": 12266,
+            "lang": "en",
+            "gloss": "clothes",
+            "explanation": "It means clothes.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8975,
+            "sense_id": 12266,
+            "lang": "zh",
+            "gloss": "衣服",
+            "explanation": "指衣服。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "衣服",
+        "translation_en": "clothes",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23984,
+              "sense_id": 12266,
+              "ex_nl": "Het natte goed hing de hele ochtend aan de lijn",
+              "cefr_level": null,
+              "quality_score": 0.74,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24008,
+                  "example_id": 23984,
+                  "lang": "zh",
+                  "translation": "湿衣物整个上午都挂在晾衣绳上",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12266/examples"
+      },
+      {
+        "sense_id": 12267,
+        "lemma_pos_entry_id": 8479,
+        "pos": "NOUN",
+        "sense_no": "5",
+        "definition_nl": "een of meer zaken",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 6,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 8978,
+            "sense_id": 12267,
+            "lang": "en",
+            "gloss": "one or more things",
+            "explanation": "It means one or more things.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8977,
+            "sense_id": 12267,
+            "lang": "zh",
+            "gloss": "一件或多件事情",
+            "explanation": "指一件或多件事情。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "一件或多件事情",
+        "translation_en": "one or more things",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23985,
+              "sense_id": 12267,
+              "ex_nl": "Elk goed in het magazijn kreeg een eigen nummer",
+              "cefr_level": null,
+              "quality_score": 0.72,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24009,
+                  "example_id": 23985,
+                  "lang": "zh",
+                  "translation": "仓库里的每件货物都有自己的编号",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12267/examples"
+      },
+      {
+        "sense_id": 12263,
+        "lemma_pos_entry_id": 8479,
+        "pos": "NOUN",
+        "sense_no": "6",
+        "definition_nl": "grote bezitting op het land",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 7,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 8980,
+            "sense_id": 12263,
+            "lang": "en",
+            "gloss": "large possession of land",
+            "explanation": "It means large possession of land.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8979,
+            "sense_id": 12263,
+            "lang": "zh",
+            "gloss": "大量占有土地",
+            "explanation": "指大量占有土地。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "大量占有土地",
+        "translation_en": "large possession of land",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23982,
+              "sense_id": 12263,
+              "ex_nl": "De familie beheerde al generaties lang een uitgestrekt goed aan de rivier",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24006,
+                  "example_id": 23982,
+                  "lang": "zh",
+                  "translation": "这个家族世代管理着河边一大片地产",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12263/examples"
+      },
+      {
+        "sense_id": 2518,
+        "lemma_pos_entry_id": 8479,
+        "pos": "NOUN",
+        "sense_no": "9",
+        "definition_nl": "Een tastbaar roerend bezit, zoals meubels of een voertuig",
+        "usage_note": "Gebruikt juridisch of administratief voor roerende goederen",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 8,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 84541,
+            "sense_id": 2518,
+            "lang": "en",
+            "gloss": "movable property",
+            "explanation": "This is a tangible possession that can be moved, such as furniture or a vehicle.",
+            "review_status": "needs_review",
+            "confidence": 0.83,
+            "source_id": 251
+          },
+          {
+            "translation_id": 71787,
+            "sense_id": 2518,
+            "lang": "zh",
+            "gloss": "动产",
+            "explanation": "表示可移动的有形个人财产",
+            "review_status": "unreviewed",
+            "confidence": 0.58,
+            "source_id": 13
+          }
+        ],
+        "translation_zh": "动产",
+        "translation_en": "movable property",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14874,
+              "sense_id": 2518,
+              "ex_nl": "De verzekering dekt ook roerend goed",
+              "cefr_level": null,
+              "quality_score": 0.58,
+              "source_id": 14,
+              "translations": [
+                {
+                  "translation_id": 8,
+                  "example_id": 14874,
+                  "lang": "zh",
+                  "translation": "保险也涵盖动产",
+                  "source_id": 15
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/2518/examples"
+      },
+      {
+        "sense_id": 23294,
+        "lemma_pos_entry_id": 8479,
+        "pos": "NOUN",
+        "sense_no": "2",
+        "definition_nl": "(juridisch) alle zaken en alle vermogensrechten (volgens de definitie van 3:1 BW)",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 9,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 8982,
+            "sense_id": 23294,
+            "lang": "en",
+            "gloss": "(legal) all property and all property rights (according",
+            "explanation": "It means (legal) all property and all property rights (according to the definition of 3:1 BW).",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 8981,
+            "sense_id": 23294,
+            "lang": "zh",
+            "gloss": "（合法）所有财产和所有产权（根据3:1 BW的定",
+            "explanation": "指（合法）所有财产和所有产权（根据3:1 BW的定义）。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "（合法）所有财产和所有产权（根据3:1 BW的定",
+        "translation_en": "(legal) all property and all property rights (according",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23989,
+              "sense_id": 23294,
+              "ex_nl": "In deze bepaling is een goed ook een vermogensrecht",
+              "cefr_level": null,
+              "quality_score": 0.84,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24013,
+                  "example_id": 23989,
+                  "lang": "zh",
+                  "translation": "在这一条文中，财产客体也包括财产权",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23294/examples"
+      },
+      {
+        "sense_id": 12264,
+        "lemma_pos_entry_id": 8479,
+        "pos": "NOUN",
+        "sense_no": "7",
+        "definition_nl": "Morele goedheid of dat wat als zedelijk juist geldt",
+        "usage_note": "Komt vaak voor in uitdrukkingen als het goede en het kwaad",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 10,
+        "review_status": "needs_review",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 84543,
+            "sense_id": 12264,
+            "lang": "en",
+            "gloss": "moral goodness",
+            "explanation": "This refers to goodness or whatever is considered morally right.",
+            "review_status": "needs_review",
+            "confidence": 0.85,
+            "source_id": 251
+          },
+          {
+            "translation_id": 72198,
+            "sense_id": 12264,
+            "lang": "zh",
+            "gloss": "善；善良；美德",
+            "explanation": "指道德上的好或善，不是表示质量好的形容词 goed",
+            "review_status": "needs_review",
+            "confidence": 0.84,
+            "source_id": 33
+          }
+        ],
+        "translation_zh": "善；善良；美德",
+        "translation_en": "moral goodness",
+        "examples": {
+          "items": [
+            {
+              "example_id": 15814,
+              "sense_id": 12264,
+              "ex_nl": "In moeilijke tijden probeerde zij toch het goede te doen",
+              "cefr_level": null,
+              "quality_score": 0.84,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 15816,
+                  "example_id": 15814,
+                  "lang": "zh",
+                  "translation": "在困难时期，她仍努力做善的事情",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12264/examples"
+      }
+    ],
+    "total": 17,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "forms": {
+    "items": [
+      {
+        "form_id": 19116,
+        "lemma_pos_entry_id": 8477,
+        "form": "goed",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "goed__adjc__1",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.85,
+        "source_id": 5
+      },
+      {
+        "form_id": 19124,
+        "lemma_pos_entry_id": 8478,
+        "form": "goed",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "goed__adverb__1",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.85,
+        "source_id": 5
+      },
+      {
+        "form_id": 19125,
+        "lemma_pos_entry_id": 8479,
+        "form": "goed",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "goed-n-9",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 19109,
+        "lemma_pos_entry_id": 8477,
+        "form": "best",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97890,
+        "lemma_pos_entry_id": 8477,
+        "form": "best",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19110,
+        "lemma_pos_entry_id": 8477,
+        "form": "beste",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97891,
+        "lemma_pos_entry_id": 8477,
+        "form": "beste",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19111,
+        "lemma_pos_entry_id": 8477,
+        "form": "besten",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97892,
+        "lemma_pos_entry_id": 8477,
+        "form": "besten",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19112,
+        "lemma_pos_entry_id": 8477,
+        "form": "beter",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97893,
+        "lemma_pos_entry_id": 8477,
+        "form": "beter",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19113,
+        "lemma_pos_entry_id": 8477,
+        "form": "betere",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97894,
+        "lemma_pos_entry_id": 8477,
+        "form": "betere",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97895,
+        "lemma_pos_entry_id": 8477,
+        "form": "beteren",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19114,
+        "lemma_pos_entry_id": 8477,
+        "form": "beters",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97896,
+        "lemma_pos_entry_id": 8477,
+        "form": "beters",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19115,
+        "lemma_pos_entry_id": 8477,
+        "form": "goe",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97897,
+        "lemma_pos_entry_id": 8477,
+        "form": "goe",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19117,
+        "lemma_pos_entry_id": 8477,
+        "form": "goed",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97898,
+        "lemma_pos_entry_id": 8477,
+        "form": "goed",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19118,
+        "lemma_pos_entry_id": 8477,
+        "form": "goede",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97899,
+        "lemma_pos_entry_id": 8477,
+        "form": "goede",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19119,
+        "lemma_pos_entry_id": 8477,
+        "form": "goeden",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97900,
+        "lemma_pos_entry_id": 8477,
+        "form": "goeden",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19120,
+        "lemma_pos_entry_id": 8477,
+        "form": "goeder",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97901,
+        "lemma_pos_entry_id": 8477,
+        "form": "goeder",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97902,
+        "lemma_pos_entry_id": 8477,
+        "form": "goedere",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19121,
+        "lemma_pos_entry_id": 8477,
+        "form": "goeds",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97903,
+        "lemma_pos_entry_id": 8477,
+        "form": "goeds",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19122,
+        "lemma_pos_entry_id": 8477,
+        "form": "goedste",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97904,
+        "lemma_pos_entry_id": 8477,
+        "form": "goedste",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97905,
+        "lemma_pos_entry_id": 8477,
+        "form": "goei",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97906,
+        "lemma_pos_entry_id": 8477,
+        "form": "goeie",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19123,
+        "lemma_pos_entry_id": 8477,
+        "form": "goeien",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97907,
+        "lemma_pos_entry_id": 8477,
+        "form": "goeien",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 19126,
+        "lemma_pos_entry_id": 8479,
+        "form": "goed",
+        "form_type": "odwn_article=_grammaticalNumber=singular",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "goed-n-6",
+          "source_form_type": "odwn_article=_grammaticalNumber=singular",
+          "source_attributes": {
+            "article": "",
+            "grammaticalNumber": "singular"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 19127,
+        "lemma_pos_entry_id": 8479,
+        "form": "goed",
+        "form_type": "odwn_article=het_grammaticalNumber=singular",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "goed-n-1",
+          "source_form_type": "odwn_article=het_grammaticalNumber=singular",
+          "source_attributes": {
+            "article": "het",
+            "grammaticalNumber": "singular"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 19128,
+        "lemma_pos_entry_id": 8479,
+        "form": "goederen",
+        "form_type": "odwn_article=de_grammaticalNumber=plural",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "goed-n-2",
+          "source_form_type": "odwn_article=de_grammaticalNumber=plural",
+          "source_attributes": {
+            "article": "de",
+            "grammaticalNumber": "plural"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 19129,
+        "lemma_pos_entry_id": 8480,
+        "form": "goed",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 97918,
+        "lemma_pos_entry_id": 8480,
+        "form": "goed",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97919,
+        "lemma_pos_entry_id": 8480,
+        "form": "goedgeljenrd",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97908,
+        "lemma_pos_entry_id": 43724,
+        "form": "goed",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97909,
+        "lemma_pos_entry_id": 43725,
+        "form": "goed",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97910,
+        "lemma_pos_entry_id": 43725,
+        "form": "goederen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97911,
+        "lemma_pos_entry_id": 43725,
+        "form": "goedje",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97912,
+        "lemma_pos_entry_id": 43725,
+        "form": "goedjes",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97913,
+        "lemma_pos_entry_id": 43725,
+        "form": "goedmetje",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97914,
+        "lemma_pos_entry_id": 43725,
+        "form": "goeiken",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97915,
+        "lemma_pos_entry_id": 43726,
+        "form": "goed",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 97916,
+        "lemma_pos_entry_id": 43726,
+        "form": "goed's",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      }
+    ],
+    "total": 51,
+    "offset": 0,
+    "limit": 50,
+    "has_more": true,
+    "next_offset": 50
+  },
+  "corpus_examples": {
+    "items": [
+      {
+        "lemma_example_id": 1372,
+        "lemma_pos_entry_id": 8477,
+        "form_id": 97898,
+        "ex_nl": "Ten minste als ze goed opgevoed zijn, .......uit een goed nest komen, begrijpt U wel.",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 1373,
+        "lemma_pos_entry_id": 43724,
+        "form_id": 97908,
+        "ex_nl": "Ten minste als ze goed opgevoed zijn, .......uit een goed nest komen, begrijpt U wel.",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 1374,
+        "lemma_pos_entry_id": 8480,
+        "form_id": 19129,
+        "ex_nl": "Ten minste als ze goed opgevoed zijn, .......uit een goed nest komen, begrijpt U wel.",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 4380,
+        "lemma_pos_entry_id": 43725,
+        "form_id": 97910,
+        "ex_nl": "Als u mij inschakelt als taxateur, koop ik geen goederen in.",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 194,
+        "lemma_pos_entry_id": 8477,
+        "form_id": 97898,
+        "ex_nl": "Om u direct een passende offerte te kunnen doen, heeft onze gevelspecialist een zo goed mogelijk beeld nodig van de situatie.",
+        "quality_score": 0.85,
+        "source_id": 9
+      }
+    ],
+    "total": 8,
+    "offset": 0,
+    "limit": 5,
+    "has_more": true,
+    "next_offset": 5,
+    "sense_disambiguated": false
+  },
+  "expressions": {
+    "items": [
+      {
+        "expression_id": 4,
+        "lemma_pos_entry_id": 8479,
+        "sense_id": 2518,
+        "entry_kind": "lexical_expression",
+        "expression_type": "nominal_collocation",
+        "expression_nl": "roerend goed",
+        "definition_nl": "verplaatsbare bezittingen, bijvoorbeeld meubels of andere losse zaken",
+        "usage_note": "Goed is hier een zelfstandig naamwoord met de betekenis bezit of zaak; roerend onderscheidt dit van onroerend. Voor een juridische definitie is de toepasselijke rechtsorde van belang.",
+        "gloss_en": "movable property; chattels",
+        "explanation_en": "Movable possessions, such as furniture or other unattached items.",
+        "gloss_zh": "动产；可移动财物",
+        "explanation_zh": "能够移动的财产，例如家具等未固定附着的物品。",
+        "example_nl": "De meubels worden als roerend goed afzonderlijk verkocht.",
+        "example_zh": "这些家具作为动产另行出售。",
+        "review_status": "needs_review",
+        "confidence": 0.89,
+        "source_id": 4196
+      }
+    ],
+    "total": 1,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "sources": [
+    {
+      "source_id": 1,
+      "source_key": "manual_vocab_levels_v1",
+      "name": "Manual vocabulary levels v1",
+      "source_type": "manual",
+      "url": null,
+      "license": "internal",
+      "license_url": null,
+      "attribution": "Curated 1-4 vocabulary level files provided in the project workspace.",
+      "version": "2026-05-28"
+    },
+    {
+      "source_id": 2,
+      "source_key": "subtlex_nl",
+      "name": "SUBTLEX-NL with POS and Zipf",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Original SUBTLEX-NL workbook used for frequency and form grouping.",
+      "version": null
+    },
+    {
+      "source_id": 3,
+      "source_key": "cc100_nl_local_20260525",
+      "name": "CC100 Dutch local analysis",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Local CC100 Dutch Frog annotation and frequency analysis in /Users/cedar/Desktop/dutch-corpus.",
+      "version": "annotated_full_live_w8_b4000"
+    },
+    {
+      "source_id": 4,
+      "source_key": "odwn_1_3",
+      "name": "Open Dutch WordNet 1.3",
+      "source_type": "lexical_semantic",
+      "url": "https://github.com/cltl/OpenDutchWordnet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Open Dutch WordNet, derived from Cornetto and Open Multilingual Wordnet resources.",
+      "version": "1.3"
+    },
+    {
+      "source_id": 5,
+      "source_key": "dbnary_nld_2026_05",
+      "name": "DBnary Dutch OntoLex",
+      "source_type": "wiktionary_extract",
+      "url": "https://kaiko.getalp.org/about-dbnary/",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "DBnary extraction from Dutch Wiktionary.",
+      "version": "2026-05"
+    },
+    {
+      "source_id": 8,
+      "source_key": "llm_sense_translation_v1",
+      "name": "LLM sense translation v1",
+      "source_type": "llm_derived",
+      "url": null,
+      "license": "derived; source licenses inherited per source sense",
+      "license_url": null,
+      "attribution": "Generated from source Dutch definitions with LLM translation. Preserve source attribution for original definitions.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 9,
+      "source_key": "cc100_lemma_examples_v1",
+      "name": "CC100 lemma example extraction v1",
+      "source_type": "corpus_derived",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Examples extracted from the local CC100 Dutch corpus analysis input.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 13,
+      "source_key": "aigc_sense_translation_v2",
+      "name": "AIGC sense translation v2",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 14,
+      "source_key": "aigc_examples_v1",
+      "name": "AIGC Dutch examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 15,
+      "source_key": "aigc_example_translation_v1",
+      "name": "AIGC example translation v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 24,
+      "source_key": "aigc_example_translation_v2",
+      "name": "AIGC full backlog example translation v2",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 33,
+      "source_key": "aigc_subagent_sense_translation_v1",
+      "name": "AIGC subagent replacement sense translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 34,
+      "source_key": "aigc_subagent_examples_v1",
+      "name": "AIGC subagent replacement examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 35,
+      "source_key": "aigc_subagent_example_translation_v1",
+      "name": "AIGC subagent replacement example translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 251,
+      "source_key": "aigc_subagent_english_v1",
+      "name": "Subagent-authored English sense translations",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-22"
+    },
+    {
+      "source_id": 4196,
+      "source_key": "aigc_verified_source_research_v1",
+      "name": "Cross-reviewed source research for residual lexical gaps",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-23"
+    }
+  ]
+}

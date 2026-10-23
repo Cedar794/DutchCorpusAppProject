@@ -1,0 +1,134 @@
+[
+  {
+    "query": "可以通过网址访问的一组网页",
+    "mode": "semantic",
+    "expected_lemma_ids": [
+      7427
+    ],
+    "expected_sense_ids": [
+      1991
+    ],
+    "notes": "Pilot smoke label, assistant-authored; not independently human-reviewed"
+  },
+  {
+    "query": "a collection of pages accessible through a web address",
+    "mode": "semantic",
+    "expected_lemma_ids": [
+      7427
+    ],
+    "expected_sense_ids": [
+      1991
+    ],
+    "notes": "Pilot smoke label, assistant-authored; not independently human-reviewed"
+  },
+  {
+    "query": "pagina’s die samen onder één internetadres staan",
+    "mode": "semantic",
+    "expected_lemma_ids": [
+      7427
+    ],
+    "expected_sense_ids": [
+      1991
+    ],
+    "notes": "Pilot smoke label, assistant-authored; not independently human-reviewed"
+  },
+  {
+    "query": "供人吃的食物",
+    "mode": "semantic",
+    "expected_lemma_ids": [
+      9392
+    ],
+    "expected_sense_ids": [
+      14230
+    ],
+    "notes": "Pilot smoke label, assistant-authored; not independently human-reviewed"
+  },
+  {
+    "query": "food that people eat",
+    "mode": "semantic",
+    "expected_lemma_ids": [
+      9392
+    ],
+    "expected_sense_ids": [
+      14230
+    ],
+    "notes": "Pilot smoke label, assistant-authored; not independently human-reviewed"
+  },
+  {
+    "query": "eten voor een maaltijd",
+    "mode": "semantic",
+    "expected_lemma_ids": [
+      9392
+    ],
+    "expected_sense_ids": [
+      14230
+    ],
+    "notes": "Pilot smoke label, assistant-authored; not independently human-reviewed"
+  },
+  {
+    "query": "能够使用很长时间",
+    "mode": "semantic",
+    "expected_lemma_ids": [
+      8124
+    ],
+    "expected_sense_ids": [
+      38627
+    ],
+    "notes": "Pilot smoke label, assistant-authored; not independently human-reviewed"
+  },
+  {
+    "query": "lasting for a long time",
+    "mode": "semantic",
+    "expected_lemma_ids": [
+      8124
+    ],
+    "expected_sense_ids": [
+      38627
+    ],
+    "notes": "Pilot smoke label, assistant-authored; not independently human-reviewed"
+  },
+  {
+    "query": "iets dat lange tijd meegaat",
+    "mode": "semantic",
+    "expected_lemma_ids": [
+      8124
+    ],
+    "expected_sense_ids": [
+      38627
+    ],
+    "notes": "Pilot smoke label, assistant-authored; not independently human-reviewed"
+  },
+  {
+    "query": "使用轮椅出行的人",
+    "mode": "semantic",
+    "expected_lemma_ids": [
+      8565
+    ],
+    "expected_sense_ids": [
+      45832
+    ],
+    "notes": "Pilot smoke label, assistant-authored; not independently human-reviewed"
+  },
+  {
+    "query": "a person who moves around using a wheelchair",
+    "mode": "semantic",
+    "expected_lemma_ids": [
+      8565
+    ],
+    "expected_sense_ids": [
+      45832
+    ],
+    "notes": "Pilot smoke label, assistant-authored; not independently human-reviewed"
+  },
+  {
+    "query": "iemand die zich met een rolstoel verplaatst",
+    "mode": "semantic",
+    "expected_lemma_ids": [
+      8565
+    ],
+    "expected_sense_ids": [
+      45832
+    ],
+    "notes": "Pilot smoke label, assistant-authored; not independently human-reviewed"
+  }
+]

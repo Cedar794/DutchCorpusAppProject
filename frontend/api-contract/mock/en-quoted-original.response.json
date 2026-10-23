@@ -1,0 +1,203 @@
+{
+  "query": "a noun for the person using a \"wheelchair\", not the chair itself",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 4357,
+      "entry_url": "/entries/4357",
+      "lemma": "rolstoel",
+      "level": 2,
+      "score": 0.701387,
+      "matched_sense": {
+        "sense_id": 5986,
+        "definition_nl": "stoel op wielen voor iemand die niet of moeilijk loopt",
+        "translation_zh": "轮椅",
+        "translation_en": "wheelchair",
+        "semantic_score": 0.617132
+      },
+      "matched_reason": {
+        "semantic_score": 0.617132,
+        "frequency_boost": 0.063255,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 8565,
+      "entry_url": "/entries/8565",
+      "lemma": "rolstoelgebruiker",
+      "level": 3,
+      "score": 0.640975,
+      "matched_sense": {
+        "sense_id": 45832,
+        "definition_nl": "persoon die zich met een rolstoel verplaatst",
+        "translation_zh": "轮椅使用者",
+        "translation_en": "wheelchair user",
+        "semantic_score": 0.578396
+      },
+      "matched_reason": {
+        "semantic_score": 0.578396,
+        "frequency_boost": 0.052079,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 1951,
+      "entry_url": "/entries/1951",
+      "lemma": "mobiel",
+      "level": 1,
+      "score": 0.608469,
+      "matched_sense": {
+        "sense_id": 34870,
+        "definition_nl": "(verkeer) voertuig op wielen met eigen aandrijving (vooral als tweede deel van een samenstelling)",
+        "translation_zh": "具有自身推进力的轮子车辆（特别是作为",
+        "translation_en": "vehicle on wheels with its own propulsion (especially",
+        "semantic_score": 0.501937
+      },
+      "matched_reason": {
+        "semantic_score": 0.501937,
+        "frequency_boost": 0.076531,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 8745,
+      "entry_url": "/entries/8745",
+      "lemma": "invalide",
+      "level": 4,
+      "score": 0.578361,
+      "matched_sense": {
+        "sense_id": 13372,
+        "definition_nl": "lichamelijk gehandicapte",
+        "translation_zh": "残障者",
+        "translation_en": "disabled person",
+        "semantic_score": 0.52718
+      },
+      "matched_reason": {
+        "semantic_score": 0.52718,
+        "frequency_boost": 0.051181,
+        "level_boost": 0.0
+      }
+    },
+    {
+      "lemma_id": 213,
+      "entry_url": "/entries/213",
+      "lemma": "auto",
+      "level": 1,
+      "score": 0.568887,
+      "matched_sense": {
+        "sense_id": 23623,
+        "definition_nl": "(verkeer)(techniek) voertuig met drie of meer wielen, een motor en een carrosserie",
+        "translation_zh": "（技术）具有三个或更多轮子、发动",
+        "translation_en": "(technical) vehicle with three or more wheels",
+        "semantic_score": 0.458887
+      },
+      "matched_reason": {
+        "semantic_score": 0.458887,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 630,
+      "entry_url": "/entries/630",
+      "lemma": "wagen",
+      "level": 1,
+      "score": 0.563964,
+      "matched_sense": {
+        "sense_id": 3802,
+        "definition_nl": "kinderkarretje of bolderkar op vier wielen",
+        "translation_zh": "四轮小车；儿童拖车",
+        "translation_en": "toy wagon; handcart",
+        "semantic_score": 0.461358
+      },
+      "matched_reason": {
+        "semantic_score": 0.461358,
+        "frequency_boost": 0.072605,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 3325,
+      "entry_url": "/entries/3325",
+      "lemma": "wiel",
+      "level": 1,
+      "score": 0.55981,
+      "matched_sense": {
+        "sense_id": 24188,
+        "definition_nl": "o ronddraaiende schijf voor voortbeweging met minimale weerstand",
+        "translation_zh": "轮子",
+        "translation_en": "wheel",
+        "semantic_score": 0.460579
+      },
+      "matched_reason": {
+        "semantic_score": 0.460579,
+        "frequency_boost": 0.069231,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 2416,
+      "entry_url": "/entries/2416",
+      "lemma": "sport",
+      "level": 1,
+      "score": 0.550873,
+      "matched_sense": {
+        "sense_id": 34120,
+        "definition_nl": "stoelspaak",
+        "translation_zh": "椅子",
+        "translation_en": "chair",
+        "semantic_score": 0.443034
+      },
+      "matched_reason": {
+        "semantic_score": 0.443034,
+        "frequency_boost": 0.077839,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 9186,
+      "entry_url": "/entries/9186",
+      "lemma": "handicap",
+      "level": 4,
+      "score": 0.550687,
+      "matched_sense": {
+        "sense_id": 4935,
+        "definition_nl": "lichamelijke of mentale beperking die functioneren bemoeilijkt",
+        "translation_zh": "残障；障碍",
+        "translation_en": "disability; impairment",
+        "semantic_score": 0.485766
+      },
+      "matched_reason": {
+        "semantic_score": 0.485766,
+        "frequency_boost": 0.06492,
+        "level_boost": 0.0
+      }
+    },
+    {
+      "lemma_id": 2888,
+      "entry_url": "/entries/2888",
+      "lemma": "gebrek",
+      "level": 1,
+      "score": 0.549402,
+      "matched_sense": {
+        "sense_id": 4934,
+        "definition_nl": "beperking door lichamelijke of geestelijke ongeschiktheid",
+        "translation_zh": "残障；缺陷",
+        "translation_en": "impairment; disability",
+        "semantic_score": 0.44696
+      },
+      "matched_reason": {
+        "semantic_score": 0.44696,
+        "frequency_boost": 0.072442,
+        "level_boost": 0.03
+      }
+    }
+  ],
+  "related_results": [],
+  "query_rewrite": {
+    "query": "a noun for the person using a \"wheelchair\", not the chair itself",
+    "status": "disabled",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

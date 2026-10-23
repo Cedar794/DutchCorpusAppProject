@@ -1,0 +1,234 @@
+{
+  "query": "想找形容一个人愿意帮助别人的形容词，而不是说他需要别人帮助。",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 5714,
+      "entry_url": "/entries/5714",
+      "lemma": "behulpzaam",
+      "level": 2,
+      "score": 0.589975,
+      "matched_sense": {
+        "sense_id": 33,
+        "definition_nl": "hulpvaardig",
+        "translation_zh": "乐于助人的",
+        "translation_en": "helpful",
+        "semantic_score": 0.501835
+      },
+      "matched_reason": {
+        "semantic_score": 0.501835,
+        "frequency_boost": 0.06714,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 2250,
+      "entry_url": "/entries/2250",
+      "lemma": "assistent",
+      "level": 1,
+      "score": 0.57912,
+      "matched_sense": {
+        "sense_id": 25995,
+        "definition_nl": "(persoon) iemand die een ander in diens taak ondersteunt",
+        "translation_zh": "支持他人完成任务的人",
+        "translation_en": "someone who supports another in his task",
+        "semantic_score": 0.485002
+      },
+      "matched_reason": {
+        "semantic_score": 0.485002,
+        "frequency_boost": 0.064119,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1201,
+      "entry_url": "/entries/1201",
+      "lemma": "engel",
+      "level": 1,
+      "score": 0.577617,
+      "matched_sense": {
+        "sense_id": 25713,
+        "definition_nl": "(eufemisme) iemand die grote daden van naastenliefde doet",
+        "translation_zh": "善人",
+        "translation_en": "benefactor",
+        "semantic_score": 0.480873
+      },
+      "matched_reason": {
+        "semantic_score": 0.480873,
+        "frequency_boost": 0.066744,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 367,
+      "entry_url": "/entries/367",
+      "lemma": "hulp",
+      "level": 1,
+      "score": 0.570243,
+      "matched_sense": {
+        "sense_id": 30799,
+        "definition_nl": "iemand die ondersteuning of bijstand geeft",
+        "translation_zh": "提供支持或帮助的人",
+        "translation_en": "Someone who provides support or assistance",
+        "semantic_score": 0.461372
+      },
+      "matched_reason": {
+        "semantic_score": 0.461372,
+        "frequency_boost": 0.078872,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 4438,
+      "entry_url": "/entries/4438",
+      "lemma": "charme",
+      "level": 2,
+      "score": 0.567763,
+      "matched_sense": {
+        "sense_id": 24113,
+        "definition_nl": "de eigenschappen van iemand waardoor die persoon aardig, leuk en vriendelijk wordt gevonden",
+        "translation_zh": "使这个人变得友善、有趣和友善的品",
+        "translation_en": "qualities of someone that make that person nice",
+        "semantic_score": 0.484216
+      },
+      "matched_reason": {
+        "semantic_score": 0.484216,
+        "frequency_boost": 0.062547,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 123,
+      "entry_url": "/entries/123",
+      "lemma": "helpen",
+      "level": 1,
+      "score": 0.563705,
+      "matched_sense": {
+        "sense_id": 30797,
+        "definition_nl": "overgankelijk iemand bijstaan",
+        "translation_zh": "及物动词协助某人",
+        "translation_en": "Transitive to assist someone",
+        "semantic_score": 0.453705
+      },
+      "matched_reason": {
+        "semantic_score": 0.453705,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 7827,
+      "entry_url": "/entries/7827",
+      "lemma": "helper",
+      "level": 3,
+      "score": 0.559562,
+      "matched_sense": {
+        "sense_id": 2310,
+        "definition_nl": "persoon die anderen of instellingen ondersteunt, vaak financieel",
+        "translation_zh": "援助者；赞助人",
+        "translation_en": "benefactor; supporter",
+        "semantic_score": 0.493896
+      },
+      "matched_reason": {
+        "semantic_score": 0.493896,
+        "frequency_boost": 0.055166,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 3593,
+      "entry_url": "/entries/3593",
+      "lemma": "vrijwilliger",
+      "level": 1,
+      "score": 0.558709,
+      "matched_sense": {
+        "sense_id": 22347,
+        "definition_nl": "iemand die vrijwillig iets doet",
+        "translation_zh": "志愿者",
+        "translation_en": "volunteer",
+        "semantic_score": 0.454077
+      },
+      "matched_reason": {
+        "semantic_score": 0.454077,
+        "frequency_boost": 0.074632,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 350,
+      "entry_url": "/entries/350",
+      "lemma": "lief",
+      "level": 1,
+      "score": 0.558052,
+      "matched_sense": {
+        "sense_id": 33325,
+        "definition_nl": "vriendelijk, behulpzaam",
+        "translation_zh": "友好、乐于助人",
+        "translation_en": "friendly, helpful",
+        "semantic_score": 0.448052
+      },
+      "matched_reason": {
+        "semantic_score": 0.448052,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 3388,
+      "entry_url": "/entries/3388",
+      "lemma": "buddy",
+      "level": 1,
+      "score": 0.557486,
+      "matched_sense": {
+        "sense_id": 40573,
+        "definition_nl": "(maatschappij) een vrijwilliger die een hulpbehoevende eenzame of zieke medemens ondersteuning geeft",
+        "translation_zh": "（社会）为需要帮助的孤独",
+        "translation_en": "volunteer who provides support to a lonely or",
+        "semantic_score": 0.47077
+      },
+      "matched_reason": {
+        "semantic_score": 0.47077,
+        "frequency_boost": 0.056716,
+        "level_boost": 0.03
+      }
+    }
+  ],
+  "related_results": [
+    {
+      "lemma_id": 7247,
+      "lemma": "vrijwillig",
+      "entry_url": "/entries/7247",
+      "relation_type": "family_member",
+      "source_result_lemma_id": 3593,
+      "source_result_sense_id": null,
+      "source": "lemma_relations",
+      "score": 0.95
+    },
+    {
+      "lemma_id": 2687,
+      "lemma": "nuttig",
+      "entry_url": "/entries/2687",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 5714,
+      "source_result_sense_id": 33,
+      "source": "sense_relations",
+      "score": 0.9
+    },
+    {
+      "lemma_id": 11140,
+      "lemma": "weldoener",
+      "entry_url": "/entries/11140",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 7827,
+      "source_result_sense_id": 2310,
+      "source": "sense_relations",
+      "score": 0.9
+    }
+  ],
+  "query_rewrite": {
+    "query": "想找形容一个人愿意帮助别人的形容词，而不是说他需要别人帮助。",
+    "status": "disabled",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "query": "可以通过网址访问的一组网页",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 7872,
+      "entry_url": "/entries/7872",
+      "lemma": "navigatie",
+      "level": 3,
+      "score": 0.593486,
+      "matched_sense": {
+        "sense_id": 15722,
+        "definition_nl": "wijze waarop bezoekers door de beschikbare webpagina's kunnen surfen",
+        "translation_zh": "网页导航",
+        "translation_en": "web navigation",
+        "semantic_score": 0.52016
+      },
+      "matched_reason": {
+        "semantic_score": 0.52016,
+        "frequency_boost": 0.062826,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 7427,
+      "entry_url": "/entries/7427",
+      "lemma": "website",
+      "level": 3,
+      "score": 0.592524,
+      "matched_sense": {
+        "sense_id": 35319,
+        "definition_nl": "(internet) plaats waar zich informatie bevindt op het internet, aangeduid met een URL",
+        "translation_zh": "网站",
+        "translation_en": "website",
+        "semantic_score": 0.502024
+      },
+      "matched_reason": {
+        "semantic_score": 0.502024,
+        "frequency_boost": 0.08,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 7556,
+      "entry_url": "/entries/7556",
+      "lemma": "web",
+      "level": 3,
+      "score": 0.586921,
+      "matched_sense": {
+        "sense_id": 33097,
+        "definition_nl": "(informatica) (verkorting van) world wide web, de HTML-pagina's die met hyperlinks gekoppeld zijn en bereikbaar zijn over het internet",
+        "translation_zh": "万维网",
+        "translation_en": "World Wide Web",
+        "semantic_score": 0.5071
+      },
+      "matched_reason": {
+        "semantic_score": 0.5071,
+        "frequency_boost": 0.069321,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 937,
+      "entry_url": "/entries/937",
+      "lemma": "bezoek",
+      "level": 1,
+      "score": 0.586521,
+      "matched_sense": {
+        "sense_id": 9559,
+        "definition_nl": "Het bekijken van een website of internetbron",
+        "translation_zh": "网站访问",
+        "translation_en": "website visit",
+        "semantic_score": 0.47704
+      },
+      "matched_reason": {
+        "semantic_score": 0.47704,
+        "frequency_boost": 0.079481,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 7602,
+      "entry_url": "/entries/7602",
+      "lemma": "site",
+      "level": 3,
+      "score": 0.573189,
+      "matched_sense": {
+        "sense_id": 18963,
+        "definition_nl": "een online file waar je naar kunt surfen",
+        "translation_zh": "网站",
+        "translation_en": "website",
+        "semantic_score": 0.482689
+      },
+      "matched_reason": {
+        "semantic_score": 0.482689,
+        "frequency_boost": 0.08,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 1668,
+      "entry_url": "/entries/1668",
+      "lemma": "toegang",
+      "level": 1,
+      "score": 0.571637,
+      "matched_sense": {
+        "sense_id": 2246,
+        "definition_nl": "code waarmee men toegang krijgt tot een systeem of dienst",
+        "translation_zh": "访问码；通行码",
+        "translation_en": "access code",
+        "semantic_score": 0.464261
+      },
+      "matched_reason": {
+        "semantic_score": 0.464261,
+        "frequency_boost": 0.077376,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 3148,
+      "entry_url": "/entries/3148",
+      "lemma": "link",
+      "level": 1,
+      "score": 0.571385,
+      "matched_sense": {
+        "sense_id": 5577,
+        "definition_nl": "aanklikbare verwijzing naar een webpagina of bestand",
+        "translation_zh": "超链接",
+        "translation_en": "hyperlink",
+        "semantic_score": 0.463836
+      },
+      "matched_reason": {
+        "semantic_score": 0.463836,
+        "frequency_boost": 0.077549,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 11969,
+      "entry_url": "/entries/11969",
+      "lemma": "home",
+      "level": 4,
+      "score": 0.570015,
+      "matched_sense": {
+        "sense_id": 35641,
+        "definition_nl": "(informatica) pagina op een website met algemene informatie over en links naar de verdere inhoud van de site, bestemd voor de bezoekers die niet direct naar een specifieke pagina op de site gaan",
+        "translation_zh": "主页",
+        "translation_en": "homepage",
+        "semantic_score": 0.491843
+      },
+      "matched_reason": {
+        "semantic_score": 0.491843,
+        "frequency_boost": 0.078172,
+        "level_boost": 0.0
+      }
+    },
+    {
+      "lemma_id": 2933,
+      "entry_url": "/entries/2933",
+      "lemma": "set",
+      "level": 1,
+      "score": 0.565708,
+      "matched_sense": {
+        "sense_id": 18916,
+        "definition_nl": "plek voor een filmopname",
+        "translation_zh": "电影脚本",
+        "translation_en": "script",
+        "semantic_score": 0.459563
+      },
+      "matched_reason": {
+        "semantic_score": 0.459563,
+        "frequency_boost": 0.076145,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 10931,
+      "entry_url": "/entries/10931",
+      "lemma": "linken",
+      "level": 4,
+      "score": 0.563637,
+      "matched_sense": {
+        "sense_id": 41882,
+        "definition_nl": "(informatica) webpagina´s d.m.v. hyperlinks met elkaar verbinden",
+        "translation_zh": "链接网页",
+        "translation_en": "link web pages",
+        "semantic_score": 0.503622
+      },
+      "matched_reason": {
+        "semantic_score": 0.503622,
+        "frequency_boost": 0.060016,
+        "level_boost": 0.0
+      }
+    }
+  ],
+  "related_results": [
+    {
+      "lemma_id": 10249,
+      "lemma": "toegangscode",
+      "entry_url": "/entries/10249",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 1668,
+      "source_result_sense_id": 2246,
+      "source": "sense_relations",
+      "score": 0.9
+    }
+  ],
+  "query_rewrite": {
+    "query": "via URL toegankelijke set webpagina's",
+    "status": "rewritten",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v1"
+  }
+}

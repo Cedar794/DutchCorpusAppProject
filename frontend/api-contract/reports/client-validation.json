@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "typescript_compiler": "5.9.3",
+  "strict_compile": true,
+  "checked": [
+    "lookup",
+    "suggest",
+    "entry",
+    "examples",
+    "semantic",
+    "default_final_fixture",
+    "429_retry_after",
+    "cors_preflight"
+  ]
+}

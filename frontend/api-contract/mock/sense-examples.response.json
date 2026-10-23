@@ -1,0 +1,55 @@
+{
+  "sense_id": 12960,
+  "lemma_id": 138,
+  "entry_url": "/entries/138",
+  "examples": {
+    "items": [
+      {
+        "example_id": 24287,
+        "sense_id": 12960,
+        "ex_nl": "Ze kochten een klein huis aan de rand van het dorp",
+        "cefr_level": null,
+        "quality_score": 0.87,
+        "source_id": 34,
+        "translations": [
+          {
+            "translation_id": 24310,
+            "example_id": 24287,
+            "lang": "zh",
+            "translation": "他们在村边买了一栋小房子",
+            "source_id": 35
+          }
+        ]
+      }
+    ],
+    "total": 1,
+    "offset": 0,
+    "limit": 10,
+    "has_more": false,
+    "next_offset": null
+  },
+  "sources": [
+    {
+      "source_id": 34,
+      "source_key": "aigc_subagent_examples_v1",
+      "name": "AIGC subagent replacement examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 35,
+      "source_key": "aigc_subagent_example_translation_v1",
+      "name": "AIGC subagent replacement example translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    }
+  ]
+}

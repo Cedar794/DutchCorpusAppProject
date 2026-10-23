@@ -1,0 +1,203 @@
+{
+  "query": "请找一个形容词，表示某个东西不能被看见。",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 2651,
+      "entry_url": "/entries/2651",
+      "lemma": "onzichtbaar",
+      "level": 1,
+      "score": 0.629556,
+      "matched_sense": {
+        "sense_id": 28087,
+        "definition_nl": "niet waarneembaar voor het oog",
+        "translation_zh": "不 waarneembaar 为 oog",
+        "translation_en": "not waarneembaar for the oog",
+        "semantic_score": 0.535132
+      },
+      "matched_reason": {
+        "semantic_score": 0.535132,
+        "frequency_boost": 0.064424,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 2204,
+      "entry_url": "/entries/2204",
+      "lemma": "zicht",
+      "level": 1,
+      "score": 0.62533,
+      "matched_sense": {
+        "sense_id": 32663,
+        "definition_nl": "uit het zicht: dat wat men niet kan zien, onzichtbaar",
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "semantic_score": 0.523282
+      },
+      "matched_reason": {
+        "semantic_score": 0.523282,
+        "frequency_boost": 0.072048,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 7375,
+      "entry_url": "/entries/7375",
+      "lemma": "zichtbaar",
+      "level": 3,
+      "score": 0.615371,
+      "matched_sense": {
+        "sense_id": 24982,
+        "definition_nl": "waarneembaar voor het oog",
+        "translation_zh": "可见的",
+        "translation_en": "visible",
+        "semantic_score": 0.530513
+      },
+      "matched_reason": {
+        "semantic_score": 0.530513,
+        "frequency_boost": 0.074358,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 51,
+      "entry_url": "/entries/51",
+      "lemma": "zien",
+      "level": 1,
+      "score": 0.593796,
+      "matched_sense": {
+        "sense_id": 23023,
+        "definition_nl": "het vermogen hebben om te zien:1, niet blind zijn",
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "semantic_score": 0.483796
+      },
+      "matched_reason": {
+        "semantic_score": 0.483796,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 494,
+      "entry_url": "/entries/494",
+      "lemma": "verdwijnen",
+      "level": 1,
+      "score": 0.590927,
+      "matched_sense": {
+        "sense_id": 31487,
+        "definition_nl": "ergatief uit het zicht gaan",
+        "translation_zh": "看不见",
+        "translation_en": "go out of sight",
+        "semantic_score": 0.485728
+      },
+      "matched_reason": {
+        "semantic_score": 0.485728,
+        "frequency_boost": 0.075199,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1637,
+      "entry_url": "/entries/1637",
+      "lemma": "verschijnen",
+      "level": 1,
+      "score": 0.573644,
+      "matched_sense": {
+        "sense_id": 35604,
+        "definition_nl": "ergatief aan het licht treden, zichtbaar worden",
+        "translation_zh": "显现",
+        "translation_en": "become visible",
+        "semantic_score": 0.465847
+      },
+      "matched_reason": {
+        "semantic_score": 0.465847,
+        "frequency_boost": 0.077797,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1266,
+      "entry_url": "/entries/1266",
+      "lemma": "blind",
+      "level": 1,
+      "score": 0.571855,
+      "matched_sense": {
+        "sense_id": 29965,
+        "definition_nl": "(medisch) niet of vrijwel niet in staat om te zien",
+        "translation_zh": "失明的",
+        "translation_en": "blind",
+        "semantic_score": 0.473895
+      },
+      "matched_reason": {
+        "semantic_score": 0.473895,
+        "frequency_boost": 0.06796,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 6970,
+      "entry_url": "/entries/6970",
+      "lemma": "onduidelijk",
+      "level": 2,
+      "score": 0.567384,
+      "matched_sense": {
+        "sense_id": 41567,
+        "definition_nl": "niet goed zichtbaar en/of identificeerbaar",
+        "translation_zh": "难辨认",
+        "translation_en": "indistinct",
+        "semantic_score": 0.480865
+      },
+      "matched_reason": {
+        "semantic_score": 0.480865,
+        "frequency_boost": 0.065519,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 518,
+      "entry_url": "/entries/518",
+      "lemma": "licht",
+      "level": 1,
+      "score": 0.562042,
+      "matched_sense": {
+        "sense_id": 14711,
+        "definition_nl": "straling die alles zichtbaar maakt",
+        "translation_zh": "使一切可见的辐射",
+        "translation_en": "radiation that makes everything visible",
+        "semantic_score": 0.452042
+      },
+      "matched_reason": {
+        "semantic_score": 0.452042,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 3328,
+      "entry_url": "/entries/3328",
+      "lemma": "schijn",
+      "level": 1,
+      "score": 0.558802,
+      "matched_sense": {
+        "sense_id": 18681,
+        "definition_nl": "flauw of indirect licht",
+        "translation_zh": "表象",
+        "translation_en": "appearance",
+        "semantic_score": 0.468198
+      },
+      "matched_reason": {
+        "semantic_score": 0.468198,
+        "frequency_boost": 0.060604,
+        "level_boost": 0.03
+      }
+    }
+  ],
+  "related_results": [],
+  "query_rewrite": {
+    "query": "请找一个形容词，表示某个东西不能被看见。",
+    "status": "disabled",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

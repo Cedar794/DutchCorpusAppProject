@@ -25,6 +25,7 @@ class Database:
             min_size=self.min_size,
             max_size=self.max_size,
             command_timeout=30,
+            server_settings={"search_path": "public,extensions,pg_catalog"},
         )
 
     async def close(self) -> None:

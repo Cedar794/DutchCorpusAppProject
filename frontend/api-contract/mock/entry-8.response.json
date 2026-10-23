@@ -1,0 +1,2311 @@
+{
+  "lemma_id": 8,
+  "lemma": "hebben",
+  "display_lemma": "hebben",
+  "level": 1,
+  "cefr_level": null,
+  "is_academic": false,
+  "word_family": "hebben",
+  "family_head_lemma_id": 8,
+  "needs_review": false,
+  "source_id": 1,
+  "frequency": 43998606,
+  "entry_url": "/entries/8",
+  "parts_of_speech": [
+    {
+      "lemma_pos_entry_id": 9148,
+      "pos": "WW",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "Werkwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 45015,
+      "pos": "N",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "Zelfstandig naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 9146,
+      "pos": "NOUN",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "NOUN",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 9147,
+      "pos": "VERB",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "VERB",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 45016,
+      "pos": "SPEC",
+      "app_pos": "special",
+      "label_zh": "特殊词类",
+      "label_en": "special",
+      "label_nl": "Speciaal",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    }
+  ],
+  "senses": {
+    "items": [
+      {
+        "sense_id": 12620,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "bezitten",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 9684,
+            "sense_id": 12620,
+            "lang": "en",
+            "gloss": "Own",
+            "explanation": "Own.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9683,
+            "sense_id": 12620,
+            "lang": "zh",
+            "gloss": "自己的",
+            "explanation": "自己的。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "自己的",
+        "translation_en": "Own",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23865,
+              "sense_id": 12620,
+              "ex_nl": "Zij hebben een klein appartement in Utrecht",
+              "cefr_level": null,
+              "quality_score": 0.86,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23890,
+                  "example_id": 23865,
+                  "lang": "zh",
+                  "translation": "他们在乌得勒支有一套小公寓",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12620/examples"
+      },
+      {
+        "sense_id": 23464,
+        "lemma_pos_entry_id": 9146,
+        "pos": "NOUN",
+        "sense_no": "1",
+        "definition_nl": "het bezit",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 9682,
+            "sense_id": 23464,
+            "lang": "en",
+            "gloss": "The property",
+            "explanation": "The property.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9681,
+            "sense_id": 23464,
+            "lang": "zh",
+            "gloss": "该财产",
+            "explanation": "该财产。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "该财产",
+        "translation_en": "The property",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23875,
+              "sense_id": 23464,
+              "ex_nl": "Het hebben van een rijbewijs is voor deze baan verplicht.",
+              "cefr_level": null,
+              "quality_score": 0.78,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23900,
+                  "example_id": 23875,
+                  "lang": "zh",
+                  "translation": "这份工作要求拥有驾驶执照。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23464/examples"
+      },
+      {
+        "sense_id": 23448,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "hulpwerkwoord gebruikt voor de vorming van de voltooide tijden",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 9686,
+            "sense_id": 23448,
+            "lang": "en",
+            "gloss": "Auxiliary verb used to form the perfect tenses",
+            "explanation": "Auxiliary verb used to form the perfect tenses.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9685,
+            "sense_id": 23448,
+            "lang": "zh",
+            "gloss": "助动词用于形成完成时态",
+            "explanation": "助动词用于形成完成时态。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "助动词用于形成完成时态",
+        "translation_en": "Auxiliary verb used to form the perfect tenses",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23872,
+              "sense_id": 23448,
+              "ex_nl": "Ze hebben de brief vanochtend verstuurd",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23897,
+                  "example_id": 23872,
+                  "lang": "zh",
+                  "translation": "他们今天上午把信寄出了",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23448/examples"
+      },
+      {
+        "sense_id": 23462,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "hebben + voltooid deelwoord: hulpwerkwoord van de voltooide tijd",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 3,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 9688,
+            "sense_id": 23462,
+            "lang": "en",
+            "gloss": "Have + past participle",
+            "explanation": "Have + past participle: auxiliary verb of the past tense.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9687,
+            "sense_id": 23462,
+            "lang": "zh",
+            "gloss": "have + 过去分词",
+            "explanation": "have + 过去分词：过去时的助动词。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "have + 过去分词",
+        "translation_en": "Have + past participle",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23873,
+              "sense_id": 23462,
+              "ex_nl": "Ik heb de deur gesloten voordat ik vertrok",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23898,
+                  "example_id": 23873,
+                  "lang": "zh",
+                  "translation": "我离开前已经把门关上了",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23462/examples"
+      },
+      {
+        "sense_id": 12621,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "geconfronteerd zijn met",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 4,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 9690,
+            "sense_id": 12621,
+            "lang": "en",
+            "gloss": "Be confronted with",
+            "explanation": "Be confronted with.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9689,
+            "sense_id": 12621,
+            "lang": "zh",
+            "gloss": "面临",
+            "explanation": "面临。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "面临",
+        "translation_en": "Be confronted with",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23866,
+              "sense_id": 12621,
+              "ex_nl": "Hij heeft al weken rugpijn",
+              "cefr_level": null,
+              "quality_score": 0.86,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23891,
+                  "example_id": 23866,
+                  "lang": "zh",
+                  "translation": "他背痛已经好几周了",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12621/examples"
+      },
+      {
+        "sense_id": 12622,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "in bezit krijgen of houden",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 5,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 9692,
+            "sense_id": 12622,
+            "lang": "en",
+            "gloss": "To acquire or retain possession",
+            "explanation": "To acquire or retain possession.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9691,
+            "sense_id": 12622,
+            "lang": "zh",
+            "gloss": "获得或保留占有",
+            "explanation": "获得或保留占有。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "获得或保留占有",
+        "translation_en": "To acquire or retain possession",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23867,
+              "sense_id": 12622,
+              "ex_nl": "Na een lange achtervolging hadden de agenten de dief eindelijk",
+              "cefr_level": null,
+              "quality_score": 0.62,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23892,
+                  "example_id": 23867,
+                  "lang": "zh",
+                  "translation": "经过长时间追捕，警察终于抓住了小偷",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12622/examples"
+      },
+      {
+        "sense_id": 12623,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "4",
+        "definition_nl": "praten over iets",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 6,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 9694,
+            "sense_id": 12623,
+            "lang": "en",
+            "gloss": "Talk about something",
+            "explanation": "Talk about something.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9693,
+            "sense_id": 12623,
+            "lang": "zh",
+            "gloss": "谈论某事",
+            "explanation": "谈论某事。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "谈论某事",
+        "translation_en": "Talk about something",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23868,
+              "sense_id": 12623,
+              "ex_nl": "Tijdens de vergadering hadden we het over de begroting",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23893,
+                  "example_id": 23868,
+                  "lang": "zh",
+                  "translation": "会议期间我们谈到了预算",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12623/examples"
+      },
+      {
+        "sense_id": 12624,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "5",
+        "definition_nl": "geeft voltooide tijd aan",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 7,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 9696,
+            "sense_id": 12624,
+            "lang": "en",
+            "gloss": "Indicates perfect tense",
+            "explanation": "Indicates perfect tense.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9695,
+            "sense_id": 12624,
+            "lang": "zh",
+            "gloss": "表示完成时态",
+            "explanation": "表示完成时态。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "表示完成时态",
+        "translation_en": "Indicates perfect tense",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23869,
+              "sense_id": 12624,
+              "ex_nl": "Wij hebben gisteren lang gewandeld",
+              "cefr_level": null,
+              "quality_score": 0.84,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23894,
+                  "example_id": 23869,
+                  "lang": "zh",
+                  "translation": "我们昨天散了很久的步",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12624/examples"
+      },
+      {
+        "sense_id": 12625,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "6",
+        "definition_nl": "toegerust zijn met",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 8,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 9698,
+            "sense_id": 12625,
+            "lang": "en",
+            "gloss": "Be equipped with",
+            "explanation": "Be equipped with.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9697,
+            "sense_id": 12625,
+            "lang": "zh",
+            "gloss": "配备",
+            "explanation": "配备。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "配备",
+        "translation_en": "Be equipped with",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23870,
+              "sense_id": 12625,
+              "ex_nl": "De nieuwe laptop heeft een helder scherm",
+              "cefr_level": null,
+              "quality_score": 0.84,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23895,
+                  "example_id": 23870,
+                  "lang": "zh",
+                  "translation": "这台新笔记本电脑有一块清晰的屏幕",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12625/examples"
+      },
+      {
+        "sense_id": 12626,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "7",
+        "definition_nl": "zich verplicht voelen te",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 9,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 9700,
+            "sense_id": 12626,
+            "lang": "en",
+            "gloss": "Feel obliged to",
+            "explanation": "Feel obliged to.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9699,
+            "sense_id": 12626,
+            "lang": "zh",
+            "gloss": "感到有义务",
+            "explanation": "感到有义务。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "感到有义务",
+        "translation_en": "Feel obliged to",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23871,
+              "sense_id": 12626,
+              "ex_nl": "Je hebt je vandaag aan de afspraak te houden",
+              "cefr_level": null,
+              "quality_score": 0.7,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23896,
+                  "example_id": 23871,
+                  "lang": "zh",
+                  "translation": "你今天必须遵守约定",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12626/examples"
+      },
+      {
+        "sense_id": 2097,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "9",
+        "definition_nl": "Iets bezitten of tot je beschikking hebben",
+        "usage_note": "Gebruikt voor eigendom of bezit",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 10,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 84527,
+            "sense_id": 2097,
+            "lang": "en",
+            "gloss": "have; possess",
+            "explanation": "Someone owns something or has it available to use.",
+            "review_status": "needs_review",
+            "confidence": 0.87,
+            "source_id": 251
+          },
+          {
+            "translation_id": 71794,
+            "sense_id": 2097,
+            "lang": "zh",
+            "gloss": "拥有",
+            "explanation": "表示某人拥有或持有某物",
+            "review_status": "unreviewed",
+            "confidence": 0.68,
+            "source_id": 13
+          }
+        ],
+        "translation_zh": "拥有",
+        "translation_en": "have; possess",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14867,
+              "sense_id": 2097,
+              "ex_nl": "Zij heeft drie fietsen in de schuur staan",
+              "cefr_level": null,
+              "quality_score": 0.68,
+              "source_id": 14,
+              "translations": [
+                {
+                  "translation_id": 1,
+                  "example_id": 14867,
+                  "lang": "zh",
+                  "translation": "她在棚子里有三辆自行车",
+                  "source_id": 15
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/2097/examples"
+      },
+      {
+        "sense_id": 23449,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "absoluut (rechtmatig of wederrechtelijk) bezitten",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 11,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 9702,
+            "sense_id": 23449,
+            "lang": "en",
+            "gloss": "Possess absolutely",
+            "explanation": "Possess absolutely (legally or unlawfully).",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9701,
+            "sense_id": 23449,
+            "lang": "zh",
+            "gloss": "绝对拥有",
+            "explanation": "绝对拥有（合法或非法）。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "绝对拥有",
+        "translation_en": "Possess absolutely",
+        "examples": {
+          "items": [
+            {
+              "example_id": 10534,
+              "sense_id": 23449,
+              "ex_nl": "Ik heb een mooi huis.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 276,
+                  "example_id": 10534,
+                  "lang": "zh",
+                  "translation": "我有一栋漂亮的房子。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23449/examples"
+      },
+      {
+        "sense_id": 23463,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "hebben + te: moeten: Wij hebben dit te accepteren",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 12,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 9704,
+            "sense_id": 23463,
+            "lang": "en",
+            "gloss": "Have + to",
+            "explanation": "Have + to: must: We have to accept this.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9703,
+            "sense_id": 23463,
+            "lang": "zh",
+            "gloss": "有+到",
+            "explanation": "有+到：必须：我们必须接受这一点。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "有+到",
+        "translation_en": "Have + to",
+        "examples": {
+          "items": [
+            {
+              "example_id": 23874,
+              "sense_id": 23463,
+              "ex_nl": "Wij hebben deze regels te respecteren.",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 23899,
+                  "example_id": 23874,
+                  "lang": "zh",
+                  "translation": "我们必须尊重这些规则。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23463/examples"
+      },
+      {
+        "sense_id": 23450,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "absoluut als onderdeel hebben, omvatten, bevatten",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 13,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 9706,
+            "sense_id": 23450,
+            "lang": "en",
+            "gloss": "To have absolutely as part",
+            "explanation": "To have absolutely as part, to include, to contain.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9705,
+            "sense_id": 23450,
+            "lang": "zh",
+            "gloss": "绝对作为一部分",
+            "explanation": "绝对作为一部分、包括、包含。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "绝对作为一部分",
+        "translation_en": "To have absolutely as part",
+        "examples": {
+          "items": [
+            {
+              "example_id": 13039,
+              "sense_id": 23450,
+              "ex_nl": "Een auto heeft vier wielen.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 275,
+                  "example_id": 13039,
+                  "lang": "zh",
+                  "translation": "汽车有四个轮子。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23450/examples"
+      },
+      {
+        "sense_id": 23451,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "4",
+        "definition_nl": "absoluut lijden aan",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 14,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 9708,
+            "sense_id": 23451,
+            "lang": "en",
+            "gloss": "Absolutely suffer from",
+            "explanation": "Absolutely suffer from.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9707,
+            "sense_id": 23451,
+            "lang": "zh",
+            "gloss": "绝对遭受",
+            "explanation": "绝对遭受。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "绝对遭受",
+        "translation_en": "Absolutely suffer from",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14027,
+              "sense_id": 23451,
+              "ex_nl": "Hij heeft aids.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 274,
+                  "example_id": 14027,
+                  "lang": "zh",
+                  "translation": "他患有艾滋病。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23451/examples"
+      },
+      {
+        "sense_id": 23452,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "5",
+        "definition_nl": "absoluut in dienst hebben",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 15,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 9710,
+            "sense_id": 23452,
+            "lang": "en",
+            "gloss": "Absolutely employ",
+            "explanation": "Absolutely employ.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9709,
+            "sense_id": 23452,
+            "lang": "zh",
+            "gloss": "绝对雇用",
+            "explanation": "绝对雇用。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "绝对雇用",
+        "translation_en": "Absolutely employ",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14461,
+              "sense_id": 23452,
+              "ex_nl": "Het bedrijf heeft 50 werknemers.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 273,
+                  "example_id": 14461,
+                  "lang": "zh",
+                  "translation": "这家公司有50名员工。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23452/examples"
+      },
+      {
+        "sense_id": 23453,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "6",
+        "definition_nl": "absoluut drukt een familierelatie uit",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 16,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 9712,
+            "sense_id": 23453,
+            "lang": "en",
+            "gloss": "Absolute expresses a family relationship",
+            "explanation": "Absolute expresses a family relationship.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9711,
+            "sense_id": 23453,
+            "lang": "zh",
+            "gloss": "绝对表达家庭关系",
+            "explanation": "绝对表达家庭关系。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "绝对表达家庭关系",
+        "translation_en": "Absolute expresses a family relationship",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14658,
+              "sense_id": 23453,
+              "ex_nl": "Hij heeft drie kinderen.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 272,
+                  "example_id": 14658,
+                  "lang": "zh",
+                  "translation": "他有三个孩子。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23453/examples"
+      },
+      {
+        "sense_id": 23454,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "7",
+        "definition_nl": "absoluut in zijn macht hebben",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 17,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 9714,
+            "sense_id": 23454,
+            "lang": "en",
+            "gloss": "Absolutely in his power",
+            "explanation": "Absolutely in his power.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9713,
+            "sense_id": 23454,
+            "lang": "zh",
+            "gloss": "绝对在他的权力范围内",
+            "explanation": "绝对在他的权力范围内。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "绝对在他的权力范围内",
+        "translation_en": "Absolutely in his power",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14755,
+              "sense_id": 23454,
+              "ex_nl": "De politie heeft de verdachte.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 271,
+                  "example_id": 14755,
+                  "lang": "zh",
+                  "translation": "警方抓住了嫌疑人。",
+                  "source_id": 24
+                }
+              ]
+            },
+            {
+              "example_id": 14756,
+              "sense_id": 23454,
+              "ex_nl": "De rebellen hebben de hoofdstad.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 270,
+                  "example_id": 14756,
+                  "lang": "zh",
+                  "translation": "叛军控制了首都。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 2,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23454/examples"
+      },
+      {
+        "sense_id": 23455,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "8",
+        "definition_nl": "absoluut als taak zich bezig moeten houden met",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 18,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 9716,
+            "sense_id": 23455,
+            "lang": "en",
+            "gloss": "Absolutely must be concerned with as a task",
+            "explanation": "Absolutely must be concerned with as a task.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9715,
+            "sense_id": 23455,
+            "lang": "zh",
+            "gloss": "绝对必须作为一项任务来关",
+            "explanation": "绝对必须作为一项任务来关注。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "绝对必须作为一项任务来关",
+        "translation_en": "Absolutely must be concerned with as a task",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14816,
+              "sense_id": 23455,
+              "ex_nl": "Klas 2C heeft nu Frans.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 269,
+                  "example_id": 14816,
+                  "lang": "zh",
+                  "translation": "2C班现在上法语课。",
+                  "source_id": 24
+                }
+              ]
+            },
+            {
+              "example_id": 14817,
+              "sense_id": 23455,
+              "ex_nl": "Dhr. Anthonis heeft deze klant.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 268,
+                  "example_id": 14817,
+                  "lang": "zh",
+                  "translation": "安托尼斯先生负责这位客户。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 2,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23455/examples"
+      },
+      {
+        "sense_id": 23456,
+        "lemma_pos_entry_id": 9147,
+        "pos": "VERB",
+        "sense_no": "9",
+        "definition_nl": "absoluut kunnen ~ overweg kunnen met iemand",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 19,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 9718,
+            "sense_id": 23456,
+            "lang": "en",
+            "gloss": "Absolutely get along ~ get along with someone",
+            "explanation": "Absolutely get along ~ get along with someone.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 9717,
+            "sense_id": 23456,
+            "lang": "zh",
+            "gloss": "绝对相处~和某人相处",
+            "explanation": "绝对相处~和某人相处。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "绝对相处~和某人相处",
+        "translation_en": "Absolutely get along ~ get along with someone",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14852,
+              "sense_id": 23456,
+              "ex_nl": "Ik kan hem niet hebben.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 267,
+                  "example_id": 14852,
+                  "lang": "zh",
+                  "translation": "我受不了他。",
+                  "source_id": 24
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23456/examples"
+      }
+    ],
+    "total": 26,
+    "offset": 0,
+    "limit": 20,
+    "has_more": true,
+    "next_offset": 20
+  },
+  "forms": {
+    "items": [
+      {
+        "form_id": 20593,
+        "lemma_pos_entry_id": 9146,
+        "form": "hebben",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "hebben__noun__1",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.85,
+        "source_id": 5
+      },
+      {
+        "form_id": 20596,
+        "lemma_pos_entry_id": 9147,
+        "form": "hebben",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "hebben-v-9",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 20594,
+        "lemma_pos_entry_id": 9147,
+        "form": "gehad",
+        "form_type": "odwn_tense=pastParticiple",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "hebben-v-1",
+          "source_form_type": "odwn_tense=pastParticiple",
+          "source_attributes": {
+            "tense": "pastParticiple"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 20595,
+        "lemma_pos_entry_id": 9147,
+        "form": "had",
+        "form_type": "odwn_tense=pastTense",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "hebben-v-1",
+          "source_form_type": "odwn_tense=pastTense",
+          "source_attributes": {
+            "tense": "pastTense"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 20597,
+        "lemma_pos_entry_id": 9148,
+        "form": "gehad",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 100703,
+        "lemma_pos_entry_id": 9148,
+        "form": "gehad",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 20598,
+        "lemma_pos_entry_id": 9148,
+        "form": "had",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 100704,
+        "lemma_pos_entry_id": 9148,
+        "form": "had",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 20599,
+        "lemma_pos_entry_id": 9148,
+        "form": "hadden",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 100705,
+        "lemma_pos_entry_id": 9148,
+        "form": "hadden",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 100706,
+        "lemma_pos_entry_id": 9148,
+        "form": "hadt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 100707,
+        "lemma_pos_entry_id": 9148,
+        "form": "he",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 20600,
+        "lemma_pos_entry_id": 9148,
+        "form": "heb",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 100708,
+        "lemma_pos_entry_id": 9148,
+        "form": "heb",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 20601,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebbe",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 100709,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebbe",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 20602,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebben",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 100710,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebben",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 20603,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebbend",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 100711,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebbend",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 20604,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebbende",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 100712,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebbende",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 20605,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebd",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 100713,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebde",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 100714,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebden",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 20606,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebt",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 100715,
+        "lemma_pos_entry_id": 9148,
+        "form": "hebt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 100716,
+        "lemma_pos_entry_id": 9148,
+        "form": "hedde",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 20607,
+        "lemma_pos_entry_id": 9148,
+        "form": "heeft",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 100717,
+        "lemma_pos_entry_id": 9148,
+        "form": "heeft",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 20608,
+        "lemma_pos_entry_id": 9148,
+        "form": "hej",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 100718,
+        "lemma_pos_entry_id": 9148,
+        "form": "hej",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 100719,
+        "lemma_pos_entry_id": 9148,
+        "form": "hem",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 100720,
+        "lemma_pos_entry_id": 9148,
+        "form": "het",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 100701,
+        "lemma_pos_entry_id": 45015,
+        "form": "hebben",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 100702,
+        "lemma_pos_entry_id": 45016,
+        "form": "hebben",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      }
+    ],
+    "total": 36,
+    "offset": 0,
+    "limit": 50,
+    "has_more": false,
+    "next_offset": null
+  },
+  "corpus_examples": {
+    "items": [
+      {
+        "lemma_example_id": 152,
+        "lemma_pos_entry_id": 45015,
+        "form_id": 100701,
+        "ex_nl": "Kunt u aangeven binnen welke termijn u de werkzaamheden wilt hebben uitgevoerd:*",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 368,
+        "lemma_pos_entry_id": 45015,
+        "form_id": 100701,
+        "ex_nl": "Nee, wij hebben geen woningen die direct te huur zijn.",
+        "quality_score": 0.93,
+        "source_id": 9
+      }
+    ],
+    "total": 2,
+    "offset": 0,
+    "limit": 5,
+    "has_more": false,
+    "next_offset": null,
+    "sense_disambiguated": false
+  },
+  "expressions": {
+    "items": [
+      {
+        "expression_id": 1,
+        "lemma_pos_entry_id": 9147,
+        "sense_id": 2097,
+        "entry_kind": "lexical_expression",
+        "expression_type": "light_verb_construction",
+        "expression_nl": "iets in (zijn) bezit hebben",
+        "definition_nl": "iets bezitten of onder zich hebben",
+        "usage_note": "Een vaste werkwoordelijke verbinding met variatie in lidwoord of bezittelijk voornaamwoord; niet uitsluitend voor juridisch eigendom.",
+        "gloss_en": "have in one’s possession",
+        "explanation_en": "Have something in one’s possession or keeping.",
+        "gloss_zh": "持有；拥有",
+        "explanation_zh": "把某物持有在自己手中或归自己掌握。",
+        "example_nl": "Zij heeft een oude kaart van het dorp in haar bezit.",
+        "example_zh": "她持有一张这个村子的旧地图。",
+        "review_status": "needs_review",
+        "confidence": 0.88,
+        "source_id": 4196
+      }
+    ],
+    "total": 1,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "sources": [
+    {
+      "source_id": 1,
+      "source_key": "manual_vocab_levels_v1",
+      "name": "Manual vocabulary levels v1",
+      "source_type": "manual",
+      "url": null,
+      "license": "internal",
+      "license_url": null,
+      "attribution": "Curated 1-4 vocabulary level files provided in the project workspace.",
+      "version": "2026-05-28"
+    },
+    {
+      "source_id": 2,
+      "source_key": "subtlex_nl",
+      "name": "SUBTLEX-NL with POS and Zipf",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Original SUBTLEX-NL workbook used for frequency and form grouping.",
+      "version": null
+    },
+    {
+      "source_id": 3,
+      "source_key": "cc100_nl_local_20260525",
+      "name": "CC100 Dutch local analysis",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Local CC100 Dutch Frog annotation and frequency analysis in /Users/cedar/Desktop/dutch-corpus.",
+      "version": "annotated_full_live_w8_b4000"
+    },
+    {
+      "source_id": 4,
+      "source_key": "odwn_1_3",
+      "name": "Open Dutch WordNet 1.3",
+      "source_type": "lexical_semantic",
+      "url": "https://github.com/cltl/OpenDutchWordnet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Open Dutch WordNet, derived from Cornetto and Open Multilingual Wordnet resources.",
+      "version": "1.3"
+    },
+    {
+      "source_id": 5,
+      "source_key": "dbnary_nld_2026_05",
+      "name": "DBnary Dutch OntoLex",
+      "source_type": "wiktionary_extract",
+      "url": "https://kaiko.getalp.org/about-dbnary/",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "DBnary extraction from Dutch Wiktionary.",
+      "version": "2026-05"
+    },
+    {
+      "source_id": 8,
+      "source_key": "llm_sense_translation_v1",
+      "name": "LLM sense translation v1",
+      "source_type": "llm_derived",
+      "url": null,
+      "license": "derived; source licenses inherited per source sense",
+      "license_url": null,
+      "attribution": "Generated from source Dutch definitions with LLM translation. Preserve source attribution for original definitions.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 9,
+      "source_key": "cc100_lemma_examples_v1",
+      "name": "CC100 lemma example extraction v1",
+      "source_type": "corpus_derived",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Examples extracted from the local CC100 Dutch corpus analysis input.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 13,
+      "source_key": "aigc_sense_translation_v2",
+      "name": "AIGC sense translation v2",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 14,
+      "source_key": "aigc_examples_v1",
+      "name": "AIGC Dutch examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 15,
+      "source_key": "aigc_example_translation_v1",
+      "name": "AIGC example translation v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-13"
+    },
+    {
+      "source_id": 24,
+      "source_key": "aigc_example_translation_v2",
+      "name": "AIGC full backlog example translation v2",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 34,
+      "source_key": "aigc_subagent_examples_v1",
+      "name": "AIGC subagent replacement examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 35,
+      "source_key": "aigc_subagent_example_translation_v1",
+      "name": "AIGC subagent replacement example translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 251,
+      "source_key": "aigc_subagent_english_v1",
+      "name": "Subagent-authored English sense translations",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-22"
+    },
+    {
+      "source_id": 4196,
+      "source_key": "aigc_verified_source_research_v1",
+      "name": "Cross-reviewed source research for residual lexical gaps",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-23"
+    }
+  ]
+}

@@ -1,0 +1,1733 @@
+{
+  "lemma_id": 138,
+  "lemma": "huis",
+  "display_lemma": "huis",
+  "level": 1,
+  "cefr_level": null,
+  "is_academic": false,
+  "word_family": "huis",
+  "family_head_lemma_id": 138,
+  "needs_review": false,
+  "source_id": 1,
+  "frequency": 2904815,
+  "entry_url": "/entries/138",
+  "parts_of_speech": [
+    {
+      "lemma_pos_entry_id": 9909,
+      "pos": "N",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "Zelfstandig naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 9911,
+      "pos": "SPEC",
+      "app_pos": "special",
+      "label_zh": "特殊词类",
+      "label_en": "special",
+      "label_nl": "Speciaal",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 9910,
+      "pos": "NOUN",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "NOUN",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 9912,
+      "pos": "VERB",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "VERB",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 46507,
+      "pos": "ADJ",
+      "app_pos": "adjective",
+      "label_zh": "形容词",
+      "label_en": "adjective",
+      "label_nl": "Bijvoeglijk naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    }
+  ],
+  "senses": {
+    "items": [
+      {
+        "sense_id": 12960,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "1",
+        "definition_nl": "woning",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 10544,
+            "sense_id": 12960,
+            "lang": "en",
+            "gloss": "Home",
+            "explanation": "Home.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 10543,
+            "sense_id": 12960,
+            "lang": "zh",
+            "gloss": "家",
+            "explanation": "家。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "家",
+        "translation_en": "Home",
+        "examples": {
+          "items": [
+            {
+              "example_id": 24287,
+              "sense_id": 12960,
+              "ex_nl": "Ze kochten een klein huis aan de rand van het dorp",
+              "cefr_level": null,
+              "quality_score": 0.87,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24310,
+                  "example_id": 24287,
+                  "lang": "zh",
+                  "translation": "他们在村边买了一栋小房子",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12960/examples"
+      },
+      {
+        "sense_id": 24879,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "1",
+        "definition_nl": "(bouwkunde), (wonen) gebouw bestemd om in te wonen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 10546,
+            "sense_id": 24879,
+            "lang": "en",
+            "gloss": "(architecture)",
+            "explanation": "(architecture), (residential) building intended for living in.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 10545,
+            "sense_id": 24879,
+            "lang": "zh",
+            "gloss": "（建筑）",
+            "explanation": "（建筑），（住宅）用于居住的建筑。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "（建筑）",
+        "translation_en": "(architecture)",
+        "examples": {
+          "items": [
+            {
+              "example_id": 3647,
+              "sense_id": 24879,
+              "ex_nl": "Zij wonen in een groot huis.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 721,
+                  "example_id": 3647,
+                  "lang": "zh",
+                  "translation": "他们住在一所大房子里。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/24879/examples"
+      },
+      {
+        "sense_id": 12961,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "2",
+        "definition_nl": "iemands woonplek",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 3,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 10548,
+            "sense_id": 12961,
+            "lang": "en",
+            "gloss": "Someone's place of residence",
+            "explanation": "Someone's place of residence.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 10547,
+            "sense_id": 12961,
+            "lang": "zh",
+            "gloss": "某人的居住地",
+            "explanation": "某人的居住地。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "某人的居住地",
+        "translation_en": "Someone's place of residence",
+        "examples": {
+          "items": [
+            {
+              "example_id": 24288,
+              "sense_id": 12961,
+              "ex_nl": "Voor haar voelt Amsterdam nog steeds als huis",
+              "cefr_level": null,
+              "quality_score": 0.83,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24311,
+                  "example_id": 24288,
+                  "lang": "zh",
+                  "translation": "对她来说，阿姆斯特丹仍然像家一样",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12961/examples"
+      },
+      {
+        "sense_id": 12962,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "3",
+        "definition_nl": "gebouw",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 4,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 10550,
+            "sense_id": 12962,
+            "lang": "en",
+            "gloss": "Building",
+            "explanation": "Building.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 10549,
+            "sense_id": 12962,
+            "lang": "zh",
+            "gloss": "建筑",
+            "explanation": "建筑。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "建筑",
+        "translation_en": "Building",
+        "examples": {
+          "items": [
+            {
+              "example_id": 24289,
+              "sense_id": 12962,
+              "ex_nl": "Op de hoek staat een oud huis met drie verdiepingen",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24312,
+                  "example_id": 24289,
+                  "lang": "zh",
+                  "translation": "街角有一栋三层的老房子",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12962/examples"
+      },
+      {
+        "sense_id": 12963,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "4",
+        "definition_nl": "geslacht van mensen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 5,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 10552,
+            "sense_id": 12963,
+            "lang": "en",
+            "gloss": "Gender of people",
+            "explanation": "Gender of people.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 10551,
+            "sense_id": 12963,
+            "lang": "zh",
+            "gloss": "人的性别",
+            "explanation": "人的性别。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "人的性别",
+        "translation_en": "Gender of people",
+        "examples": {
+          "items": [
+            {
+              "example_id": 24290,
+              "sense_id": 12963,
+              "ex_nl": "Het huis Oranje speelt een grote rol in de Nederlandse geschiedenis",
+              "cefr_level": null,
+              "quality_score": 0.84,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24313,
+                  "example_id": 24290,
+                  "lang": "zh",
+                  "translation": "奥兰治家族在荷兰历史中扮演重要角色",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12963/examples"
+      },
+      {
+        "sense_id": 12959,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "5",
+        "definition_nl": "dat wat dient om te omhullen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 6,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 10554,
+            "sense_id": 12959,
+            "lang": "en",
+            "gloss": "That which serves to envelop",
+            "explanation": "That which serves to envelop.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 10553,
+            "sense_id": 12959,
+            "lang": "zh",
+            "gloss": "用来包裹的东西",
+            "explanation": "用来包裹的东西。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "用来包裹的东西",
+        "translation_en": "That which serves to envelop",
+        "examples": {
+          "items": [
+            {
+              "example_id": 24286,
+              "sense_id": 12959,
+              "ex_nl": "Het huis van de klok is van donker hout gemaakt",
+              "cefr_level": null,
+              "quality_score": 0.7,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24309,
+                  "example_id": 24286,
+                  "lang": "zh",
+                  "translation": "这座钟的外壳是深色木头做的",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/12959/examples"
+      },
+      {
+        "sense_id": 24880,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "2",
+        "definition_nl": "geheel van de nakomelingen van één voorvader, verwijzing naar iemands afkomst",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 7,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 10556,
+            "sense_id": 24880,
+            "lang": "en",
+            "gloss": "Entirety of the descendants of one ancestor",
+            "explanation": "Entirety of the descendants of one ancestor, reference to one's origins.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 10555,
+            "sense_id": 24880,
+            "lang": "zh",
+            "gloss": "一个祖先的全部后裔",
+            "explanation": "一个祖先的全部后裔，提及一个人的起源。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "一个祖先的全部后裔",
+        "translation_en": "Entirety of the descendants of one ancestor",
+        "examples": {
+          "items": [
+            {
+              "example_id": 10587,
+              "sense_id": 24880,
+              "ex_nl": "Die mensen zijn alle afstammeling van het huis de Vries.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 722,
+                  "example_id": 10587,
+                  "lang": "zh",
+                  "translation": "那些人都是德弗里斯家族的后裔。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/24880/examples"
+      },
+      {
+        "sense_id": 24881,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "3",
+        "definition_nl": "geheel van personen die officieel tot een vorstelijke familie worden gerekend",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 8,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 10558,
+            "sense_id": 24881,
+            "lang": "en",
+            "gloss": "Group of persons who are officially considered part",
+            "explanation": "Group of persons who are officially considered part of a royal family.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 10557,
+            "sense_id": 24881,
+            "lang": "zh",
+            "gloss": "被正式视为王室成员的一群",
+            "explanation": "被正式视为王室成员的一群人。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "被正式视为王室成员的一群",
+        "translation_en": "Group of persons who are officially considered part",
+        "examples": {
+          "items": [
+            {
+              "example_id": 13058,
+              "sense_id": 24881,
+              "ex_nl": "Het huis van Oranje.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 723,
+                  "example_id": 13058,
+                  "lang": "zh",
+                  "translation": "奥兰治王室。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/24881/examples"
+      },
+      {
+        "sense_id": 24882,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "4",
+        "definition_nl": "(bedrijf) eenvoudige onderneming van twee of meer personen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 9,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 10560,
+            "sense_id": 24882,
+            "lang": "en",
+            "gloss": "(company) simple enterprise of two or mo",
+            "explanation": "(company) simple enterprise of two or more people.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 10559,
+            "sense_id": 24882,
+            "lang": "zh",
+            "gloss": "（公司）两人或多",
+            "explanation": "（公司）两人或多人的简单企业。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "（公司）两人或多",
+        "translation_en": "(company) simple enterprise of two or mo",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14034,
+              "sense_id": 24882,
+              "ex_nl": "Producten zijn te koop bij ons huis.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 724,
+                  "example_id": 14034,
+                  "lang": "zh",
+                  "translation": "产品可在我们公司购买。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/24882/examples"
+      },
+      {
+        "sense_id": 24883,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "5",
+        "definition_nl": "iets wat gemaakt is om een bepaalde inhoud te bevatten",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 10,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 10562,
+            "sense_id": 24883,
+            "lang": "en",
+            "gloss": "Something that is made to contain a certain",
+            "explanation": "Something that is made to contain a certain content.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 10561,
+            "sense_id": 24883,
+            "lang": "zh",
+            "gloss": "为包含特定内容而制作的东",
+            "explanation": "为包含特定内容而制作的东西。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "为包含特定内容而制作的东",
+        "translation_en": "Something that is made to contain a certain",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14466,
+              "sense_id": 24883,
+              "ex_nl": "Het huis van de kogel.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 725,
+                  "example_id": 14466,
+                  "lang": "zh",
+                  "translation": "弹壳。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/24883/examples"
+      },
+      {
+        "sense_id": 24884,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "6",
+        "definition_nl": "zetel van een belangrijk persoon, bedrijf of instelling",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 11,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 10564,
+            "sense_id": 24884,
+            "lang": "en",
+            "gloss": "Seat of an important person",
+            "explanation": "Seat of an important person, company or institution.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 10563,
+            "sense_id": 24884,
+            "lang": "zh",
+            "gloss": "重要人物",
+            "explanation": "重要人物、公司或机构所在地。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "重要人物",
+        "translation_en": "Seat of an important person",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14660,
+              "sense_id": 24884,
+              "ex_nl": "Het Witte Huis, het Anne Frankhuis, Huis ten Bosch, het Holland-Heinekenhuis.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 726,
+                  "example_id": 14660,
+                  "lang": "zh",
+                  "translation": "白宫、安妮·弗兰克之家、豪斯登堡、荷兰海尼根馆。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/24884/examples"
+      },
+      {
+        "sense_id": 24885,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "7",
+        "definition_nl": "(astrologie) elk van de twaalf sectoren van een horoscoop die te maken hebben met verschillende levensgebieden",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 12,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 10566,
+            "sense_id": 24885,
+            "lang": "en",
+            "gloss": "(astrology) each of the twelve sectors o",
+            "explanation": "(astrology) each of the twelve sectors of a horoscope that deal with different areas of life.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 10565,
+            "sense_id": 24885,
+            "lang": "zh",
+            "gloss": "（占星学）占星术",
+            "explanation": "（占星学）占星术中涉及生活不同领域的十二个部分。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "（占星学）占星术",
+        "translation_en": "(astrology) each of the twelve sectors o",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14758,
+              "sense_id": 24885,
+              "ex_nl": "Het eerste huis van de horoscoop vertelt je meer over iemands fysieke verschijning",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 727,
+                  "example_id": 14758,
+                  "lang": "zh",
+                  "translation": "星盘的第一宫会告诉你更多关于一个人外貌的信息。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/24885/examples"
+      },
+      {
+        "sense_id": 3049,
+        "lemma_pos_entry_id": 9910,
+        "pos": "NOUN",
+        "sense_no": "6",
+        "definition_nl": "woonruimte of plaats waar iemand woont",
+        "usage_note": "Algemene betekenis voor een woning of thuisplaats",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 13,
+        "review_status": "needs_review",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 84654,
+            "sense_id": 3049,
+            "lang": "en",
+            "gloss": "home; dwelling",
+            "explanation": "This is a living space or place where someone resides.",
+            "review_status": "needs_review",
+            "confidence": 0.86,
+            "source_id": 251
+          },
+          {
+            "translation_id": 75750,
+            "sense_id": 3049,
+            "lang": "zh",
+            "gloss": "住宅；住处",
+            "explanation": "指人居住的地方，可强调房屋、住所或家",
+            "review_status": "needs_review",
+            "confidence": 0.86,
+            "source_id": 33
+          }
+        ],
+        "translation_zh": "住宅；住处",
+        "translation_en": "home; dwelling",
+        "examples": {
+          "items": [
+            {
+              "example_id": 15881,
+              "sense_id": 3049,
+              "ex_nl": "Na het werk fietste hij direct naar huis",
+              "cefr_level": null,
+              "quality_score": 0.86,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 15883,
+                  "example_id": 15881,
+                  "lang": "zh",
+                  "translation": "下班后他直接骑车回家",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/3049/examples"
+      }
+    ],
+    "total": 13,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "forms": {
+    "items": [
+      {
+        "form_id": 22133,
+        "lemma_pos_entry_id": 9910,
+        "form": "huis",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "huis-n-6",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 22138,
+        "lemma_pos_entry_id": 9912,
+        "form": "huis",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "huis__verb__1",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.85,
+        "source_id": 5
+      },
+      {
+        "form_id": 22128,
+        "lemma_pos_entry_id": 9909,
+        "form": "huis",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 103672,
+        "lemma_pos_entry_id": 9909,
+        "form": "huis",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103673,
+        "lemma_pos_entry_id": 9909,
+        "form": "huisen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103674,
+        "lemma_pos_entry_id": 9909,
+        "form": "huisje",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 22129,
+        "lemma_pos_entry_id": 9909,
+        "form": "huisjes",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 103675,
+        "lemma_pos_entry_id": 9909,
+        "form": "huisjes",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103676,
+        "lemma_pos_entry_id": 9909,
+        "form": "huiske",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103677,
+        "lemma_pos_entry_id": 9909,
+        "form": "huislen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103678,
+        "lemma_pos_entry_id": 9909,
+        "form": "huisnetje",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103679,
+        "lemma_pos_entry_id": 9909,
+        "form": "huissie",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 22130,
+        "lemma_pos_entry_id": 9909,
+        "form": "huize",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 103680,
+        "lemma_pos_entry_id": 9909,
+        "form": "huize",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103681,
+        "lemma_pos_entry_id": 9909,
+        "form": "huizeke",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103682,
+        "lemma_pos_entry_id": 9909,
+        "form": "huizeken",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103683,
+        "lemma_pos_entry_id": 9909,
+        "form": "huizekes",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 22131,
+        "lemma_pos_entry_id": 9909,
+        "form": "huizen",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 103684,
+        "lemma_pos_entry_id": 9909,
+        "form": "huizen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 22132,
+        "lemma_pos_entry_id": 9909,
+        "form": "huizes",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 103685,
+        "lemma_pos_entry_id": 9909,
+        "form": "huizes",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103686,
+        "lemma_pos_entry_id": 9909,
+        "form": "huuske",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 22134,
+        "lemma_pos_entry_id": 9910,
+        "form": "huis",
+        "form_type": "odwn_article=_grammaticalNumber=singular",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "huis-n-5",
+          "source_form_type": "odwn_article=_grammaticalNumber=singular",
+          "source_attributes": {
+            "article": "",
+            "grammaticalNumber": "singular"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 22135,
+        "lemma_pos_entry_id": 9910,
+        "form": "huis",
+        "form_type": "odwn_article=het_grammaticalNumber=singular",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "huis-n-1",
+          "source_form_type": "odwn_article=het_grammaticalNumber=singular",
+          "source_attributes": {
+            "article": "het",
+            "grammaticalNumber": "singular"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 22136,
+        "lemma_pos_entry_id": 9910,
+        "form": "huizen",
+        "form_type": "odwn_article=de_grammaticalNumber=plural",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "huis-n-1",
+          "source_form_type": "odwn_article=de_grammaticalNumber=plural",
+          "source_attributes": {
+            "article": "de",
+            "grammaticalNumber": "plural"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 103687,
+        "lemma_pos_entry_id": 9911,
+        "form": "huis",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103688,
+        "lemma_pos_entry_id": 9911,
+        "form": "huis'",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103692,
+        "lemma_pos_entry_id": 9911,
+        "form": "huis‘",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103693,
+        "lemma_pos_entry_id": 9911,
+        "form": "huis’",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103689,
+        "lemma_pos_entry_id": 9911,
+        "form": "huis's",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103690,
+        "lemma_pos_entry_id": 9911,
+        "form": "huis`",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 103691,
+        "lemma_pos_entry_id": 9911,
+        "form": "huis´",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 22137,
+        "lemma_pos_entry_id": 9911,
+        "form": "huise",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 103671,
+        "lemma_pos_entry_id": 46507,
+        "form": "huis",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      }
+    ],
+    "total": 34,
+    "offset": 0,
+    "limit": 50,
+    "has_more": false,
+    "next_offset": null
+  },
+  "corpus_examples": {
+    "items": [
+      {
+        "lemma_example_id": 4339,
+        "lemma_pos_entry_id": 46507,
+        "form_id": 103671,
+        "ex_nl": "Zolderschatten: ligt er bij u een fortuin in huis?",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 4340,
+        "lemma_pos_entry_id": 9909,
+        "form_id": 103672,
+        "ex_nl": "Zolderschatten: ligt er bij u een fortuin in huis?",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 4879,
+        "lemma_pos_entry_id": 46507,
+        "form_id": 103671,
+        "ex_nl": "Los met dikke verf opgezette huis tafereeltjes worden afgewisseld met sfeervolle landschappen.",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 4880,
+        "lemma_pos_entry_id": 9909,
+        "form_id": 103672,
+        "ex_nl": "Los met dikke verf opgezette huis tafereeltjes worden afgewisseld met sfeervolle landschappen.",
+        "quality_score": 0.93,
+        "source_id": 9
+      }
+    ],
+    "total": 4,
+    "offset": 0,
+    "limit": 5,
+    "has_more": false,
+    "next_offset": null,
+    "sense_disambiguated": false
+  },
+  "expressions": {
+    "items": [],
+    "total": 0,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "sources": [
+    {
+      "source_id": 1,
+      "source_key": "manual_vocab_levels_v1",
+      "name": "Manual vocabulary levels v1",
+      "source_type": "manual",
+      "url": null,
+      "license": "internal",
+      "license_url": null,
+      "attribution": "Curated 1-4 vocabulary level files provided in the project workspace.",
+      "version": "2026-05-28"
+    },
+    {
+      "source_id": 2,
+      "source_key": "subtlex_nl",
+      "name": "SUBTLEX-NL with POS and Zipf",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Original SUBTLEX-NL workbook used for frequency and form grouping.",
+      "version": null
+    },
+    {
+      "source_id": 3,
+      "source_key": "cc100_nl_local_20260525",
+      "name": "CC100 Dutch local analysis",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Local CC100 Dutch Frog annotation and frequency analysis in /Users/cedar/Desktop/dutch-corpus.",
+      "version": "annotated_full_live_w8_b4000"
+    },
+    {
+      "source_id": 4,
+      "source_key": "odwn_1_3",
+      "name": "Open Dutch WordNet 1.3",
+      "source_type": "lexical_semantic",
+      "url": "https://github.com/cltl/OpenDutchWordnet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Open Dutch WordNet, derived from Cornetto and Open Multilingual Wordnet resources.",
+      "version": "1.3"
+    },
+    {
+      "source_id": 5,
+      "source_key": "dbnary_nld_2026_05",
+      "name": "DBnary Dutch OntoLex",
+      "source_type": "wiktionary_extract",
+      "url": "https://kaiko.getalp.org/about-dbnary/",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "DBnary extraction from Dutch Wiktionary.",
+      "version": "2026-05"
+    },
+    {
+      "source_id": 8,
+      "source_key": "llm_sense_translation_v1",
+      "name": "LLM sense translation v1",
+      "source_type": "llm_derived",
+      "url": null,
+      "license": "derived; source licenses inherited per source sense",
+      "license_url": null,
+      "attribution": "Generated from source Dutch definitions with LLM translation. Preserve source attribution for original definitions.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 9,
+      "source_key": "cc100_lemma_examples_v1",
+      "name": "CC100 lemma example extraction v1",
+      "source_type": "corpus_derived",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Examples extracted from the local CC100 Dutch corpus analysis input.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 33,
+      "source_key": "aigc_subagent_sense_translation_v1",
+      "name": "AIGC subagent replacement sense translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 34,
+      "source_key": "aigc_subagent_examples_v1",
+      "name": "AIGC subagent replacement examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 35,
+      "source_key": "aigc_subagent_example_translation_v1",
+      "name": "AIGC subagent replacement example translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 251,
+      "source_key": "aigc_subagent_english_v1",
+      "name": "Subagent-authored English sense translations",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-22"
+    }
+  ]
+}

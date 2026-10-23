@@ -1,0 +1,192 @@
+/* ==========================================================================
+   Woordhuis · motion
+   Short, purposeful, and off the critical path: nothing blocks a first paint,
+   nothing runs when the user asked for reduced motion.
+   ========================================================================== */
+
+@keyframes wh-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 8px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes wh-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes wh-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes wh-drop {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -6px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes wh-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes wh-pulse {
+  50% {
+    opacity: 0.45;
+  }
+}
+
+@keyframes wh-sheen {
+  from {
+    background-position: 140% 0;
+  }
+  to {
+    background-position: -40% 0;
+  }
+}
+
+/* page enter — set by app.render() on every route change */
+#main.is-entering > * {
+  animation: wh-rise 0.32s var(--ease-out) both;
+}
+
+/* staggered lists — only on first paint of a view */
+[data-stagger] > * {
+  animation: wh-rise 0.36s var(--ease-out) both;
+  animation-delay: calc(min(var(--i, 0), 9) * 26ms);
+}
+
+/* search suggestions drop in from the field */
+.suggest {
+  animation: wh-drop 0.16s var(--ease-out) both;
+  transform-origin: top center;
+}
+
+.suggest--up {
+  animation-name: wh-fade;
+}
+
+/* dialogs */
+dialog.sheet[open] {
+  animation: wh-pop 0.22s var(--ease-out) both;
+}
+
+dialog.sheet[open]::backdrop {
+  animation: wh-fade 0.22s var(--ease) both;
+}
+
+/* countdown ticks */
+.countdown {
+  animation: wh-pulse 1s var(--ease) infinite;
+}
+
+/* spinner used inside loading buttons */
+.spinner {
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  animation: wh-spin 0.8s linear infinite;
+  flex: none;
+}
+
+/* micro-interactions */
+.btn {
+  transition: background-color var(--dur-1) var(--ease), color var(--dur-1) var(--ease),
+    border-color var(--dur-1) var(--ease), transform var(--dur-1) var(--ease);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.chip {
+  transition: color var(--dur-1) var(--ease), background-color var(--dur-1) var(--ease),
+    border-color var(--dur-1) var(--ease), transform var(--dur-1) var(--ease);
+}
+
+.chip:hover {
+  transform: translateY(-1px);
+}
+
+.chip:active {
+  transform: none;
+}
+
+.tegel__orn {
+  transition: transform 0.45s var(--ease-out), opacity var(--dur-2) var(--ease);
+}
+
+.tegel:hover .tegel__orn,
+.tegel:focus-visible .tegel__orn {
+  transform: translate(-50%, -50%) rotate(45deg) scale(1.08);
+}
+
+.form-item__word {
+  transition: transform var(--dur-1) var(--ease);
+}
+
+.form-item:hover .form-item__word {
+  transform: translateX(2px);
+}
+
+.icon-btn:active {
+  transform: scale(0.94);
+}
+
+.suggest__row {
+  transition: background-color var(--dur-1) var(--ease);
+}
+
+/* theme switch: radial wipe over the whole page (Chromium view transitions) */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #main.is-entering > *,
+  [data-stagger] > *,
+  .suggest,
+  dialog.sheet[open],
+  dialog.sheet[open]::backdrop,
+  .countdown,
+  .spinner {
+    animation: none !important;
+  }
+
+  .tegel:hover .tegel__orn,
+  .tegel:focus-visible .tegel__orn {
+    transform: translate(-50%, -50%);
+  }
+
+  .chip:hover,
+  .form-item:hover .form-item__word {
+    transform: none;
+  }
+}

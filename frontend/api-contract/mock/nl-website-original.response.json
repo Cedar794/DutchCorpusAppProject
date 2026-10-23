@@ -1,0 +1,203 @@
+{
+  "query": "Ik zoek een zelfstandig naamwoord voor pagina's die samen onder één internetadres staan.",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 7427,
+      "entry_url": "/entries/7427",
+      "lemma": "website",
+      "level": 3,
+      "score": 0.607065,
+      "matched_sense": {
+        "sense_id": 1991,
+        "definition_nl": "verzameling webpagina’s op het internet onder een adres",
+        "translation_zh": "网站",
+        "translation_en": "website",
+        "semantic_score": 0.516565
+      },
+      "matched_reason": {
+        "semantic_score": 0.516565,
+        "frequency_boost": 0.08,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 11969,
+      "entry_url": "/entries/11969",
+      "lemma": "home",
+      "level": 4,
+      "score": 0.571694,
+      "matched_sense": {
+        "sense_id": 35641,
+        "definition_nl": "(informatica) pagina op een website met algemene informatie over en links naar de verdere inhoud van de site, bestemd voor de bezoekers die niet direct naar een specifieke pagina op de site gaan",
+        "translation_zh": "主页",
+        "translation_en": "homepage",
+        "semantic_score": 0.493522
+      },
+      "matched_reason": {
+        "semantic_score": 0.493522,
+        "frequency_boost": 0.078172,
+        "level_boost": 0.0
+      }
+    },
+    {
+      "lemma_id": 2538,
+      "entry_url": "/entries/2538",
+      "lemma": "pagina",
+      "level": 1,
+      "score": 0.559247,
+      "matched_sense": {
+        "sense_id": 26894,
+        "definition_nl": "(boekdruk) de gezette lettertypen die samen een bladzijde vormen.",
+        "translation_zh": "(boekdruk)该gezettele",
+        "translation_en": "( boekdruk ) the gezette lettertypen that samen",
+        "semantic_score": 0.449247
+      },
+      "matched_reason": {
+        "semantic_score": 0.449247,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1649,
+      "entry_url": "/entries/1649",
+      "lemma": "artikel",
+      "level": 1,
+      "score": 0.557252,
+      "matched_sense": {
+        "sense_id": 8646,
+        "definition_nl": "woordsoort die uitsluitend met een zelfstandig naamwoord verbonden wordt",
+        "translation_zh": "专门与名词相关的词性",
+        "translation_en": "part of speech that is linked exclusively to",
+        "semantic_score": 0.447252
+      },
+      "matched_reason": {
+        "semantic_score": 0.447252,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 126,
+      "entry_url": "/entries/126",
+      "lemma": "net",
+      "level": 1,
+      "score": 0.545183,
+      "matched_sense": {
+        "sense_id": 29738,
+        "definition_nl": "internet",
+        "translation_zh": "互联网；网络",
+        "translation_en": "the internet; the net",
+        "semantic_score": 0.435183
+      },
+      "matched_reason": {
+        "semantic_score": 0.435183,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 7556,
+      "entry_url": "/entries/7556",
+      "lemma": "web",
+      "level": 3,
+      "score": 0.541265,
+      "matched_sense": {
+        "sense_id": 33097,
+        "definition_nl": "(informatica) (verkorting van) world wide web, de HTML-pagina's die met hyperlinks gekoppeld zijn en bereikbaar zijn over het internet",
+        "translation_zh": "万维网",
+        "translation_en": "World Wide Web",
+        "semantic_score": 0.461444
+      },
+      "matched_reason": {
+        "semantic_score": 0.461444,
+        "frequency_boost": 0.069321,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 7602,
+      "entry_url": "/entries/7602",
+      "lemma": "site",
+      "level": 3,
+      "score": 0.538595,
+      "matched_sense": {
+        "sense_id": 18963,
+        "definition_nl": "een online file waar je naar kunt surfen",
+        "translation_zh": "网站",
+        "translation_en": "website",
+        "semantic_score": 0.448095
+      },
+      "matched_reason": {
+        "semantic_score": 0.448095,
+        "frequency_boost": 0.08,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 7700,
+      "entry_url": "/entries/7700",
+      "lemma": "domein",
+      "level": 3,
+      "score": 0.535619,
+      "matched_sense": {
+        "sense_id": 41774,
+        "definition_nl": "(informatica) een groep computers in een netwerk met een gezamenlijk adres, bijv. een e-mailadres",
+        "translation_zh": "网络域",
+        "translation_en": "network domain",
+        "semantic_score": 0.454897
+      },
+      "matched_reason": {
+        "semantic_score": 0.454897,
+        "frequency_boost": 0.070222,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 5298,
+      "entry_url": "/entries/5298",
+      "lemma": "gezamenlijk",
+      "level": 2,
+      "score": 0.533316,
+      "matched_sense": {
+        "sense_id": 41851,
+        "definition_nl": "alle, samen",
+        "translation_zh": "共同的；一起的",
+        "translation_en": "joint; collective",
+        "semantic_score": 0.439307
+      },
+      "matched_reason": {
+        "semantic_score": 0.439307,
+        "frequency_boost": 0.07301,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 1033,
+      "entry_url": "/entries/1033",
+      "lemma": "adres",
+      "level": 1,
+      "score": 0.532864,
+      "matched_sense": {
+        "sense_id": 26896,
+        "definition_nl": "aanduiding van de plaats, straat en huisnummer waar iemand woont of iets is gevestigd",
+        "translation_zh": "地址",
+        "translation_en": "address",
+        "semantic_score": 0.424524
+      },
+      "matched_reason": {
+        "semantic_score": 0.424524,
+        "frequency_boost": 0.07834,
+        "level_boost": 0.03
+      }
+    }
+  ],
+  "related_results": [],
+  "query_rewrite": {
+    "query": "Ik zoek een zelfstandig naamwoord voor pagina's die samen onder één internetadres staan.",
+    "status": "disabled",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

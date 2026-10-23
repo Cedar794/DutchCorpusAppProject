@@ -1,0 +1,955 @@
+{
+  "lemma_id": 2327,
+  "lemma": "afzetten",
+  "display_lemma": "afzetten",
+  "level": 1,
+  "cefr_level": null,
+  "is_academic": false,
+  "word_family": "afzetten",
+  "family_head_lemma_id": 2327,
+  "needs_review": false,
+  "source_id": 1,
+  "frequency": 48195,
+  "entry_url": "/entries/2327",
+  "parts_of_speech": [
+    {
+      "lemma_pos_entry_id": 1132,
+      "pos": "WW",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "Werkwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 28991,
+      "pos": "N",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "Zelfstandig naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 1130,
+      "pos": "NOUN",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "NOUN",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 1131,
+      "pos": "VERB",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "VERB",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 28992,
+      "pos": "SPEC",
+      "app_pos": "special",
+      "label_zh": "特殊词类",
+      "label_en": "special",
+      "label_nl": "Speciaal",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    }
+  ],
+  "senses": {
+    "items": [
+      {
+        "sense_id": 8461,
+        "lemma_pos_entry_id": 1131,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "van het hoofd etc. afhalen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 1118,
+            "sense_id": 8461,
+            "lang": "en",
+            "gloss": "take off",
+            "explanation": "To remove something from the head or similar place.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 1117,
+            "sense_id": 8461,
+            "lang": "zh",
+            "gloss": "取下",
+            "explanation": "从头上等部位拿下来。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "取下",
+        "translation_en": "take off",
+        "examples": {
+          "items": [
+            {
+              "example_id": 30304,
+              "sense_id": 8461,
+              "ex_nl": "Je moet je helm pas binnen afzetten.",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 30323,
+                  "example_id": 30304,
+                  "lang": "zh",
+                  "translation": "你进屋后才应该摘下头盔。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/8461/examples"
+      },
+      {
+        "sense_id": 30626,
+        "lemma_pos_entry_id": 1131,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "overgankelijk, (medisch): het verwijderen van een deel van een lichaamsdeel",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 1120,
+            "sense_id": 30626,
+            "lang": "en",
+            "gloss": "amputate",
+            "explanation": "To medically remove part of a body part.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 1119,
+            "sense_id": 30626,
+            "lang": "zh",
+            "gloss": "切除",
+            "explanation": "医学上移除身体部位的一部分。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "切除",
+        "translation_en": "amputate",
+        "examples": {
+          "items": [
+            {
+              "example_id": 387,
+              "sense_id": 30626,
+              "ex_nl": "Dat been moest afgezet worden.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 4993,
+                  "example_id": 387,
+                  "lang": "zh",
+                  "translation": "那条腿必须截掉。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/30626/examples"
+      },
+      {
+        "sense_id": 8469,
+        "lemma_pos_entry_id": 1131,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "(een apparaat) uitdoen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 3,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 1122,
+            "sense_id": 8469,
+            "lang": "en",
+            "gloss": "switch off",
+            "explanation": "To turn off a device.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 1121,
+            "sense_id": 8469,
+            "lang": "zh",
+            "gloss": "关掉",
+            "explanation": "关闭一个设备。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "关掉",
+        "translation_en": "switch off",
+        "examples": {
+          "items": [
+            {
+              "example_id": 30312,
+              "sense_id": 8469,
+              "ex_nl": "Kun je de radio afzetten voor het slapen?",
+              "cefr_level": null,
+              "quality_score": 0.78,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 30331,
+                  "example_id": 30312,
+                  "lang": "zh",
+                  "translation": "睡觉前你能把收音机关掉吗？",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/8469/examples"
+      },
+      {
+        "sense_id": 8470,
+        "lemma_pos_entry_id": 1131,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "amputeren",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 4,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 1124,
+            "sense_id": 8470,
+            "lang": "en",
+            "gloss": "amputate",
+            "explanation": "To remove a limb or body part.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 1123,
+            "sense_id": 8470,
+            "lang": "zh",
+            "gloss": "截肢",
+            "explanation": "切除肢体或身体部分。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "截肢",
+        "translation_en": "amputate",
+        "examples": {
+          "items": [
+            {
+              "example_id": 30313,
+              "sense_id": 8470,
+              "ex_nl": "Bij ernstige infectie kan een arts een teen afzetten.",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 30332,
+                  "example_id": 30313,
+                  "lang": "zh",
+                  "translation": "严重感染时医生可能会截除脚趾。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/8470/examples"
+      },
+      {
+        "sense_id": 8471,
+        "lemma_pos_entry_id": 1131,
+        "pos": "VERB",
+        "sense_no": "4",
+        "definition_nl": "te veel laten betalen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 5,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 1126,
+            "sense_id": 8471,
+            "lang": "en",
+            "gloss": "overcharge",
+            "explanation": "To make someone pay too much.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 1125,
+            "sense_id": 8471,
+            "lang": "zh",
+            "gloss": "宰客",
+            "explanation": "让某人付过高的价钱。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "宰客",
+        "translation_en": "overcharge",
+        "examples": {
+          "items": [
+            {
+              "example_id": 30314,
+              "sense_id": 8471,
+              "ex_nl": "Die winkel probeert toeristen af te zetten.",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 30333,
+                  "example_id": 30314,
+                  "lang": "zh",
+                  "translation": "那家店试图宰游客。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/8471/examples"
+      },
+      {
+        "sense_id": 8472,
+        "lemma_pos_entry_id": 1131,
+        "pos": "VERB",
+        "sense_no": "5",
+        "definition_nl": "ontoegankelijk maken",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 6,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 1128,
+            "sense_id": 8472,
+            "lang": "en",
+            "gloss": "block off",
+            "explanation": "To make a place inaccessible.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 1127,
+            "sense_id": 8472,
+            "lang": "zh",
+            "gloss": "封锁",
+            "explanation": "使某处不能进入。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "封锁",
+        "translation_en": "block off",
+        "examples": {
+          "items": [
+            {
+              "example_id": 30315,
+              "sense_id": 8472,
+              "ex_nl": "Werkmannen moeten de straat tijdelijk afzetten.",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 30334,
+                  "example_id": 30315,
+                  "lang": "zh",
+                  "translation": "工人必须临时封闭这条街。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/8472/examples"
+      },
+      {
+        "sense_id": 8473,
+        "lemma_pos_entry_id": 1131,
+        "pos": "VERB",
+        "sense_no": "6",
+        "definition_nl": "afduwen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 7,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 1130,
+            "sense_id": 8473,
+            "lang": "en",
+            "gloss": "push off",
+            "explanation": "To push something away.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 1129,
+            "sense_id": 8473,
+            "lang": "zh",
+            "gloss": "推开",
+            "explanation": "把某物推离。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "推开",
+        "translation_en": "push off",
+        "examples": {
+          "items": [
+            {
+              "example_id": 30316,
+              "sense_id": 8473,
+              "ex_nl": "De zwemmer kan zich van de rand afzetten.",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 30335,
+                  "example_id": 30316,
+                  "lang": "zh",
+                  "translation": "游泳者可以从池边蹬开。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/8473/examples"
+      }
+    ],
+    "total": 33,
+    "offset": 0,
+    "limit": 7,
+    "has_more": true,
+    "next_offset": 7
+  },
+  "forms": {
+    "items": [
+      {
+        "form_id": 2933,
+        "lemma_pos_entry_id": 1130,
+        "form": "afzetten",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "afzetten__noun__1",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.85,
+        "source_id": 5
+      },
+      {
+        "form_id": 2934,
+        "lemma_pos_entry_id": 1131,
+        "form": "afzetten",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "afzetten-v-22",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 2935,
+        "lemma_pos_entry_id": 1132,
+        "form": "afgezet",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 66640,
+        "lemma_pos_entry_id": 1132,
+        "form": "afgezet",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 2936,
+        "lemma_pos_entry_id": 1132,
+        "form": "afgezette",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 66641,
+        "lemma_pos_entry_id": 1132,
+        "form": "afgezette",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 66642,
+        "lemma_pos_entry_id": 1132,
+        "form": "afzet",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 2937,
+        "lemma_pos_entry_id": 1132,
+        "form": "afzette",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 66643,
+        "lemma_pos_entry_id": 1132,
+        "form": "afzette",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 2938,
+        "lemma_pos_entry_id": 1132,
+        "form": "afzetten",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 66644,
+        "lemma_pos_entry_id": 1132,
+        "form": "afzetten",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 66645,
+        "lemma_pos_entry_id": 1132,
+        "form": "afzettend",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 66646,
+        "lemma_pos_entry_id": 1132,
+        "form": "afzettende",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 66638,
+        "lemma_pos_entry_id": 28991,
+        "form": "afzetten",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 66639,
+        "lemma_pos_entry_id": 28992,
+        "form": "afzetten",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      }
+    ],
+    "total": 15,
+    "offset": 0,
+    "limit": 50,
+    "has_more": false,
+    "next_offset": null
+  },
+  "corpus_examples": {
+    "items": [
+      {
+        "lemma_example_id": 3847,
+        "lemma_pos_entry_id": 1132,
+        "form_id": 66644,
+        "ex_nl": "en het tegen elkaar afzetten van dogmatische richtingen...........",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 11713,
+        "lemma_pos_entry_id": 1132,
+        "form_id": 66640,
+        "ex_nl": "De omgeving rond de supermarkt werd afgezet.",
+        "quality_score": 0.85,
+        "source_id": 9
+      }
+    ],
+    "total": 2,
+    "offset": 0,
+    "limit": 5,
+    "has_more": false,
+    "next_offset": null,
+    "sense_disambiguated": false
+  },
+  "expressions": {
+    "items": [],
+    "total": 0,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "sources": [
+    {
+      "source_id": 1,
+      "source_key": "manual_vocab_levels_v1",
+      "name": "Manual vocabulary levels v1",
+      "source_type": "manual",
+      "url": null,
+      "license": "internal",
+      "license_url": null,
+      "attribution": "Curated 1-4 vocabulary level files provided in the project workspace.",
+      "version": "2026-05-28"
+    },
+    {
+      "source_id": 2,
+      "source_key": "subtlex_nl",
+      "name": "SUBTLEX-NL with POS and Zipf",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Original SUBTLEX-NL workbook used for frequency and form grouping.",
+      "version": null
+    },
+    {
+      "source_id": 3,
+      "source_key": "cc100_nl_local_20260525",
+      "name": "CC100 Dutch local analysis",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Local CC100 Dutch Frog annotation and frequency analysis in /Users/cedar/Desktop/dutch-corpus.",
+      "version": "annotated_full_live_w8_b4000"
+    },
+    {
+      "source_id": 4,
+      "source_key": "odwn_1_3",
+      "name": "Open Dutch WordNet 1.3",
+      "source_type": "lexical_semantic",
+      "url": "https://github.com/cltl/OpenDutchWordnet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Open Dutch WordNet, derived from Cornetto and Open Multilingual Wordnet resources.",
+      "version": "1.3"
+    },
+    {
+      "source_id": 5,
+      "source_key": "dbnary_nld_2026_05",
+      "name": "DBnary Dutch OntoLex",
+      "source_type": "wiktionary_extract",
+      "url": "https://kaiko.getalp.org/about-dbnary/",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "DBnary extraction from Dutch Wiktionary.",
+      "version": "2026-05"
+    },
+    {
+      "source_id": 8,
+      "source_key": "llm_sense_translation_v1",
+      "name": "LLM sense translation v1",
+      "source_type": "llm_derived",
+      "url": null,
+      "license": "derived; source licenses inherited per source sense",
+      "license_url": null,
+      "attribution": "Generated from source Dutch definitions with LLM translation. Preserve source attribution for original definitions.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 9,
+      "source_key": "cc100_lemma_examples_v1",
+      "name": "CC100 lemma example extraction v1",
+      "source_type": "corpus_derived",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Examples extracted from the local CC100 Dutch corpus analysis input.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 34,
+      "source_key": "aigc_subagent_examples_v1",
+      "name": "AIGC subagent replacement examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 35,
+      "source_key": "aigc_subagent_example_translation_v1",
+      "name": "AIGC subagent replacement example translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    }
+  ]
+}

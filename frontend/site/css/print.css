@@ -1,0 +1,89 @@
+/* Print: a dictionary page should survive paper. */
+@media print {
+  :root {
+    --paper: #fff;
+    --paper-2: #fff;
+    --paper-3: #fff;
+    --ink: #000;
+    --ink-2: #222;
+    --ink-3: #555;
+    --kobalt: #0d2a52;
+    --kobalt-soft: #fff;
+    --kobalt-line: #9aa8bd;
+    --rule: #bbb;
+    --rule-soft: #ddd;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  body {
+    background: #fff;
+    font-size: 10.5pt;
+  }
+
+  .site-header,
+  .site-footer,
+  .subnav,
+  .inspector,
+  .entry-actions,
+  .toast-host,
+  .hero__aside,
+  .skyline,
+  .tile-def,
+  .suggest,
+  .search,
+  .sample-chips,
+  .chips,
+  .form-tools,
+  .pager-row,
+  .pos-nav,
+  .rail,
+  .state__actions,
+  .footer-base {
+    display: none !important;
+  }
+
+  .wrap {
+    max-width: none;
+    padding: 0;
+  }
+
+  .two-col {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .headword {
+    font-size: 34pt;
+  }
+
+  .sense {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .panel {
+    border-bottom: 1px solid #ccc;
+    padding-block: 12pt;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .source {
+    font-size: 9pt;
+  }
+
+  .panel__note,
+  .corpus-note {
+    font-size: 8.5pt;
+    color: #333;
+  }
+}

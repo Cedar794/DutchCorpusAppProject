@@ -1,0 +1,194 @@
+{
+  "lemma_id": 8881,
+  "lemma": "lsd",
+  "display_lemma": "LSD",
+  "level": 4,
+  "cefr_level": null,
+  "is_academic": false,
+  "word_family": "lsd",
+  "family_head_lemma_id": 8881,
+  "needs_review": true,
+  "source_id": 1,
+  "frequency": 0,
+  "entry_url": "/entries/8881",
+  "parts_of_speech": [
+    {
+      "lemma_pos_entry_id": 13424,
+      "pos": "N",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "Zelfstandig naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 53060,
+      "pos": "WW",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "Werkwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": true
+    }
+  ],
+  "senses": {
+    "items": [
+      {
+        "sense_id": 48347,
+        "lemma_pos_entry_id": 13424,
+        "pos": "N",
+        "sense_no": null,
+        "definition_nl": "Lysergeenzuurdiethylamide, een middel dat hallucinaties en veranderingen in de waarneming veroorzaakt.",
+        "usage_note": "Afkorting; ook geschreven als lsd. Het vroegere hoofdwoord lzen was een foutieve automatische lemmatisering van de waargenomen vorm lsd.",
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": false,
+        "app_sense_order": null,
+        "review_status": "needs_review",
+        "confidence": 0.86,
+        "source_id": 4196,
+        "translations": [
+          {
+            "translation_id": 102792,
+            "sense_id": 48347,
+            "lang": "en",
+            "gloss": "LSD; lysergic acid diethylamide",
+            "explanation": "LSD is a hallucinogenic drug that changes perception.",
+            "review_status": "needs_review",
+            "confidence": 0.86,
+            "source_id": 4196
+          },
+          {
+            "translation_id": 102793,
+            "sense_id": 48347,
+            "lang": "zh",
+            "gloss": "麦角二乙胺（LSD）",
+            "explanation": "LSD是一种可引起幻觉并改变感知的药物。",
+            "review_status": "needs_review",
+            "confidence": 0.86,
+            "source_id": 4196
+          }
+        ],
+        "translation_zh": "麦角二乙胺（LSD）",
+        "translation_en": "LSD; lysergic acid diethylamide",
+        "examples": {
+          "items": [
+            {
+              "example_id": 50349,
+              "sense_id": 48347,
+              "ex_nl": "De onderzoeker bestudeert hoe LSD de waarneming verandert.",
+              "cefr_level": null,
+              "quality_score": 0.86,
+              "source_id": 4196,
+              "translations": [
+                {
+                  "translation_id": 50349,
+                  "example_id": 50349,
+                  "lang": "zh",
+                  "translation": "这名研究人员研究LSD如何改变感知。",
+                  "source_id": 4196
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/48347/examples"
+      }
+    ],
+    "total": 1,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "forms": {
+    "items": [
+      {
+        "form_id": 30195,
+        "lemma_pos_entry_id": 13424,
+        "form": "lsd",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      }
+    ],
+    "total": 1,
+    "offset": 0,
+    "limit": 50,
+    "has_more": false,
+    "next_offset": null
+  },
+  "corpus_examples": {
+    "items": [],
+    "total": 0,
+    "offset": 0,
+    "limit": 5,
+    "has_more": false,
+    "next_offset": null,
+    "sense_disambiguated": false
+  },
+  "expressions": {
+    "items": [],
+    "total": 0,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "sources": [
+    {
+      "source_id": 1,
+      "source_key": "manual_vocab_levels_v1",
+      "name": "Manual vocabulary levels v1",
+      "source_type": "manual",
+      "url": null,
+      "license": "internal",
+      "license_url": null,
+      "attribution": "Curated 1-4 vocabulary level files provided in the project workspace.",
+      "version": "2026-05-28"
+    },
+    {
+      "source_id": 2,
+      "source_key": "subtlex_nl",
+      "name": "SUBTLEX-NL with POS and Zipf",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Original SUBTLEX-NL workbook used for frequency and form grouping.",
+      "version": null
+    },
+    {
+      "source_id": 4196,
+      "source_key": "aigc_verified_source_research_v1",
+      "name": "Cross-reviewed source research for residual lexical gaps",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-23"
+    }
+  ]
+}

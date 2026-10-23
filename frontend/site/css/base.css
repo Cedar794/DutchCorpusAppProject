@@ -1,0 +1,376 @@
+/* ==========================================================================
+   Woordhuis · base: reset, typography, layout primitives
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 92px);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: var(--paper);
+  /* paper grain + faint tile grid, both are decoration only */
+  background-image:
+    radial-gradient(circle at 18% 8%, rgba(29, 63, 115, 0.045), transparent 42%),
+    radial-gradient(circle at 88% 2%, rgba(179, 43, 32, 0.035), transparent 38%);
+  background-attachment: fixed;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: var(--fs-body);
+  line-height: 1.65;
+  font-synthesis-weight: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+#main {
+  flex: 1 0 auto;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+p {
+  margin: 0;
+  text-wrap: pretty;
+}
+
+a {
+  color: var(--kobalt);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  text-decoration-color: var(--kobalt-line);
+  transition: text-decoration-color var(--dur-1) var(--ease), color var(--dur-1) var(--ease);
+}
+
+a:hover {
+  text-decoration-color: currentColor;
+  color: var(--kobalt-deep);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+hr {
+  border: none;
+  border-top: var(--hair) solid var(--rule);
+  margin: 0;
+}
+
+::selection {
+  background: var(--kobalt);
+  color: var(--paper-2);
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--gutter);
+  top: 8px;
+  z-index: 200;
+  transform: translateY(-160%);
+  background: var(--kobalt);
+  color: #fff;
+  padding: 10px 16px;
+  font-size: var(--fs-sm);
+  letter-spacing: 0.02em;
+  transition: transform var(--dur-2) var(--ease);
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
+
+/* --------------------------------------------------------------------------
+   layout
+   -------------------------------------------------------------------------- */
+
+.wrap {
+  width: 100%;
+  max-width: var(--measure);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.bleed {
+  width: 100%;
+}
+
+.cols {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--sp-5);
+}
+
+.stack > * + * {
+  margin-top: var(--sp-4);
+}
+
+.stack-lg > * + * {
+  margin-top: var(--sp-6);
+}
+
+.flow > * + * {
+  margin-top: var(--sp-5);
+}
+
+/* --------------------------------------------------------------------------
+   typographic roles
+   -------------------------------------------------------------------------- */
+
+.eyebrow,
+.micro {
+  font-family: var(--font-mono);
+  font-size: var(--fs-micro);
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.eyebrow--kobalt {
+  color: var(--kobalt);
+}
+
+.label {
+  font-family: var(--font-ui);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--ink-3);
+}
+
+.display {
+  font-family: var(--font-display);
+  font-weight: 340;
+  font-variation-settings: "SOFT" 0, "WONK" 0, "opsz" 144;
+  letter-spacing: -0.03em;
+  line-height: 0.98;
+}
+
+.lede {
+  font-family: var(--font-read);
+  font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+  line-height: 1.6;
+  color: var(--ink-2);
+  max-width: 54ch;
+}
+
+.prose p + p {
+  margin-top: 1em;
+}
+
+.prose {
+  font-family: var(--font-read);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--ink-2);
+  max-width: var(--measure-read);
+}
+
+.prose strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.nl-word {
+  font-family: var(--font-display);
+  font-variation-settings: "SOFT" 0, "WONK" 0, "opsz" 40;
+  font-weight: 400;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+/* the IJ digraph: Dutch's own letter. Hairline under the pair, no ligature. */
+.digraph-ij {
+  position: relative;
+  white-space: nowrap;
+}
+
+.digraph-ij::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.06em;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.45;
+}
+
+.muted {
+  color: var(--ink-3);
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.86em;
+  letter-spacing: -0.01em;
+  background: var(--paper-3);
+  border: var(--hair) solid var(--rule-soft);
+  padding: 0.05em 0.34em;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.text-kobalt {
+  color: var(--kobalt);
+}
+
+.text-sm {
+  font-size: var(--fs-sm);
+}
+
+.text-xs {
+  font-size: var(--fs-xs);
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/* --------------------------------------------------------------------------
+   rules with Delft tile corner ornament
+   -------------------------------------------------------------------------- */
+
+.rule-ornament {
+  position: relative;
+  height: 1px;
+  background: var(--rule);
+}
+
+.rule-ornament::before,
+.rule-ornament::after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  width: 7px;
+  height: 7px;
+  background: var(--kobalt);
+  transform: rotate(45deg);
+}
+
+.rule-ornament::before {
+  left: 0;
+}
+
+.rule-ornament::after {
+  right: 0;
+}
+
+/* section frame used across pages */
+.section {
+  padding-block: clamp(48px, 7vw, 96px);
+}
+
+.section--tight {
+  padding-block: clamp(32px, 4vw, 56px);
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-5);
+  padding-bottom: var(--sp-3);
+  border-bottom: var(--hair) solid var(--rule);
+  margin-bottom: var(--sp-6);
+}
+
+.section-head h2 {
+  font-family: var(--font-display);
+  font-size: var(--fs-h2);
+  font-variation-settings: "SOFT" 0, "WONK" 0, "opsz" 60;
+  font-weight: 380;
+}
+
+.section-head .eyebrow {
+  flex: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

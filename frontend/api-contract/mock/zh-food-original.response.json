@@ -1,0 +1,214 @@
+{
+  "query": "我想找一个名词，意思是人们吃的食物。",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 1721,
+      "entry_url": "/entries/1721",
+      "lemma": "voedsel",
+      "level": 1,
+      "score": 0.629439,
+      "matched_sense": {
+        "sense_id": 25489,
+        "definition_nl": "(voeding) alles wat een levend wezen tot zich neemt om aan bouwstof en energie te komen.Dit kan zowel een vaste of vloeibare substantie zijn.",
+        "translation_zh": "食物",
+        "translation_en": "food",
+        "semantic_score": 0.528418
+      },
+      "matched_reason": {
+        "semantic_score": 0.528418,
+        "frequency_boost": 0.071021,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 211,
+      "entry_url": "/entries/211",
+      "lemma": "eten",
+      "level": 1,
+      "score": 0.607885,
+      "matched_sense": {
+        "sense_id": 27338,
+        "definition_nl": "dat wat iemand tot zich neemt om diens metabolisme in werking te houden",
+        "translation_zh": "食物",
+        "translation_en": "food",
+        "semantic_score": 0.497885
+      },
+      "matched_reason": {
+        "semantic_score": 0.497885,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1251,
+      "entry_url": "/entries/1251",
+      "lemma": "restaurant",
+      "level": 1,
+      "score": 0.601176,
+      "matched_sense": {
+        "sense_id": 29800,
+        "definition_nl": "(voeding) versterkende voeding of ander middel",
+        "translation_zh": "滋补食品；强身剂",
+        "translation_en": "restorative food; tonic",
+        "semantic_score": 0.491176
+      },
+      "matched_reason": {
+        "semantic_score": 0.491176,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 3512,
+      "entry_url": "/entries/3512",
+      "lemma": "groente",
+      "level": 1,
+      "score": 0.592282,
+      "matched_sense": {
+        "sense_id": 24109,
+        "definition_nl": "(plantkunde) (voeding) eetbare planten of delen daarvan, echter let op!",
+        "translation_zh": "（植物学）（食品）可食用植物或其部分，但要小心！",
+        "translation_en": "(botany) (food) edible plants or parts thereof",
+        "semantic_score": 0.488835
+      },
+      "matched_reason": {
+        "semantic_score": 0.488835,
+        "frequency_boost": 0.073448,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 3583,
+      "entry_url": "/entries/3583",
+      "lemma": "hap",
+      "level": 1,
+      "score": 0.592222,
+      "matched_sense": {
+        "sense_id": 31086,
+        "definition_nl": "(informeel), (voeding) voedsel bedoeld om een maaltijd te vormen",
+        "translation_zh": "（非正式）",
+        "translation_en": "(informal)",
+        "semantic_score": 0.491114
+      },
+      "matched_reason": {
+        "semantic_score": 0.491114,
+        "frequency_boost": 0.071108,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 10785,
+      "entry_url": "/entries/10785",
+      "lemma": "voeding",
+      "level": 4,
+      "score": 0.588312,
+      "matched_sense": {
+        "sense_id": 22066,
+        "definition_nl": "eetbare en drinkbare waren",
+        "translation_zh": "饮食",
+        "translation_en": "food and drink",
+        "semantic_score": 0.514166
+      },
+      "matched_reason": {
+        "semantic_score": 0.514166,
+        "frequency_boost": 0.074146,
+        "level_boost": 0.0
+      }
+    },
+    {
+      "lemma_id": 6576,
+      "entry_url": "/entries/6576",
+      "lemma": "graan",
+      "level": 2,
+      "score": 0.586621,
+      "matched_sense": {
+        "sense_id": 7372,
+        "definition_nl": "eetbare korrels of producten van graangewassen",
+        "translation_zh": "谷物，粮食",
+        "translation_en": "grain; cereal food",
+        "semantic_score": 0.502128
+      },
+      "matched_reason": {
+        "semantic_score": 0.502128,
+        "frequency_boost": 0.063493,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 1416,
+      "entry_url": "/entries/1416",
+      "lemma": "brood",
+      "level": 1,
+      "score": 0.579447,
+      "matched_sense": {
+        "sense_id": 7007,
+        "definition_nl": "voedsel van gebakken deeg, meestal gemaakt van meel, water en gist",
+        "translation_zh": "面包",
+        "translation_en": "bread",
+        "semantic_score": 0.474748
+      },
+      "matched_reason": {
+        "semantic_score": 0.474748,
+        "frequency_boost": 0.074699,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1873,
+      "entry_url": "/entries/1873",
+      "lemma": "plant",
+      "level": 1,
+      "score": 0.57752,
+      "matched_sense": {
+        "sense_id": 1585,
+        "definition_nl": "eetbaar gekweekt gewas of groenteplant",
+        "translation_zh": "蔬菜作物，食用植物",
+        "translation_en": "edible crop; vegetable plant",
+        "semantic_score": 0.470816
+      },
+      "matched_reason": {
+        "semantic_score": 0.470816,
+        "frequency_boost": 0.076703,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 748,
+      "entry_url": "/entries/748",
+      "lemma": "honger",
+      "level": 1,
+      "score": 0.570553,
+      "matched_sense": {
+        "sense_id": 12860,
+        "definition_nl": "behoefte aan voedsel",
+        "translation_zh": "需要食物",
+        "translation_en": "Need for food",
+        "semantic_score": 0.475347
+      },
+      "matched_reason": {
+        "semantic_score": 0.475347,
+        "frequency_boost": 0.065205,
+        "level_boost": 0.03
+      }
+    }
+  ],
+  "related_results": [
+    {
+      "lemma_id": 3667,
+      "lemma": "poen",
+      "entry_url": "/entries/3667",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 1416,
+      "source_result_sense_id": 7007,
+      "source": "sense_relations",
+      "score": 0.9
+    }
+  ],
+  "query_rewrite": {
+    "query": "我想找一个名词，意思是人们吃的食物。",
+    "status": "disabled",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

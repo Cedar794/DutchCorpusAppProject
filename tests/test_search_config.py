@@ -32,13 +32,44 @@ class SearchConfigTests(unittest.TestCase):
         self.assertFalse(config.log_queries)
         self.assertEqual(config.max_limit, 50)
         self.assertEqual(config.embedding_dim, 1024)
+        self.assertFalse(config.use_demo_embeddings)
+
+    def test_demo_embedding_flag(self):
+        config = load_config(
+            {
+                "DATABASE_URL": "postgresql://user:pass@example.com:5432/postgres",
+                "BAILIAN_API_KEY": "sk-test",
+                "SEARCH_USE_DEMO_EMBEDDINGS": "true",
+            }
+        )
+
+        self.assertTrue(config.use_demo_embeddings)
 
     def test_missing_required_values_raise(self):
         with self.assertRaisesRegex(ValueError, "DATABASE_URL"):
             load_config({"BAILIAN_API_KEY": "sk-test"})
 
         with self.assertRaisesRegex(ValueError, "BAILIAN_API_KEY"):
-            load_config({"DATABASE_URL": "postgresql://example"})
+            load_config({"DATABASE_URL": "postgresql://example", "SEARCH_SEMANTIC_ENABLED": "true"})
+
+    def test_dictionary_mode_needs_no_embedding_key(self):
+        config = load_config({"DATABASE_URL": "postgresql://example"})
+        self.assertFalse(config.semantic_enabled)
+        self.assertEqual(config.bailian_api_key, "")
+
+    def test_rewrite_key_is_separate_and_online_budget_defaults_to_zero(self):
+        config = load_config({'DATABASE_URL':'postgresql://example','BAILIAN_API_KEY':'embedding-only'})
+        self.assertTrue(config.rewrite_enabled)
+        self.assertEqual(config.rewrite_api_key,'')
+        self.assertEqual(config.api_budget_total_cny,'0')
+        self.assertEqual(config.api_budget_daily_cny,'0')
+        self.assertNotIn('embedding-only',repr(config))
+
+    def test_rewrite_timeout_and_money_are_validated(self):
+        for values in ({'SEARCH_REWRITE_TIMEOUT_MS':'0'}, {'SEARCH_REWRITE_TIMEOUT_MS':'6000'},
+                       {'SEARCH_API_BUDGET_TOTAL_CNY':'NaN'}, {'SEARCH_API_BUDGET_DAILY_CNY':'-1'}):
+            with self.assertRaises(ValueError):
+                load_config({'DATABASE_URL':'postgresql://example',**values})
 
     def test_limit_and_dimension_are_validated(self):
         with self.assertRaisesRegex(ValueError, "SEARCH_MAX_LIMIT"):

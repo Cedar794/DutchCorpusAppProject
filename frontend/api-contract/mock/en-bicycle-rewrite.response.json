@@ -1,0 +1,203 @@
+{
+  "query": "a noun for a vehicle with 2 wheels that you pedal, not a motorbike",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 2341,
+      "entry_url": "/entries/2341",
+      "lemma": "fiets",
+      "level": 1,
+      "score": 0.689781,
+      "matched_sense": {
+        "sense_id": 23823,
+        "definition_nl": "(verkeer), (techniek) tweewielig vervoermiddel dat door middel van spierkracht middels pedalen wordt voortbewogen",
+        "translation_zh": "自行车",
+        "translation_en": "bicycle",
+        "semantic_score": 0.584421
+      },
+      "matched_reason": {
+        "semantic_score": 0.584421,
+        "frequency_boost": 0.07536,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1951,
+      "entry_url": "/entries/1951",
+      "lemma": "mobiel",
+      "level": 1,
+      "score": 0.674922,
+      "matched_sense": {
+        "sense_id": 34870,
+        "definition_nl": "(verkeer) voertuig op wielen met eigen aandrijving (vooral als tweede deel van een samenstelling)",
+        "translation_zh": "具有自身推进力的轮子车辆（特别是作为",
+        "translation_en": "vehicle on wheels with its own propulsion (especially",
+        "semantic_score": 0.56839
+      },
+      "matched_reason": {
+        "semantic_score": 0.56839,
+        "frequency_boost": 0.076531,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 213,
+      "entry_url": "/entries/213",
+      "lemma": "auto",
+      "level": 1,
+      "score": 0.650175,
+      "matched_sense": {
+        "sense_id": 23623,
+        "definition_nl": "(verkeer)(techniek) voertuig met drie of meer wielen, een motor en een carrosserie",
+        "translation_zh": "（技术）具有三个或更多轮子、发动",
+        "translation_en": "(technical) vehicle with three or more wheels",
+        "semantic_score": 0.540175
+      },
+      "matched_reason": {
+        "semantic_score": 0.540175,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1126,
+      "entry_url": "/entries/1126",
+      "lemma": "motor",
+      "level": 1,
+      "score": 0.646675,
+      "matched_sense": {
+        "sense_id": 34408,
+        "definition_nl": "(verkeer) een verkorting van \"motorfiets\", het gemotoriseerd voertuig op twee of drie wielen",
+        "translation_zh": "一个 verkorting 的 \"motorfiets\", gemotoriseerd voertuig 在 twee 或 drie wielen",
+        "translation_en": "a verkorting or \"motorfiets\", the gemotoriseerd voertuig on twee or drie wielen",
+        "semantic_score": 0.541947
+      },
+      "matched_reason": {
+        "semantic_score": 0.541947,
+        "frequency_boost": 0.074727,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 630,
+      "entry_url": "/entries/630",
+      "lemma": "wagen",
+      "level": 1,
+      "score": 0.624719,
+      "matched_sense": {
+        "sense_id": 3802,
+        "definition_nl": "kinderkarretje of bolderkar op vier wielen",
+        "translation_zh": "四轮小车；儿童拖车",
+        "translation_en": "toy wagon; handcart",
+        "semantic_score": 0.522114
+      },
+      "matched_reason": {
+        "semantic_score": 0.522114,
+        "frequency_boost": 0.072605,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 6189,
+      "entry_url": "/entries/6189",
+      "lemma": "scooter",
+      "level": 2,
+      "score": 0.612135,
+      "matched_sense": {
+        "sense_id": 41073,
+        "definition_nl": "(verkeer) motorrijtuig met twee kleine, brede wielen en een lage treeplank",
+        "translation_zh": "踏板车",
+        "translation_en": "motor scooter",
+        "semantic_score": 0.526144
+      },
+      "matched_reason": {
+        "semantic_score": 0.526144,
+        "frequency_boost": 0.064992,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 4437,
+      "entry_url": "/entries/4437",
+      "lemma": "kar",
+      "level": 2,
+      "score": 0.605584,
+      "matched_sense": {
+        "sense_id": 13700,
+        "definition_nl": "open voertuig op twee of meer wielen",
+        "translation_zh": "敞式车；手推车",
+        "translation_en": "cart; open wheeled vehicle",
+        "semantic_score": 0.523363
+      },
+      "matched_reason": {
+        "semantic_score": 0.523363,
+        "frequency_boost": 0.06122,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 3325,
+      "entry_url": "/entries/3325",
+      "lemma": "wiel",
+      "level": 1,
+      "score": 0.604652,
+      "matched_sense": {
+        "sense_id": 24188,
+        "definition_nl": "o ronddraaiende schijf voor voortbeweging met minimale weerstand",
+        "translation_zh": "轮子",
+        "translation_en": "wheel",
+        "semantic_score": 0.505421
+      },
+      "matched_reason": {
+        "semantic_score": 0.505421,
+        "frequency_boost": 0.069231,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 4357,
+      "entry_url": "/entries/4357",
+      "lemma": "rolstoel",
+      "level": 2,
+      "score": 0.602591,
+      "matched_sense": {
+        "sense_id": 5986,
+        "definition_nl": "stoel op wielen voor iemand die niet of moeilijk loopt",
+        "translation_zh": "轮椅",
+        "translation_en": "wheelchair",
+        "semantic_score": 0.518336
+      },
+      "matched_reason": {
+        "semantic_score": 0.518336,
+        "frequency_boost": 0.063255,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 2979,
+      "entry_url": "/entries/2979",
+      "lemma": "voertuig",
+      "level": 1,
+      "score": 0.602453,
+      "matched_sense": {
+        "sense_id": 34624,
+        "definition_nl": "(verkeer) door de mens gemaakt vervoermiddel, gewoonlijk op wielen of glijvlakken, voor het verplaatsen over land van personen en goederen",
+        "translation_zh": "车辆",
+        "translation_en": "vehicle",
+        "semantic_score": 0.500247
+      },
+      "matched_reason": {
+        "semantic_score": 0.500247,
+        "frequency_boost": 0.072206,
+        "level_boost": 0.03
+      }
+    }
+  ],
+  "related_results": [],
+  "query_rewrite": {
+    "query": "a noun for a vehicle with 2 wheels that you pedal, not a motorbike",
+    "status": "unchanged",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

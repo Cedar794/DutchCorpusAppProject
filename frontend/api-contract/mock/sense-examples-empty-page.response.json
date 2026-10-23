@@ -1,0 +1,14 @@
+{
+  "sense_id": 12960,
+  "lemma_id": 138,
+  "entry_url": "/entries/138",
+  "examples": {
+    "items": [],
+    "total": 1,
+    "offset": 100,
+    "limit": 10,
+    "has_more": false,
+    "next_offset": null
+  },
+  "sources": []
+}

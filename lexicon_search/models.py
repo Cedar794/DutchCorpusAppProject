@@ -35,6 +35,7 @@ class LookupCandidate:
     def to_public_dict(self) -> dict[str, Any]:
         return {
             "lemma_id": self.lemma.lemma_id,
+            "entry_url": f"/entries/{self.lemma.lemma_id}",
             "lemma": self.lemma.lemma,
             "level": self.lemma.level,
             "form_id": self.form_id,

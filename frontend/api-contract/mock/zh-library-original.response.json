@@ -1,0 +1,203 @@
+{
+  "query": "不是书店，而是可以借书的地方，想找一个名词。",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 2470,
+      "entry_url": "/entries/2470",
+      "lemma": "bibliotheek",
+      "level": 1,
+      "score": 0.65685,
+      "matched_sense": {
+        "sense_id": 26131,
+        "definition_nl": "een plaats waar boeken verzameld staan",
+        "translation_zh": "藏书处",
+        "translation_en": "place with books",
+        "semantic_score": 0.555278
+      },
+      "matched_reason": {
+        "semantic_score": 0.555278,
+        "frequency_boost": 0.071572,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 11619,
+      "entry_url": "/entries/11619",
+      "lemma": "boekwinkel",
+      "level": 4,
+      "score": 0.571105,
+      "matched_sense": {
+        "sense_id": 38229,
+        "definition_nl": "(economie) een winkel waar boeken verkocht worden",
+        "translation_zh": "书店",
+        "translation_en": "bookstore",
+        "semantic_score": 0.516572
+      },
+      "matched_reason": {
+        "semantic_score": 0.516572,
+        "frequency_boost": 0.054533,
+        "level_boost": 0.0
+      }
+    },
+    {
+      "lemma_id": 1310,
+      "entry_url": "/entries/1310",
+      "lemma": "tent",
+      "level": 1,
+      "score": 0.566508,
+      "matched_sense": {
+        "sense_id": 23625,
+        "definition_nl": "(informeel) openbare plek (bijv. een café of restaurant) of andere openbare gelegenheid; bij uitbreiding ook een bepaalde leefruimte in het algemeen",
+        "translation_zh": "空间",
+        "translation_en": "room or space",
+        "semantic_score": 0.465786
+      },
+      "matched_reason": {
+        "semantic_score": 0.465786,
+        "frequency_boost": 0.070722,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 700,
+      "entry_url": "/entries/700",
+      "lemma": "bank",
+      "level": 1,
+      "score": 0.558739,
+      "matched_sense": {
+        "sense_id": 8852,
+        "definition_nl": "geldverlenende instelling",
+        "translation_zh": "贷款机构",
+        "translation_en": "lending institution",
+        "semantic_score": 0.450405
+      },
+      "matched_reason": {
+        "semantic_score": 0.450405,
+        "frequency_boost": 0.078334,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 793,
+      "entry_url": "/entries/793",
+      "lemma": "rug",
+      "level": 1,
+      "score": 0.554415,
+      "matched_sense": {
+        "sense_id": 23777,
+        "definition_nl": "dat gedeelte van een boek waar de bladen bij elkaar komen",
+        "translation_zh": "那gedeelte的一个书哪里该blad",
+        "translation_en": "that gedeelte of a book where the bladen",
+        "semantic_score": 0.451125
+      },
+      "matched_reason": {
+        "semantic_score": 0.451125,
+        "frequency_boost": 0.07329,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1095,
+      "entry_url": "/entries/1095",
+      "lemma": "bar",
+      "level": 1,
+      "score": 0.548273,
+      "matched_sense": {
+        "sense_id": 24714,
+        "definition_nl": "(horeca) (bouwkunde) plaats waar de gasten drank kunnen bestellen en nuttigen aan één kant van een langgerekte hoge toonbank, met bediening vanaf de andere kant",
+        "translation_zh": "（建筑）客人可以在细长的高柜台一",
+        "translation_en": "(construction) place where guests can order and consume",
+        "semantic_score": 0.444289
+      },
+      "matched_reason": {
+        "semantic_score": 0.444289,
+        "frequency_boost": 0.073984,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 2574,
+      "entry_url": "/entries/2574",
+      "lemma": "café",
+      "level": 1,
+      "score": 0.540828,
+      "matched_sense": {
+        "sense_id": 2668,
+        "definition_nl": "gelegenheid waar alcoholische dranken aan een bar worden geschonken",
+        "translation_zh": "酒吧；酒馆",
+        "translation_en": "bar; pub",
+        "semantic_score": 0.438975
+      },
+      "matched_reason": {
+        "semantic_score": 0.438975,
+        "frequency_boost": 0.071853,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 2421,
+      "entry_url": "/entries/2421",
+      "lemma": "organisatie",
+      "level": 1,
+      "score": 0.532783,
+      "matched_sense": {
+        "sense_id": 28551,
+        "definition_nl": "een groep, instantie e.d. die een bepaald doel of een bepaalde (vaak economische) rol in de maatschappij heeft (zoals een bedrijf e.d.)",
+        "translation_zh": "一个 群体, instantie e.d. die 一个 bepaald doel 或 一个 bepaalde rol 在 maatschappij heeft",
+        "translation_en": "a group, instantie e.d. die a bepaald doel or a bepaalde rol in the maatschappij heeft",
+        "semantic_score": 0.422783
+      },
+      "matched_reason": {
+        "semantic_score": 0.422783,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1443,
+      "entry_url": "/entries/1443",
+      "lemma": "bron",
+      "level": 1,
+      "score": 0.527237,
+      "matched_sense": {
+        "sense_id": 10053,
+        "definition_nl": "plaats, geschrift of persoon waaruit men zijn gegevens put",
+        "translation_zh": "从中获取数据的地点、文字",
+        "translation_en": "place",
+        "semantic_score": 0.420333
+      },
+      "matched_reason": {
+        "semantic_score": 0.420333,
+        "frequency_boost": 0.076904,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 3987,
+      "entry_url": "/entries/3987",
+      "lemma": "boeken",
+      "level": 2,
+      "score": 0.523744,
+      "matched_sense": {
+        "sense_id": 34031,
+        "definition_nl": "overgankelijk reserveren van bijvoorbeeld een hotelkamer",
+        "translation_zh": "预订",
+        "translation_en": "book",
+        "semantic_score": 0.43196
+      },
+      "matched_reason": {
+        "semantic_score": 0.43196,
+        "frequency_boost": 0.070784,
+        "level_boost": 0.021
+      }
+    }
+  ],
+  "related_results": [],
+  "query_rewrite": {
+    "query": "不是书店，而是可以借书的地方，想找一个名词。",
+    "status": "disabled",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

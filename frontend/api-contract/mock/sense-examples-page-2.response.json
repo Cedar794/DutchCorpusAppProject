@@ -1,0 +1,72 @@
+{
+  "sense_id": 28831,
+  "lemma_id": 662,
+  "entry_url": "/entries/662",
+  "examples": {
+    "items": [
+      {
+        "example_id": 5477,
+        "sense_id": 28831,
+        "ex_nl": "`Het klinkt je misschien een beetje vreemd in de oren,' zei hij, 'maar dat laatste kan ik je niet vertellen. Dat is iets wat je helemaal alleen moet gaan ontdekken. Daarom moet je mij verlaten en op reis gaan. Weg uit Betonstad. Je mag niets anders meenemen dan wat ik je nu zal geven.'",
+        "cefr_level": null,
+        "quality_score": 0.75,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 1965,
+            "example_id": 5477,
+            "lang": "zh",
+            "translation": "“这听起来也许有点奇怪，”他说，“但最后那件事我不能告诉你。那是你必须完全独自去发现的东西。因此你必须离开我，踏上旅程。离开混凝土城。除了我现在要给你的东西，你什么都不能带。”",
+            "source_id": 35
+          }
+        ]
+      },
+      {
+        "example_id": 5478,
+        "sense_id": 28831,
+        "ex_nl": "Ik heb ontdekt dat ik talent heb voor het vouwen van origamifiguurtjes.",
+        "cefr_level": null,
+        "quality_score": 0.75,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 1966,
+            "example_id": 5478,
+            "lang": "zh",
+            "translation": "我发现自己有折纸小人偶的天赋。",
+            "source_id": 35
+          }
+        ]
+      }
+    ],
+    "total": 6,
+    "offset": 2,
+    "limit": 2,
+    "has_more": true,
+    "next_offset": 4
+  },
+  "sources": [
+    {
+      "source_id": 5,
+      "source_key": "dbnary_nld_2026_05",
+      "name": "DBnary Dutch OntoLex",
+      "source_type": "wiktionary_extract",
+      "url": "https://kaiko.getalp.org/about-dbnary/",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "DBnary extraction from Dutch Wiktionary.",
+      "version": "2026-05"
+    },
+    {
+      "source_id": 35,
+      "source_key": "aigc_subagent_example_translation_v1",
+      "name": "AIGC subagent replacement example translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    }
+  ]
+}

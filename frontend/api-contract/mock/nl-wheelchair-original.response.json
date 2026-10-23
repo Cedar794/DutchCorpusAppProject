@@ -1,0 +1,244 @@
+{
+  "query": "Hoe noem je iemand die zich met een rolstoel verplaatst? Ik zoek een zelfstandig naamwoord voor de persoon.",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 8565,
+      "entry_url": "/entries/8565",
+      "lemma": "rolstoelgebruiker",
+      "level": 3,
+      "score": 0.660509,
+      "matched_sense": {
+        "sense_id": 45832,
+        "definition_nl": "persoon die zich met een rolstoel verplaatst",
+        "translation_zh": "轮椅使用者",
+        "translation_en": "wheelchair user",
+        "semantic_score": 0.59793
+      },
+      "matched_reason": {
+        "semantic_score": 0.59793,
+        "frequency_boost": 0.052079,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 4357,
+      "entry_url": "/entries/4357",
+      "lemma": "rolstoel",
+      "level": 2,
+      "score": 0.657661,
+      "matched_sense": {
+        "sense_id": 5986,
+        "definition_nl": "stoel op wielen voor iemand die niet of moeilijk loopt",
+        "translation_zh": "轮椅",
+        "translation_en": "wheelchair",
+        "semantic_score": 0.573406
+      },
+      "matched_reason": {
+        "semantic_score": 0.573406,
+        "frequency_boost": 0.063255,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 2579,
+      "entry_url": "/entries/2579",
+      "lemma": "namens",
+      "level": 1,
+      "score": 0.607872,
+      "matched_sense": {
+        "sense_id": 35336,
+        "definition_nl": "iemand in naam vertegenwoordigend",
+        "translation_zh": "某人 在 名称 vertegenwoordigend",
+        "translation_en": "someone in name vertegenwoordigend",
+        "semantic_score": 0.507625
+      },
+      "matched_reason": {
+        "semantic_score": 0.507625,
+        "frequency_boost": 0.070248,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 1018,
+      "entry_url": "/entries/1018",
+      "lemma": "stoel",
+      "level": 1,
+      "score": 0.589512,
+      "matched_sense": {
+        "sense_id": 19672,
+        "definition_nl": "zitmeubel voor één persoon",
+        "translation_zh": "词义",
+        "translation_en": "sense",
+        "semantic_score": 0.486047
+      },
+      "matched_reason": {
+        "semantic_score": 0.486047,
+        "frequency_boost": 0.073465,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 660,
+      "entry_url": "/entries/660",
+      "lemma": "persoon",
+      "level": 1,
+      "score": 0.58711,
+      "matched_sense": {
+        "sense_id": 17180,
+        "definition_nl": "bepaalde werkwoordsvorm",
+        "translation_zh": "人称；动词的人称形式",
+        "translation_en": "grammatical person",
+        "semantic_score": 0.47711
+      },
+      "matched_reason": {
+        "semantic_score": 0.47711,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 165,
+      "entry_url": "/entries/165",
+      "lemma": "niemand",
+      "level": 1,
+      "score": 0.585897,
+      "matched_sense": {
+        "sense_id": 5085,
+        "definition_nl": "onbelangrijk of invloedloos persoon",
+        "translation_zh": "无名小卒，无足轻重的人",
+        "translation_en": "nobody; insignificant person",
+        "semantic_score": 0.479116
+      },
+      "matched_reason": {
+        "semantic_score": 0.479116,
+        "frequency_boost": 0.076781,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 236,
+      "entry_url": "/entries/236",
+      "lemma": "zelf",
+      "level": 1,
+      "score": 0.572894,
+      "matched_sense": {
+        "sense_id": 5133,
+        "definition_nl": "eigen persoon als afzonderlijk individu",
+        "translation_zh": "自我；自身",
+        "translation_en": "self",
+        "semantic_score": 0.462894
+      },
+      "matched_reason": {
+        "semantic_score": 0.462894,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 203,
+      "entry_url": "/entries/203",
+      "lemma": "naam",
+      "level": 1,
+      "score": 0.568163,
+      "matched_sense": {
+        "sense_id": 215,
+        "definition_nl": "bijnaam of informele naam voor een persoon",
+        "translation_zh": "绰号；别名",
+        "translation_en": "nickname",
+        "semantic_score": 0.458163
+      },
+      "matched_reason": {
+        "semantic_score": 0.458163,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 919,
+      "entry_url": "/entries/919",
+      "lemma": "rol",
+      "level": 1,
+      "score": 0.566574,
+      "matched_sense": {
+        "sense_id": 18302,
+        "definition_nl": "personage in film of toneel",
+        "translation_zh": "personage在film或tonee",
+        "translation_en": "personage in film or toneel",
+        "semantic_score": 0.457083
+      },
+      "matched_reason": {
+        "semantic_score": 0.457083,
+        "frequency_boost": 0.079491,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 850,
+      "entry_url": "/entries/850",
+      "lemma": "ster",
+      "level": 1,
+      "score": 0.565138,
+      "matched_sense": {
+        "sense_id": 24576,
+        "definition_nl": "(persoon) (figuurlijk) iemand die positief bekend staat dankzij buitengewone prestaties",
+        "translation_zh": "词义",
+        "translation_en": "sense",
+        "semantic_score": 0.461349
+      },
+      "matched_reason": {
+        "semantic_score": 0.461349,
+        "frequency_boost": 0.073789,
+        "level_boost": 0.03
+      }
+    }
+  ],
+  "related_results": [
+    {
+      "lemma_id": 6127,
+      "lemma": "alias",
+      "entry_url": "/entries/6127",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 203,
+      "source_result_sense_id": 215,
+      "source": "sense_relations",
+      "score": 0.9
+    },
+    {
+      "lemma_id": 4291,
+      "lemma": "bijnaam",
+      "entry_url": "/entries/4291",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 203,
+      "source_result_sense_id": 215,
+      "source": "sense_relations",
+      "score": 0.9
+    },
+    {
+      "lemma_id": 2,
+      "lemma": "ik",
+      "entry_url": "/entries/2",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 236,
+      "source_result_sense_id": 5133,
+      "source": "sense_relations",
+      "score": 0.9
+    },
+    {
+      "lemma_id": 2522,
+      "lemma": "nul",
+      "entry_url": "/entries/2522",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 165,
+      "source_result_sense_id": 5085,
+      "source": "sense_relations",
+      "score": 0.9
+    }
+  ],
+  "query_rewrite": {
+    "query": "Hoe noem je iemand die zich met een rolstoel verplaatst? Ik zoek een zelfstandig naamwoord voor de persoon.",
+    "status": "disabled",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

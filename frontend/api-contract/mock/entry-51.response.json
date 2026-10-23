@@ -1,0 +1,2012 @@
+{
+  "lemma_id": 51,
+  "lemma": "zien",
+  "display_lemma": "zien",
+  "level": 1,
+  "cefr_level": null,
+  "is_academic": false,
+  "word_family": "zien",
+  "family_head_lemma_id": 51,
+  "needs_review": false,
+  "source_id": 1,
+  "frequency": 9646815,
+  "entry_url": "/entries/51",
+  "parts_of_speech": [
+    {
+      "lemma_pos_entry_id": 26690,
+      "pos": "WW",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "Werkwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 26687,
+      "pos": "ADJ",
+      "app_pos": "adjective",
+      "label_zh": "形容词",
+      "label_en": "adjective",
+      "label_nl": "Bijvoeglijk naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 26688,
+      "pos": "SPEC",
+      "app_pos": "special",
+      "label_zh": "特殊词类",
+      "label_en": "special",
+      "label_nl": "Speciaal",
+      "gender": null,
+      "article": null,
+      "is_primary": true,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 78053,
+      "pos": "N",
+      "app_pos": "noun",
+      "label_zh": "名词",
+      "label_en": "noun",
+      "label_nl": "Zelfstandig naamwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 26689,
+      "pos": "VERB",
+      "app_pos": "verb",
+      "label_zh": "动词",
+      "label_en": "verb",
+      "label_nl": "VERB",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 78052,
+      "pos": "BW",
+      "app_pos": "adverb",
+      "label_zh": "副词",
+      "label_en": "adverb",
+      "label_nl": "Bijwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 78056,
+      "pos": "VZ",
+      "app_pos": "adposition",
+      "label_zh": "介词/后置词",
+      "label_en": "adposition",
+      "label_nl": "Voorzetsel",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    },
+    {
+      "lemma_pos_entry_id": 78055,
+      "pos": "TW",
+      "app_pos": "numeral",
+      "label_zh": "数词",
+      "label_en": "numeral",
+      "label_nl": "Telwoord",
+      "gender": null,
+      "article": null,
+      "is_primary": false,
+      "needs_review": false
+    }
+  ],
+  "senses": {
+    "items": [
+      {
+        "sense_id": 23018,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "met je ogen waarnemen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 1,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 29606,
+            "sense_id": 23018,
+            "lang": "en",
+            "gloss": "see",
+            "explanation": "It means see.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29605,
+            "sense_id": 23018,
+            "lang": "zh",
+            "gloss": "看见",
+            "explanation": "表示看见。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "examples": {
+          "items": [
+            {
+              "example_id": 24012,
+              "sense_id": 23018,
+              "ex_nl": "Ik kan de kerk vanaf hier zien",
+              "cefr_level": null,
+              "quality_score": 0.88,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24036,
+                  "example_id": 24012,
+                  "lang": "zh",
+                  "translation": "我从这里能看见那座教堂",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23018/examples"
+      },
+      {
+        "sense_id": 23725,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "1",
+        "definition_nl": "overgankelijk waarnemen met het oog",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": true,
+        "is_core": true,
+        "app_sense_order": 2,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29608,
+            "sense_id": 23725,
+            "lang": "en",
+            "gloss": "see",
+            "explanation": "It means see.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29607,
+            "sense_id": 23725,
+            "lang": "zh",
+            "gloss": "看见",
+            "explanation": "表示看见。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "examples": {
+          "items": [
+            {
+              "example_id": 9081,
+              "sense_id": 23725,
+              "ex_nl": "Ik kan die afbeelding van zo'n afstand niet goed zien.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 361,
+                  "example_id": 9081,
+                  "lang": "zh",
+                  "translation": "隔这么远，我看不清那幅图。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23725/examples"
+      },
+      {
+        "sense_id": 23019,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "begrijpen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": true,
+        "app_sense_order": 3,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 29610,
+            "sense_id": 23019,
+            "lang": "en",
+            "gloss": "see",
+            "explanation": "It means see.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29609,
+            "sense_id": 23019,
+            "lang": "zh",
+            "gloss": "看见",
+            "explanation": "表示看见。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "examples": {
+          "items": [
+            {
+              "example_id": 24013,
+              "sense_id": 23019,
+              "ex_nl": "Nu begin ik te zien waarom dit plan beter werkt",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24037,
+                  "example_id": 24013,
+                  "lang": "zh",
+                  "translation": "现在我开始明白为什么这个计划更有效",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23019/examples"
+      },
+      {
+        "sense_id": 23020,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "als uiterlijk hebben",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 4,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 29612,
+            "sense_id": 23020,
+            "lang": "en",
+            "gloss": "appearance",
+            "explanation": "It means appearance.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29611,
+            "sense_id": 23020,
+            "lang": "zh",
+            "gloss": "外表",
+            "explanation": "表示外表。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "外表",
+        "translation_en": "appearance",
+        "examples": {
+          "items": [
+            {
+              "example_id": 24014,
+              "sense_id": 23020,
+              "ex_nl": "Na de reparatie zien de muren er weer schoon uit",
+              "cefr_level": null,
+              "quality_score": 0.84,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24038,
+                  "example_id": 24014,
+                  "lang": "zh",
+                  "translation": "修好以后，这些墙看起来又干净了",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23020/examples"
+      },
+      {
+        "sense_id": 23021,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "4",
+        "definition_nl": "proberen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 5,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 29614,
+            "sense_id": 23021,
+            "lang": "en",
+            "gloss": "see",
+            "explanation": "It means see.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29613,
+            "sense_id": 23021,
+            "lang": "zh",
+            "gloss": "看见",
+            "explanation": "表示看见。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "examples": {
+          "items": [
+            {
+              "example_id": 24015,
+              "sense_id": 23021,
+              "ex_nl": "We moeten zien te vertrekken voordat het gaat regenen",
+              "cefr_level": null,
+              "quality_score": 0.78,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24039,
+                  "example_id": 24015,
+                  "lang": "zh",
+                  "translation": "我们得设法在下雨前出发",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23021/examples"
+      },
+      {
+        "sense_id": 23022,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "5",
+        "definition_nl": "houden voor",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 6,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 29616,
+            "sense_id": 23022,
+            "lang": "en",
+            "gloss": "see",
+            "explanation": "It means see.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29615,
+            "sense_id": 23022,
+            "lang": "zh",
+            "gloss": "看见",
+            "explanation": "表示看见。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "examples": {
+          "items": [
+            {
+              "example_id": 24016,
+              "sense_id": 23022,
+              "ex_nl": "De commissie blijft deze aanpak zien als een tijdelijke oplossing",
+              "cefr_level": null,
+              "quality_score": 0.86,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24040,
+                  "example_id": 24016,
+                  "lang": "zh",
+                  "translation": "委员会仍把这种做法视为临时解决方案",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23022/examples"
+      },
+      {
+        "sense_id": 23023,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "6",
+        "definition_nl": "het vermogen hebben om te zien:1, niet blind zijn",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 7,
+        "review_status": "unreviewed",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 29618,
+            "sense_id": 23023,
+            "lang": "en",
+            "gloss": "see",
+            "explanation": "It means see.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29617,
+            "sense_id": 23023,
+            "lang": "zh",
+            "gloss": "看见",
+            "explanation": "表示看见。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "examples": {
+          "items": [
+            {
+              "example_id": 24017,
+              "sense_id": 23023,
+              "ex_nl": "Na de operatie kon hij weer scherp zien",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24041,
+                  "example_id": 24017,
+                  "lang": "zh",
+                  "translation": "手术后他又能清楚地看见了",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23023/examples"
+      },
+      {
+        "sense_id": 1179,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "9",
+        "definition_nl": "In de constructie te zien zijn: zichtbaar zijn of met de ogen waargenomen kunnen worden.",
+        "usage_note": "Deze betekenis hoort bij de hele constructie zijn + te + zien. Zien zelf betekent hier waarnemen met de ogen; het betekent niet op zichzelf zichtbaar of merkbaar worden. Duidelijk is een vrije bepaling.",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 8,
+        "review_status": "needs_review",
+        "confidence": 0.85,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 102796,
+            "sense_id": 1179,
+            "lang": "en",
+            "gloss": "be visible; be able to be seen",
+            "explanation": "In te zien zijn, something is visible or can be seen.",
+            "review_status": "needs_review",
+            "confidence": 0.85,
+            "source_id": 263
+          },
+          {
+            "translation_id": 102797,
+            "sense_id": 1179,
+            "lang": "zh",
+            "gloss": "可见；能被看见",
+            "explanation": "用于te zien zijn构式，表示某物可见或能够被看见。",
+            "review_status": "needs_review",
+            "confidence": 0.85,
+            "source_id": 263
+          }
+        ],
+        "translation_zh": "可见；能被看见",
+        "translation_en": "be visible; be able to be seen",
+        "examples": {
+          "items": [
+            {
+              "example_id": 50351,
+              "sense_id": 1179,
+              "ex_nl": "De kras is in fel licht goed te zien.",
+              "cefr_level": null,
+              "quality_score": 0.85,
+              "source_id": 263,
+              "translations": [
+                {
+                  "translation_id": 50351,
+                  "example_id": 50351,
+                  "lang": "zh",
+                  "translation": "在强光下，这道划痕看得很清楚。",
+                  "source_id": 263
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/1179/examples"
+      },
+      {
+        "sense_id": 23726,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "2",
+        "definition_nl": "inergatief het vermogen hebben om met het oog waar te nemen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 9,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29620,
+            "sense_id": 23726,
+            "lang": "en",
+            "gloss": "see",
+            "explanation": "It means see.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29619,
+            "sense_id": 23726,
+            "lang": "zh",
+            "gloss": "看见",
+            "explanation": "表示看见。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "examples": {
+          "items": [
+            {
+              "example_id": 12463,
+              "sense_id": 23726,
+              "ex_nl": "Hij was dolblij dat hij na het ernstige ongeluk toch nog kon zien.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 362,
+                  "example_id": 12463,
+                  "lang": "zh",
+                  "translation": "严重事故之后他仍然能看见，他对此欣喜若狂。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23726/examples"
+      },
+      {
+        "sense_id": 23727,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "3",
+        "definition_nl": "inergatief een bepaald gezicht trekken, eruitzien als, de indruk geven van",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 10,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29622,
+            "sense_id": 23727,
+            "lang": "en",
+            "gloss": "see",
+            "explanation": "It means see.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29621,
+            "sense_id": 23727,
+            "lang": "zh",
+            "gloss": "看见",
+            "explanation": "表示看见。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "examples": {
+          "items": [
+            {
+              "example_id": 13797,
+              "sense_id": 23727,
+              "ex_nl": "Hij zag erg boos.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 363,
+                  "example_id": 13797,
+                  "lang": "zh",
+                  "translation": "他看起来非常生气。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23727/examples"
+      },
+      {
+        "sense_id": 23728,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "4",
+        "definition_nl": "ergens een mening over hebben",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 11,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29624,
+            "sense_id": 23728,
+            "lang": "en",
+            "gloss": "opinion",
+            "explanation": "It means opinion.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29623,
+            "sense_id": 23728,
+            "lang": "zh",
+            "gloss": "意见",
+            "explanation": "表示意见。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "意见",
+        "translation_en": "opinion",
+        "examples": {
+          "items": [
+            {
+              "example_id": 24018,
+              "sense_id": 23728,
+              "ex_nl": "Hoe zien jullie de plannen voor het nieuwe station",
+              "cefr_level": null,
+              "quality_score": 0.8,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 24042,
+                  "example_id": 24018,
+                  "lang": "zh",
+                  "translation": "你们怎么看新车站的计划",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23728/examples"
+      },
+      {
+        "sense_id": 23729,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "5",
+        "definition_nl": "wederkerend hulpwerkwoord zich + volt. deelwoord + ~: maakt een wederkerende constructie",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 12,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29626,
+            "sense_id": 23729,
+            "lang": "en",
+            "gloss": "work",
+            "explanation": "It means work.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29625,
+            "sense_id": 23729,
+            "lang": "zh",
+            "gloss": "工作",
+            "explanation": "表示工作。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "工作",
+        "translation_en": "work",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14612,
+              "sense_id": 23729,
+              "ex_nl": "De stad zag zich overspoeld met enthousiaste aanhangers van beide clubs.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 364,
+                  "example_id": 14612,
+                  "lang": "zh",
+                  "translation": "这座城市发现自己被两家俱乐部的热情支持者淹没了。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23729/examples"
+      },
+      {
+        "sense_id": 23730,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "6",
+        "definition_nl": "proberen, moeite doen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 13,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29628,
+            "sense_id": 23730,
+            "lang": "en",
+            "gloss": "see",
+            "explanation": "It means see.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29627,
+            "sense_id": 23730,
+            "lang": "zh",
+            "gloss": "看见",
+            "explanation": "表示看见。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14731,
+              "sense_id": 23730,
+              "ex_nl": "Ik zal zien of ik na zo'n lange werkdag nog zin heb om te helpen verhuizen.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 365,
+                  "example_id": 14731,
+                  "lang": "zh",
+                  "translation": "我看看在这么长的工作日之后，自己还有没有心情帮忙搬家。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23730/examples"
+      },
+      {
+        "sense_id": 23731,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "7",
+        "definition_nl": "(als) beschouwen",
+        "usage_note": null,
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 14,
+        "review_status": "unreviewed",
+        "confidence": 0.85,
+        "source_id": 5,
+        "translations": [
+          {
+            "translation_id": 29630,
+            "sense_id": 23731,
+            "lang": "en",
+            "gloss": "see",
+            "explanation": "It means see.",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          },
+          {
+            "translation_id": 29629,
+            "sense_id": 23731,
+            "lang": "zh",
+            "gloss": "看见",
+            "explanation": "表示看见。",
+            "review_status": "unreviewed",
+            "confidence": 0.7,
+            "source_id": 8
+          }
+        ],
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "examples": {
+          "items": [
+            {
+              "example_id": 14803,
+              "sense_id": 23731,
+              "ex_nl": "Hij wordt gezien als de beste vertolker van het levenslied.",
+              "cefr_level": null,
+              "quality_score": 0.75,
+              "source_id": 5,
+              "translations": [
+                {
+                  "translation_id": 366,
+                  "example_id": 14803,
+                  "lang": "zh",
+                  "translation": "他被视为生活歌曲最出色的演绎者。",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/23731/examples"
+      },
+      {
+        "sense_id": 5226,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "7",
+        "definition_nl": "bewust of aandachtig met de ogen waarnemen",
+        "usage_note": "Iets formeler of nadrukkelijker dan gewoon waarnemen; de WordNet-lemma's wijzen op aanschouwen",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 15,
+        "review_status": "needs_review",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 84575,
+            "sense_id": 5226,
+            "lang": "en",
+            "gloss": "behold; look at",
+            "explanation": "Someone consciously or attentively perceives something with their eyes.",
+            "review_status": "needs_review",
+            "confidence": 0.79,
+            "source_id": 251
+          },
+          {
+            "translation_id": 72053,
+            "sense_id": 5226,
+            "lang": "zh",
+            "gloss": "看见；注视",
+            "explanation": "强调有意识地看到或观看某物，比单纯具有视觉能力更具体",
+            "review_status": "needs_review",
+            "confidence": 0.82,
+            "source_id": 33
+          }
+        ],
+        "translation_zh": "看见；注视",
+        "translation_en": "behold; look at",
+        "examples": {
+          "items": [
+            {
+              "example_id": 15821,
+              "sense_id": 5226,
+              "ex_nl": "Tijdens de rondleiding konden bezoekers de oude fresco's goed zien",
+              "cefr_level": null,
+              "quality_score": 0.82,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 15823,
+                  "example_id": 15821,
+                  "lang": "zh",
+                  "translation": "参观时游客们能清楚地看到那些古老壁画",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/5226/examples"
+      },
+      {
+        "sense_id": 2756,
+        "lemma_pos_entry_id": 26689,
+        "pos": "VERB",
+        "sense_no": "8",
+        "definition_nl": "iemand of iets op een bepaalde manier beoordelen of beschouwen",
+        "usage_note": "Vaak met als of zo; de betekenis ligt dicht bij vinden en beschouwen",
+        "domain": null,
+        "register": null,
+        "is_primary": false,
+        "is_core": false,
+        "app_sense_order": 16,
+        "review_status": "needs_review",
+        "confidence": 0.9,
+        "source_id": 4,
+        "translations": [
+          {
+            "translation_id": 84574,
+            "sense_id": 2756,
+            "lang": "en",
+            "gloss": "regard; see as",
+            "explanation": "Someone judges or considers a person or thing in a particular way.",
+            "review_status": "needs_review",
+            "confidence": 0.85,
+            "source_id": 251
+          },
+          {
+            "translation_id": 72132,
+            "sense_id": 2756,
+            "lang": "zh",
+            "gloss": "认为；看作",
+            "explanation": "表示把某人或某事理解、评价为某种性质或角色，而不是用眼睛看见",
+            "review_status": "needs_review",
+            "confidence": 0.87,
+            "source_id": 33
+          }
+        ],
+        "translation_zh": "认为；看作",
+        "translation_en": "regard; see as",
+        "examples": {
+          "items": [
+            {
+              "example_id": 15820,
+              "sense_id": 2756,
+              "ex_nl": "Veel bewoners zien het nieuwe plein als een verbetering",
+              "cefr_level": null,
+              "quality_score": 0.87,
+              "source_id": 34,
+              "translations": [
+                {
+                  "translation_id": 15822,
+                  "example_id": 15820,
+                  "lang": "zh",
+                  "translation": "许多居民把这个新广场看作一种改善",
+                  "source_id": 35
+                }
+              ]
+            }
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 3,
+          "has_more": false,
+          "next_offset": null
+        },
+        "examples_url": "/senses/2756/examples"
+      }
+    ],
+    "total": 16,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "forms": {
+    "items": [
+      {
+        "form_id": 61737,
+        "lemma_pos_entry_id": 26689,
+        "form": "zien",
+        "form_type": "canonical",
+        "app_form_role": "canonical",
+        "display_label_zh": "标准词形",
+        "display_label_en": "canonical form",
+        "morph_features": {
+          "source_entry_id": "zien-v-9",
+          "source_form_type": "canonical"
+        },
+        "is_canonical": true,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 61733,
+        "lemma_pos_entry_id": 26687,
+        "form": "zien",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 173258,
+        "lemma_pos_entry_id": 26687,
+        "form": "zien",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 173264,
+        "lemma_pos_entry_id": 26688,
+        "form": "zien",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 173265,
+        "lemma_pos_entry_id": 26688,
+        "form": "zien's",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61734,
+        "lemma_pos_entry_id": 26688,
+        "form": "ziend",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 61735,
+        "lemma_pos_entry_id": 26689,
+        "form": "gezien",
+        "form_type": "odwn_tense=pastParticiple",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "zien-v-1",
+          "source_form_type": "odwn_tense=pastParticiple",
+          "source_attributes": {
+            "tense": "pastParticiple"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 61736,
+        "lemma_pos_entry_id": 26689,
+        "form": "zag",
+        "form_type": "odwn_tense=pastTense",
+        "app_form_role": "dictionary_wordform",
+        "display_label_zh": "词典词形",
+        "display_label_en": "dictionary word form",
+        "morph_features": {
+          "source_entry_id": "zien-v-1",
+          "source_form_type": "odwn_tense=pastTense",
+          "source_attributes": {
+            "tense": "pastTense"
+          }
+        },
+        "is_canonical": false,
+        "is_observed": false,
+        "needs_review": false,
+        "confidence": 0.9,
+        "source_id": 4
+      },
+      {
+        "form_id": 173268,
+        "lemma_pos_entry_id": 26690,
+        "form": "gezien",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61738,
+        "lemma_pos_entry_id": 26690,
+        "form": "zaagt",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 173269,
+        "lemma_pos_entry_id": 26690,
+        "form": "zaagt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61739,
+        "lemma_pos_entry_id": 26690,
+        "form": "zag",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 173270,
+        "lemma_pos_entry_id": 26690,
+        "form": "zag",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61740,
+        "lemma_pos_entry_id": 26690,
+        "form": "zagen",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 173271,
+        "lemma_pos_entry_id": 26690,
+        "form": "zagen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61741,
+        "lemma_pos_entry_id": 26690,
+        "form": "zagt",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 173272,
+        "lemma_pos_entry_id": 26690,
+        "form": "zagt",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 173273,
+        "lemma_pos_entry_id": 26690,
+        "form": "ziden",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61742,
+        "lemma_pos_entry_id": 26690,
+        "form": "zie",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 173274,
+        "lemma_pos_entry_id": 26690,
+        "form": "zie",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61743,
+        "lemma_pos_entry_id": 26690,
+        "form": "zien",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 173275,
+        "lemma_pos_entry_id": 26690,
+        "form": "zien",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 173276,
+        "lemma_pos_entry_id": 26690,
+        "form": "ziend",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61744,
+        "lemma_pos_entry_id": 26690,
+        "form": "ziende",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 173277,
+        "lemma_pos_entry_id": 26690,
+        "form": "ziende",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 61745,
+        "lemma_pos_entry_id": 26690,
+        "form": "ziet",
+        "form_type": "subtlex_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "字幕语料词形",
+        "display_label_en": "SUBTLEX observed form",
+        "morph_features": {
+          "source_form_type": "subtlex_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.95,
+        "source_id": 2
+      },
+      {
+        "form_id": 173278,
+        "lemma_pos_entry_id": 26690,
+        "form": "ziet",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 173259,
+        "lemma_pos_entry_id": 78052,
+        "form": "zien",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 173260,
+        "lemma_pos_entry_id": 78053,
+        "form": "zien",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 173261,
+        "lemma_pos_entry_id": 78053,
+        "form": "zienen",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 173262,
+        "lemma_pos_entry_id": 78053,
+        "form": "zientje",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 173263,
+        "lemma_pos_entry_id": 78053,
+        "form": "zientjes",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 173266,
+        "lemma_pos_entry_id": 78055,
+        "form": "zien",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      },
+      {
+        "form_id": 173267,
+        "lemma_pos_entry_id": 78056,
+        "form": "zien",
+        "form_type": "cc100_observed",
+        "app_form_role": "observed_form",
+        "display_label_zh": "CC100语料词形",
+        "display_label_en": "CC100 observed form",
+        "morph_features": {
+          "source_form_type": "cc100_observed"
+        },
+        "is_canonical": false,
+        "is_observed": true,
+        "needs_review": false,
+        "confidence": 0.8,
+        "source_id": 3
+      }
+    ],
+    "total": 34,
+    "offset": 0,
+    "limit": 50,
+    "has_more": false,
+    "next_offset": null
+  },
+  "corpus_examples": {
+    "items": [
+      {
+        "lemma_example_id": 299,
+        "lemma_pos_entry_id": 26687,
+        "form_id": 173258,
+        "ex_nl": "Dit wil ik ook graag terug zien in de offerte:*",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 300,
+        "lemma_pos_entry_id": 26690,
+        "form_id": 173275,
+        "ex_nl": "Dit wil ik ook graag terug zien in de offerte:*",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 301,
+        "lemma_pos_entry_id": 78052,
+        "form_id": 173259,
+        "ex_nl": "Dit wil ik ook graag terug zien in de offerte:*",
+        "quality_score": 0.93,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 2497,
+        "lemma_pos_entry_id": 26687,
+        "form_id": 173258,
+        "ex_nl": "Het menselijk doen kan niet begrepen worden zonder de eerste emanatie, en het onderhoud moet haar versterking inhouden, gedrag' s verbetering is de score die we willen zien!",
+        "quality_score": 0.85,
+        "source_id": 9
+      },
+      {
+        "lemma_example_id": 2498,
+        "lemma_pos_entry_id": 78052,
+        "form_id": 173259,
+        "ex_nl": "Het menselijk doen kan niet begrepen worden zonder de eerste emanatie, en het onderhoud moet haar versterking inhouden, gedrag' s verbetering is de score die we willen zien!",
+        "quality_score": 0.85,
+        "source_id": 9
+      }
+    ],
+    "total": 6,
+    "offset": 0,
+    "limit": 5,
+    "has_more": true,
+    "next_offset": 5,
+    "sense_disambiguated": false
+  },
+  "expressions": {
+    "items": [
+      {
+        "expression_id": 6,
+        "lemma_pos_entry_id": 26689,
+        "sense_id": 23725,
+        "entry_kind": "usage_construction",
+        "expression_type": "passive_potential_construction",
+        "expression_nl": "duidelijk te zien zijn",
+        "definition_nl": "duidelijk gezien kunnen worden",
+        "usage_note": "Zien behoudt de betekenis waarnemen met de ogen; de constructie zijn + te + infinitief drukt zichtbaarheid of waarneembaarheid uit. Duidelijk is een vrije bepaling.",
+        "gloss_en": "be clearly visible",
+        "explanation_en": "Be able to be seen clearly.",
+        "gloss_zh": "清楚可见；能看清",
+        "explanation_zh": "通过zijn加te和不定式构成可被看见的意思，duidelijk表示看得清楚。",
+        "example_nl": "De toren is vanaf hier duidelijk te zien.",
+        "example_zh": "从这里能清楚地看见那座塔。",
+        "review_status": "needs_review",
+        "confidence": 0.88,
+        "source_id": 4196
+      }
+    ],
+    "total": 1,
+    "offset": 0,
+    "limit": 20,
+    "has_more": false,
+    "next_offset": null
+  },
+  "sources": [
+    {
+      "source_id": 1,
+      "source_key": "manual_vocab_levels_v1",
+      "name": "Manual vocabulary levels v1",
+      "source_type": "manual",
+      "url": null,
+      "license": "internal",
+      "license_url": null,
+      "attribution": "Curated 1-4 vocabulary level files provided in the project workspace.",
+      "version": "2026-05-28"
+    },
+    {
+      "source_id": 2,
+      "source_key": "subtlex_nl",
+      "name": "SUBTLEX-NL with POS and Zipf",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Original SUBTLEX-NL workbook used for frequency and form grouping.",
+      "version": null
+    },
+    {
+      "source_id": 3,
+      "source_key": "cc100_nl_local_20260525",
+      "name": "CC100 Dutch local analysis",
+      "source_type": "corpus_frequency",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Local CC100 Dutch Frog annotation and frequency analysis in /Users/cedar/Desktop/dutch-corpus.",
+      "version": "annotated_full_live_w8_b4000"
+    },
+    {
+      "source_id": 4,
+      "source_key": "odwn_1_3",
+      "name": "Open Dutch WordNet 1.3",
+      "source_type": "lexical_semantic",
+      "url": "https://github.com/cltl/OpenDutchWordnet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Open Dutch WordNet, derived from Cornetto and Open Multilingual Wordnet resources.",
+      "version": "1.3"
+    },
+    {
+      "source_id": 5,
+      "source_key": "dbnary_nld_2026_05",
+      "name": "DBnary Dutch OntoLex",
+      "source_type": "wiktionary_extract",
+      "url": "https://kaiko.getalp.org/about-dbnary/",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "attribution": "DBnary extraction from Dutch Wiktionary.",
+      "version": "2026-05"
+    },
+    {
+      "source_id": 8,
+      "source_key": "llm_sense_translation_v1",
+      "name": "LLM sense translation v1",
+      "source_type": "llm_derived",
+      "url": null,
+      "license": "derived; source licenses inherited per source sense",
+      "license_url": null,
+      "attribution": "Generated from source Dutch definitions with LLM translation. Preserve source attribution for original definitions.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 9,
+      "source_key": "cc100_lemma_examples_v1",
+      "name": "CC100 lemma example extraction v1",
+      "source_type": "corpus_derived",
+      "url": null,
+      "license": "source-specific",
+      "license_url": null,
+      "attribution": "Examples extracted from the local CC100 Dutch corpus analysis input.",
+      "version": "2026-05-29"
+    },
+    {
+      "source_id": 33,
+      "source_key": "aigc_subagent_sense_translation_v1",
+      "name": "AIGC subagent replacement sense translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 34,
+      "source_key": "aigc_subagent_examples_v1",
+      "name": "AIGC subagent replacement examples v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 35,
+      "source_key": "aigc_subagent_example_translation_v1",
+      "name": "AIGC subagent replacement example translations v1",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-06-14"
+    },
+    {
+      "source_id": 251,
+      "source_key": "aigc_subagent_english_v1",
+      "name": "Subagent-authored English sense translations",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-22"
+    },
+    {
+      "source_id": 263,
+      "source_key": "aigc_subagent_source_repair_v1",
+      "name": "Cross-reviewed lexical source repairs",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-22"
+    },
+    {
+      "source_id": 4196,
+      "source_key": "aigc_verified_source_research_v1",
+      "name": "Cross-reviewed source research for residual lexical gaps",
+      "source_type": "aigc_derived",
+      "url": null,
+      "license": null,
+      "license_url": null,
+      "attribution": null,
+      "version": "2026-10-23"
+    }
+  ]
+}

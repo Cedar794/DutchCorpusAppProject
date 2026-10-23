@@ -1,0 +1,244 @@
+{
+  "query": "een bijvoeglijk naamwoord voor iets dat niet zichtbaar is",
+  "language": "unknown",
+  "results": [
+    {
+      "lemma_id": 2651,
+      "entry_url": "/entries/2651",
+      "lemma": "onzichtbaar",
+      "level": 1,
+      "score": 0.796373,
+      "matched_sense": {
+        "sense_id": 28087,
+        "definition_nl": "niet waarneembaar voor het oog",
+        "translation_zh": "不 waarneembaar 为 oog",
+        "translation_en": "not waarneembaar for the oog",
+        "semantic_score": 0.701949
+      },
+      "matched_reason": {
+        "semantic_score": 0.701949,
+        "frequency_boost": 0.064424,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 7375,
+      "entry_url": "/entries/7375",
+      "lemma": "zichtbaar",
+      "level": 3,
+      "score": 0.764375,
+      "matched_sense": {
+        "sense_id": 24982,
+        "definition_nl": "waarneembaar voor het oog",
+        "translation_zh": "可见的",
+        "translation_en": "visible",
+        "semantic_score": 0.679517
+      },
+      "matched_reason": {
+        "semantic_score": 0.679517,
+        "frequency_boost": 0.074358,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 2204,
+      "entry_url": "/entries/2204",
+      "lemma": "zicht",
+      "level": 1,
+      "score": 0.732218,
+      "matched_sense": {
+        "sense_id": 32663,
+        "definition_nl": "uit het zicht: dat wat men niet kan zien, onzichtbaar",
+        "translation_zh": "看见",
+        "translation_en": "see",
+        "semantic_score": 0.63017
+      },
+      "matched_reason": {
+        "semantic_score": 0.63017,
+        "frequency_boost": 0.072048,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 494,
+      "entry_url": "/entries/494",
+      "lemma": "verdwijnen",
+      "level": 1,
+      "score": 0.718751,
+      "matched_sense": {
+        "sense_id": 31487,
+        "definition_nl": "ergatief uit het zicht gaan",
+        "translation_zh": "看不见",
+        "translation_en": "go out of sight",
+        "semantic_score": 0.613552
+      },
+      "matched_reason": {
+        "semantic_score": 0.613552,
+        "frequency_boost": 0.075199,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 7807,
+      "entry_url": "/entries/7807",
+      "lemma": "abstract",
+      "level": 3,
+      "score": 0.716971,
+      "matched_sense": {
+        "sense_id": 30925,
+        "definition_nl": "geen verband hebbend met de zichtbare werkelijkheid",
+        "translation_zh": "非写实的",
+        "translation_en": "abstract",
+        "semantic_score": 0.643623
+      },
+      "matched_reason": {
+        "semantic_score": 0.643623,
+        "frequency_boost": 0.062848,
+        "level_boost": 0.0105
+      }
+    },
+    {
+      "lemma_id": 3201,
+      "entry_url": "/entries/3201",
+      "lemma": "onverwacht",
+      "level": 1,
+      "score": 0.708765,
+      "matched_sense": {
+        "sense_id": 38956,
+        "definition_nl": "niet van tevoren in zicht",
+        "translation_zh": "不 的 tevoren 在 zicht",
+        "translation_en": "not or tevoren in zicht",
+        "semantic_score": 0.609554
+      },
+      "matched_reason": {
+        "semantic_score": 0.609554,
+        "frequency_boost": 0.069211,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 6970,
+      "entry_url": "/entries/6970",
+      "lemma": "onduidelijk",
+      "level": 2,
+      "score": 0.704396,
+      "matched_sense": {
+        "sense_id": 41567,
+        "definition_nl": "niet goed zichtbaar en/of identificeerbaar",
+        "translation_zh": "难辨认",
+        "translation_en": "indistinct",
+        "semantic_score": 0.617877
+      },
+      "matched_reason": {
+        "semantic_score": 0.617877,
+        "frequency_boost": 0.065519,
+        "level_boost": 0.021
+      }
+    },
+    {
+      "lemma_id": 1637,
+      "entry_url": "/entries/1637",
+      "lemma": "verschijnen",
+      "level": 1,
+      "score": 0.704374,
+      "matched_sense": {
+        "sense_id": 35604,
+        "definition_nl": "ergatief aan het licht treden, zichtbaar worden",
+        "translation_zh": "显现",
+        "translation_en": "become visible",
+        "semantic_score": 0.596577
+      },
+      "matched_reason": {
+        "semantic_score": 0.596577,
+        "frequency_boost": 0.077797,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 518,
+      "entry_url": "/entries/518",
+      "lemma": "licht",
+      "level": 1,
+      "score": 0.701304,
+      "matched_sense": {
+        "sense_id": 14711,
+        "definition_nl": "straling die alles zichtbaar maakt",
+        "translation_zh": "使一切可见的辐射",
+        "translation_en": "radiation that makes everything visible",
+        "semantic_score": 0.591304
+      },
+      "matched_reason": {
+        "semantic_score": 0.591304,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    },
+    {
+      "lemma_id": 51,
+      "entry_url": "/entries/51",
+      "lemma": "zien",
+      "level": 1,
+      "score": 0.692204,
+      "matched_sense": {
+        "sense_id": 1179,
+        "definition_nl": "In de constructie te zien zijn: zichtbaar zijn of met de ogen waargenomen kunnen worden.",
+        "translation_zh": "可见；能被看见",
+        "translation_en": "be visible; be able to be seen",
+        "semantic_score": 0.582204
+      },
+      "matched_reason": {
+        "semantic_score": 0.582204,
+        "frequency_boost": 0.08,
+        "level_boost": 0.03
+      }
+    }
+  ],
+  "related_results": [
+    {
+      "lemma_id": 7464,
+      "lemma": "aantonen",
+      "entry_url": "/entries/7464",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 51,
+      "source_result_sense_id": 1179,
+      "source": "sense_relations",
+      "score": 0.9
+    },
+    {
+      "lemma_id": 600,
+      "lemma": "bewijzen",
+      "entry_url": "/entries/600",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 51,
+      "source_result_sense_id": 1179,
+      "source": "sense_relations",
+      "score": 0.9
+    },
+    {
+      "lemma_id": 7664,
+      "lemma": "demonstreren",
+      "entry_url": "/entries/7664",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 51,
+      "source_result_sense_id": 1179,
+      "source": "sense_relations",
+      "score": 0.9
+    },
+    {
+      "lemma_id": 3708,
+      "lemma": "vertonen",
+      "entry_url": "/entries/3708",
+      "relation_type": "same_synset",
+      "source_result_lemma_id": 51,
+      "source_result_sense_id": 1179,
+      "source": "sense_relations",
+      "score": 0.9
+    }
+  ],
+  "query_rewrite": {
+    "query": "een bijvoeglijk naamwoord voor iets dat niet zichtbaar is",
+    "status": "disabled",
+    "model": "qwen3.7-flash",
+    "prompt_version": "rewrite-v2"
+  }
+}

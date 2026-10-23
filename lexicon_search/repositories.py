@@ -4,6 +4,7 @@ import json
 from typing import Any
 
 from lexicon_search.db import Database, vector_literal
+from lexicon_search.entry_details import EntryReader
 from lexicon_search.models import (
     FormSummary,
     LemmaSummary,
@@ -18,6 +19,26 @@ from lexicon_search.scoring import dictionary_score
 class SearchRepository:
     def __init__(self, database: Database) -> None:
         self.database = database
+
+    async def load_entry(self, lemma_id: int, **pagination) -> dict | None:
+        return await EntryReader(self.database).load_entry(lemma_id, **pagination)
+
+    async def load_sense_examples(self, sense_id: int, **pagination) -> dict | None:
+        return await EntryReader(self.database).load_sense_examples(sense_id, **pagination)
+
+    async def ping(self):
+        async with self.database.acquire() as connection:
+            await connection.fetchval('select 1')
+
+    async def embedding_count(self, model, index_version):
+        async with self.database.acquire() as connection:
+            # One active version must never mix embeddings from different models.
+            rows = await connection.fetch(
+                'select embedding_model, count(*) n from public.sense_embeddings '
+                'where index_version=$1 group by embedding_model', index_version)
+        if any(row['embedding_model'] != model for row in rows):
+            raise ValueError('Index version contains embeddings from another model')
+        return sum(row['n'] for row in rows)
 
     async def load_dictionary_rows(self) -> tuple[list[LemmaSummary], list[FormSummary]]:
         async with self.database.acquire() as connection:
@@ -44,7 +65,7 @@ class SearchRepository:
                 from public.forms f
                 join public.lemmas l on l.id = f.lemma_id
                 left join public.form_corpus_stats fcs on fcs.form_id = f.id
-                where l.review_status = 'accepted'
+                where l.review_status = 'accepted' and f.is_active
                 """
             )
 
@@ -111,6 +132,8 @@ class SearchRepository:
                 """
                 select *
                 from (
+                  select distinct on (lemma_id) *
+                  from (
                   select
                     l.id as lemma_id,
                     l.lemma,
@@ -140,9 +163,11 @@ class SearchRepository:
                   from public.forms f
                   join public.lemmas l on l.id = f.lemma_id
                   left join public.form_corpus_stats fcs on fcs.form_id = f.id
-                  where l.review_status = 'accepted'
+                  where l.review_status = 'accepted' and f.is_active
                     and f.form_norm % $1
-                ) candidates
+                  ) candidates
+                  order by lemma_id, text_similarity desc, frequency desc, is_canonical desc
+                ) unique_candidates
                 order by text_similarity desc, frequency desc, lemma asc
                 limit $2
                 """,
@@ -236,6 +261,8 @@ class SearchRepository:
                 join public.lemmas l on l.id = target.lemma_id
                 where sr.sense_id_from = any($2::bigint[])
                   and sr.sense_id_to is not null
+                  and source.review_status <> 'rejected'
+                  and target.review_status <> 'rejected'
                 """,
                 lemma_ids,
                 sense_ids,
@@ -255,36 +282,48 @@ class SearchRepository:
             for row in rows
         ]
 
-    async def load_senses_for_embedding(self) -> list["SenseEmbeddingInput"]:
+    async def load_senses_for_embedding(self, limit=None) -> list["SenseEmbeddingInput"]:
         from lexicon_search.index_builder import SenseEmbeddingInput
 
         async with self.database.acquire() as connection:
             rows = await connection.fetch(
                 """
-                select
-                  s.id as sense_id,
-                  coalesce(s.display_definition_nl, s.definition_nl, '') as definition_nl,
-                  coalesce(max(st_zh.gloss) filter (where st_zh.lang = 'zh'), '') as translation_zh,
-                  coalesce(max(st_en.gloss) filter (where st_en.lang = 'en'), '') as translation_en
+                select s.id as sense_id, l.lemma, l.level, coalesce(p.pos, '') as pos,
+                       coalesce(nullif(s.display_definition_nl, ''), s.definition_nl, '') as definition_nl,
+                       coalesce(zh.gloss, '') as translation_zh,
+                       coalesce(en.gloss, '') as translation_en
                 from public.senses s
-                left join public.sense_translations st_zh
-                  on st_zh.sense_id = s.id and st_zh.lang = 'zh'
-                left join public.sense_translations st_en
-                  on st_en.sense_id = s.id and st_en.lang = 'en'
-                where s.merged_into_sense_id is null
-                group by s.id, s.display_definition_nl, s.definition_nl
-                order by s.id
-                """
+                join public.lemmas l on l.id=s.lemma_id
+                left join public.lemma_pos_entries p on p.id=s.lemma_pos_entry_id
+                left join lateral (
+                    select gloss from public.sense_translations
+                    where sense_id=s.id and lang='zh' and review_status<>'rejected'
+                    order by (review_status='accepted') desc, confidence desc nulls last, id desc limit 1
+                ) zh on true
+                left join lateral (
+                    select gloss from public.sense_translations
+                    where sense_id=s.id and lang='en' and review_status<>'rejected'
+                    order by (review_status='accepted') desc, confidence desc nulls last, id desc limit 1
+                ) en on true
+                where s.merged_into_sense_id is null and s.review_status<>'rejected'
+                  and l.review_status='accepted'
+                  and btrim(coalesce(nullif(s.display_definition_nl, ''),s.definition_nl,'')) <> ''
+                order by row_number() over (
+                    partition by l.level, coalesce(p.pos, '')
+                    order by coalesce(l.cc100_freq, l.subtlex_freq, 0) desc, s.id
+                ), l.level, coalesce(p.pos, ''), s.id
+                limit $1
+                """, limit,
             )
-        return [
-            SenseEmbeddingInput(
-                sense_id=int(row["sense_id"]),
-                definition_nl=row["definition_nl"] or "",
-                translation_zh=row["translation_zh"] or "",
-                translation_en=row["translation_en"] or "",
-            )
-            for row in rows
-        ]
+        return [SenseEmbeddingInput(**dict(row)) for row in rows]
+
+    async def load_embedding_hashes(self, model, dimension, version):
+        async with self.database.acquire() as connection:
+            rows = await connection.fetch(
+                'select sense_id, embedding_text_hash from public.sense_embeddings '
+                'where embedding_model=$1 and embedding_dim=$2 and index_version=$3',
+                model, dimension, version)
+        return {row['sense_id']: row['embedding_text_hash'] for row in rows}
 
     async def upsert_sense_embeddings(self, rows: list[tuple[int, str, int, str, str, str, str]]) -> None:
         if not rows:
