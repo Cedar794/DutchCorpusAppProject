@@ -228,7 +228,10 @@
         mode: kind,
         back,
       };
-      if (!q) input.value = data.lemma;
+      if (!q) {
+        input.value = data.lemma;
+        $("clear").hidden = !input.value;
+      }
       save(view, hash, replace);
       window.scrollTo(0, 0);
       document.title = data.lemma + " · Woordhuis";
