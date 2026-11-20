@@ -1,49 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Woordhuis · 词库查询</title>
-<meta name="description" content="词库 API 测试界面：输入查询，直接查看接口返回的完整内容。">
-<meta name="theme-color" content="#f6f8fa">
-<meta name="color-scheme" content="light">
-<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/console.css">
-</head>
-<body>
-<a class="skip-link" href="#main">跳到主内容</a>
-<main id="main" class="console" tabindex="-1">
-  <header class="page-heading"><h1>词库查询</h1><span>Woordhuis · API 测试</span></header>
-  <section class="query-panel" aria-label="查询">
-    <form id="query-form" novalidate>
-      <div class="query-grid">
-        <label class="endpoint-field">接口
-          <select id="endpoint" name="endpoint" aria-label="接口">
-            <option value="lookup">查词 · /lookup</option>
-            <option value="semantic">按意思找词 · /semantic-search</option>
-            <option value="suggest">联想 · /suggest</option>
-            <option value="entry">词条详情 · /entries/{id}</option>
-            <option value="examples">义项例句 · /senses/{id}/examples</option>
-          </select>
-        </label>
-        <label class="input-field"><span id="input-label">查询词 q</span>
-          <input id="query" name="query" type="text" aria-labelledby="input-label" autocomplete="off" spellcheck="false" placeholder="输入荷兰语词或词形，如 huizen">
-        </label>
-        <button id="submit" class="primary" type="submit">查询</button>
-      </div>
-      <details class="parameters"><summary>请求参数</summary><div id="parameters" class="parameter-grid"></div></details>
-      <div class="query-bottom"><code id="endpoint-note">GET /lookup</code><button id="cancel" type="button" hidden>取消请求</button></div>
-    </form>
-  </section>
-  <p id="notice" class="notice" role="status" aria-live="polite">输入内容后点击查询。每次提交只请求所选接口。</p>
-  <section id="response" class="response-panel" aria-labelledby="response-heading">
-    <div class="response-heading"><h2 id="response-heading">响应</h2><span id="response-meta"></span></div>
-    <div id="response-body" class="response-body"><p class="empty">尚未查询</p></div>
-  </section>
-</main>
-<noscript>
-  <p>此查询界面需要启用 JavaScript。</p>
-</noscript>
-<script src="js/test-console.js" defer></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Woordhuis · 荷兰语词典</title>
+    <meta
+      name="description"
+      content="查一个荷兰语词，或用中文、英文、荷兰语描述你想表达的意思。"
+    />
+    <meta name="theme-color" content="#f8f7f3" />
+    <meta name="color-scheme" content="light" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/dictionary.css?v=20261120" />
+    <script src="js/dictionary.js?v=20261120" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#query">跳到查询</a>
+    <header class="masthead">
+      <a class="brand" href="#/" aria-label="Woordhuis 首页"
+        ><svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <path d="M5 14 16 5l11 9v13H5V14Z" />
+          <path d="M12 27V16h8v11M12 11h8" /></svg
+        ><span>woordhuis<span class="brand-dot">.</span></span></a
+      >
+      <span class="masthead-note">荷兰语词典</span>
+    </header>
+    <main id="main" class="main">
+      <section class="search-section" aria-label="词典查询">
+        <div class="intro">
+          <p class="eyebrow">WOORDEN KRIJGEN BETEKENIS</p>
+          <h1>找到你想说的词<span>。</span></h1>
+        </div>
+        <div class="mode-switch" role="group" aria-label="查询模式">
+          <button type="button" data-mode="lookup" aria-pressed="true">
+            查词
+          </button>
+          <button type="button" data-mode="semantic" aria-pressed="false">
+            按意思找词
+          </button>
+        </div>
+        <form id="search-form" role="search">
+          <label for="query" id="query-label" class="sr-only"
+            >输入荷兰语词或词形</label
+          >
+          <div class="search-wrap" id="search-wrap">
+            <div class="search-field">
+              <svg
+                class="search-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <circle cx="10.5" cy="10.5" r="6.5" />
+                <path d="m16 16 4.5 4.5" />
+              </svg>
+              <input
+                id="query"
+                type="text"
+                role="combobox"
+                aria-autocomplete="list"
+                aria-controls="suggestions"
+                aria-expanded="false"
+                aria-describedby="search-hint"
+                autocomplete="off"
+                spellcheck="false"
+                maxlength="128"
+                placeholder="输入荷兰语词或词形，如 huizen"
+              />
+              <button
+                type="button"
+                id="clear"
+                class="clear-button"
+                aria-label="清空输入"
+                hidden
+              >
+                ×
+              </button>
+              <button
+                id="search-button"
+                class="search-button"
+                type="submit"
+                aria-label="查询"
+              >
+                <span>查询</span
+                ><svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M5 12h14m-6-6 6 6-6 6" />
+                </svg>
+              </button>
+            </div>
+            <ul
+              id="suggestions"
+              role="listbox"
+              aria-label="词语联想"
+              hidden
+            ></ul>
+          </div>
+          <p id="search-hint" class="search-hint">输入时联想，回车查询。</p>
+        </form>
+      </section>
+      <p id="status" class="status" role="status" aria-live="polite" hidden></p>
+      <div
+        id="announcement"
+        class="sr-only"
+        role="status"
+        aria-live="polite"
+      ></div>
+      <section
+        id="results"
+        class="results"
+        aria-label="查询结果"
+        hidden
+      ></section>
+    </main>
+    <footer class="footer">Woordhuis <span>·</span> 让意思有处可寻</footer>
+    <noscript><p>请启用 JavaScript 以使用词典查询。</p></noscript>
+  </body>
 </html>
