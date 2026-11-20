@@ -10,6 +10,7 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 .venv/
+.venv-*/
 venv/
 env/
 
@@ -38,3 +39,6 @@ supabase/.temp/
 
 # Node dependencies if Supabase CLI is ever installed as a dev dependency
 node_modules/
+
+# Generated document workspaces (archived with project data, not application code).
+draft_*_folder/

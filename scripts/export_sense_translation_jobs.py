@@ -113,6 +113,13 @@ Return one JSON object per input record, also as JSONL:
 Rules:
 - Preserve `sense_id` exactly.
 - Use the Dutch `definition_nl` as the only semantic source. Do not invent details not implied by it.
+- Preserve the specified part of speech and distinguish reflexive, possessive, auxiliary and lexical uses.
+- Translate the complete core meaning. A concise gloss must never be truncated to satisfy a word count.
+- Grammar labels such as ergatief, overgankelijk and absoluut are not the lexical meaning. Explain them separately where relevant; intransitivity is not inseparability.
+- Use natural target-language wording, not copied Dutch fragments. Quoted Dutch constructions may be retained with an explanation.
+- Do not include subtitle codes, template parameters, source sense numbers or internal repair instructions.
+- If the source is incomplete or contradictory and cannot support a translation, emit {"sense_id": 123, "needs_source_review": true, "reason": "..."} instead of inventing a meaning. This record will be quarantined by validation.
+- Similar translations do not authorize merging senses across part of speech, register, domain or construction.
 - `zh.gloss` should be concise Simplified Chinese, usually 1-8 Chinese words.
 - `zh.explanation` should be natural Simplified Chinese, one short sentence.
 - `en.gloss` should be concise English, usually 1-8 words.

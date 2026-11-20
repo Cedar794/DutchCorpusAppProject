@@ -202,6 +202,24 @@ class EntryDatabaseTests(unittest.IsolatedAsyncioTestCase):
         for index in (12,13,14,99):
             self.assertIsNone(await self.reader.load_sense_examples(self.base+index))
 
+    async def test_semantic_translation_priority_and_stale_vector_exclusion(self):
+        # Accepted wording must beat a lexicographically greater unreviewed gloss.
+        from lexicon_search.db import vector_literal
+        vector = vector_literal([0.1] * 1024)
+        await self.connection.execute("""update sense_translations set gloss='zzzz old',confidence=1
+            where id=$1""", self.base+21)
+        await self.connection.execute("""insert into sense_embeddings
+            (id,sense_id,embedding_model,embedding_dim,embedding,embedding_text_hash,index_version)
+            values($1,$2,'test',1024,$3::extensions.vector(1024),'test','review-test')""",
+            self.base+200,self.base+10,vector)
+        result = await self.connection.fetch("select * from match_senses($1::extensions.vector(1024),10,'review-test')",vector)
+        self.assertEqual(len(result),1)
+        self.assertEqual(result[0]['translation_zh'],'测试词义#aigc')
+        await self.connection.execute("update sense_embeddings set index_version='stale:review-test' where id=$1",self.base+200)
+        # Null version must not expose invalidated vectors either.
+        result = await self.connection.fetch("select * from match_senses($1::extensions.vector(1024),250,null) where sense_id=$2",vector,self.base+10)
+        self.assertEqual(result,[])
+
     async def test_deployment_reader_permissions_without_committing_role_changes(self):
         sql = (Path(__file__).resolve().parents[1] / 'deploy/search-db-permissions.sql').read_text()
         await self.connection.execute(sql)

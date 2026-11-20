@@ -20,9 +20,9 @@ class LocalPreviewTests(unittest.TestCase):
         with TestClient(create_preview_app(self.config, service=PreviewService())) as client:
             page = client.get('/')
             self.assertEqual(page.status_code, 200)
-            self.assertIn('woordhuis', page.text)
+            self.assertIn('woordhuis', page.text.lower())
             self.assertEqual(page.headers['Cache-Control'], 'no-cache')
-            self.assertEqual(client.get('/js/api.js').status_code, 200)
+            self.assertEqual(client.get('/js/test-console.js').status_code, 200)
             self.assertEqual(client.get('/lookup?q=unrecorded-word').json()['query'], 'unrecorded-word')
             self.assertEqual(client.get('/lookup?q= ').status_code, 422)
             for path in ('/local/secrets/embedding-pilot.env', '/README.md', '/docs/DATA.md',
@@ -32,7 +32,7 @@ class LocalPreviewTests(unittest.TestCase):
     def test_static_requests_do_not_spend_query_quota_and_forwarding_headers_cannot_bypass_it(self):
         with TestClient(create_preview_app(self.config, service=PreviewService())) as client:
             for _ in range(15):
-                self.assertEqual(client.get('/css/base.css').status_code, 200)
+                self.assertEqual(client.get('/css/console.css').status_code, 200)
             for i in range(10):
                 self.assertEqual(client.get('/lookup?q=huis',
                     headers={'X-Forwarded-For': f'192.0.2.{i}'}).status_code, 200)

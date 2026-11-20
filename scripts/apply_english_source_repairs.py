@@ -5,6 +5,7 @@ import asyncio
 import hashlib
 import json
 import os
+import sys
 from pathlib import Path
 
 import asyncpg
@@ -14,6 +15,8 @@ except ImportError:
     from complete_english_translations import write_json
 
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from lexicon_search.quality import EDITORIAL_NOTE
 POS_ALIASES = {'CCONJ': 'CONJ'}
 
 
@@ -105,7 +108,8 @@ async def apply_review(connection,root,path):
                 await connection.execute("""update public.senses set display_definition_nl=$2,usage_note=$3,
                   lemma_pos_entry_id=$4,external_synset_id=case when $7::boolean then external_synset_id else null end,review_status='needs_review',confidence=$5,
                   raw_payload=raw_payload||jsonb_build_object('english_source_repair',$6::jsonb),updated_at=now()
-                  where id=$1""",sid,proposal['definition_nl'],proposal['usage_note'],pos_id,
+                  where id=$1""",sid,proposal['definition_nl'],
+                  None if EDITORIAL_NOTE.search(proposal['usage_note']) else proposal['usage_note'],pos_id,
                   proposal['confidence'],json.dumps(metadata,ensure_ascii=False),proposal.get('preserve_external_synset',False))
                 source=await connection.fetchval("""insert into sources(source_key,name,source_type,version,notes)
                   values('aigc_subagent_source_repair_v1','Cross-reviewed lexical source repairs','aigc_derived',

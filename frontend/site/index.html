@@ -1,44 +1,49 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-theme="dag" data-gloss="zh">
+<html lang="zh-CN">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>woordhuis · 荷兰语词典</title>
-<meta name="description" content="Woordhuis — 荷兰语词典前端。查词、按意思反查、读完整词条；每条释义都标出来源、审核状态与不确定程度。">
-<meta name="theme-color" content="#f7f5ef">
-<meta name="color-scheme" content="light dark">
+<title>Woordhuis · 词库查询</title>
+<meta name="description" content="词库 API 测试界面：输入查询，直接查看接口返回的完整内容。">
+<meta name="theme-color" content="#f6f8fa">
+<meta name="color-scheme" content="light">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="css/tokens.css">
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/components.css">
-<link rel="stylesheet" href="css/views.css">
-<link rel="stylesheet" href="css/motion.css">
-<link rel="stylesheet" href="css/print.css" media="print">
+<link rel="stylesheet" href="css/console.css">
 </head>
 <body>
 <a class="skip-link" href="#main">跳到主内容</a>
-<div id="app-header"></div>
-<main id="main"></main>
-<div id="app-footer"></div>
-<div id="app-inspector"></div>
+<main id="main" class="console" tabindex="-1">
+  <header class="page-heading"><h1>词库查询</h1><span>Woordhuis · API 测试</span></header>
+  <section class="query-panel" aria-label="查询">
+    <form id="query-form" novalidate>
+      <div class="query-grid">
+        <label class="endpoint-field">接口
+          <select id="endpoint" name="endpoint" aria-label="接口">
+            <option value="lookup">查词 · /lookup</option>
+            <option value="semantic">按意思找词 · /semantic-search</option>
+            <option value="suggest">联想 · /suggest</option>
+            <option value="entry">词条详情 · /entries/{id}</option>
+            <option value="examples">义项例句 · /senses/{id}/examples</option>
+          </select>
+        </label>
+        <label class="input-field"><span id="input-label">查询词 q</span>
+          <input id="query" name="query" type="text" aria-labelledby="input-label" autocomplete="off" spellcheck="false" placeholder="输入荷兰语词或词形，如 huizen">
+        </label>
+        <button id="submit" class="primary" type="submit">查询</button>
+      </div>
+      <details class="parameters"><summary>请求参数</summary><div id="parameters" class="parameter-grid"></div></details>
+      <div class="query-bottom"><code id="endpoint-note">GET /lookup</code><button id="cancel" type="button" hidden>取消请求</button></div>
+    </form>
+  </section>
+  <p id="notice" class="notice" role="status" aria-live="polite">输入内容后点击查询。每次提交只请求所选接口。</p>
+  <section id="response" class="response-panel" aria-labelledby="response-heading">
+    <div class="response-heading"><h2 id="response-heading">响应</h2><span id="response-meta"></span></div>
+    <div id="response-body" class="response-body"><p class="empty">尚未查询</p></div>
+  </section>
+</main>
 <noscript>
-  <div class="wrap" style="padding:48px 0">
-    <h1 class="display" style="font-size:2rem">woordhuis</h1>
-    <p>这个词典界面需要 JavaScript：它用 fetch 读接口、用原生 DOM 拼页面，没有服务端渲染。</p>
-  </div>
+  <p>此查询界面需要启用 JavaScript。</p>
 </noscript>
-<script src="data/fixtures.js"></script>
-<script src="js/util.js"></script>
-<script src="js/api.js"></script>
-<script src="js/store.js"></script>
-<script src="js/router.js"></script>
-<script src="js/ui.js"></script>
-<script src="js/views/home.js"></script>
-<script src="js/views/results.js"></script>
-<script src="js/views/entry.js"></script>
-<script src="js/views/saved.js"></script>
-<script src="js/views/about.js"></script>
-<script src="js/motion.js"></script>
-<script src="js/app.js"></script>
+<script src="js/test-console.js" defer></script>
 </body>
 </html>

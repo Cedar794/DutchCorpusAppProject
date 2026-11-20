@@ -7,10 +7,13 @@ import argparse
 import csv
 import json
 from pathlib import Path
+import sys
 from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from lexicon_search.quality import translation_blockers, translation_signals
 DEFAULT_RESULTS = ROOT / "outputs" / "app_enrichment" / "translation_results"
 
 
@@ -70,6 +73,9 @@ def validate_record(record: dict[str, Any]) -> str | None:
         return "empty_gloss"
     if not str(record.get("explanation") or "").strip():
         return "empty_explanation"
+    blockers = translation_blockers(record['lang'], str(record['gloss']), str(record['explanation']))
+    if blockers:
+        return blockers[0]
     return None
 
 
@@ -82,6 +88,7 @@ def main() -> None:
     args.output_dir.mkdir(parents=True, exist_ok=True)
     valid_rows: list[dict[str, str]] = []
     errors: list[dict[str, object]] = []
+    warnings: list[dict[str, object]] = []
     seen: set[tuple[int, str]] = set()
 
     for path, line_no, obj in iter_jsonl(args.inputs):
@@ -96,6 +103,9 @@ def main() -> None:
             if error:
                 errors.append({"file": str(path), "line": line_no, "error": error, "record": record})
                 continue
+            signals = translation_signals(record['lang'], str(record['gloss']), str(record['explanation']))
+            if signals:
+                warnings.append({'sense_id': int(record['sense_id']), 'lang': record['lang'], 'signals': signals})
             valid_rows.append(
                 {
                     "sense_id": str(int(record["sense_id"])),
@@ -105,7 +115,7 @@ def main() -> None:
                     "source_key": "llm_sense_translation_v1",
                     "external_id": f"llm-v1:{int(record['sense_id'])}:{record['lang']}",
                     "confidence": "0.700",
-                    "review_status": "unreviewed",
+                    "review_status": "needs_review" if signals else "unreviewed",
                     "translation_style": "learner_dictionary",
                     "raw_payload": json.dumps(record["raw_payload"], ensure_ascii=False, sort_keys=True),
                 }
@@ -136,13 +146,15 @@ def main() -> None:
     report = {
         "valid_rows": len(valid_rows),
         "invalid_rows": len(errors),
+        "warning_rows": len(warnings),
+        "warnings": warnings,
         "input_files": [str(path) for path in args.inputs],
         "output_tsv": str(tsv_path),
         "errors": errors[:200],
     }
     report_path = args.output_dir / "sense_translation_validation_report.json"
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({k: v for k, v in report.items() if k != "errors"}, ensure_ascii=False, indent=2))
+    print(json.dumps({k: v for k, v in report.items() if k not in {"errors", "warnings"}}, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":

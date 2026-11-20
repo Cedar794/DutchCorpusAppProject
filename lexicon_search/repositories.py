@@ -297,13 +297,15 @@ class SearchRepository:
                 left join public.lemma_pos_entries p on p.id=s.lemma_pos_entry_id
                 left join lateral (
                     select gloss from public.sense_translations
-                    where sense_id=s.id and lang='zh' and review_status<>'rejected'
-                    order by (review_status='accepted') desc, confidence desc nulls last, id desc limit 1
+                    where sense_id=s.id and lang='zh' and review_status<>'rejected' and btrim(gloss)<>''
+                    order by case review_status when 'accepted' then 0 when 'needs_review' then 1 else 2 end,
+                      confidence desc nulls last, id desc limit 1
                 ) zh on true
                 left join lateral (
                     select gloss from public.sense_translations
-                    where sense_id=s.id and lang='en' and review_status<>'rejected'
-                    order by (review_status='accepted') desc, confidence desc nulls last, id desc limit 1
+                    where sense_id=s.id and lang='en' and review_status<>'rejected' and btrim(gloss)<>''
+                    order by case review_status when 'accepted' then 0 when 'needs_review' then 1 else 2 end,
+                      confidence desc nulls last, id desc limit 1
                 ) en on true
                 where s.merged_into_sense_id is null and s.review_status<>'rejected'
                   and l.review_status='accepted'

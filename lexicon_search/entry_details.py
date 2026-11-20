@@ -89,7 +89,7 @@ class EntryReader:
                       and review_status<>'rejected' and btrim(gloss)<>''
                     order by sense_id, lang,
                       case review_status when 'accepted' then 0 when 'needs_review' then 1 else 2 end,
-                      confidence desc, id desc
+                      confidence desc nulls last, id desc
                 """, sense_ids))
                 examples, example_totals = await self._sense_example_previews(connection, sense_ids)
                 for sense in senses:
