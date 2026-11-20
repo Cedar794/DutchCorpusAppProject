@@ -4,7 +4,7 @@
 
 ## 尚未备案时访问
 
-使用 `deploy/nginx-search-private.conf`，Nginx 仅监听 127.0.0.1:8081。完成 ICP 备案前，不将本配置改为公网监听。
+使用 `deploy/nginx-search-private.conf`，Nginx 仅监听 127.0.0.1:8081。此配置保留为 SSH 隧道入口。
 
 本机已配置 SSH 别名时：
 
@@ -12,7 +12,9 @@
 ssh -N -L 127.0.0.1:8801:127.0.0.1:8081 dutch-corpus-server
 ```
 
-然后访问 http://127.0.0.1:8801 。隧道关闭不影响服务器后台服务。公开上线仍需完成备案、域名解析、HTTPS 配置及公网验证。
+然后访问 http://127.0.0.1:8801 。隧道关闭不影响服务器后台服务。域名上线仍需完成备案、域名解析、HTTPS 配置及公网验证。
+
+经授权的临时 IPv4 预览使用 `deploy/nginx-search-public-ip.conf`，入口为 http://39.106.117.93/ （HTTP）。该配置与私有隧道入口并存，只开放 Nginx 的 80 端口，API 和数据库仍在回环地址监听。配置中的 `server_name` 必须随服务器 IPv4 更新；未知 Host 返回 404。入口保留 Nginx 和应用两层限流、原有模型累计预算限制。关闭临时预览时，移除对应 sites-enabled 链接并执行 `nginx -t && systemctl reload nginx`。
 
 ## 路径与密钥
 
