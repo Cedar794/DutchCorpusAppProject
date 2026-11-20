@@ -361,13 +361,28 @@
     const t = (s.translations || []).find((t) => t.lang === lang);
     return t?.explanation || t?.gloss || s["translation_" + lang] || "";
   }
+  function labeled(tag, label, value, className, lang) {
+    const row = el(tag, null, className);
+    const content = el("span", value, "content-value");
+    if (lang) content.lang = lang;
+    row.append(el("span", label, "content-label"), content);
+    return row;
+  }
   function examples(items, target) {
     for (const item of items || []) {
       const block = el("blockquote", null, "example");
-      block.append(el("p", item.ex_nl));
+      block.append(labeled("p", "荷文例句", item.ex_nl, null, "nl"));
       for (const t of item.translations || [])
         if (t.lang === "zh" || t.lang === "en")
-          block.append(el("p", t.translation, "example-translation"));
+          block.append(
+            labeled(
+              "p",
+              t.lang === "zh" ? "中文例句翻译" : "英文例句翻译",
+              t.translation,
+              "example-translation",
+              t.lang === "zh" ? "zh-CN" : "en",
+            ),
+          );
       target.append(block);
     }
   }
@@ -389,10 +404,16 @@
     const copy = el("div", null, "result-copy");
     copy.append(el("h2", item.lemma));
     const sense = item.matched_sense || {};
-    if (sense.translation_zh) copy.append(el("p", sense.translation_zh));
-    if (sense.definition_nl) copy.append(el("p", sense.definition_nl));
+    if (sense.translation_zh)
+      copy.append(
+        labeled("p", "中文释义", sense.translation_zh, null, "zh-CN"),
+      );
+    if (sense.definition_nl)
+      copy.append(labeled("p", "荷文释义", sense.definition_nl, null, "nl"));
     if (sense.translation_en)
-      copy.append(el("p", sense.translation_en, "english"));
+      copy.append(
+        labeled("p", "英文释义", sense.translation_en, "english", "en"),
+      );
     a.append(copy, arrow());
     return a;
   }
@@ -425,13 +446,14 @@
         (d.parts_of_speech || []).map((p) => p.label_zh).filter(Boolean),
       ),
     ];
-    if (pos.length) meta.append(el("span", pos.join(" · ")));
+    if (pos.length) meta.append(el("span", "词性：" + pos.join(" · ")));
     const articles = [
       ...new Set(
         (d.parts_of_speech || []).map((p) => p.article).filter(Boolean),
       ),
     ];
-    if (articles.length) meta.append(el("span", articles.join(" / ")));
+    if (articles.length)
+      meta.append(el("span", "冠词：" + articles.join(" / ")));
     if (d.cefr_level) meta.append(el("span", d.cefr_level));
     head.append(meta);
     card.append(head);
@@ -447,11 +469,21 @@
       const body = el("div");
       const zh = translation(s, "zh"),
         en = translation(s, "en");
-      body.append(el("h3", zh || s.definition_nl || "释义"));
-      if (s.definition_nl && s.definition_nl !== zh)
-        body.append(el("p", s.definition_nl, "definition"));
-      if (en) body.append(el("p", en, "english"));
-      if (s.usage_note) body.append(el("p", s.usage_note, "usage"));
+      if (zh) body.append(labeled("h3", "中文释义", zh, null, "zh-CN"));
+      if (s.definition_nl)
+        body.append(
+          labeled(
+            zh ? "p" : "h3",
+            "荷文释义",
+            s.definition_nl,
+            "definition",
+            "nl",
+          ),
+        );
+      if (!zh && !s.definition_nl) body.append(el("h3", "释义待补充"));
+      if (en) body.append(labeled("p", "英文释义", en, "english", "en"));
+      if (s.usage_note)
+        body.append(labeled("p", "用法说明", s.usage_note, "usage"));
       examples(s.examples?.items, body);
       if (s.examples?.has_more)
         body.append(moreButton("examples", "更多例句", null, s.sense_id));
@@ -476,11 +508,27 @@
       const box = extra("常用表达");
       for (const x of d.expressions.items) {
         const block = el("div", null, "expression");
-        block.append(el("h3", x.expression_nl));
+        block.append(labeled("h3", "荷文表达", x.expression_nl, null, "nl"));
         if (x.explanation_zh || x.gloss_zh)
-          block.append(el("p", x.explanation_zh || x.gloss_zh, "definition"));
+          block.append(
+            labeled(
+              "p",
+              "中文释义",
+              x.explanation_zh || x.gloss_zh,
+              "definition",
+              "zh-CN",
+            ),
+          );
         if (x.explanation_en || x.gloss_en)
-          block.append(el("p", x.explanation_en || x.gloss_en, "english"));
+          block.append(
+            labeled(
+              "p",
+              "英文释义",
+              x.explanation_en || x.gloss_en,
+              "english",
+              "en",
+            ),
+          );
         if (x.example_nl)
           examples(
             [

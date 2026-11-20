@@ -708,3 +708,20 @@ h1 span {
     scroll-behavior: auto !important;
   }
 }
+
+/* Compact content labels distinguish meanings from example translations. */
+.content-label {
+  display: inline-block;
+  vertical-align: 1px;
+  margin-right: 8px;
+  padding: 1px 5px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--muted);
+  background: var(--paper);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
