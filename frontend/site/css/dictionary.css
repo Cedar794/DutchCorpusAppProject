@@ -725,3 +725,6 @@ h1 span {
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
+
+.word-title { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; }
+.level-badge { display: inline-block; flex-shrink: 0; border: 1px solid #b8ccd1; border-radius: 5px; padding: 3px 8px; background: var(--tint); color: var(--accent); font-size: 12px; font-weight: 500; line-height: 1.6; white-space: nowrap; }

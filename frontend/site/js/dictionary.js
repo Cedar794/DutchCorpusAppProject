@@ -394,6 +394,10 @@
     if (id) b.dataset.sense = id;
     return b;
   }
+  function levelBadge(level) {
+    const labels = {1: "一级词汇", 2: "二级词汇", 3: "三级词汇", 4: "四级词汇"};
+    return Number.isInteger(level) && labels[level] ? el("span", labels[level], "level-badge") : null;
+  }
   function wordLink(item, kind, q) {
     const a = el("a", null, "result-link");
     a.href =
@@ -402,7 +406,11 @@
     a.dataset.word = item.lemma;
     a.dataset.mode = kind;
     const copy = el("div", null, "result-copy");
-    copy.append(el("h2", item.lemma));
+    const title = el("div", null, "word-title");
+    title.append(el("h2", item.lemma));
+    const badge = levelBadge(item.level);
+    if (badge) title.append(badge);
+    copy.append(title);
     const sense = item.matched_sense || {};
     if (sense.translation_zh)
       copy.append(
@@ -439,7 +447,11 @@
     results.append(label);
     const card = el("article", null, "word-entry");
     const head = el("header", null, "entry-heading");
-    head.append(el("h2", d.display_lemma || d.lemma));
+    const title = el("div", null, "word-title");
+    title.append(el("h2", d.display_lemma || d.lemma));
+    const badge = levelBadge(d.level);
+    if (badge) title.append(badge);
+    head.append(title);
     const meta = el("div", null, "entry-meta");
     const pos = [
       ...new Set(
